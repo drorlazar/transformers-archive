@@ -110,7 +110,7 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
     renderer.setSize(W, H);
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
     renderer.toneMapping = THREE.ACESFilmicToneMapping;
-    renderer.toneMappingExposure = 2.2;
+    renderer.toneMappingExposure = 1.84;
 
     // ── Scene ──
     const scene = new THREE.Scene();
@@ -131,26 +131,26 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
     pmrem.dispose();
 
     // ── Lighting — directional key/fill/rim + gentle orbiting accents ──
-    scene.add(new THREE.AmbientLight(0x555566, 0.5));
+    scene.add(new THREE.AmbientLight(0x555566, 0.01));
 
-    const keyDir = new THREE.DirectionalLight(0xffeedd, 3.5);
+    const keyDir = new THREE.DirectionalLight(0xffeedd, 2.6);
     keyDir.position.set(5, 6, 8);
     scene.add(keyDir);
 
-    const fillDir = new THREE.DirectionalLight(0x3355aa, 1.8);
+    const fillDir = new THREE.DirectionalLight(0x3355aa, 5.9);
     fillDir.position.set(-6, 3, 5);
     scene.add(fillDir);
 
-    const rimDir = new THREE.DirectionalLight(0xff6633, 1.2);
+    const rimDir = new THREE.DirectionalLight(0xff6633, 1.9);
     rimDir.position.set(0, -5, 6);
     scene.add(rimDir);
 
     // Gentle orbiting accent lights — far away, slow
     const orb1 = new THREE.PointLight(0xff3300, 1.0, 30);
-    orb1.position.set(8, 4, 8);
+    orb1.position.set(11, 4, 8);
     scene.add(orb1);
     const orb2 = new THREE.PointLight(0x0044ff, 0.8, 30);
-    orb2.position.set(-8, -4, 8);
+    orb2.position.set(-11, -4, 8);
     scene.add(orb2);
 
     // ── Texture Loading ──
@@ -181,12 +181,12 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
 
     // ── Materials ──
     const crimson = new THREE.MeshPhysicalMaterial({
-      color: 0xcc3030, map: redTex, normalMap: redNorm || null, normalScale: new THREE.Vector2(0.8, 0.8),
-      metalness: 0.85, roughness: 0.18, clearcoat: 0.6, clearcoatRoughness: 0.06,
+      color: 0xca2f47, map: redTex, normalMap: redNorm || null, normalScale: new THREE.Vector2(0.8, 0.8),
+      metalness: 0.96, roughness: 0.32, clearcoat: 0.67, clearcoatRoughness: 0.06,
     });
     const navy = new THREE.MeshPhysicalMaterial({
       color: 0x2a3090, map: blueTex, normalMap: blueNorm || null, normalScale: new THREE.Vector2(0.7, 0.7),
-      metalness: 0.85, roughness: 0.18, clearcoat: 0.5, clearcoatRoughness: 0.08,
+      metalness: 0.62, roughness: 0.31, clearcoat: 0.5, clearcoatRoughness: 0.08,
     });
     const gunmetal = new THREE.MeshPhysicalMaterial({
       color: 0x2a2a38, map: darkTex, normalMap: greebleNorm || null, normalScale: new THREE.Vector2(0.5, 0.5),
@@ -208,7 +208,7 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
 
     // ── Dimensions ──
     const frameW = 7.5, frameH = 4.6, barW = 0.4, barD = 0.45;
-    const cs = 0.8; // Smaller, more condensed starting cube
+    const cs = 0.68; // Condensed starting cube
 
     // ── PIECES — each has a two-part animation: first detach from cube, then stretch/rotate to frame position ──
     const pieces = [];
@@ -403,10 +403,10 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
       // Pistons bob
       pistons.forEach(({ mesh, baseY }, i) => { mesh.position.y = baseY + Math.sin(time * 1.8 + i * Math.PI) * 0.15; });
       // Orbiting lights — slow, far away
-      orb1.position.x = Math.cos(time * 0.15) * 12;
-      orb1.position.y = Math.sin(time * 0.15) * 6;
-      orb2.position.x = Math.cos(time * 0.12 + 3) * 12;
-      orb2.position.y = Math.sin(time * 0.12 + 3) * 6;
+      orb1.position.x = Math.cos(time * 0.50) * 11;
+      orb1.position.y = Math.sin(time * 0.50) * 5.5;
+      orb2.position.x = Math.cos(time * 0.40 + 3) * 11;
+      orb2.position.y = Math.sin(time * 0.40 + 3) * 5.5;
 
       renderer.render(scene, camera);
 
@@ -477,7 +477,7 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
 
     // 8. Glows power on (0.95-1.15s)
     glows.forEach((g, i) => {
-      tl.to(g.material, { opacity: 0.9, duration: 0.15, ease: 'power2.out' }, 0.95 + i * 0.04);
+      tl.to(g.material, { opacity: 1.0, duration: 0.15, ease: 'power2.out' }, 0.95 + i * 0.04);
     });
     orangeStrips.forEach((g, i) => {
       tl.to(g.material, { opacity: 0.7, duration: 0.15, ease: 'power2.out' }, 1.0 + i * 0.03);

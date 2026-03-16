@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TransformPlayer 3D Editor</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #1a1a2e; color: #e0e0e0; font-family: -apple-system, system-ui, sans-serif; font-size: 13px; display: flex; height: 100vh; overflow: hidden; }
+
+/* Left panel */
+.panel { width: 340px; min-width: 340px; background: #12121e; overflow-y: auto; border-right: 1px solid #2a2a3e; display: flex; flex-direction: column; }
+.panel-header { padding: 12px 16px; background: #0e0e1a; border-bottom: 1px solid #2a2a3e; font-size: 15px; font-weight: 700; color: #ff6b00; display: flex; align-items: center; gap: 8px; }
+.panel-header span { font-size: 11px; color: #666; font-weight: 400; }
+
+/* Sections */
+.section { border-bottom: 1px solid #1e1e30; }
+.section-title { padding: 10px 16px; background: #16162a; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; color: #888; cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none; }
+.section-title:hover { background: #1a1a32; }
+.section-title::after { content: '▼'; font-size: 9px; transition: transform 0.2s; }
+.section.collapsed .section-title::after { transform: rotate(-90deg); }
+.section.collapsed .section-body { display: none; }
+.section-body { padding: 8px 16px 12px; }
+
+/* Controls */
+.row { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+.row label { min-width: 80px; font-size: 11px; color: #999; }
+.row input[type="range"] { flex: 1; height: 4px; -webkit-appearance: none; background: #2a2a3e; border-radius: 2px; outline: none; }
+.row input[type="range"]::-webkit-slider-thumb { -webkit-appearance: none; width: 14px; height: 14px; border-radius: 50%; background: #ff6b00; cursor: pointer; }
+.row input[type="color"] { width: 28px; height: 22px; border: 1px solid #333; border-radius: 3px; background: none; cursor: pointer; padding: 0; }
+.row .val { min-width: 36px; text-align: right; font-family: monospace; font-size: 11px; color: #aaa; }
+.row input[type="number"] { width: 55px; background: #1e1e30; border: 1px solid #333; color: #ddd; padding: 3px 6px; border-radius: 3px; font-size: 11px; font-family: monospace; }
+
+/* Buttons */
+.btn-row { display: flex; gap: 6px; margin: 6px 0; flex-wrap: wrap; }
+.btn { padding: 5px 10px; background: #2a2a3e; border: 1px solid #3a3a4e; color: #ccc; border-radius: 4px; cursor: pointer; font-size: 11px; transition: all 0.15s; }
+.btn:hover { background: #3a3a4e; color: #fff; }
+.btn.active { background: #ff6b00; color: #000; border-color: #ff8800; }
+.btn-play { background: #22aa44; border-color: #33bb55; color: #fff; }
+.btn-play:hover { background: #33bb55; }
+
+/* Right side */
+.main { flex: 1; display: flex; flex-direction: column; }
+.viewport { flex: 1; position: relative; background: #060610; }
+.viewport canvas { width: 100% !important; height: 100% !important; display: block; }
+
+/* Bottom prompt */
+.prompt-bar { background: #0e0e1a; border-top: 1px solid #2a2a3e; padding: 10px 16px; max-height: 200px; overflow-y: auto; }
+.prompt-label { font-size: 10px; color: #666; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px; display: flex; justify-content: space-between; }
+.prompt-text { font-family: monospace; font-size: 11px; color: #aaa; line-height: 1.5; white-space: pre-wrap; word-break: break-word; }
+.copy-btn { padding: 3px 10px; background: #2a2a3e; border: 1px solid #3a3a4e; color: #ccc; border-radius: 3px; cursor: pointer; font-size: 10px; }
+.copy-btn:hover { background: #ff6b00; color: #000; }
+
+/* Keyframe editor */
+.timeline { margin: 8px 0; position: relative; height: 120px; background: #0e0e1a; border-radius: 4px; border: 1px solid #2a2a3e; overflow: hidden; }
+.tl-track { position: absolute; left: 0; right: 0; height: 16px; border-bottom: 1px solid #1e1e30; display: flex; align-items: center; padding: 0 4px; font-size: 9px; color: #666; }
+.tl-bar { position: absolute; height: 12px; border-radius: 2px; cursor: ew-resize; font-size: 8px; display: flex; align-items: center; padding: 0 4px; color: #000; font-weight: 600; }
+.tl-playhead { position: absolute; top: 0; bottom: 0; width: 2px; background: #ff6b00; z-index: 10; pointer-events: none; }
+.tl-ruler { position: absolute; top: 0; left: 0; right: 0; height: 14px; background: #0a0a14; border-bottom: 1px solid #2a2a3e; display: flex; }
+.tl-tick { flex: 1; text-align: center; font-size: 8px; color: #555; line-height: 14px; border-right: 1px solid #1e1e30; }
+</style>
+</head>
+<body>
+
+<div class="panel">
+  <div class="panel-header">🔧 Transform Editor <span>handcraft every detail</span></div>
+
+  <!-- Presets -->
+  <div class="section">
+    <div class="section-title" onclick="toggleSection(this)">Presets</div>
+    <div class="section-body">
+      <div class="btn-row">
+        <button class="btn" onclick="applyPreset('industrial')">Industrial</button>
+        <button class="btn" onclick="applyPreset('cybertronian')">Cybertronian</button>
+        <button class="btn" onclick="applyPreset('battleworn')">Battle-worn</button>
+        <button class="btn" onclick="applyPreset('chrome')">Clean Chrome</button>
+        <button class="btn" onclick="applyPreset('energon')">Energon</button>
+      </div>
+      <div class="btn-row">
+        <button class="btn btn-play" onclick="replayAnimation()">▶ Replay Animation</button>
+        <button class="btn" onclick="resetToDefaults()">Reset All</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Materials: Crimson -->
+  <div class="section">
+    <div class="section-title" onclick="toggleSection(this)">Material: Top/Bottom Bars</div>
+    <div class="section-body">
+      <div class="row"><label>Color</label><input type="color" id="crimson-color" value="#cc3030" oninput="updateMat('crimson')"><span class="val" id="crimson-color-v">#cc3030</span></div>
+      <div class="row"><label>Metalness</label><input type="range" id="crimson-metal" min="0" max="100" value="85" oninput="updateMat('crimson')"><span class="val" id="crimson-metal-v">0.85</span></div>
+      <div class="row"><label>Roughness</label><input type="range" id="crimson-rough" min="0" max="100" value="18" oninput="updateMat('crimson')"><span class="val" id="crimson-rough-v">0.18</span></div>
+      <div class="row"><label>Clearcoat</label><input type="range" id="crimson-coat" min="0" max="100" value="60" oninput="updateMat('crimson')"><span class="val" id="crimson-coat-v">0.60</span></div>
+      <div class="row"><label>Normal Str</label><input type="range" id="crimson-norm" min="0" max="200" value="80" oninput="updateMat('crimson')"><span class="val" id="crimson-norm-v">0.80</span></div>
+    </div>
+  </div>
+
+  <!-- Materials: Navy -->
+  <div class="section">
+    <div class="section-title" onclick="toggleSection(this)">Material: Side Bars</div>
+    <div class="section-body">
+      <div class="row"><label>Color</label><input type="color" id="navy-color" value="#2a3090" oninput="updateMat('navy')"><span class="val" id="navy-color-v">#2a3090</span></div>
+      <div class="row"><label>Metalness</label><input type="range" id="navy-metal" min="0" max="100" value="85" oninput="updateMat('navy')"><span class="val" id="navy-metal-v">0.85</span></div>
+      <div class="row"><label>Roughness</label><input type="range" id="navy-rough" min="0" max="100" value="18" oninput="updateMat('navy')"><span class="val" id="navy-rough-v">0.18</span></div>
+      <div class="row"><label>Clearcoat</label><input type="range" id="navy-coat" min="0" max="100" value="50" oninput="updateMat('navy')"><span class="val" id="navy-coat-v">0.50</span></div>
+      <div class="row"><label>Normal Str</label><input type="range" id="navy-norm" min="0" max="200" value="70" oninput="updateMat('navy')"><span class="val" id="navy-norm-v">0.70</span></div>
+    </div>
+  </div>
+
+  <!-- Materials: Gunmetal -->
+  <div class="section collapsed">
+    <div class="section-title" onclick="toggleSection(this)">Material: Back Panel</div>
+    <div class="section-body">
+      <div class="row"><label>Color</label><input type="color" id="gun-color" value="#2a2a38" oninput="updateMat('gun')"><span class="val" id="gun-color-v">#2a2a38</span></div>
+      <div class="row"><label>Metalness</label><input type="range" id="gun-metal" min="0" max="100" value="95" oninput="updateMat('gun')"><span class="val" id="gun-metal-v">0.95</span></div>
+      <div class="row"><label>Roughness</label><input type="range" id="gun-rough" min="0" max="100" value="8" oninput="updateMat('gun')"><span class="val" id="gun-rough-v">0.08</span></div>
+    </div>
+  </div>
+
+  <!-- Glow -->
+  <div class="section">
+    <div class="section-title" onclick="toggleSection(this)">Glow Effects</div>
+    <div class="section-body">
+      <div class="row"><label>LED Color</label><input type="color" id="led-color" value="#22aaff" oninput="updateGlow()"><span class="val" id="led-color-v">#22aaff</span></div>
+      <div class="row"><label>LED Opacity</label><input type="range" id="led-opacity" min="0" max="100" value="90" oninput="updateGlow()"><span class="val" id="led-opacity-v">0.90</span></div>
+      <div class="row"><label>Orange Color</label><input type="color" id="orange-color" value="#ff6600" oninput="updateGlow()"><span class="val" id="orange-color-v">#ff6600</span></div>
+      <div class="row"><label>Orange Opacity</label><input type="range" id="orange-opacity" min="0" max="100" value="70" oninput="updateGlow()"><span class="val" id="orange-opacity-v">0.70</span></div>
+    </div>
+  </div>
+
+  <!-- Lighting -->
+  <div class="section">
+    <div class="section-title" onclick="toggleSection(this)">Lighting</div>
+    <div class="section-body">
+      <div class="row"><label>Ambient</label><input type="range" id="light-ambient" min="0" max="100" value="50" oninput="updateLights()"><span class="val" id="light-ambient-v">0.50</span></div>
+      <div class="row"><label>Key Intens.</label><input type="range" id="light-key" min="0" max="100" value="35" oninput="updateLights()"><span class="val" id="light-key-v">3.50</span></div>
+      <div class="row"><label>Key Color</label><input type="color" id="light-key-c" value="#ffeedd" oninput="updateLights()"></div>
+      <div class="row"><label>Fill Intens.</label><input type="range" id="light-fill" min="0" max="100" value="18" oninput="updateLights()"><span class="val" id="light-fill-v">1.80</span></div>
+      <div class="row"><label>Fill Color</label><input type="color" id="light-fill-c" value="#3355aa" oninput="updateLights()"></div>
+      <div class="row"><label>Rim Intens.</label><input type="range" id="light-rim" min="0" max="100" value="12" oninput="updateLights()"><span class="val" id="light-rim-v">1.20</span></div>
+      <div class="row"><label>Rim Color</label><input type="color" id="light-rim-c" value="#ff6633" oninput="updateLights()"></div>
+      <div class="row"><label>Exposure</label><input type="range" id="light-exposure" min="50" max="500" value="220" oninput="updateLights()"><span class="val" id="light-exposure-v">2.20</span></div>
+      <div class="row"><label>Orb Speed</label><input type="range" id="light-orb-speed" min="1" max="50" value="15" oninput="updateLights()"><span class="val" id="light-orb-speed-v">0.15</span></div>
+      <div class="row"><label>Orb Radius</label><input type="range" id="light-orb-radius" min="2" max="25" value="12" oninput="updateLights()"><span class="val" id="light-orb-radius-v">12</span></div>
+    </div>
+  </div>
+
+  <!-- Camera -->
+  <div class="section collapsed">
+    <div class="section-title" onclick="toggleSection(this)">Camera</div>
+    <div class="section-body">
+      <div class="row"><label>Distance</label><input type="range" id="cam-z" min="4" max="20" value="9" step="0.1" oninput="updateCamera()"><span class="val" id="cam-z-v">9.0</span></div>
+      <div class="row"><label>End Dist</label><input type="range" id="cam-z-end" min="6" max="25" value="11.5" step="0.1" oninput="updateCamera()"><span class="val" id="cam-z-end-v">11.5</span></div>
+      <div class="row"><label>FOV</label><input type="range" id="cam-fov" min="20" max="80" value="45" oninput="updateCamera()"><span class="val" id="cam-fov-v">45</span></div>
+    </div>
+  </div>
+
+  <!-- Geometry -->
+  <div class="section collapsed">
+    <div class="section-title" onclick="toggleSection(this)">Geometry</div>
+    <div class="section-body">
+      <div class="row"><label>Cube Size</label><input type="range" id="geo-cube" min="30" max="150" value="80" oninput="updatePromptOnly()"><span class="val" id="geo-cube-v">0.80</span></div>
+      <div class="row"><label>Bar Width</label><input type="range" id="geo-barw" min="20" max="80" value="40" oninput="updatePromptOnly()"><span class="val" id="geo-barw-v">0.40</span></div>
+      <div class="row"><label>Bar Depth</label><input type="range" id="geo-bard" min="15" max="80" value="45" oninput="updatePromptOnly()"><span class="val" id="geo-bard-v">0.45</span></div>
+      <div class="row"><label>Bevel Size</label><input type="range" id="geo-bevel" min="1" max="15" value="7" oninput="updatePromptOnly()"><span class="val" id="geo-bevel-v">0.07</span></div>
+    </div>
+  </div>
+
+  <!-- Animation Timing -->
+  <div class="section">
+    <div class="section-title" onclick="toggleSection(this)">Animation Timing</div>
+    <div class="section-body">
+      <div class="row"><label>Dissolve Start</label><input type="range" id="anim-dissolve" min="0" max="100" value="20" oninput="updatePromptOnly()"><span class="val" id="anim-dissolve-v">0.20s</span></div>
+      <div class="row"><label>Detach Start</label><input type="range" id="anim-detach" min="0" max="100" value="30" oninput="updatePromptOnly()"><span class="val" id="anim-detach-v">0.30s</span></div>
+      <div class="row"><label>Detach Dur</label><input type="range" id="anim-detach-dur" min="10" max="100" value="40" oninput="updatePromptOnly()"><span class="val" id="anim-detach-dur-v">0.40s</span></div>
+      <div class="row"><label>Stretch Start</label><input type="range" id="anim-stretch" min="20" max="150" value="60" oninput="updatePromptOnly()"><span class="val" id="anim-stretch-v">0.60s</span></div>
+      <div class="row"><label>Stretch Dur</label><input type="range" id="anim-stretch-dur" min="20" max="100" value="50" oninput="updatePromptOnly()"><span class="val" id="anim-stretch-dur-v">0.50s</span></div>
+      <div class="row"><label>Gears At</label><input type="range" id="anim-gears" min="30" max="150" value="70" oninput="updatePromptOnly()"><span class="val" id="anim-gears-v">0.70s</span></div>
+      <div class="row"><label>Brackets At</label><input type="range" id="anim-brackets" min="30" max="150" value="75" oninput="updatePromptOnly()"><span class="val" id="anim-brackets-v">0.75s</span></div>
+      <div class="row"><label>Bolts At</label><input type="range" id="anim-bolts" min="40" max="150" value="80" oninput="updatePromptOnly()"><span class="val" id="anim-bolts-v">0.80s</span></div>
+      <div class="row"><label>Glows At</label><input type="range" id="anim-glows" min="50" max="180" value="95" oninput="updatePromptOnly()"><span class="val" id="anim-glows-v">0.95s</span></div>
+      <div class="row"><label>Piece Stagger</label><input type="range" id="anim-stagger" min="0" max="20" value="5" oninput="updatePromptOnly()"><span class="val" id="anim-stagger-v">0.05s</span></div>
+    </div>
+  </div>
+
+  <!-- Background -->
+  <div class="section collapsed">
+    <div class="section-title" onclick="toggleSection(this)">Background</div>
+    <div class="section-body">
+      <div class="row"><label>BG Color</label><input type="color" id="bg-color" value="#060610" oninput="updateBg()"><span class="val" id="bg-color-v">#060610</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="main">
+  <div class="viewport" id="viewport"></div>
+  <div class="prompt-bar">
+    <div class="prompt-label">
+      <span>Generated Code Changes</span>
+      <button class="copy-btn" onclick="copyPrompt()">Copy</button>
+    </div>
+    <div class="prompt-text" id="prompt-output">Adjust controls to see changes...</div>
+  </div>
+</div>
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://unpkg.com/three@0.169.0/build/three.module.js"
+  }
+}
+</script>
+<script type="module">
+import * as THREE from 'three';
+
+const viewport = document.getElementById('viewport');
+const W = viewport.clientWidth, H = viewport.clientHeight;
+
+// ── Renderer ──
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setSize(W, H);
+renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 2.2;
+viewport.appendChild(renderer.domElement);
+
+// ── Scene ──
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x060610);
+
+// ── Camera ──
+const camera = new THREE.PerspectiveCamera(45, W / H, 0.1, 100);
+camera.position.set(0, 0, 11.5); // End position (frame assembled)
+
+// ── Env map ──
+const pmrem = new THREE.PMREMGenerator(renderer);
+const envS = new THREE.Scene();
+envS.add(new THREE.HemisphereLight(0x7799cc, 0x443322, 3.5));
+const ep1 = new THREE.PointLight(0xff4400, 2, 30); ep1.position.set(8, 5, 8); envS.add(ep1);
+const ep2 = new THREE.PointLight(0x0044cc, 1.5, 30); ep2.position.set(-8, -3, 8); envS.add(ep2);
+scene.environment = pmrem.fromScene(envS, 0.04).texture;
+pmrem.dispose();
+
+// ── Lights ──
+const ambientLight = new THREE.AmbientLight(0x555566, 0.5);
+scene.add(ambientLight);
+
+const keyLight = new THREE.DirectionalLight(0xffeedd, 3.5);
+keyLight.position.set(5, 6, 8);
+scene.add(keyLight);
+
+const fillLight = new THREE.DirectionalLight(0x3355aa, 1.8);
+fillLight.position.set(-6, 3, 5);
+scene.add(fillLight);
+
+const rimLight = new THREE.DirectionalLight(0xff6633, 1.2);
+rimLight.position.set(0, -5, 6);
+scene.add(rimLight);
+
+const orb1 = new THREE.PointLight(0xff3300, 1.0, 30);
+orb1.position.set(8, 4, 8);
+scene.add(orb1);
+const orb2 = new THREE.PointLight(0x0044ff, 0.8, 30);
+orb2.position.set(-8, -4, 8);
+scene.add(orb2);
+
+// ── Beveled box ──
+function bevelBox(w, h, d, bevel = 0.07) {
+  const shape = new THREE.Shape();
+  const hw = w/2 - bevel, hh = h/2 - bevel;
+  shape.moveTo(-hw, -h/2); shape.lineTo(hw, -h/2); shape.lineTo(w/2, -hh);
+  shape.lineTo(w/2, hh); shape.lineTo(hw, h/2); shape.lineTo(-hw, h/2);
+  shape.lineTo(-w/2, hh); shape.lineTo(-w/2, -hh); shape.closePath();
+  const geo = new THREE.ExtrudeGeometry(shape, {
+    depth: d, bevelEnabled: true, bevelThickness: bevel*0.8, bevelSize: bevel*0.8, bevelSegments: 3
+  });
+  geo.computeBoundingBox();
+  const bb = geo.boundingBox;
+  geo.translate(-(bb.max.x+bb.min.x)/2, -(bb.max.y+bb.min.y)/2, -(bb.max.z+bb.min.z)/2);
+  return geo;
+}
+
+// Gear
+function makeGearGeo(outerR, innerR, teeth, thickness) {
+  const shape = new THREE.Shape();
+  const steps = teeth * 2;
+  for (let i = 0; i < steps; i++) {
+    const a = (i/steps)*Math.PI*2, r = i%2===0 ? outerR : innerR;
+    if (i===0) shape.moveTo(Math.cos(a)*r, Math.sin(a)*r);
+    else shape.lineTo(Math.cos(a)*r, Math.sin(a)*r);
+  }
+  shape.closePath();
+  const hole = new THREE.Path();
+  for (let i=0;i<16;i++){const a=(i/16)*Math.PI*2;if(i===0)hole.moveTo(Math.cos(a)*innerR*0.35,Math.sin(a)*innerR*0.35);else hole.lineTo(Math.cos(a)*innerR*0.35,Math.sin(a)*innerR*0.35);}
+  shape.holes.push(hole);
+  const geo = new THREE.ExtrudeGeometry(shape, { depth: thickness, bevelEnabled: true, bevelThickness: 0.012, bevelSize: 0.012, bevelSegments: 2 });
+  geo.computeBoundingBox();
+  const bb = geo.boundingBox;
+  geo.translate(-(bb.max.x+bb.min.x)/2, -(bb.max.y+bb.min.y)/2, -(bb.max.z+bb.min.z)/2);
+  return geo;
+}
+
+// ── Materials ──
+const crimsonMat = new THREE.MeshPhysicalMaterial({ color: 0xcc3030, metalness: 0.85, roughness: 0.18, clearcoat: 0.6, clearcoatRoughness: 0.06 });
+const navyMat = new THREE.MeshPhysicalMaterial({ color: 0x2a3090, metalness: 0.85, roughness: 0.18, clearcoat: 0.5, clearcoatRoughness: 0.08 });
+const gunmetalMat = new THREE.MeshPhysicalMaterial({ color: 0x2a2a38, metalness: 0.95, roughness: 0.08, clearcoat: 0.3 });
+const chromeMat = new THREE.MeshPhysicalMaterial({ color: 0xbbbbcc, metalness: 1.0, roughness: 0.03, clearcoat: 1.0 });
+const steelMat = new THREE.MeshPhysicalMaterial({ color: 0x607080, metalness: 0.95, roughness: 0.1, clearcoat: 0.4 });
+const ledMat = new THREE.MeshBasicMaterial({ color: 0x22aaff, transparent: true, opacity: 0.9 });
+const orangeMat = new THREE.MeshBasicMaterial({ color: 0xff6600, transparent: true, opacity: 0.7 });
+
+// ── Build frame (in final assembled state for the editor) ──
+const FW = 7.5, FH = 4.6, BW = 0.4, BD = 0.45;
+
+// Frame bars
+const topBar = new THREE.Mesh(bevelBox(FW, BW, BD, 0.08), crimsonMat);
+topBar.position.set(0, FH/2 - BW/2, 0);
+scene.add(topBar);
+
+const botBar = new THREE.Mesh(bevelBox(FW, BW, BD, 0.08), crimsonMat);
+botBar.position.set(0, -FH/2 + BW/2, 0);
+scene.add(botBar);
+
+const leftBar = new THREE.Mesh(bevelBox(BW, FH - BW*2, BD, 0.08), navyMat);
+leftBar.position.set(-FW/2 + BW/2, 0, 0);
+scene.add(leftBar);
+
+const rightBar = new THREE.Mesh(bevelBox(BW, FH - BW*2, BD, 0.08), navyMat);
+rightBar.position.set(FW/2 - BW/2, 0, 0);
+scene.add(rightBar);
+
+// Back panel
+const backPanel = new THREE.Mesh(bevelBox(FW - BW*2, FH - BW*2, 0.1, 0.04), gunmetalMat);
+backPanel.position.set(0, 0, -BD*0.5);
+scene.add(backPanel);
+
+// Corner brackets
+const brkSize = 0.6;
+[[-FW/2+brkSize/2, FH/2-brkSize/2], [FW/2-brkSize/2, FH/2-brkSize/2],
+ [-FW/2+brkSize/2, -FH/2+brkSize/2], [FW/2-brkSize/2, -FH/2+brkSize/2]].forEach(([x,y]) => {
+  const grp = new THREE.Group();
+  const h = new THREE.Mesh(bevelBox(brkSize, 0.18, BD*0.85, 0.05), crimsonMat);
+  h.position.y = brkSize/2 - 0.09;
+  grp.add(h);
+  const v = new THREE.Mesh(bevelBox(0.18, brkSize, BD*0.85, 0.05), crimsonMat);
+  v.position.x = -brkSize/2 + 0.09;
+  grp.add(v);
+  grp.position.set(x, y, BD/2);
+  scene.add(grp);
+});
+
+// Bolts
+const boltGeo = new THREE.CylinderGeometry(0.07, 0.07, 0.22, 8);
+[[-FW*0.35, FH/2-BW/2], [FW*0.35, FH/2-BW/2], [-FW*0.35, -FH/2+BW/2], [FW*0.35, -FH/2+BW/2],
+ [0, FH/2-BW/2], [0, -FH/2+BW/2], [-FW/2+BW/2, 0], [FW/2-BW/2, 0]].forEach(([x,y]) => {
+  const b = new THREE.Mesh(boltGeo, chromeMat);
+  b.position.set(x, y, BD/2+0.12);
+  b.rotation.x = Math.PI/2;
+  scene.add(b);
+});
+
+// Gears
+const gearData = [
+  { x: -FW/2+0.1, y: FH/2-0.1, r: 0.25, t: 12, spd: 1.2 },
+  { x: FW/2-0.1, y: FH/2-0.1, r: 0.2, t: 10, spd: -1.8 },
+  { x: -FW/2+0.1, y: -FH/2+0.1, r: 0.2, t: 10, spd: -1.5 },
+  { x: FW/2-0.1, y: -FH/2+0.1, r: 0.25, t: 12, spd: 1.3 },
+];
+const gearMeshes = gearData.map(({x,y,r,t}) => {
+  const mesh = new THREE.Mesh(makeGearGeo(r, r*0.72, t, 0.12), steelMat);
+  mesh.position.set(x, y, BD/2+0.07);
+  scene.add(mesh);
+  return mesh;
+});
+
+// Pistons
+const pistonGeo = new THREE.CylinderGeometry(0.04, 0.04, 0.6, 8);
+const pistonData = [
+  { x: -FW/2+BW+0.1, baseY: 0.7 },
+  { x: FW/2-BW-0.1, baseY: -0.7 },
+];
+const pistonMeshes = pistonData.map(({x, baseY}) => {
+  const m = new THREE.Mesh(pistonGeo, chromeMat);
+  m.position.set(x, baseY, BD/2+0.04);
+  scene.add(m);
+  return { mesh: m, baseY };
+});
+
+// Glow strips
+const glowMeshes = [];
+[[0, FH/2-BW/2, FW*0.8, 0.07], [0, -FH/2+BW/2, FW*0.8, 0.07],
+ [-FW/2+BW/2, 0, 0.07, (FH-BW*2)*0.8], [FW/2-BW/2, 0, 0.07, (FH-BW*2)*0.8]].forEach(([x,y,w,h]) => {
+  const m = new THREE.Mesh(new THREE.BoxGeometry(w, h, 0.01), ledMat.clone());
+  m.position.set(x, y, BD/2+0.02);
+  scene.add(m);
+  glowMeshes.push(m);
+});
+
+// Orange accents
+const orangeMeshes = [];
+[[-FW/2+BW/2, 0.8, 0.04, 0.45], [-FW/2+BW/2, -0.8, 0.04, 0.45],
+ [FW/2-BW/2, 0.8, 0.04, 0.45], [FW/2-BW/2, -0.8, 0.04, 0.45]].forEach(([x,y,w,h]) => {
+  const m = new THREE.Mesh(new THREE.BoxGeometry(w, h, 0.01), orangeMat.clone());
+  m.position.set(x, y, BD/2+0.02);
+  scene.add(m);
+  orangeMeshes.push(m);
+});
+
+// Greeble dots
+const greebMat = new THREE.MeshPhysicalMaterial({ color: 0x444455, metalness: 0.9, roughness: 0.15 });
+for (let i = 0; i < 30; i++) {
+  const type = Math.random();
+  let geo;
+  if (type < 0.3) geo = new THREE.CylinderGeometry(0.035, 0.035, 0.05, 6);
+  else if (type < 0.6) geo = new THREE.BoxGeometry(0.12, 0.04, 0.04);
+  else geo = new THREE.SphereGeometry(0.025, 6, 4);
+  const m = new THREE.Mesh(geo, greebMat);
+  // Scatter along frame bars
+  const side = Math.floor(Math.random() * 4);
+  if (side === 0) m.position.set(-FW*0.4 + Math.random()*FW*0.8, FH/2-BW/2, BD/2+0.03);
+  else if (side === 1) m.position.set(-FW*0.4 + Math.random()*FW*0.8, -FH/2+BW/2, BD/2+0.03);
+  else if (side === 2) m.position.set(-FW/2+BW/2, -FH*0.3 + Math.random()*FH*0.6, BD/2+0.03);
+  else m.position.set(FW/2-BW/2, -FH*0.3 + Math.random()*FH*0.6, BD/2+0.03);
+  if (type < 0.3) m.rotation.x = Math.PI/2;
+  scene.add(m);
+}
+
+// Expose to window for controls
+window._three = { renderer, scene, camera, ambientLight, keyLight, fillLight, rimLight, orb1, orb2,
+  crimsonMat, navyMat, gunmetalMat, chromeMat, steelMat, ledMat, orangeMat,
+  gearMeshes, gearData, pistonMeshes, glowMeshes, orangeMeshes, topBar, botBar, leftBar, rightBar, backPanel };
+
+// Orbit speed/radius state
+window._orbSpeed = 0.15;
+window._orbRadius = 12;
+
+// ── Animate ──
+let time = 0;
+function animate() {
+  requestAnimationFrame(animate);
+  time += 0.016;
+  gearMeshes.forEach((m, i) => { m.rotation.z += gearData[i].spd * 0.016; });
+  pistonMeshes.forEach(({mesh, baseY}, i) => { mesh.position.y = baseY + Math.sin(time*1.8 + i*Math.PI)*0.15; });
+  orb1.position.x = Math.cos(time * window._orbSpeed) * window._orbRadius;
+  orb1.position.y = Math.sin(time * window._orbSpeed) * (window._orbRadius * 0.5);
+  orb2.position.x = Math.cos(time * (window._orbSpeed * 0.8) + 3) * window._orbRadius;
+  orb2.position.y = Math.sin(time * (window._orbSpeed * 0.8) + 3) * (window._orbRadius * 0.5);
+  renderer.render(scene, camera);
+}
+animate();
+
+// Resize
+window.addEventListener('resize', () => {
+  const w = viewport.clientWidth, h = viewport.clientHeight;
+  camera.aspect = w / h;
+  camera.updateProjectionMatrix();
+  renderer.setSize(w, h);
+});
+</script>
+
+<script>
+// ── Control handlers ──
+function toggleSection(el) { el.parentElement.classList.toggle('collapsed'); }
+
+function val(id) { return document.getElementById(id).value; }
+function setVal(id, v) { const el = document.getElementById(id); if (el) el.value = v; }
+
+function updateMat(name) {
+  const t = window._three;
+  if (!t) return;
+  const mat = name === 'crimson' ? t.crimsonMat : name === 'navy' ? t.navyMat : t.gunmetalMat;
+  const prefix = name === 'gun' ? 'gun' : name;
+
+  const colorHex = val(prefix + '-color');
+  mat.color.set(colorHex);
+  document.getElementById(prefix + '-color-v').textContent = colorHex;
+
+  const metal = parseInt(val(prefix + '-metal')) / 100;
+  mat.metalness = metal;
+  document.getElementById(prefix + '-metal-v').textContent = metal.toFixed(2);
+
+  const rough = parseInt(val(prefix + '-rough')) / 100;
+  mat.roughness = rough;
+  document.getElementById(prefix + '-rough-v').textContent = rough.toFixed(2);
+
+  if (document.getElementById(prefix + '-coat')) {
+    const coat = parseInt(val(prefix + '-coat')) / 100;
+    mat.clearcoat = coat;
+    document.getElementById(prefix + '-coat-v').textContent = coat.toFixed(2);
+  }
+  if (document.getElementById(prefix + '-norm')) {
+    const norm = parseInt(val(prefix + '-norm')) / 100;
+    document.getElementById(prefix + '-norm-v').textContent = norm.toFixed(2);
+  }
+  updatePrompt();
+}
+
+function updateGlow() {
+  const t = window._three;
+  if (!t) return;
+  const ledColor = val('led-color');
+  const ledOp = parseInt(val('led-opacity')) / 100;
+  document.getElementById('led-color-v').textContent = ledColor;
+  document.getElementById('led-opacity-v').textContent = ledOp.toFixed(2);
+  t.glowMeshes.forEach(m => { m.material.color.set(ledColor); m.material.opacity = ledOp; });
+
+  const orangeColor = val('orange-color');
+  const orangeOp = parseInt(val('orange-opacity')) / 100;
+  document.getElementById('orange-color-v').textContent = orangeColor;
+  document.getElementById('orange-opacity-v').textContent = orangeOp.toFixed(2);
+  t.orangeMeshes.forEach(m => { m.material.color.set(orangeColor); m.material.opacity = orangeOp; });
+  updatePrompt();
+}
+
+function updateLights() {
+  const t = window._three;
+  if (!t) return;
+  const amb = parseInt(val('light-ambient')) / 100;
+  t.ambientLight.intensity = amb;
+  document.getElementById('light-ambient-v').textContent = amb.toFixed(2);
+
+  const keyI = parseInt(val('light-key')) / 10;
+  t.keyLight.intensity = keyI;
+  t.keyLight.color.set(val('light-key-c'));
+  document.getElementById('light-key-v').textContent = keyI.toFixed(2);
+
+  const fillI = parseInt(val('light-fill')) / 10;
+  t.fillLight.intensity = fillI;
+  t.fillLight.color.set(val('light-fill-c'));
+  document.getElementById('light-fill-v').textContent = fillI.toFixed(2);
+
+  const rimI = parseInt(val('light-rim')) / 10;
+  t.rimLight.intensity = rimI;
+  t.rimLight.color.set(val('light-rim-c'));
+  document.getElementById('light-rim-v').textContent = rimI.toFixed(2);
+
+  const exp = parseInt(val('light-exposure')) / 100;
+  t.renderer.toneMappingExposure = exp;
+  document.getElementById('light-exposure-v').textContent = exp.toFixed(2);
+
+  window._orbSpeed = parseInt(val('light-orb-speed')) / 100;
+  document.getElementById('light-orb-speed-v').textContent = window._orbSpeed.toFixed(2);
+
+  window._orbRadius = parseInt(val('light-orb-radius'));
+  document.getElementById('light-orb-radius-v').textContent = window._orbRadius;
+
+  updatePrompt();
+}
+
+function updateCamera() {
+  const t = window._three;
+  if (!t) return;
+  const z = parseFloat(val('cam-z-end'));
+  t.camera.position.z = z;
+  document.getElementById('cam-z-end-v').textContent = z.toFixed(1);
+  document.getElementById('cam-z-v').textContent = parseFloat(val('cam-z')).toFixed(1);
+
+  const fov = parseInt(val('cam-fov'));
+  t.camera.fov = fov;
+  t.camera.updateProjectionMatrix();
+  document.getElementById('cam-fov-v').textContent = fov;
+  updatePrompt();
+}
+
+function updateBg() {
+  const t = window._three;
+  if (!t) return;
+  const c = val('bg-color');
+  t.scene.background.set(c);
+  document.getElementById('bg-color-v').textContent = c;
+  updatePrompt();
+}
+
+function updatePromptOnly() {
+  // Update display values
+  ['geo-cube', 'geo-barw', 'geo-bard', 'geo-bevel'].forEach(id => {
+    const v = parseInt(val(id)) / 100;
+    document.getElementById(id + '-v').textContent = v.toFixed(2);
+  });
+  ['anim-dissolve', 'anim-detach', 'anim-detach-dur', 'anim-stretch', 'anim-stretch-dur',
+   'anim-gears', 'anim-brackets', 'anim-bolts', 'anim-glows', 'anim-stagger'].forEach(id => {
+    const v = parseInt(val(id)) / 100;
+    document.getElementById(id + '-v').textContent = v.toFixed(2) + 's';
+  });
+  updatePrompt();
+}
+
+function updatePrompt() {
+  const parts = [];
+
+  // Materials
+  const cColor = val('crimson-color');
+  if (cColor !== '#cc3030') parts.push(`crimson.color = 0x${cColor.slice(1)}`);
+  const cMetal = parseInt(val('crimson-metal')) / 100;
+  if (Math.abs(cMetal - 0.85) > 0.01) parts.push(`crimson.metalness = ${cMetal.toFixed(2)}`);
+  const cRough = parseInt(val('crimson-rough')) / 100;
+  if (Math.abs(cRough - 0.18) > 0.01) parts.push(`crimson.roughness = ${cRough.toFixed(2)}`);
+  const cCoat = parseInt(val('crimson-coat')) / 100;
+  if (Math.abs(cCoat - 0.60) > 0.01) parts.push(`crimson.clearcoat = ${cCoat.toFixed(2)}`);
+
+  const nColor = val('navy-color');
+  if (nColor !== '#2a3090') parts.push(`navy.color = 0x${nColor.slice(1)}`);
+  const nMetal = parseInt(val('navy-metal')) / 100;
+  if (Math.abs(nMetal - 0.85) > 0.01) parts.push(`navy.metalness = ${nMetal.toFixed(2)}`);
+  const nRough = parseInt(val('navy-rough')) / 100;
+  if (Math.abs(nRough - 0.18) > 0.01) parts.push(`navy.roughness = ${nRough.toFixed(2)}`);
+
+  // Glows
+  const ledC = val('led-color');
+  if (ledC !== '#22aaff') parts.push(`ledGlow.color = 0x${ledC.slice(1)}`);
+  const ledO = parseInt(val('led-opacity')) / 100;
+  if (Math.abs(ledO - 0.90) > 0.01) parts.push(`ledGlow final opacity = ${ledO.toFixed(2)}`);
+  const oC = val('orange-color');
+  if (oC !== '#ff6600') parts.push(`orangeGlow.color = 0x${oC.slice(1)}`);
+
+  // Lighting
+  const exp = parseInt(val('light-exposure')) / 100;
+  if (Math.abs(exp - 2.20) > 0.05) parts.push(`renderer.toneMappingExposure = ${exp.toFixed(2)}`);
+  const amb = parseInt(val('light-ambient')) / 100;
+  if (Math.abs(amb - 0.50) > 0.02) parts.push(`ambientLight.intensity = ${amb.toFixed(2)}`);
+  const keyI = parseInt(val('light-key')) / 10;
+  if (Math.abs(keyI - 3.50) > 0.05) parts.push(`keyDir.intensity = ${keyI.toFixed(1)}`);
+  const keyC = val('light-key-c');
+  if (keyC !== '#ffeedd') parts.push(`keyDir.color = 0x${keyC.slice(1)}`);
+  const fillI = parseInt(val('light-fill')) / 10;
+  if (Math.abs(fillI - 1.80) > 0.05) parts.push(`fillDir.intensity = ${fillI.toFixed(1)}`);
+  const fillC = val('light-fill-c');
+  if (fillC !== '#3355aa') parts.push(`fillDir.color = 0x${fillC.slice(1)}`);
+  const rimI = parseInt(val('light-rim')) / 10;
+  if (Math.abs(rimI - 1.20) > 0.05) parts.push(`rimDir.intensity = ${rimI.toFixed(1)}`);
+  const rimC = val('light-rim-c');
+  if (rimC !== '#ff6633') parts.push(`rimDir.color = 0x${rimC.slice(1)}`);
+
+  const orbSpd = parseInt(val('light-orb-speed')) / 100;
+  if (Math.abs(orbSpd - 0.15) > 0.01) parts.push(`orbiting light speed = ${orbSpd.toFixed(2)}`);
+  const orbR = parseInt(val('light-orb-radius'));
+  if (orbR !== 12) parts.push(`orbiting light radius = ${orbR}`);
+
+  // Camera
+  const camStart = parseFloat(val('cam-z'));
+  if (Math.abs(camStart - 9) > 0.1) parts.push(`camera start z = ${camStart}`);
+  const camEnd = parseFloat(val('cam-z-end'));
+  if (Math.abs(camEnd - 11.5) > 0.1) parts.push(`camera end z = ${camEnd}`);
+  const fov = parseInt(val('cam-fov'));
+  if (fov !== 45) parts.push(`camera FOV = ${fov}`);
+
+  // BG
+  const bg = val('bg-color');
+  if (bg !== '#060610') parts.push(`scene.background = 0x${bg.slice(1)}`);
+
+  // Geometry
+  const cubeSize = parseInt(val('geo-cube')) / 100;
+  if (Math.abs(cubeSize - 0.80) > 0.02) parts.push(`cubeSize = ${cubeSize.toFixed(2)}`);
+  const barW = parseInt(val('geo-barw')) / 100;
+  if (Math.abs(barW - 0.40) > 0.02) parts.push(`barW = ${barW.toFixed(2)}`);
+  const barD = parseInt(val('geo-bard')) / 100;
+  if (Math.abs(barD - 0.45) > 0.02) parts.push(`barD = ${barD.toFixed(2)}`);
+  const bevel = parseInt(val('geo-bevel')) / 100;
+  if (Math.abs(bevel - 0.07) > 0.005) parts.push(`bevel = ${bevel.toFixed(3)}`);
+
+  // Animation timing
+  const animKeys = [
+    ['anim-dissolve', 'dissolve start', 0.20],
+    ['anim-detach', 'detach start', 0.30],
+    ['anim-detach-dur', 'detach duration', 0.40],
+    ['anim-stretch', 'stretch start', 0.60],
+    ['anim-stretch-dur', 'stretch duration', 0.50],
+    ['anim-gears', 'gears appear at', 0.70],
+    ['anim-brackets', 'brackets snap at', 0.75],
+    ['anim-bolts', 'bolts fly at', 0.80],
+    ['anim-glows', 'glows power on at', 0.95],
+    ['anim-stagger', 'piece stagger', 0.05],
+  ];
+  animKeys.forEach(([id, label, def]) => {
+    const v = parseInt(val(id)) / 100;
+    if (Math.abs(v - def) > 0.02) parts.push(`${label} = ${v.toFixed(2)}s`);
+  });
+
+  const output = document.getElementById('prompt-output');
+  if (parts.length === 0) {
+    output.textContent = 'All values at defaults. Adjust controls to generate changes.';
+  } else {
+    output.textContent = `Update TransformPlayer.jsx with these values:\n\n${parts.join('\n')}`;
+  }
+}
+
+function copyPrompt() {
+  const text = document.getElementById('prompt-output').textContent;
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = document.querySelector('.copy-btn');
+    btn.textContent = 'Copied!';
+    setTimeout(() => btn.textContent = 'Copy', 1500);
+  });
+}
+
+function replayAnimation() {
+  // Simple: reset camera and animate back
+  const t = window._three;
+  if (!t) return;
+  const startZ = parseFloat(val('cam-z'));
+  const endZ = parseFloat(val('cam-z-end'));
+  t.camera.position.z = startZ;
+  const dur = 1200;
+  const start = performance.now();
+  function step(now) {
+    const p = Math.min((now - start) / dur, 1);
+    const ease = 1 - Math.pow(1 - p, 3);
+    t.camera.position.z = startZ + (endZ - startZ) * ease;
+    if (p < 1) requestAnimationFrame(step);
+  }
+  requestAnimationFrame(step);
+}
+
+function resetToDefaults() {
+  setVal('crimson-color', '#cc3030'); setVal('crimson-metal', 85); setVal('crimson-rough', 18); setVal('crimson-coat', 60); setVal('crimson-norm', 80);
+  setVal('navy-color', '#2a3090'); setVal('navy-metal', 85); setVal('navy-rough', 18); setVal('navy-coat', 50); setVal('navy-norm', 70);
+  setVal('gun-color', '#2a2a38'); setVal('gun-metal', 95); setVal('gun-rough', 8);
+  setVal('led-color', '#22aaff'); setVal('led-opacity', 90); setVal('orange-color', '#ff6600'); setVal('orange-opacity', 70);
+  setVal('light-ambient', 50); setVal('light-key', 35); setVal('light-key-c', '#ffeedd');
+  setVal('light-fill', 18); setVal('light-fill-c', '#3355aa');
+  setVal('light-rim', 12); setVal('light-rim-c', '#ff6633');
+  setVal('light-exposure', 220); setVal('light-orb-speed', 15); setVal('light-orb-radius', 12);
+  setVal('cam-z', 9); setVal('cam-z-end', 11.5); setVal('cam-fov', 45);
+  setVal('bg-color', '#060610');
+  setVal('geo-cube', 80); setVal('geo-barw', 40); setVal('geo-bard', 45); setVal('geo-bevel', 7);
+  setVal('anim-dissolve', 20); setVal('anim-detach', 30); setVal('anim-detach-dur', 40);
+  setVal('anim-stretch', 60); setVal('anim-stretch-dur', 50);
+  setVal('anim-gears', 70); setVal('anim-brackets', 75); setVal('anim-bolts', 80); setVal('anim-glows', 95); setVal('anim-stagger', 5);
+  updateMat('crimson'); updateMat('navy'); updateMat('gun'); updateGlow(); updateLights(); updateCamera(); updateBg(); updatePromptOnly();
+}
+
+function applyPreset(name) {
+  const presets = {
+    industrial: { 'crimson-color': '#8B3A3A', 'crimson-metal': 90, 'crimson-rough': 25, 'crimson-coat': 30, 'navy-color': '#2B3B5E', 'navy-metal': 90, 'navy-rough': 28, 'navy-coat': 25, 'gun-color': '#1a1a22', 'light-exposure': 180, 'light-key': 40, 'light-key-c': '#ddccaa', 'light-fill': 12, 'bg-color': '#080808', 'led-color': '#ff8844', 'orange-color': '#cc4400' },
+    cybertronian: { 'crimson-color': '#cc2244', 'crimson-metal': 82, 'crimson-rough': 15, 'crimson-coat': 75, 'navy-color': '#1a2888', 'navy-metal': 82, 'navy-rough': 12, 'navy-coat': 70, 'gun-color': '#151530', 'light-exposure': 260, 'light-key': 30, 'light-key-c': '#eeeeff', 'light-fill': 25, 'light-fill-c': '#2244cc', 'bg-color': '#040410', 'led-color': '#00ccff', 'orange-color': '#ff4400' },
+    battleworn: { 'crimson-color': '#773322', 'crimson-metal': 75, 'crimson-rough': 40, 'crimson-coat': 15, 'navy-color': '#333355', 'navy-metal': 70, 'navy-rough': 45, 'navy-coat': 10, 'gun-color': '#222222', 'light-exposure': 200, 'light-key': 45, 'light-key-c': '#ffddaa', 'light-fill': 10, 'bg-color': '#0a0808', 'led-color': '#44aa88', 'led-opacity': 60, 'orange-color': '#885500', 'orange-opacity': 40 },
+    chrome: { 'crimson-color': '#ddddee', 'crimson-metal': 100, 'crimson-rough': 2, 'crimson-coat': 100, 'navy-color': '#ccccdd', 'navy-metal': 100, 'navy-rough': 3, 'navy-coat': 100, 'gun-color': '#aaaabb', 'light-exposure': 300, 'light-key': 25, 'light-key-c': '#ffffff', 'light-fill': 20, 'light-fill-c': '#8888ff', 'bg-color': '#101020', 'led-color': '#ffffff', 'orange-color': '#ffffff' },
+    energon: { 'crimson-color': '#aa1155', 'crimson-metal': 80, 'crimson-rough': 20, 'crimson-coat': 50, 'navy-color': '#220066', 'navy-metal': 85, 'navy-rough': 15, 'navy-coat': 60, 'gun-color': '#110022', 'light-exposure': 250, 'light-key': 28, 'light-key-c': '#ff88cc', 'light-fill': 22, 'light-fill-c': '#6600cc', 'light-rim-c': '#ff00ff', 'bg-color': '#060010', 'led-color': '#cc00ff', 'orange-color': '#ff0088' },
+  };
+  const p = presets[name];
+  if (!p) return;
+  Object.entries(p).forEach(([id, v]) => setVal(id, v));
+  updateMat('crimson'); updateMat('navy'); updateMat('gun'); updateGlow(); updateLights(); updateCamera(); updateBg(); updatePromptOnly();
+}
+
+// Initial update
+updatePrompt();
+</script>
+</body>
+</html>
