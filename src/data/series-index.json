@@ -162,24 +162,6 @@
     "has_live_streams": false
   },
   {
-    "slug": "energon",
-    "title": "Transformers: Energon",
-    "year_start": 2004,
-    "year_end": 2005,
-    "era": "unicron",
-    "poster": "/images/series/energon-poster.jpg",
-    "faction_accent": "red",
-    "tags": [
-      "Sequel",
-      "Action",
-      "Anime-style"
-    ],
-    "episode_count": 51,
-    "season_count": 1,
-    "synopsis": "Ten years after Armada, a new Energon-powered threat emerges as Alpha Quintesson and a revived Megatron threaten the fragile peace.",
-    "has_live_streams": false
-  },
-  {
     "slug": "animated",
     "title": "Transformers: Animated",
     "year_start": 2007,
@@ -213,24 +195,6 @@
     "episode_count": 65,
     "season_count": 3,
     "synopsis": "Team Prime \u2014 Optimus, Arcee, Bulkhead, Bumblebee, and Ratchet \u2014 protect Earth and three human allies from Megatron's Decepticons in this Emmy-winning series.",
-    "has_live_streams": false
-  },
-  {
-    "slug": "rescue-bots",
-    "title": "Transformers: Rescue Bots",
-    "year_start": 2012,
-    "year_end": 2016,
-    "era": "aligned",
-    "poster": "/images/series/rescue-bots-poster.jpg",
-    "faction_accent": "red",
-    "tags": [
-      "Kids",
-      "Adventure",
-      "Rescue"
-    ],
-    "episode_count": 104,
-    "season_count": 4,
-    "synopsis": "Four Autobot rescue workers team up with a family of first responders on Griffin Rock island, using teamwork to save the day.",
     "has_live_streams": false
   },
   {
