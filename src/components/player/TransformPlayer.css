@@ -1,118 +1,37 @@
-/* ── TransformPlayer: 3D Cybertronian frame with Three.js ── */
+/* ── TransformPlayer ── */
 
 .tfp-overlay {
   position: fixed;
   inset: 0;
   z-index: 1000;
-  background: #0e0e18;
+  background: rgba(5, 5, 12, 0.96);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: tfp-fade-in 0.2s ease-out;
 }
 
+.tfp-overlay.tfp-closing {
+  animation: tfp-fade-out 0.5s ease-in forwards;
+}
+
+@keyframes tfp-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes tfp-fade-out {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+/* ── 3D Canvas (animation phase only) ── */
 .tfp-canvas {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
   display: block;
-}
-
-/* ── YouTube iframe overlay — positioned dynamically by JS ── */
-.tfp-iframe-wrap {
-  position: absolute;
-  pointer-events: auto;
-  overflow: hidden;
-  background: #000;
-}
-
-.tfp-iframe-wrap iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
-}
-
-/* ── Fallback content inside screen ── */
-.tfp-fallback {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  background: linear-gradient(135deg, #0a0a12, #0d0d1a);
-}
-
-.tfp-fallback-icon {
-  font-size: 3rem;
-  color: #444;
-  margin-bottom: 1rem;
-}
-
-.tfp-fallback p {
-  color: #888;
-  font-size: 0.9rem;
-  margin-bottom: 0.75rem;
-}
-
-.tfp-fallback a {
-  display: inline-block;
-  padding: 0.5rem 1.25rem;
-  background: #e50914;
-  color: #fff;
-  font-size: 0.875rem;
-  font-weight: 600;
-  border-radius: 4px;
-  text-decoration: none;
-}
-
-.tfp-fallback a:hover {
-  background: #b20710;
-}
-
-/* ── Episode info below screen ── */
-.tfp-info {
-  position: absolute;
-  bottom: 8%;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-  z-index: 10;
-  pointer-events: none;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.tfp-info.visible {
-  opacity: 1;
-  pointer-events: auto;
-}
-
-.tfp-title {
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: #fff;
-  margin-bottom: 0.2rem;
-  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
-}
-
-.tfp-meta {
-  font-size: 0.8rem;
-  color: #888;
-}
-
-.tfp-search {
-  font-size: 0.7rem;
-  color: #555;
-  margin-top: 0.3rem;
-}
-
-.tfp-search a {
-  color: #4fc3f7;
-  text-decoration: none;
-  pointer-events: auto;
-}
-
-.tfp-search a:hover {
-  text-decoration: underline;
 }
 
 /* ── Close button ── */
@@ -143,8 +62,187 @@
   box-shadow: 0 0 20px rgba(255, 107, 0, 0.5);
 }
 
+/* ── Video Player (after animation completes) ── */
+.tfp-player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  animation: tfp-player-in 0.5s ease-out;
+  max-width: 90vw;
+}
+
+.tfp-player.tfp-player-closing {
+  animation: tfp-player-out 0.4s ease-in forwards;
+}
+
+@keyframes tfp-player-in {
+  from {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes tfp-player-out {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+}
+
+/* ── Frame wrapper — the reference image as frame ── */
+.tfp-frame-wrapper {
+  position: relative;
+  width: 65vw;
+  max-width: 900px;
+  /* The image defines the aspect ratio */
+}
+
+.tfp-frame-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  pointer-events: none;
+  user-select: none;
+  /* Glow effect around the frame */
+  filter: drop-shadow(0 0 20px rgba(0, 100, 255, 0.25))
+          drop-shadow(0 0 40px rgba(255, 70, 0, 0.15));
+}
+
+/* ── Screen area — YouTube iframe positioned over the image's screen ──
+   The reference image has a screen area roughly:
+   - Left: 15.5% from left edge
+   - Top: 15% from top edge
+   - Width: 69% of image width
+   - Height: 56% of image height
+   These percentages match the screen cutout in player-frame.jpg
+*/
+.tfp-screen {
+  position: absolute;
+  top: 15%;
+  left: 15.5%;
+  width: 69%;
+  height: 56%;
+  overflow: hidden;
+  background: #000;
+  animation: tfp-screen-on 0.3s ease-out 0.2s both;
+}
+
+@keyframes tfp-screen-on {
+  0% {
+    clip-path: inset(49% 0 49% 0);
+    opacity: 0.8;
+    filter: brightness(3) saturate(0);
+  }
+  50% {
+    clip-path: inset(0 0 0 0);
+    opacity: 0.9;
+    filter: brightness(1.5) saturate(0.5);
+  }
+  100% {
+    clip-path: inset(0 0 0 0);
+    opacity: 1;
+    filter: brightness(1) saturate(1);
+  }
+}
+
+.tfp-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* ── Fallback ── */
+.tfp-fallback {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(135deg, #0a0a15, #0d0d1a);
+}
+
+.tfp-fallback-icon {
+  font-size: 2.5rem;
+  color: #444;
+  margin-bottom: 0.75rem;
+}
+
+.tfp-fallback p {
+  color: #888;
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+
+.tfp-fallback a {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  background: #e50914;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.tfp-fallback a:hover {
+  background: #b20710;
+}
+
+/* ── Episode info ── */
+.tfp-info {
+  text-align: center;
+}
+
+.tfp-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0.15rem;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+.tfp-meta {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.tfp-search {
+  font-size: 0.7rem;
+  color: #555;
+  margin-top: 0.25rem;
+}
+
+.tfp-search a {
+  color: #4fc3f7;
+  text-decoration: none;
+}
+
+.tfp-search a:hover {
+  text-decoration: underline;
+}
+
 /* ── Responsive ── */
+@media (max-width: 1024px) {
+  .tfp-frame-wrapper {
+    width: 80vw;
+  }
+}
+
 @media (max-width: 600px) {
+  .tfp-frame-wrapper {
+    width: 95vw;
+  }
   .tfp-close {
     top: 0.5rem;
     right: 0.75rem;
