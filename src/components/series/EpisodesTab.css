@@ -1,0 +1,61 @@
+.episodes-tab {
+  padding: 1.5rem 4%;
+}
+
+.episodes-tab__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.episodes-tab__section-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.episodes-tab__dropdown-wrap {
+  position: relative;
+}
+
+.episodes-tab__dropdown {
+  appearance: none;
+  background: var(--bg-dropdown);
+  color: var(--text-primary);
+  border: 1px solid var(--border-light);
+  padding: 0.5rem 2.25rem 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-family: inherit;
+  border-radius: var(--card-radius);
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='white' viewBox='0 0 16 16'%3E%3Cpath d='M8 11L3 6h10z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  transition: border-color var(--transition-fast);
+}
+
+.episodes-tab__dropdown:hover {
+  border-color: var(--text-secondary);
+}
+
+.episodes-tab__dropdown:focus {
+  outline: none;
+  border-color: var(--accent-red);
+}
+
+.episodes-tab__dropdown option {
+  background: var(--bg-dropdown);
+  color: var(--text-primary);
+}
+
+.episodes-tab__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.episodes-tab__empty {
+  color: var(--text-secondary);
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 0.9375rem;
+}

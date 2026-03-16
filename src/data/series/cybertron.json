@@ -1,0 +1,550 @@
+{
+  "title": "Transformers: Cybertron",
+  "slug": "cybertron",
+  "year_start": 2005,
+  "year_end": 2007,
+  "era": "unicron",
+  "synopsis": "A massive black hole threatens to consume Cybertron and the entire universe. Optimus Prime leads the Autobots on a galaxy-spanning quest to find four ancient Cyber Planet Keys that can activate the Omega Lock — the only device capable of sealing the black hole. Their search takes them to Speed Planet, Jungle Planet, Giant Planet, and Earth, where they must earn each world's key while battling Megatron and the Decepticons who seek to harness the keys' power for universal domination.",
+  "rating": "TV-Y7",
+  "tags": [
+    "Action",
+    "Anime-style",
+    "Sci-Fi",
+    "Adventure",
+    "CGI"
+  ],
+  "poster": "/images/series/cybertron-poster.jpg",
+  "hero_image": "/images/series/cybertron-hero.jpg",
+  "faction_accent": "blue",
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2005,
+      "episodes": [
+        {
+          "number": 1,
+          "title": "Fallen",
+          "air_date": "2005-07-02",
+          "duration": "22m",
+          "synopsis": "A catastrophic black hole appears near Cybertron, forcing the Autobots to evacuate and begin a desperate search for the Omega Lock and the Cyber Planet Keys.",
+          "video_url": null
+        },
+        {
+          "number": 2,
+          "title": "Haven",
+          "air_date": "2005-07-09",
+          "duration": "22m",
+          "synopsis": "The Autobots arrive on Earth seeking refuge and allies, establishing a hidden base while searching for clues to the first Cyber Planet Key.",
+          "video_url": null
+        },
+        {
+          "number": 3,
+          "title": "Hidden",
+          "air_date": "2005-07-16",
+          "duration": "22m",
+          "synopsis": "The Autobots must remain hidden from humanity while human children Coby, Bud, and Lori discover their secret.",
+          "video_url": null
+        },
+        {
+          "number": 4,
+          "title": "Landmine",
+          "air_date": "2005-07-23",
+          "duration": "22m",
+          "synopsis": "Veteran Autobot Landmine arrives on Earth and clashes with the Decepticons while the search for the Cyber Planet Keys intensifies.",
+          "video_url": null
+        },
+        {
+          "number": 5,
+          "title": "Space",
+          "air_date": "2005-07-30",
+          "duration": "22m",
+          "synopsis": "The ancient Autobot Vector Prime reveals the existence of the Cyber Planet Keys scattered across the universe, charting a course for Speed Planet.",
+          "video_url": null
+        },
+        {
+          "number": 6,
+          "title": "Rush",
+          "air_date": "2005-08-06",
+          "duration": "22m",
+          "synopsis": "The Autobots arrive on Speed Planet Velocitron, a world where everything is decided by racing and the fastest rule supreme.",
+          "video_url": null
+        },
+        {
+          "number": 7,
+          "title": "Speed",
+          "air_date": "2005-08-13",
+          "duration": "22m",
+          "synopsis": "Hot Shot challenges the Speed Planet's champion Override for the right to claim the Cyber Planet Key, but must prove himself on the racetrack.",
+          "video_url": null
+        },
+        {
+          "number": 8,
+          "title": "Collapse",
+          "air_date": "2005-08-20",
+          "duration": "22m",
+          "synopsis": "The black hole's expansion accelerates, threatening to collapse space around Cybertron as the urgency of the Autobots' quest grows.",
+          "video_url": null
+        },
+        {
+          "number": 9,
+          "title": "Time",
+          "air_date": "2005-08-27",
+          "duration": "22m",
+          "synopsis": "Vector Prime uses his power over time to buy the Autobots more time, but at great personal cost to the ancient guardian.",
+          "video_url": null
+        },
+        {
+          "number": 10,
+          "title": "Search",
+          "air_date": "2005-09-03",
+          "duration": "22m",
+          "synopsis": "The search for the Cyber Planet Keys leads the Autobots to investigate multiple leads across the galaxy simultaneously.",
+          "video_url": null
+        },
+        {
+          "number": 11,
+          "title": "Deep",
+          "air_date": "2005-09-10",
+          "duration": "22m",
+          "synopsis": "The Autobots venture deep into uncharted space, encountering dangers as they trace the signal of a Cyber Planet Key.",
+          "video_url": null
+        },
+        {
+          "number": 12,
+          "title": "Ship",
+          "air_date": "2005-09-17",
+          "duration": "22m",
+          "synopsis": "An ancient Cybertronian ship is discovered containing vital information about the locations of the remaining Cyber Planet Keys.",
+          "video_url": null
+        },
+        {
+          "number": 13,
+          "title": "Hero",
+          "air_date": "2005-09-24",
+          "duration": "22m",
+          "synopsis": "Hot Shot steps up as a hero on Speed Planet, earning the respect of Override through courage and determination rather than raw speed.",
+          "video_url": null
+        },
+        {
+          "number": 14,
+          "title": "Race",
+          "air_date": "2005-10-01",
+          "duration": "22m",
+          "synopsis": "The ultimate race on Speed Planet begins, with the Cyber Planet Key as the prize and Megatron's forces attempting to steal it by force.",
+          "video_url": null
+        },
+        {
+          "number": 15,
+          "title": "Detour",
+          "air_date": "2005-10-08",
+          "duration": "22m",
+          "synopsis": "An unexpected detour forces the Autobots to deal with a new threat before they can continue their quest for the remaining keys.",
+          "video_url": null
+        },
+        {
+          "number": 16,
+          "title": "Savage",
+          "air_date": "2005-10-15",
+          "duration": "22m",
+          "synopsis": "The Autobots arrive on the savage Jungle Planet, where primal law rules and the strongest warrior claims leadership.",
+          "video_url": null
+        },
+        {
+          "number": 17,
+          "title": "Sand",
+          "air_date": "2005-10-22",
+          "duration": "22m",
+          "synopsis": "Harsh desert conditions on Jungle Planet test the Autobots as they search for the planet's Cyber Planet Key.",
+          "video_url": null
+        },
+        {
+          "number": 18,
+          "title": "Champion",
+          "air_date": "2005-10-29",
+          "duration": "22m",
+          "synopsis": "To earn the Jungle Planet's Cyber Planet Key, an Autobot must defeat the planet's champion Scourge in single combat.",
+          "video_url": null
+        },
+        {
+          "number": 19,
+          "title": "Ice",
+          "air_date": "2005-11-05",
+          "duration": "22m",
+          "synopsis": "A frozen region of Jungle Planet holds secrets about the Cyber Planet Key, and the Autobots must brave deadly cold to reach it.",
+          "video_url": null
+        },
+        {
+          "number": 20,
+          "title": "Honor",
+          "air_date": "2005-11-12",
+          "duration": "22m",
+          "synopsis": "The concept of warrior's honor is tested on Jungle Planet as alliances shift and battles determine the fate of the key.",
+          "video_url": null
+        },
+        {
+          "number": 21,
+          "title": "Primal",
+          "air_date": "2005-11-19",
+          "duration": "22m",
+          "synopsis": "Primal instincts drive the conflict on Jungle Planet to a climax as the battle for its Cyber Planet Key reaches a critical moment.",
+          "video_url": null
+        },
+        {
+          "number": 22,
+          "title": "Trust",
+          "air_date": "2005-11-26",
+          "duration": "22m",
+          "synopsis": "Trust between the Autobots and the natives of Jungle Planet is tested as Megatron attempts to manipulate the planet's leaders.",
+          "video_url": null
+        },
+        {
+          "number": 23,
+          "title": "Trap",
+          "air_date": "2005-12-03",
+          "duration": "22m",
+          "synopsis": "Megatron springs an elaborate trap to capture the Jungle Planet Key, forcing the Autobots into a desperate counter-strategy.",
+          "video_url": null
+        },
+        {
+          "number": 24,
+          "title": "Invasion",
+          "air_date": "2005-12-10",
+          "duration": "22m",
+          "synopsis": "The Decepticons launch a full-scale invasion of Jungle Planet, overwhelming the defenders in their bid for the Cyber Planet Key.",
+          "video_url": null
+        },
+        {
+          "number": 25,
+          "title": "Retreat",
+          "air_date": "2005-12-17",
+          "duration": "22m",
+          "synopsis": "Faced with overwhelming Decepticon force, the Autobots must make a strategic retreat to regroup and plan their next move.",
+          "video_url": null
+        },
+        {
+          "number": 26,
+          "title": "Revelation",
+          "air_date": "2006-01-07",
+          "duration": "22m",
+          "synopsis": "A major revelation about the true nature of the Cyber Planet Keys and their connection to Primus changes the course of the quest.",
+          "video_url": null
+        },
+        {
+          "number": 27,
+          "title": "Critical",
+          "air_date": "2006-01-14",
+          "duration": "22m",
+          "synopsis": "The situation reaches a critical point as the black hole expands and the Autobots race to find the remaining keys before time runs out.",
+          "video_url": null
+        },
+        {
+          "number": 28,
+          "title": "Assault",
+          "air_date": "2006-01-21",
+          "duration": "22m",
+          "synopsis": "The Autobots launch an assault to reclaim a stolen Cyber Planet Key from the Decepticons before Megatron can unlock its power.",
+          "video_url": null
+        },
+        {
+          "number": 29,
+          "title": "Starscream",
+          "air_date": "2006-01-28",
+          "duration": "22m",
+          "synopsis": "Starscream makes his bid for power, stealing the Omega Lock and a Cyber Planet Key to rival Megatron's growing strength.",
+          "video_url": null
+        },
+        {
+          "number": 30,
+          "title": "United",
+          "air_date": "2006-02-04",
+          "duration": "22m",
+          "synopsis": "The Autobots unite with unlikely allies to face the dual threat of Megatron and an increasingly powerful Starscream.",
+          "video_url": null
+        },
+        {
+          "number": 31,
+          "title": "Cybertron",
+          "air_date": "2006-02-11",
+          "duration": "22m",
+          "synopsis": "The quest leads back to Cybertron itself, where one of the Cyber Planet Keys has been hidden since ancient times.",
+          "video_url": null
+        },
+        {
+          "number": 32,
+          "title": "Balance",
+          "air_date": "2006-02-18",
+          "duration": "22m",
+          "synopsis": "The balance of power shifts dramatically as more keys are found and both sides grow stronger in the cosmic struggle.",
+          "video_url": null
+        },
+        {
+          "number": 33,
+          "title": "Darkness",
+          "air_date": "2006-02-25",
+          "duration": "22m",
+          "synopsis": "Darkness threatens to engulf the galaxy as the black hole expands, and the Autobots must press forward despite growing despair.",
+          "video_url": null
+        },
+        {
+          "number": 34,
+          "title": "Memory",
+          "air_date": "2006-03-04",
+          "duration": "22m",
+          "synopsis": "Memories of the past provide crucial insights into the creation of the Cyber Planet Keys and the Omega Lock.",
+          "video_url": null
+        },
+        {
+          "number": 35,
+          "title": "Escape",
+          "air_date": "2006-03-11",
+          "duration": "22m",
+          "synopsis": "Trapped by the Decepticons, the Autobots must engineer a daring escape to continue their mission.",
+          "video_url": null
+        },
+        {
+          "number": 36,
+          "title": "Family",
+          "air_date": "2006-03-18",
+          "duration": "22m",
+          "synopsis": "The bonds of family are explored as Coby, Bud, and Lori's involvement in the war deepens, and the Autobots reflect on their own connections.",
+          "video_url": null
+        },
+        {
+          "number": 37,
+          "title": "Titans",
+          "air_date": "2006-03-25",
+          "duration": "22m",
+          "synopsis": "The Autobots arrive on Giant Planet Gigantion, home to enormous Transformers including the mighty Metroplex.",
+          "video_url": null
+        },
+        {
+          "number": 38,
+          "title": "Warp",
+          "air_date": "2006-04-01",
+          "duration": "22m",
+          "synopsis": "Space warps caused by the black hole create unpredictable portals, making travel between planets increasingly dangerous.",
+          "video_url": null
+        },
+        {
+          "number": 39,
+          "title": "Giant",
+          "air_date": "2006-04-08",
+          "duration": "22m",
+          "synopsis": "On Giant Planet, the Autobots must prove themselves worthy to the enormous inhabitants in order to earn the final Cyber Planet Key.",
+          "video_url": null
+        },
+        {
+          "number": 40,
+          "title": "Fury",
+          "air_date": "2006-04-15",
+          "duration": "22m",
+          "synopsis": "Megatron's fury reaches new heights as he launches an all-out assault on Giant Planet, determined to seize the last key by force.",
+          "video_url": null
+        },
+        {
+          "number": 41,
+          "title": "City",
+          "air_date": "2006-04-22",
+          "duration": "22m",
+          "synopsis": "The massive city-bot Metroplex enters the battle, tipping the scales on Giant Planet as the fight for the final key rages.",
+          "video_url": null
+        },
+        {
+          "number": 42,
+          "title": "Ambush",
+          "air_date": "2006-04-29",
+          "duration": "22m",
+          "synopsis": "The Decepticons set up an ambush to intercept the Autobots as they attempt to bring the Cyber Planet Keys together.",
+          "video_url": null
+        },
+        {
+          "number": 43,
+          "title": "Challenge",
+          "air_date": "2006-05-06",
+          "duration": "22m",
+          "synopsis": "Optimus Prime faces his greatest challenge yet as he must defeat Galvatron in single combat for the fate of the universe.",
+          "video_url": null
+        },
+        {
+          "number": 44,
+          "title": "Scourge",
+          "air_date": "2006-05-13",
+          "duration": "22m",
+          "synopsis": "Jungle Planet's ruler Scourge undergoes a change of heart and joins the Autobots' cause against the greater Decepticon threat.",
+          "video_url": null
+        },
+        {
+          "number": 45,
+          "title": "Optimus",
+          "air_date": "2006-05-20",
+          "duration": "22m",
+          "synopsis": "Optimus Prime unlocks new power through the Cyber Planet Keys, evolving into a more powerful form to face the final battle.",
+          "video_url": null
+        },
+        {
+          "number": 46,
+          "title": "Showdown",
+          "air_date": "2006-05-27",
+          "duration": "22m",
+          "synopsis": "The ultimate showdown between Optimus Prime and Galvatron begins as the fate of the universe hangs in the balance.",
+          "video_url": null
+        },
+        {
+          "number": 47,
+          "title": "Guardian",
+          "air_date": "2006-06-03",
+          "duration": "22m",
+          "synopsis": "The ancient guardian Vector Prime makes a ultimate sacrifice to protect the timeline and ensure the Autobots can complete their mission.",
+          "video_url": null
+        },
+        {
+          "number": 48,
+          "title": "Homecoming",
+          "air_date": "2006-06-10",
+          "duration": "22m",
+          "synopsis": "The Autobots return to Cybertron with the Omega Lock and all four Cyber Planet Keys, preparing for the final confrontation.",
+          "video_url": null
+        },
+        {
+          "number": 49,
+          "title": "End",
+          "air_date": "2006-06-24",
+          "duration": "22m",
+          "synopsis": "The Omega Lock is activated, and the truth about Primus and the origins of Cybertron is revealed as the black hole is finally sealed.",
+          "video_url": null
+        },
+        {
+          "number": 50,
+          "title": "Unfinished",
+          "air_date": "2006-07-01",
+          "duration": "22m",
+          "synopsis": "Though the black hole is sealed, unfinished business remains as Galvatron refuses to accept defeat and prepares one last attack.",
+          "video_url": null
+        },
+        {
+          "number": 51,
+          "title": "Beginning",
+          "air_date": "2006-07-08",
+          "duration": "22m",
+          "synopsis": "In the series finale, Optimus Prime defeats Galvatron and the Autobots begin a new era of peace, constructing a space bridge network to unite all the worlds they visited.",
+          "video_url": null
+        },
+        {
+          "number": 52,
+          "title": "Inferno",
+          "air_date": null,
+          "duration": "22m",
+          "synopsis": "A 'lost episode' produced for the Japanese Galaxy Force broadcast that was not included in the original Cybertron run, featuring additional epilogue content.",
+          "video_url": null
+        }
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "name": "Optimus Prime",
+      "role": "Autobot Leader",
+      "faction": "Autobot",
+      "alt_mode": "Fire Truck",
+      "voice_actor": "Garry Chalk",
+      "image": null
+    },
+    {
+      "name": "Hot Shot",
+      "role": "Autobot Warrior",
+      "faction": "Autobot",
+      "alt_mode": "Sports Car",
+      "voice_actor": "Kirby Morrow",
+      "image": null
+    },
+    {
+      "name": "Jetfire",
+      "role": "Autobot Aerial Commander",
+      "faction": "Autobot",
+      "alt_mode": "Cargo Jet",
+      "voice_actor": "Brian Drummond",
+      "image": null
+    },
+    {
+      "name": "Vector Prime",
+      "role": "Ancient Guardian of Time",
+      "faction": "Autobot",
+      "alt_mode": "Cybertronian Spacecraft",
+      "voice_actor": "Richard Newman",
+      "image": null
+    },
+    {
+      "name": "Landmine",
+      "role": "Veteran Autobot Warrior",
+      "faction": "Autobot",
+      "alt_mode": "Front-End Loader",
+      "voice_actor": "Paul Dobson",
+      "image": null
+    },
+    {
+      "name": "Override",
+      "role": "Speed Planet Leader",
+      "faction": "Autobot",
+      "alt_mode": "Race Car",
+      "voice_actor": "Lisa Ann Beley",
+      "image": null
+    },
+    {
+      "name": "Metroplex",
+      "role": "Giant Planet Leader",
+      "faction": "Autobot",
+      "alt_mode": "Bucket Wheel Excavator",
+      "voice_actor": "Ron Halder",
+      "image": null
+    },
+    {
+      "name": "Megatron / Galvatron",
+      "role": "Decepticon Leader",
+      "faction": "Decepticon",
+      "alt_mode": "Batmobile-style Race Car / Jet",
+      "voice_actor": "David Kaye",
+      "image": null
+    },
+    {
+      "name": "Starscream",
+      "role": "Decepticon Usurper",
+      "faction": "Decepticon",
+      "alt_mode": "Fighter Jet",
+      "voice_actor": "Michael Dobson",
+      "image": null
+    },
+    {
+      "name": "Scourge",
+      "role": "Jungle Planet Ruler",
+      "faction": "Neutral",
+      "alt_mode": "Dragon",
+      "voice_actor": "Trevor Devall",
+      "image": null
+    }
+  ],
+  "media": [
+    {
+      "title": "Transformers Cybertron Episodes by Grishma - Dailymotion",
+      "url": "https://www.dailymotion.com/playlist/x3i3ib",
+      "source": "dailymotion",
+      "type": "playlist"
+    }
+  ],
+  "trivia": [
+    {
+      "category": "Production",
+      "facts": [
+        "Cybertron was produced by GONZO animation studio and is the final installment of the Unicron Trilogy, though its Japanese version 'Galaxy Force' was originally conceived as a standalone continuity.",
+        "The English dub significantly expanded the Japanese source material, adding dialogue, character development, and explicit continuity connections to Armada and Energon that did not exist in the original.",
+        "It was the last Japanese-produced Transformers show to be fully localized for English-speaking mainstream audiences."
+      ]
+    },
+    {
+      "category": "Legacy",
+      "facts": [
+        "The series featured one-word episode titles throughout its entire run, a unique stylistic choice among Transformers series.",
+        "Episode 52, 'Inferno,' is considered a 'lost episode' — it was produced for the Japanese Galaxy Force broadcast but was not included in the original US Cybertron run."
+      ]
+    }
+  ]
+}

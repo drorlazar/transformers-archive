@@ -1,0 +1,8 @@
+[
+  { "id": "g1", "label": "Generation One Era", "year_start": 1984, "year_end": 1992 },
+  { "id": "beast", "label": "Beast Era", "year_start": 1996, "year_end": 2001 },
+  { "id": "unicron", "label": "Unicron Trilogy", "year_start": 2002, "year_end": 2007 },
+  { "id": "animated", "label": "Animated Era", "year_start": 2007, "year_end": 2009 },
+  { "id": "aligned", "label": "Aligned Continuity", "year_start": 2010, "year_end": 2017 },
+  { "id": "modern", "label": "Modern Era", "year_start": 2018, "year_end": null }
+]

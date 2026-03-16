@@ -1,0 +1,30 @@
+:root {
+  --bg-primary: #141414;
+  --bg-card: rgba(255, 255, 255, 0.03);
+  --bg-card-hover: rgba(255, 255, 255, 0.06);
+  --bg-nav: rgba(20, 20, 20, 0.95);
+  --bg-dropdown: #2a2a2a;
+
+  --accent-red: #e50914;
+  --accent-red-hover: #b20710;
+  --accent-red-glow: rgba(229, 9, 20, 0.4);
+  --accent-blue: #4fc3f7;
+  --accent-blue-glow: rgba(0, 150, 255, 0.4);
+  --accent-green: #46d369;
+
+  --text-primary: #ffffff;
+  --text-body: #cccccc;
+  --text-secondary: #888888;
+  --text-tertiary: #555555;
+  --text-muted: #444444;
+
+  --border-subtle: rgba(255, 255, 255, 0.06);
+  --border-light: rgba(255, 255, 255, 0.15);
+
+  --font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+  --nav-height: 56px;
+  --card-radius: 4px;
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.2s ease;
+}

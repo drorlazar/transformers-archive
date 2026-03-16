@@ -1,0 +1,1028 @@
+{
+  "title": "Transformers: Rescue Bots",
+  "slug": "rescue-bots",
+  "year_start": 2012,
+  "year_end": 2016,
+  "era": "aligned",
+  "synopsis": "On the island of Griffin Rock, four Autobots—Heatwave, Chase, Boulder, and Blades—are assigned to work alongside the Burns family as a rescue team. Rather than fighting Decepticons, these Rescue Bots learn to protect and serve humans while adapting to life on Earth, facing natural disasters, rogue technology, and the schemes of the villainous Dr. Morocco.",
+  "rating": "TV-Y",
+  "tags": [
+    "2D animation",
+    "preschool",
+    "rescue",
+    "Hub",
+    "Discovery Family",
+    "Aligned Continuity",
+    "Daytime Emmy"
+  ],
+  "poster": "/images/series/rescue-bots-poster.jpg",
+  "hero_image": "/images/series/rescue-bots-hero.jpg",
+  "faction_accent": "green",
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2012,
+      "episodes": [
+        {
+          "number": 1,
+          "title": "Family of Heroes",
+          "air_date": "2012-02-18",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Four Autobots arrive on Griffin Rock and are partnered with the Burns family to serve as the island's new rescue team."
+        },
+        {
+          "number": 2,
+          "title": "Under Pressure",
+          "air_date": "2012-02-25",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Rescue Bots face an underwater emergency that tests their teamwork and courage."
+        },
+        {
+          "number": 3,
+          "title": "Hotshots",
+          "air_date": "2012-03-03",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Heatwave and Kade compete over who is the better firefighter during a string of emergencies."
+        },
+        {
+          "number": 4,
+          "title": "Flobsters on Parade",
+          "air_date": "2012-03-10",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Mutant lobster-like creatures called Flobsters invade Griffin Rock during a festival."
+        },
+        {
+          "number": 5,
+          "title": "The Alien Invasion of Griffin Rock",
+          "air_date": "2012-03-17",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The town believes aliens are invading, but the real threat is a malfunctioning science experiment."
+        },
+        {
+          "number": 6,
+          "title": "Walk on the Wild Side",
+          "air_date": "2012-03-24",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Animals across Griffin Rock begin behaving strangely due to a mysterious signal."
+        },
+        {
+          "number": 7,
+          "title": "Cody on Patrol",
+          "air_date": "2012-03-31",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Young Cody Burns tries to prove he can be a real member of the rescue team."
+        },
+        {
+          "number": 8,
+          "title": "Four Bots and a Baby",
+          "air_date": "2012-04-07",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Rescue Bots must care for a baby while dealing with an emergency situation."
+        },
+        {
+          "number": 9,
+          "title": "Christmas in July",
+          "air_date": "2012-04-14",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A weather machine malfunction brings winter weather to Griffin Rock in the middle of summer."
+        },
+        {
+          "number": 10,
+          "title": "Deep Trouble",
+          "air_date": "2012-04-21",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The team investigates strange occurrences beneath the waters surrounding Griffin Rock."
+        },
+        {
+          "number": 11,
+          "title": "Return of the Dino Bot",
+          "air_date": "2012-05-05",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A robotic dinosaur from Doc Greene's lab is reactivated and runs amok on the island."
+        },
+        {
+          "number": 12,
+          "title": "The Other Doctor",
+          "air_date": "2012-05-12",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The nefarious Dr. Morocco arrives on Griffin Rock with seemingly benevolent inventions."
+        },
+        {
+          "number": 13,
+          "title": "The Reign of Morocco",
+          "air_date": "2012-05-19",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Dr. Morocco's true intentions are revealed as he attempts to take control of Griffin Rock's technology."
+        },
+        {
+          "number": 14,
+          "title": "Small Blessings",
+          "air_date": "2012-06-02",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A shrink ray accident causes the Rescue Bots to shrink down, forcing them to navigate a now-giant world."
+        },
+        {
+          "number": 15,
+          "title": "The Griffin Rock Triangle",
+          "air_date": "2012-06-16",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Strange disappearances in the waters around Griffin Rock lead the team to investigate a local mystery."
+        },
+        {
+          "number": 16,
+          "title": "Rules and Regulations",
+          "air_date": "2012-06-30",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Chase's obsession with following every rule to the letter causes problems during an emergency."
+        },
+        {
+          "number": 17,
+          "title": "The Lost Bell",
+          "air_date": "2012-07-14",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The team searches for a historic bell that holds a secret about Griffin Rock's past."
+        },
+        {
+          "number": 18,
+          "title": "Bumblebee to the Rescue",
+          "air_date": "2012-07-28",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Bumblebee visits Griffin Rock and helps the Rescue Bots deal with a particularly challenging situation."
+        },
+        {
+          "number": 19,
+          "title": "You've Been Squilshed",
+          "air_date": "2012-09-22",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A giant squid-like creature threatens the island and the Rescue Bots must find a way to stop it."
+        },
+        {
+          "number": 20,
+          "title": "Countdown",
+          "air_date": "2012-09-29",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The team races against time to prevent a disaster that could destroy all of Griffin Rock."
+        },
+        {
+          "number": 21,
+          "title": "The Haunting of Griffin Rock",
+          "air_date": "2012-10-06",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Mysterious ghostly happenings on Griffin Rock turn out to have a technological explanation."
+        },
+        {
+          "number": 22,
+          "title": "Little White Lies",
+          "air_date": "2012-10-13",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Cody learns a lesson about honesty when small fibs snowball into big problems."
+        },
+        {
+          "number": 23,
+          "title": "Shake Up",
+          "air_date": "2012-10-20",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "An earthquake threatens Griffin Rock and the team must work together to save the town."
+        },
+        {
+          "number": 24,
+          "title": "Rescue Boy",
+          "air_date": "2012-10-27",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Cody gets a chance to prove himself as an official member of the rescue team."
+        },
+        {
+          "number": 25,
+          "title": "It's a Bot Time",
+          "air_date": "2012-11-03",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A time-travel mishap sends Cody and the Rescue Bots into Griffin Rock's past."
+        },
+        {
+          "number": 26,
+          "title": "Bot to the Future",
+          "air_date": "2012-11-10",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The time-travel adventure concludes as the team must find their way back to the present before history is permanently altered."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2014,
+      "episodes": [
+        {
+          "number": 1,
+          "title": "Road Trip",
+          "air_date": "2014-01-04",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Burns family and Rescue Bots embark on a road trip that takes an unexpected turn."
+        },
+        {
+          "number": 2,
+          "title": "Sky Forest",
+          "air_date": "2014-01-11",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A floating forest appears over Griffin Rock, creating a new set of rescue challenges."
+        },
+        {
+          "number": 3,
+          "title": "One for the Ages",
+          "air_date": "2014-01-18",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A de-aging ray turns the adult Burns family members into children, leaving Cody in charge."
+        },
+        {
+          "number": 4,
+          "title": "Tip of the Iceberg",
+          "air_date": "2014-01-25",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "An iceberg drifts toward Griffin Rock, threatening the island with freezing temperatures."
+        },
+        {
+          "number": 5,
+          "title": "A Virtual Disaster",
+          "air_date": "2014-02-01",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Rescue Bots get trapped inside a virtual reality simulation that starts malfunctioning."
+        },
+        {
+          "number": 6,
+          "title": "Spellbound",
+          "air_date": "2014-02-08",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A mysterious artifact causes the people of Griffin Rock to fall under a hypnotic spell."
+        },
+        {
+          "number": 7,
+          "title": "Prescott's Bots",
+          "air_date": "2014-02-22",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Reporter Huxley Prescott gets his own robot helpers that cause more problems than they solve."
+        },
+        {
+          "number": 8,
+          "title": "Blame the Gremlins",
+          "air_date": "2014-03-01",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Technology across Griffin Rock begins malfunctioning, and the culprit may be small mischievous creatures."
+        },
+        {
+          "number": 9,
+          "title": "Feed the Beast",
+          "air_date": "2014-03-08",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A creature with an insatiable appetite threatens to devour everything on Griffin Rock."
+        },
+        {
+          "number": 10,
+          "title": "What Lies Below",
+          "air_date": "2014-03-22",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The team discovers hidden caverns beneath Griffin Rock that contain ancient secrets."
+        },
+        {
+          "number": 11,
+          "title": "What Rises Above",
+          "air_date": "2014-03-29",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The discoveries beneath Griffin Rock have consequences that threaten the island from above."
+        },
+        {
+          "number": 12,
+          "title": "Space Bots",
+          "air_date": "2014-04-05",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Rescue Bots are sent on a mission to space to deal with an orbital emergency."
+        },
+        {
+          "number": 13,
+          "title": "The Island of Misfit Tech",
+          "air_date": "2014-04-12",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Discarded and malfunctioning technology from Griffin Rock congregates on a nearby island."
+        },
+        {
+          "number": 14,
+          "title": "The Vigilant Town",
+          "air_date": "2014-04-19",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "An overzealous security system turns Griffin Rock into a surveillance state."
+        },
+        {
+          "number": 15,
+          "title": "Buddy System",
+          "air_date": "2014-05-10",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Rescue Bots swap human partners, leading to comedic mismatches during emergencies."
+        },
+        {
+          "number": 16,
+          "title": "In Search of the Griffin's Nest",
+          "air_date": "2014-05-17",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The team searches for the legendary nest of the griffin that gave Griffin Rock its name."
+        },
+        {
+          "number": 17,
+          "title": "Bots and Robbers",
+          "air_date": "2014-05-24",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A series of robberies plagues Griffin Rock and the Rescue Bots must play detective."
+        },
+        {
+          "number": 18,
+          "title": "Rescue Dog",
+          "air_date": "2014-05-31",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A stray dog becomes an unofficial member of the rescue team."
+        },
+        {
+          "number": 19,
+          "title": "Changes",
+          "air_date": "2014-06-07",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Rescue Bots receive new vehicle modes and must adjust to their upgraded forms."
+        },
+        {
+          "number": 20,
+          "title": "The Riders of Midwinter",
+          "air_date": "2014-06-14",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A winter festival brings unexpected dangers when mythological creatures seem to come to life."
+        },
+        {
+          "number": 21,
+          "title": "Movers and Shakers",
+          "air_date": "2014-06-21",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Construction work destabilizes Griffin Rock's foundations, causing tremors across the island."
+        },
+        {
+          "number": 22,
+          "title": "Chief Woodrow",
+          "air_date": "2014-06-28",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Chief Burns's father visits and his old-fashioned methods clash with the modern rescue team."
+        },
+        {
+          "number": 23,
+          "title": "Odd Bot Out",
+          "air_date": "2014-07-05",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "One of the Rescue Bots feels left out when they cannot contribute to a particular mission."
+        },
+        {
+          "number": 24,
+          "title": "The Griffin Rock Express",
+          "air_date": "2014-07-12",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A runaway train threatens Griffin Rock and the team must stop it before it crashes."
+        },
+        {
+          "number": 25,
+          "title": "Double Villainy",
+          "air_date": "2014-07-19",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Dr. Morocco teams up with another villain, doubling the trouble for the Rescue Bots."
+        },
+        {
+          "number": 26,
+          "title": "Rise of the Heroes",
+          "air_date": "2014-07-26",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Rescue Bots face their greatest challenge yet and prove they are true heroes of Griffin Rock."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "year": 2015,
+      "episodes": [
+        {
+          "number": 1,
+          "title": "Land Before Prime",
+          "air_date": "2014-11-08",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Optimus Prime visits Griffin Rock and the team is transported back to the age of dinosaurs."
+        },
+        {
+          "number": 2,
+          "title": "Big Game",
+          "air_date": "2014-11-15",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A big-game hunter arrives on Griffin Rock with dangerous intentions for the local wildlife."
+        },
+        {
+          "number": 3,
+          "title": "Too Many Kades",
+          "air_date": "2014-11-22",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A cloning accident creates multiple copies of Kade Burns, each more troublesome than the last."
+        },
+        {
+          "number": 4,
+          "title": "Phantom of the Sea",
+          "air_date": "2014-11-29",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A ghostly pirate ship appears in Griffin Rock's harbor, bringing maritime mysteries."
+        },
+        {
+          "number": 5,
+          "title": "Unfinished Business",
+          "air_date": "2014-12-13",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Dr. Morocco returns with unfinished plans that threaten the entire island."
+        },
+        {
+          "number": 6,
+          "title": "No Place Like Dome",
+          "air_date": "2015-01-17",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A force field dome traps Griffin Rock, cutting it off from the outside world."
+        },
+        {
+          "number": 7,
+          "title": "Bugs in the System",
+          "air_date": "2015-01-24",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Computer bugs infect Griffin Rock's technology, causing widespread system failures."
+        },
+        {
+          "number": 8,
+          "title": "Switcheroo",
+          "air_date": "2015-01-31",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A body-swapping device causes the Rescue Bots and Burns family to switch minds."
+        },
+        {
+          "number": 9,
+          "title": "Bot-Tastic Voyage",
+          "air_date": "2015-02-07",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Rescue Bots are shrunk down and must navigate through the inner workings of a machine."
+        },
+        {
+          "number": 10,
+          "title": "Quarry's Quarry",
+          "air_date": "2015-02-14",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Mining operations at a local quarry unearth something dangerous beneath Griffin Rock."
+        },
+        {
+          "number": 11,
+          "title": "Did You See What I Thaw?",
+          "air_date": "2015-02-21",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A frozen prehistoric creature thaws out and runs loose on Griffin Rock."
+        },
+        {
+          "number": 12,
+          "title": "The Attack of Humungado",
+          "air_date": "2015-02-28",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A giant monster attacks Griffin Rock and the Rescue Bots must find a way to stop it."
+        },
+        {
+          "number": 13,
+          "title": "All Bots Great and Small",
+          "air_date": "2015-03-14",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Rescue Bots must rescue animals of all sizes from various emergencies across the island."
+        },
+        {
+          "number": 14,
+          "title": "Time After Time",
+          "air_date": "2015-03-21",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Another time-travel incident creates a time loop that the team must break free from."
+        },
+        {
+          "number": 15,
+          "title": "Pirates Ahoy",
+          "air_date": "2015-03-28",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Real pirates invade Griffin Rock's waters, seeking hidden treasure on the island."
+        },
+        {
+          "number": 16,
+          "title": "Turning the Tide",
+          "air_date": "2015-04-04",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Rising tides and coastal flooding threaten Griffin Rock, pushing the team to their limits."
+        },
+        {
+          "number": 17,
+          "title": "The Last of Morocco",
+          "air_date": "2015-04-11",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Dr. Morocco launches his most ambitious scheme yet in what may be his final stand."
+        },
+        {
+          "number": 18,
+          "title": "The New Recruits",
+          "air_date": "2015-04-18",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "New Autobots arrive on Griffin Rock to join the rescue team, including Blurr and Salvage."
+        },
+        {
+          "number": 19,
+          "title": "Rescue Bots Academy",
+          "air_date": "2015-04-25",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The idea of a Rescue Bot training academy is proposed, planting seeds for the future."
+        },
+        {
+          "number": 20,
+          "title": "A New Hero",
+          "air_date": "2015-05-02",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A new hero emerges on Griffin Rock, but their methods may cause more harm than good."
+        },
+        {
+          "number": 21,
+          "title": "Four-Legged Hero",
+          "air_date": "2015-05-09",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "One of the Rescue Bots gains a beast mode, becoming a four-legged rescue animal."
+        },
+        {
+          "number": 22,
+          "title": "Endangered Species",
+          "air_date": "2015-05-16",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The team must protect endangered animals that have been discovered on Griffin Rock."
+        },
+        {
+          "number": 23,
+          "title": "More than Meets the Eye",
+          "air_date": "2015-05-23",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Rescue Bots discover there is more to Griffin Rock than they ever realized."
+        },
+        {
+          "number": 24,
+          "title": "I Have Heard the Robots Singing",
+          "air_date": "2015-05-30",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A musical phenomenon affects the Rescue Bots, causing them to burst into song."
+        },
+        {
+          "number": 25,
+          "title": "Now and Then",
+          "air_date": "2015-06-06",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The team reflects on how far they have come while facing a new crisis."
+        },
+        {
+          "number": 26,
+          "title": "Today and Forever",
+          "air_date": "2015-06-13",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Season 3 finale brings the team together for an adventure that tests everything they have learned."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "year": 2016,
+      "episodes": [
+        {
+          "number": 1,
+          "title": "New Normal",
+          "air_date": "2016-02-20",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Rescue Bots adjust to changes on Griffin Rock as new threats emerge."
+        },
+        {
+          "number": 2,
+          "title": "Bridge Building",
+          "air_date": "2016-02-27",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The team must repair and protect a crucial bridge while handling multiple rescues."
+        },
+        {
+          "number": 3,
+          "title": "Arrivals",
+          "air_date": "2016-03-05",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "New arrivals on Griffin Rock bring both opportunities and new challenges."
+        },
+        {
+          "number": 4,
+          "title": "Plus One",
+          "air_date": "2016-03-12",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "An addition to the team shakes up the established dynamics of the Rescue Bots."
+        },
+        {
+          "number": 5,
+          "title": "Back to Virtual Reality",
+          "air_date": "2016-03-19",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The team re-enters a virtual reality world, but this time the stakes are even higher."
+        },
+        {
+          "number": 6,
+          "title": "Vanishing Returns",
+          "air_date": "2016-03-26",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "People and objects across Griffin Rock start mysteriously vanishing."
+        },
+        {
+          "number": 7,
+          "title": "Ghost in the Machine",
+          "air_date": "2016-04-02",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A digital ghost haunts Griffin Rock's computer systems, causing technological chaos."
+        },
+        {
+          "number": 8,
+          "title": "Enemy of My Enemy",
+          "air_date": "2016-04-09",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "An old enemy offers to help the Rescue Bots against an even greater threat."
+        },
+        {
+          "number": 9,
+          "title": "Mayor May Not",
+          "air_date": "2016-04-16",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Griffin Rock's mayor gets involved in rescue operations with comical results."
+        },
+        {
+          "number": 10,
+          "title": "All Spark Day",
+          "air_date": "2016-04-23",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Rescue Bots celebrate a Cybertronian holiday while dealing with an emergency."
+        },
+        {
+          "number": 11,
+          "title": "Part-Time Heroes",
+          "air_date": "2016-04-30",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Burns family tries to take a day off, but emergencies keep pulling them back."
+        },
+        {
+          "number": 12,
+          "title": "The More Things Change...",
+          "air_date": "2016-05-07",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Major changes come to Griffin Rock in the first part of a two-part story."
+        },
+        {
+          "number": 13,
+          "title": "The More Things Stay the Same",
+          "air_date": "2016-05-14",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Despite the changes, the Rescue Bots learn that some things never change."
+        },
+        {
+          "number": 14,
+          "title": "Hot Rod Bot",
+          "air_date": "2016-05-28",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Heatwave gains a hot rod vehicle mode and must learn to master his new form."
+        },
+        {
+          "number": 15,
+          "title": "King Burns",
+          "air_date": "2016-06-04",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Chief Burns is treated like royalty in a medieval-themed emergency scenario."
+        },
+        {
+          "number": 16,
+          "title": "Pizza Pi Party",
+          "air_date": "2016-06-11",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A pizza-related emergency spirals into a town-wide crisis."
+        },
+        {
+          "number": 17,
+          "title": "Uninvited Guest",
+          "air_date": "2016-06-18",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "An unwanted visitor on Griffin Rock creates problems for the entire team."
+        },
+        {
+          "number": 18,
+          "title": "Camp Cody",
+          "air_date": "2016-06-25",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Cody goes to camp but ends up needing to rescue his fellow campers."
+        },
+        {
+          "number": 19,
+          "title": "Once Upon a Time",
+          "air_date": "2016-07-02",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A fairy-tale themed adventure takes the Rescue Bots on a storybook journey."
+        },
+        {
+          "number": 20,
+          "title": "The Need for Speed",
+          "air_date": "2016-07-09",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A speed-obsessed challenge pushes the Rescue Bots to their velocity limits."
+        },
+        {
+          "number": 21,
+          "title": "Cody's 11",
+          "air_date": "2016-07-16",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Cody assembles a team for an elaborate plan to save Griffin Rock from danger."
+        },
+        {
+          "number": 22,
+          "title": "To Infinity... And Back",
+          "air_date": "2016-07-23",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A space mission goes wrong and the Rescue Bots must find their way home."
+        },
+        {
+          "number": 23,
+          "title": "Family Business",
+          "air_date": "2016-08-06",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Burns family business is threatened while emergencies pile up."
+        },
+        {
+          "number": 24,
+          "title": "A Brush with Danger",
+          "air_date": "2016-08-13",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Art comes to life on Griffin Rock, creating beautiful but dangerous situations."
+        },
+        {
+          "number": 25,
+          "title": "Upgrades",
+          "air_date": "2016-08-20",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Rescue Bots receive upgrades but must learn that technology is not always the answer."
+        },
+        {
+          "number": 26,
+          "title": "Transformations",
+          "air_date": "2016-08-27",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "In the series finale, the Rescue Bots and Burns family face their greatest challenge, cementing their bond as family and heroes forever."
+        }
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "name": "Heatwave",
+      "role": "Rescue Bot Leader",
+      "faction": "Autobot",
+      "alt_mode": "Fire truck",
+      "voice_actor": "Steve Blum",
+      "image": null
+    },
+    {
+      "name": "Chase",
+      "role": "Rescue Bot",
+      "faction": "Autobot",
+      "alt_mode": "Police car",
+      "voice_actor": "D.C. Douglas",
+      "image": null
+    },
+    {
+      "name": "Boulder",
+      "role": "Rescue Bot",
+      "faction": "Autobot",
+      "alt_mode": "Bulldozer",
+      "voice_actor": "Imari Williams",
+      "image": null
+    },
+    {
+      "name": "Blades",
+      "role": "Rescue Bot",
+      "faction": "Autobot",
+      "alt_mode": "Helicopter",
+      "voice_actor": "Parvesh Cheena",
+      "image": null
+    },
+    {
+      "name": "Cody Burns",
+      "role": "Human Ally",
+      "faction": "Human",
+      "alt_mode": null,
+      "voice_actor": "Elan Garfias",
+      "image": null
+    },
+    {
+      "name": "Charlie Burns",
+      "role": "Police Chief",
+      "faction": "Human",
+      "alt_mode": null,
+      "voice_actor": "Maurice LaMarche",
+      "image": null
+    },
+    {
+      "name": "Kade Burns",
+      "role": "Firefighter",
+      "faction": "Human",
+      "alt_mode": null,
+      "voice_actor": "Jason Marsden",
+      "image": null
+    },
+    {
+      "name": "Dani Burns",
+      "role": "Helicopter Pilot",
+      "faction": "Human",
+      "alt_mode": null,
+      "voice_actor": "Lacey Chabert",
+      "image": null
+    },
+    {
+      "name": "Graham Burns",
+      "role": "Engineer",
+      "faction": "Human",
+      "alt_mode": null,
+      "voice_actor": "Shannon McKain",
+      "image": null
+    },
+    {
+      "name": "Optimus Prime",
+      "role": "Autobot Leader",
+      "faction": "Autobot",
+      "alt_mode": "Truck",
+      "voice_actor": "Peter Cullen",
+      "image": null
+    },
+    {
+      "name": "Doc Greene",
+      "role": "Scientist",
+      "faction": "Human",
+      "alt_mode": null,
+      "voice_actor": "LeVar Burton",
+      "image": null
+    },
+    {
+      "name": "Dr. Morocco",
+      "role": "Villain",
+      "faction": "Human",
+      "alt_mode": null,
+      "voice_actor": "Tim Curry",
+      "image": null
+    }
+  ],
+  "media": [
+    {
+      "title": "Rescue Bots Season 1 - YouTube Playlist",
+      "url": "https://www.youtube.com/playlist?list=PLylZmVBtpZtzxUQZy4Ff1KcaJN0V-z-3z",
+      "source": "youtube",
+      "type": "playlist"
+    },
+    {
+      "title": "Rescue Bots Season 2 - YouTube Playlist",
+      "url": "https://www.youtube.com/playlist?list=PLylZmVBtpZtzGKjjTBuXxPUdvJ8lSk3iz",
+      "source": "youtube",
+      "type": "playlist"
+    },
+    {
+      "title": "Rescue Bots Season 3 - YouTube Playlist",
+      "url": "https://www.youtube.com/playlist?list=PLylZmVBtpZtzbHsl5crfKFHLPEBjLlXBI",
+      "source": "youtube",
+      "type": "playlist"
+    },
+    {
+      "title": "Rescue Bots Season 4 - YouTube Playlist",
+      "url": "https://www.youtube.com/playlist?list=PLylZmVBtpZtyWakVGVadVGlAnUDp5Zlk0",
+      "source": "youtube",
+      "type": "playlist"
+    }
+  ],
+  "trivia": [
+    {
+      "category": "Production",
+      "facts": [
+        "Rescue Bots is the longest-running Transformers cartoon ever produced with 104 half-hour episodes across four seasons.",
+        "The series uses Toon Boom Harmony 2D animation, distinguishing it from the CGI-animated Transformers: Prime which shared its continuity.",
+        "The show won a 2016 Daytime Emmy for Outstanding Performer in an Animated Program for Jeff Bennett."
+      ]
+    },
+    {
+      "category": "Continuity",
+      "facts": [
+        "Despite being aimed at younger viewers, Rescue Bots shares continuity with Transformers: Prime, featuring crossover appearances by Optimus Prime, Bumblebee, and other characters.",
+        "The series notably features no Decepticon villains, instead using human antagonists and science-gone-wrong scenarios."
+      ]
+    },
+    {
+      "category": "Legacy",
+      "facts": [
+        "The show originally aired on The Hub before the network rebranded as Discovery Family in late 2014.",
+        "Rescue Bots spawned a successor series, Rescue Bots Academy, which continued the franchise for younger audiences.",
+        "Mark Hamill guest-starred in the series, earning a 2017 Cynopsis Kids !magination Award for Best Guest Appearance."
+      ]
+    }
+  ]
+}

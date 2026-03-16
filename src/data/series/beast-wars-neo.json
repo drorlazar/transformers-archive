@@ -1,0 +1,453 @@
+{
+  "title": "Beast Wars Neo",
+  "slug": "beast-wars-neo",
+  "year_start": 1999,
+  "year_end": 1999,
+  "era": "beast",
+  "synopsis": "Big Convoy, a powerful but solitary Maximal warrior, is assigned to train a team of young cadets while competing against the Predacon general Magmatron to collect Angolmois Capsules scattered across the galaxy. A mysterious third faction, the Blentrons, serves the cosmic devil Unicron.",
+  "rating": "TV-Y7",
+  "tags": ["Japanese", "Action", "Beast"],
+  "poster": "/images/series/beast-wars-neo-poster.jpg",
+  "hero_image": "/images/series/beast-wars-neo-hero.jpg",
+  "faction_accent": "red",
+  "seasons": [
+    {
+      "number": 1,
+      "year": 1999,
+      "episodes": [
+        {
+          "number": 1,
+          "title": "Move Out, Big Convoy!",
+          "synopsis": "The lone warrior Big Convoy is reluctantly assigned to command a crew of Maximal cadets aboard the training ship Gung Ho, and they receive their first mission to recover Angolmois Capsules.",
+          "air_date": "1999-02-03",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 2,
+          "title": "Chase the Mysterious Capsule!",
+          "synopsis": "Big Convoy's team encounters their first Angolmois Capsule on a remote planet and must compete with the Predacons to retrieve it.",
+          "air_date": "1999-02-10",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 3,
+          "title": "Burning Heart Below Freezing",
+          "synopsis": "On a frozen planet, the cadets face extreme cold and a Predacon assault. Their determination and teamwork are tested under harsh conditions.",
+          "air_date": "1999-02-17",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 4,
+          "title": "Hang in There, Stampy",
+          "synopsis": "The timid cadet Stampy must overcome his cowardly nature when he becomes separated from the group and faces danger alone.",
+          "air_date": "1999-02-24",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 5,
+          "title": "Mirage in the Sand",
+          "synopsis": "On a desert planet, the team encounters mysterious mirages that lead them into a Predacon trap while searching for an Angolmois Capsule.",
+          "air_date": "1999-03-03",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 6,
+          "title": "Dinosaur Combiner Magmatron",
+          "synopsis": "The Predacon commander Magmatron reveals his terrifying ability to split into three separate dinosaur forms, overwhelming the Maximals with his power.",
+          "air_date": "1999-03-10",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 7,
+          "title": "Duel in the Labyrinth",
+          "synopsis": "Big Convoy and a Predacon warrior face off inside a dangerous labyrinth, where the twisting corridors become as deadly as the enemy.",
+          "air_date": "1999-03-17",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 8,
+          "title": "The Black Hole Crisis",
+          "synopsis": "The Gung Ho is caught near a black hole's gravitational pull, and the crew must work together to escape before being dragged in.",
+          "air_date": "1999-03-24",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 9,
+          "title": "Sub-Commander Longrack",
+          "synopsis": "Longrack steps up as acting commander when Big Convoy is incapacitated, proving his worth as a leader despite his by-the-book personality.",
+          "air_date": "1999-03-31",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 10,
+          "title": "Waa! They Got Eaten!",
+          "synopsis": "The cadets are swallowed by a massive creature on a strange planet and must find a way to escape from inside the beast.",
+          "air_date": "1999-04-07",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 11,
+          "title": "Planet of Time",
+          "synopsis": "The team lands on a planet where time flows differently, causing bizarre aging and de-aging effects on the crew during their capsule search.",
+          "air_date": "1999-04-14",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 12,
+          "title": "Lonely Hydra",
+          "synopsis": "The Predacon Hydra struggles with isolation and his role within Magmatron's forces, revealing a more sympathetic side to the enemy ranks.",
+          "air_date": "1999-04-21",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 13,
+          "title": "Break Is a Predacon?",
+          "synopsis": "Suspicion falls on the cadet Break when evidence suggests he may be a Predacon spy, testing the team's trust and unity.",
+          "air_date": "1999-04-28",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 14,
+          "title": "Ship's Log",
+          "synopsis": "A clip show episode reviewing the crew's adventures so far through the Gung Ho's ship log records.",
+          "air_date": "1999-05-05",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 15,
+          "title": "Mach Kick Enlists!?",
+          "synopsis": "The wild horse Transformer Mach Kick joins the Maximal crew, bringing a headstrong and independent attitude that clashes with Big Convoy's command style.",
+          "air_date": "1999-05-12",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 16,
+          "title": "Planet of the Ultimate Weapon",
+          "synopsis": "The crew discovers a planet housing a devastating ancient weapon. Both factions race to claim or destroy it before the other can use it.",
+          "air_date": "1999-05-19",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 17,
+          "title": "Troubled DNAVI",
+          "synopsis": "The ship's AI navigator DNAVI malfunctions, causing chaos aboard the Gung Ho as the crew struggles to regain control of their vessel.",
+          "air_date": "1999-05-26",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 18,
+          "title": "Attack! Randy",
+          "synopsis": "The energetic cadet Randy charges headlong into a dangerous situation, and his recklessness forces Big Convoy to mount a risky rescue mission.",
+          "air_date": "1999-06-02",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 19,
+          "title": "Bump the Physicist",
+          "synopsis": "The scientifically-minded Bump uses his knowledge of physics to devise a clever solution to a seemingly impossible battlefield challenge.",
+          "air_date": "1999-06-09",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 20,
+          "title": "Hardhead Is Hardheaded",
+          "synopsis": "The stubborn Predacon Hardhead refuses to retreat from a losing battle, and his obstinance leads to an unexpected outcome for both sides.",
+          "air_date": "1999-06-16",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 21,
+          "title": "Deep-Sea Personal Combat!!",
+          "synopsis": "A one-on-one underwater duel erupts between a Maximal and Predacon warrior on an oceanic planet, testing their combat skills in an unfamiliar environment.",
+          "air_date": "1999-06-23",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 22,
+          "title": "The Stolen Gung Ho",
+          "synopsis": "The Predacons manage to capture the Maximal ship Gung Ho, leaving the crew stranded and forced to devise a plan to reclaim their vessel.",
+          "air_date": "1999-06-30",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 23,
+          "title": "Survive the Hot-Blooded Instructor",
+          "synopsis": "A veteran Maximal warrior puts the cadets through an intense training regimen that pushes them beyond their limits.",
+          "air_date": "1999-07-07",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 24,
+          "title": "Assemble, New Warriors!",
+          "synopsis": "A clip show episode that introduces new warriors joining the conflict and recaps the growing roster of combatants in the Angolmois capsule hunt.",
+          "air_date": "1999-07-14",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 25,
+          "title": "The Mysterious Beast Warriors!?",
+          "synopsis": "The mysterious Blentrons — Elphaorpha, Drancron, and Rartorata — make their first appearance, attacking both Maximals and Predacons as agents of a hidden master.",
+          "air_date": "1999-07-21",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 26,
+          "title": "The Stolen Capsules",
+          "synopsis": "The Blentrons steal collected Angolmois Capsules from both factions, revealing they serve a greater and more terrifying purpose.",
+          "air_date": "1999-07-28",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 27,
+          "title": "Pursue the Blentrons!",
+          "synopsis": "The Maximals and Predacons temporarily set aside their differences to track down the Blentrons and recover the stolen Angolmois Capsules.",
+          "air_date": "1999-08-04",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 28,
+          "title": "Angry Magmatron",
+          "synopsis": "Magmatron is enraged by the Blentrons' interference and launches a furious assault, caught between fighting the Maximals and the mysterious third faction.",
+          "air_date": "1999-08-11",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 29,
+          "title": "Illusion? Lio Convoy",
+          "synopsis": "An apparition of the legendary Lio Convoy appears to Big Convoy, delivering a cryptic warning about the true threat behind the Angolmois Energy.",
+          "air_date": "1999-08-18",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 30,
+          "title": "Unicron Revived!?",
+          "synopsis": "The Blentrons' master is revealed to be Unicron, the planet-eating cosmic horror, who is being resurrected through the collected Angolmois Energy.",
+          "air_date": "1999-08-25",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 31,
+          "title": "Unicron's Ambition",
+          "synopsis": "With Unicron's resurrection underway, the full scope of the cosmic devil's plan becomes clear — he intends to consume Cybertron itself.",
+          "air_date": "1999-09-01",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 32,
+          "title": "Fight! Maximals",
+          "synopsis": "The Maximals rally for a desperate battle against Unicron's forces, with Big Convoy leading his now-seasoned cadets into their greatest challenge.",
+          "air_date": "1999-09-08",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 33,
+          "title": "End of the Maximals!?",
+          "synopsis": "The Maximals face apparent annihilation as Unicron's power overwhelms them. All seems lost as the team is pushed to the breaking point.",
+          "air_date": "1999-09-15",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 34,
+          "title": "The Final Battle",
+          "synopsis": "Big Convoy leads the combined Maximal and Predacon forces in a final stand against Unicron, putting everything on the line to save the universe.",
+          "air_date": "1999-09-22",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 35,
+          "title": "Graduation Ceremony!!",
+          "synopsis": "With Unicron defeated, the cadets have their graduation ceremony. Big Convoy reflects on how his students have grown into true warriors, and they part ways with pride.",
+          "air_date": "1999-09-29",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        }
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "name": "Big Convoy",
+      "role": "Maximal Commander/Instructor",
+      "faction": "Maximal",
+      "beast_mode": "Woolly Mammoth",
+      "voice_actor": "Junichi Inoue",
+      "image": null
+    },
+    {
+      "name": "Longrack",
+      "role": "Maximal Sub-Commander",
+      "faction": "Maximal",
+      "beast_mode": "Giraffe",
+      "voice_actor": "Jun Uemoto",
+      "image": null
+    },
+    {
+      "name": "Colada",
+      "role": "Maximal Cadet",
+      "faction": "Maximal",
+      "beast_mode": "Cobra",
+      "voice_actor": "Makoto Ueki",
+      "image": null
+    },
+    {
+      "name": "Stampy",
+      "role": "Maximal Cadet",
+      "faction": "Maximal",
+      "beast_mode": "Rabbit",
+      "voice_actor": "Mika Ishibashi",
+      "image": null
+    },
+    {
+      "name": "Break",
+      "role": "Maximal Cadet",
+      "faction": "Maximal",
+      "beast_mode": "Penguin",
+      "voice_actor": "Junko Takeuchi",
+      "image": null
+    },
+    {
+      "name": "Heinrad",
+      "role": "Maximal Cadet",
+      "faction": "Maximal",
+      "beast_mode": "Tanuki (Raccoon Dog)",
+      "voice_actor": "Yoji Ietomi",
+      "image": null
+    },
+    {
+      "name": "Mach Kick",
+      "role": "Maximal Warrior",
+      "faction": "Maximal",
+      "beast_mode": "Horse",
+      "voice_actor": "Teruaki Ogawa",
+      "image": null
+    },
+    {
+      "name": "Magmatron",
+      "role": "Predacon Commander",
+      "faction": "Predacon",
+      "beast_mode": "Giganotosaurus/Quetzalcoatlus/Elasmosaurus (Triple Combiner)",
+      "voice_actor": "Show Ryuzanji",
+      "image": null
+    },
+    {
+      "name": "Guiledart",
+      "role": "Predacon Warrior",
+      "faction": "Predacon",
+      "beast_mode": "Triceratops",
+      "voice_actor": "Holly Kaneko",
+      "image": null
+    },
+    {
+      "name": "Saberback",
+      "role": "Predacon Warrior",
+      "faction": "Predacon",
+      "beast_mode": "Stegosaurus",
+      "voice_actor": "Kazuki Yao",
+      "image": null
+    },
+    {
+      "name": "Sling",
+      "role": "Predacon Warrior",
+      "faction": "Predacon",
+      "beast_mode": "Dimetrodon",
+      "voice_actor": "Monster Maezuka",
+      "image": null
+    },
+    {
+      "name": "Dead End",
+      "role": "Predacon Warrior",
+      "faction": "Predacon",
+      "beast_mode": "Ammonite",
+      "voice_actor": "Seiji Mizutani",
+      "image": null
+    }
+  ],
+  "media": [],
+  "trivia": [
+    {
+      "category": "Production",
+      "facts": [
+        "Beast Wars Neo was produced as a direct sequel to Beast Wars II, airing on TV Tokyo from February to September 1999.",
+        "Like Beast Wars II, it used traditional 2D animation rather than the CGI style of the North American Beast Wars series.",
+        "The series was designed to promote a new line of Beast Wars toys in Japan, with most characters being original designs exclusive to the Japanese market."
+      ]
+    },
+    {
+      "category": "Continuity",
+      "facts": [
+        "The Angolmois Capsules that drive the plot are the scattered remains of the Angolmois Energy from Beast Wars II's finale.",
+        "The Blentrons serve as agents of Unicron, whose attempted resurrection forms the climax of the series and connects the Japanese Beast Wars timeline to the larger Transformers mythology.",
+        "Break's voice actor, Junko Takeuchi, would later become world-famous as the voice of Naruto Uzumaki."
+      ]
+    }
+  ]
+}

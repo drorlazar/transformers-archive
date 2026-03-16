@@ -1,0 +1,515 @@
+{
+  "title": "Transformers: Animated",
+  "slug": "animated",
+  "year_start": 2007,
+  "year_end": 2009,
+  "era": "animated",
+  "synopsis": "A small, ragtag crew of Autobots — originally a space bridge repair team — accidentally discovers the AllSpark and crash-lands on Earth in Detroit. Led by the young and inexperienced Optimus Prime, they must defend themselves against both human supervillains and the Decepticon faction seeking the AllSpark. With a bold art style, sharp humor, and deep character work, the series blends episodic adventures with overarching mythology as the team grows from nobodies into heroes worthy of the Autobot name.",
+  "rating": "TV-Y7",
+  "tags": [
+    "Action",
+    "Comedy",
+    "Superhero",
+    "Sci-Fi",
+    "Adventure"
+  ],
+  "poster": "/images/series/animated-poster.jpg",
+  "hero_image": "/images/series/animated-hero.jpg",
+  "faction_accent": "red",
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2007,
+      "episodes": [
+        {
+          "number": 1,
+          "title": "Transform and Roll Out! (Part 1)",
+          "air_date": "2007-12-26",
+          "duration": "22m",
+          "synopsis": "A crew of Autobot misfits on a routine space bridge repair mission discovers the legendary AllSpark, drawing the attention of the Decepticon warship.",
+          "video_url": null
+        },
+        {
+          "number": 2,
+          "title": "Transform and Roll Out! (Part 2)",
+          "air_date": "2007-12-26",
+          "duration": "22m",
+          "synopsis": "After a fierce battle with Megatron, the Autobots crash-land on Earth near Detroit and awaken 50 years later in the present day.",
+          "video_url": null
+        },
+        {
+          "number": 3,
+          "title": "Transform and Roll Out! (Part 3)",
+          "air_date": "2007-12-26",
+          "duration": "22m",
+          "synopsis": "The Autobots meet Sari Sumdac and her father, settling into their new lives in Detroit as they protect the city and guard the AllSpark.",
+          "video_url": null
+        },
+        {
+          "number": 4,
+          "title": "Home Is Where the Spark Is",
+          "air_date": "2008-01-05",
+          "duration": "22m",
+          "synopsis": "The Autobots set up their base in an abandoned auto plant, but Megatron's disembodied head secretly manipulates Professor Sumdac from within his lab.",
+          "video_url": null
+        },
+        {
+          "number": 5,
+          "title": "Total Meltdown",
+          "air_date": "2008-01-12",
+          "duration": "22m",
+          "synopsis": "Scientist Prometheus Black transforms himself into the acid-spewing villain Meltdown in his obsessive quest to create a human transformer.",
+          "video_url": null
+        },
+        {
+          "number": 6,
+          "title": "Blast from the Past",
+          "air_date": "2008-01-19",
+          "duration": "22m",
+          "synopsis": "Megatron, using Professor Sumdac's technology, reanimates robotic dinosaurs that Bulkhead accidentally created, turning them into the rampaging Dinobots.",
+          "video_url": null
+        },
+        {
+          "number": 7,
+          "title": "The Thrill of the Hunt",
+          "air_date": "2008-01-26",
+          "duration": "22m",
+          "synopsis": "Decepticon bounty hunter Lockdown comes to Earth hunting Optimus Prime, triggering painful memories for Ratchet about the Great War.",
+          "video_url": null
+        },
+        {
+          "number": 8,
+          "title": "Nanosec",
+          "air_date": "2008-02-02",
+          "duration": "22m",
+          "synopsis": "A petty thief gains super-speed from a stolen device but rapidly ages with each use, creating a high-velocity crisis for the Autobots.",
+          "video_url": null
+        },
+        {
+          "number": 9,
+          "title": "Along Came a Spider",
+          "air_date": "2008-02-09",
+          "duration": "22m",
+          "synopsis": "The techno-organic Decepticon Blackarachnia arrives on Earth seeking the AllSpark to purge her organic half, revealing a shared past with Optimus Prime.",
+          "video_url": null
+        },
+        {
+          "number": 10,
+          "title": "Sound and Fury",
+          "air_date": "2008-02-16",
+          "duration": "22m",
+          "synopsis": "Megatron manipulates Sumdac into building a musical robot called Soundwave, which uses sonic attacks to take control of Detroit's machines.",
+          "video_url": null
+        },
+        {
+          "number": 11,
+          "title": "Lost and Found",
+          "air_date": "2008-02-23",
+          "duration": "22m",
+          "synopsis": "Decepticons Lugnut and Blitzwing arrive on Earth searching for Megatron, bringing massive firepower and unstable personalities to the conflict.",
+          "video_url": null
+        },
+        {
+          "number": 12,
+          "title": "Survival of the Fittest",
+          "air_date": "2008-03-01",
+          "duration": "22m",
+          "synopsis": "Sari and Prowl investigate Meltdown's genetic experiments on Dinobot Island, uncovering horrifying hybrid creatures.",
+          "video_url": null
+        },
+        {
+          "number": 13,
+          "title": "Headmaster",
+          "air_date": "2008-03-08",
+          "duration": "22m",
+          "synopsis": "A bullied nerd named Henry Masterson creates the Headmaster unit — a device that lets him take control of any Transformer by replacing their head.",
+          "video_url": null
+        },
+        {
+          "number": 14,
+          "title": "Nature Calls",
+          "air_date": "2008-03-15",
+          "duration": "22m",
+          "synopsis": "A camping trip goes wrong when the Autobots encounter space barnacles that threaten to overwhelm them in the wilderness.",
+          "video_url": null
+        },
+        {
+          "number": 15,
+          "title": "Megatron Rising - Part 1",
+          "air_date": "2008-03-29",
+          "duration": "22m",
+          "synopsis": "Megatron finally rebuilds his body using Sumdac's technology and attacks the Autobots to seize the AllSpark.",
+          "video_url": null
+        },
+        {
+          "number": 16,
+          "title": "Megatron Rising - Part 2",
+          "air_date": "2008-04-05",
+          "duration": "22m",
+          "synopsis": "In the explosive Season 1 finale, the Autobots face a fully restored Megatron in a desperate battle, and the AllSpark is shattered into fragments scattered across Detroit.",
+          "video_url": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2008,
+      "episodes": [
+        {
+          "number": 17,
+          "title": "The Elite Guard",
+          "air_date": "2008-04-19",
+          "duration": "22m",
+          "synopsis": "Ultra Magnus, Sentinel Prime, and Jazz of the Elite Guard arrive on Earth to assess the Autobots, but their arrogance clashes with the team's unconventional methods.",
+          "video_url": null
+        },
+        {
+          "number": 18,
+          "title": "The Return of the Headmaster",
+          "air_date": "2008-04-26",
+          "duration": "22m",
+          "synopsis": "Henry Masterson returns with an upgraded Headmaster unit and takes control of Sentinel Prime's body, causing havoc.",
+          "video_url": null
+        },
+        {
+          "number": 19,
+          "title": "Mission Accomplished",
+          "air_date": "2008-05-03",
+          "duration": "22m",
+          "synopsis": "The Elite Guard declares the Decepticon threat eliminated and prepares to take the Autobots home, but Starscream's attack proves them wrong.",
+          "video_url": null
+        },
+        {
+          "number": 20,
+          "title": "Garbage In, Garbage Out",
+          "air_date": "2008-05-10",
+          "duration": "22m",
+          "synopsis": "An AllSpark fragment brings a garbage truck to life as the gentle but confused Wreck-Gar, who struggles to understand his own identity.",
+          "video_url": null
+        },
+        {
+          "number": 21,
+          "title": "Velocity",
+          "air_date": "2008-05-17",
+          "duration": "22m",
+          "synopsis": "Bumblebee enters an illegal street race to recover an AllSpark fragment from a mysterious racer, putting his pride and the mission at odds.",
+          "video_url": null
+        },
+        {
+          "number": 22,
+          "title": "Rise of the Constructicons",
+          "air_date": "2008-05-31",
+          "duration": "22m",
+          "synopsis": "AllSpark fragments bring two construction vehicles to life as Mixmaster and Scrapper, who befriend Bulkhead before being manipulated by Megatron.",
+          "video_url": null
+        },
+        {
+          "number": 23,
+          "title": "A Fistful of Energon",
+          "air_date": "2008-06-07",
+          "duration": "22m",
+          "synopsis": "Prowl teams up with bounty hunter Lockdown to capture Starscream, but the uneasy alliance tests Prowl's principles.",
+          "video_url": null
+        },
+        {
+          "number": 24,
+          "title": "SUV: Society of Ultimate Villainy",
+          "air_date": "2008-06-14",
+          "duration": "22m",
+          "synopsis": "Detroit's human supervillains form an alliance to defeat the Autobots, but their egos and incompetence undermine their schemes.",
+          "video_url": null
+        },
+        {
+          "number": 25,
+          "title": "Autoboot Camp",
+          "air_date": "2008-06-21",
+          "duration": "22m",
+          "synopsis": "Flashbacks reveal Bumblebee and Bulkhead's time at Autobot boot camp under Sentinel Minor, and how Wasp was wrongly accused of being a Decepticon spy.",
+          "video_url": null
+        },
+        {
+          "number": 26,
+          "title": "Black Friday",
+          "air_date": "2008-06-28",
+          "duration": "22m",
+          "synopsis": "Blackarachnia teams up with Meltdown in another attempt to purge her organic half, putting Sari and Optimus in danger.",
+          "video_url": null
+        },
+        {
+          "number": 27,
+          "title": "Sari, No One's Home",
+          "air_date": "2008-07-05",
+          "duration": "22m",
+          "synopsis": "Sari must defend the Autobot base alone against the Constructicons when the rest of the team is called away on a mission.",
+          "video_url": null
+        },
+        {
+          "number": 28,
+          "title": "A Bridge Too Close, Part I",
+          "air_date": "2008-07-12",
+          "duration": "22m",
+          "synopsis": "Megatron forces Professor Sumdac to complete a space bridge to bring a Decepticon army to Earth, while Starscream's clones attack from another front.",
+          "video_url": null
+        },
+        {
+          "number": 29,
+          "title": "A Bridge Too Close, Part II",
+          "air_date": "2008-07-19",
+          "duration": "22m",
+          "synopsis": "In the Season 2 finale, the Autobots race to stop Megatron's space bridge from activating as Starscream achieves cosmic power, and the battle ends with Megatron and Starscream stranded in deep space.",
+          "video_url": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "year": 2009,
+      "episodes": [
+        {
+          "number": 30,
+          "title": "TransWarped, Part I",
+          "air_date": "2009-03-14",
+          "duration": "22m",
+          "synopsis": "Sari discovers she is part Cybertronian when her key upgrades her into a teenager, while Shockwave's deep-cover infiltration of Autobot High Command is revealed.",
+          "video_url": null
+        },
+        {
+          "number": 31,
+          "title": "TransWarped, Part II",
+          "air_date": "2009-03-14",
+          "duration": "22m",
+          "synopsis": "The Autobots deal with the fallout of Sari's transformation as Megatron and the Decepticons use the captured space bridge technology to strike at Cybertron.",
+          "video_url": null
+        },
+        {
+          "number": 32,
+          "title": "TransWarped, Part III",
+          "air_date": "2009-03-14",
+          "duration": "22m",
+          "synopsis": "Omega Supreme is reactivated and controlled by the Decepticons, forcing the Autobots into a frantic battle to save their most powerful warrior.",
+          "video_url": null
+        },
+        {
+          "number": 33,
+          "title": "Three's a Crowd",
+          "air_date": "2009-03-21",
+          "duration": "22m",
+          "synopsis": "Lugnut and Blitzwing attempt to build a Decepticon army using Starscream's cloning technology, creating the massive Lugnut Supreme.",
+          "video_url": null
+        },
+        {
+          "number": 34,
+          "title": "Where Is Thy Sting?",
+          "air_date": "2009-03-28",
+          "duration": "22m",
+          "synopsis": "Wasp, now the mutated Waspinator, seeks revenge on Bumblebee for the wrongful accusation that destroyed his life.",
+          "video_url": null
+        },
+        {
+          "number": 35,
+          "title": "Five Servos of Doom",
+          "air_date": "2009-04-04",
+          "duration": "22m",
+          "synopsis": "Prowl and Lockdown's complicated history comes to a head as the bounty hunter collects the most dangerous fugitives in the galaxy.",
+          "video_url": null
+        },
+        {
+          "number": 36,
+          "title": "Predacons Rising",
+          "air_date": "2009-04-11",
+          "duration": "22m",
+          "synopsis": "Blackarachnia's experiments create the Predacons, a new faction of beast-mode Transformers that threatens both Autobots and Decepticons.",
+          "video_url": null
+        },
+        {
+          "number": 37,
+          "title": "Human Error, Part I",
+          "air_date": "2009-04-18",
+          "duration": "22m",
+          "synopsis": "Soundwave traps the Autobots in a virtual reality where they believe they are ordinary humans living normal lives in Detroit.",
+          "video_url": null
+        },
+        {
+          "number": 38,
+          "title": "Human Error, Part II",
+          "air_date": "2009-04-25",
+          "duration": "22m",
+          "synopsis": "Sari and the Substitute Autobots — Wreck-Gar, the Dinobots, and Soundwave's own creation — fight to free the team from the virtual prison.",
+          "video_url": null
+        },
+        {
+          "number": 39,
+          "title": "Decepticon Air",
+          "air_date": "2009-05-02",
+          "duration": "22m",
+          "synopsis": "Optimus Prime and his crew must infiltrate a Decepticon warship to rescue captured Autobots as the war enters its final phase.",
+          "video_url": null
+        },
+        {
+          "number": 40,
+          "title": "This Is Why I Hate Machines",
+          "air_date": "2009-05-09",
+          "duration": "22m",
+          "synopsis": "Captain Fanzone is accidentally transported to Cybertron, where the tech-phobic cop must navigate an entire planet of machines.",
+          "video_url": null
+        },
+        {
+          "number": 41,
+          "title": "Endgame, Part I",
+          "air_date": "2009-05-16",
+          "duration": "22m",
+          "synopsis": "Megatron launches his final assault using Omega Supreme clones, and Prowl discovers a way to reassemble the AllSpark at great personal cost.",
+          "video_url": null
+        },
+        {
+          "number": 42,
+          "title": "Endgame, Part II",
+          "air_date": "2009-05-23",
+          "duration": "22m",
+          "synopsis": "In the series finale, Prowl sacrifices his spark to reassemble the AllSpark, Megatron is finally captured, and Optimus Prime's team returns to Cybertron as celebrated heroes.",
+          "video_url": null
+        }
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "name": "Optimus Prime",
+      "role": "Autobot Team Leader",
+      "faction": "Autobot",
+      "alt_mode": "Fire Truck Cab",
+      "voice_actor": "David Kaye",
+      "image": null
+    },
+    {
+      "name": "Bumblebee",
+      "role": "Autobot Scout / Speedster",
+      "faction": "Autobot",
+      "alt_mode": "Compact Car",
+      "voice_actor": "Bumper Robinson",
+      "image": null
+    },
+    {
+      "name": "Bulkhead",
+      "role": "Autobot Heavy / Demolitions",
+      "faction": "Autobot",
+      "alt_mode": "Armored Tactical Vehicle",
+      "voice_actor": "Bill Fagerbakke",
+      "image": null
+    },
+    {
+      "name": "Prowl",
+      "role": "Autobot Ninja / Stealth Warrior",
+      "faction": "Autobot",
+      "alt_mode": "Police Motorcycle",
+      "voice_actor": "Jeff Bennett",
+      "image": null
+    },
+    {
+      "name": "Ratchet",
+      "role": "Autobot Medic / War Veteran",
+      "faction": "Autobot",
+      "alt_mode": "Ambulance",
+      "voice_actor": "Corey Burton",
+      "image": null
+    },
+    {
+      "name": "Sari Sumdac",
+      "role": "Human-Cybertronian Hybrid Ally",
+      "faction": "Autobot",
+      "alt_mode": "None",
+      "voice_actor": "Tara Strong",
+      "image": null
+    },
+    {
+      "name": "Megatron",
+      "role": "Decepticon Leader",
+      "faction": "Decepticon",
+      "alt_mode": "Dual-Rotor Assault Helicopter",
+      "voice_actor": "Corey Burton",
+      "image": null
+    },
+    {
+      "name": "Starscream",
+      "role": "Decepticon Air Commander",
+      "faction": "Decepticon",
+      "alt_mode": "Forward-Swept Wing Fighter Jet",
+      "voice_actor": "Tom Kenny",
+      "image": null
+    },
+    {
+      "name": "Lugnut",
+      "role": "Decepticon Heavy / Megatron Loyalist",
+      "faction": "Decepticon",
+      "alt_mode": "Bomber Aircraft",
+      "voice_actor": "David Kaye",
+      "image": null
+    },
+    {
+      "name": "Blitzwing",
+      "role": "Decepticon Triple-Changer",
+      "faction": "Decepticon",
+      "alt_mode": "Fighter Jet / Tank",
+      "voice_actor": "Bumper Robinson",
+      "image": null
+    },
+    {
+      "name": "Blackarachnia",
+      "role": "Techno-Organic Decepticon",
+      "faction": "Decepticon",
+      "alt_mode": "Mechanical Spider",
+      "voice_actor": "Cree Summer",
+      "image": null
+    }
+  ],
+  "media": [
+    {
+      "title": "Transformers Animated Season 1 - Dailymotion Playlist",
+      "url": "https://www.dailymotion.com/playlist/x42uxb",
+      "source": "dailymotion",
+      "type": "playlist"
+    },
+    {
+      "title": "Transformers Animated Season 2 - Dailymotion Playlist",
+      "url": "https://www.dailymotion.com/playlist/x434ak",
+      "source": "dailymotion",
+      "type": "playlist"
+    },
+    {
+      "title": "Transformers Animated Season 3 - Dailymotion Playlist",
+      "url": "https://www.dailymotion.com/playlist/x43n9v",
+      "source": "dailymotion",
+      "type": "playlist"
+    },
+    {
+      "title": "Transformers Animated All Videos - Dailymotion Channel",
+      "url": "https://www.dailymotion.com/TransformersAnimated",
+      "source": "dailymotion",
+      "type": "playlist"
+    },
+    {
+      "title": "Transformers Animated Playlists Page - Dailymotion",
+      "url": "https://www.dailymotion.com/transformersanimated/playlists",
+      "source": "dailymotion",
+      "type": "playlist"
+    }
+  ],
+  "trivia": [
+    {
+      "category": "Production",
+      "facts": [
+        "Transformers: Animated was produced by Cartoon Network with character designs inspired by shows like Teen Titans and Ben 10, giving it a bold, angular art style unlike any previous Transformers series.",
+        "Animation was handled by multiple Japanese studios including Mook, Studio 4C, and MOOK DLE, while story and voice direction remained in the US.",
+        "A planned Season 4 was cancelled when Hasbro shifted focus to the Transformers: Prime series; extensive story outlines for the unproduced season have since been shared by the show's creators."
+      ]
+    },
+    {
+      "category": "Legacy",
+      "facts": [
+        "The three-part premiere debuted at #1 among boys ages 6-11 in both cable and network television, making it one of Cartoon Network's strongest launches.",
+        "The series featured several Generation 1 voice actors in new roles, most notably Corey Burton who voiced both Megatron and Ratchet — the first time a single actor voiced both factions' most prominent characters.",
+        "Bulkhead, originally created for this series, proved so popular that the character was carried forward into subsequent Transformers continuities including Transformers: Prime."
+      ]
+    }
+  ]
+}

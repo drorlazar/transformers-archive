@@ -1,0 +1,92 @@
+{
+  "title": "Transformers: War for Cybertron Trilogy",
+  "slug": "war-for-cybertron",
+  "year_start": 2020,
+  "year_end": 2021,
+  "era": "modern",
+  "synopsis": "On the dying planet Cybertron, the war between Autobots and Decepticons has reached its desperate endgame. In Siege, Megatron hunts for the Allspark to end the war by reformatting all Autobots, while Optimus Prime plans a daring escape aboard the Ark. In Earthrise, the Ark crew is captured by mercenaries as the Decepticons pursue through the Dead Universe. In Kingdom, the Transformers arrive on prehistoric Earth where Maximals and Predacons join the conflict in a battle across time for the fate of Cybertron.",
+  "rating": "TV-Y7-FV",
+  "tags": ["CGI", "Netflix", "dark", "mature", "Polygon Pictures", "Rooster Teeth", "toyline-based"],
+  "poster": "/images/series/war-for-cybertron-poster.jpg",
+  "hero_image": "/images/series/war-for-cybertron-hero.jpg",
+  "faction_accent": "purple",
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2020,
+      "episodes": [
+        { "number": 1, "title": "Episode 1", "air_date": "2020-07-30", "duration": "24m", "video_url": null, "synopsis": "On war-torn Cybertron, Optimus Prime and the Autobots are losing the war against Megatron's Decepticons. Bumblebee is captured while Optimus searches for the Allspark to prevent Megatron from using it to reformat all Autobots into Decepticons." },
+        { "number": 2, "title": "Episode 2", "air_date": "2020-07-30", "duration": "24m", "video_url": null, "synopsis": "Megatron deploys his new weapon, the Omega Supreme reformatting process. Elita-1 leads a resistance cell while Ultra Magnus questions the ethics of the Autobot cause." },
+        { "number": 3, "title": "Episode 3", "air_date": "2020-07-30", "duration": "24m", "video_url": null, "synopsis": "Starscream schemes to undermine Megatron's authority while Jetfire struggles with his allegiance. The Autobots discover the location of the Allspark." },
+        { "number": 4, "title": "Episode 4", "air_date": "2020-07-30", "duration": "24m", "video_url": null, "synopsis": "Ultra Magnus is captured and subjected to Megatron's reformatting. Optimus and the Autobots mount a rescue mission while planning to secure the Allspark." },
+        { "number": 5, "title": "Episode 5", "air_date": "2020-07-30", "duration": "24m", "video_url": null, "synopsis": "The Autobots retrieve the Allspark but face impossible odds as Megatron closes in. Jetfire defects to the Autobots, sacrificing his standing among the Decepticons." },
+        { "number": 6, "title": "Episode 6", "air_date": "2020-07-30", "duration": "24m", "video_url": null, "synopsis": "Optimus Prime launches the Allspark through a Space Bridge to keep it from Megatron. The Autobots board the Ark and follow the Allspark into the unknown, leaving a devastated Cybertron behind." }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2020,
+      "episodes": [
+        { "number": 1, "title": "Episode 1", "air_date": "2020-12-30", "duration": "24m", "video_url": null, "synopsis": "The Ark drifts through space as the Autobots search for the Allspark. They are intercepted and captured by a mercenary group aboard a massive space station." },
+        { "number": 2, "title": "Episode 2", "air_date": "2020-12-30", "duration": "24m", "video_url": null, "synopsis": "Megatron boards the Nemesis and pursues the Ark through space, while back on Cybertron, Elita-1 discovers a signal from a mysterious alternate dimension." },
+        { "number": 3, "title": "Episode 3", "air_date": "2020-12-30", "duration": "24m", "video_url": null, "synopsis": "The Autobots encounter beings from the Dead Universe, including a dark version of Optimus Prime. Starscream continues plotting his ascent to power aboard the Nemesis." },
+        { "number": 4, "title": "Episode 4", "air_date": "2020-12-30", "duration": "24m", "video_url": null, "synopsis": "Optimus confronts visions of possible futures and the consequences of his choices. The mercenary Doubledealer reveals his true allegiances." },
+        { "number": 5, "title": "Episode 5", "air_date": "2020-12-30", "duration": "24m", "video_url": null, "synopsis": "The Autobots break free from captivity and race to reach the Allspark before the Decepticons. Galvatron appears from across time with warnings of a greater threat." },
+        { "number": 6, "title": "Episode 6", "air_date": "2020-12-30", "duration": "24m", "video_url": null, "synopsis": "The Ark and Nemesis are pulled through a Space Bridge, crashing on a mysterious prehistoric planet. Both factions discover they are not alone—Maximals and Predacons already inhabit this world." }
+      ]
+    },
+    {
+      "number": 3,
+      "year": 2021,
+      "episodes": [
+        { "number": 1, "title": "Episode 1", "air_date": "2021-07-29", "duration": "24m", "video_url": null, "synopsis": "On prehistoric Earth, the Autobots encounter the Maximals led by Optimus Primal, while the Decepticons forge an uneasy alliance with the Predacons under Megatron (Beast)." },
+        { "number": 2, "title": "Episode 2", "air_date": "2021-07-29", "duration": "24m", "video_url": null, "synopsis": "The Maximals reveal that the Golden Disk contains a map to the Allspark. Megatron and Beast Megatron form a dangerous alliance to seize it." },
+        { "number": 3, "title": "Episode 3", "air_date": "2021-07-29", "duration": "24m", "video_url": null, "synopsis": "Dinobot struggles with his honor as the Predacon-Decepticon alliance hunts for the Allspark. Blackarachnia's loyalties are tested." },
+        { "number": 4, "title": "Episode 4", "air_date": "2021-07-29", "duration": "24m", "video_url": null, "synopsis": "The race for the Allspark intensifies. Starscream's ghost interferes with both factions' plans, seeking the Allspark's power for himself." },
+        { "number": 5, "title": "Episode 5", "air_date": "2021-07-29", "duration": "24m", "video_url": null, "synopsis": "Galvatron's true purpose is revealed as the timeline begins to fracture. The combined Autobot-Maximal forces prepare for a final confrontation." },
+        { "number": 6, "title": "Episode 6", "air_date": "2021-07-29", "duration": "24m", "video_url": null, "synopsis": "In the trilogy's finale, all factions converge in a climactic battle for the Allspark. Optimus Prime makes the ultimate sacrifice to restore Cybertron, heal the timeline, and end the war. The Maximals and Predacons are sent back to their own time." }
+      ]
+    }
+  ],
+  "characters": [
+    { "name": "Optimus Prime", "role": "Autobot Leader", "faction": "Autobot", "alt_mode": "Cybertronian truck", "voice_actor": "Jake Foushee", "image": null },
+    { "name": "Megatron", "role": "Decepticon Leader", "faction": "Decepticon", "alt_mode": "Cybertronian tank", "voice_actor": "Jason Marnocha", "image": null },
+    { "name": "Bumblebee", "role": "Autobot Scout", "faction": "Autobot", "alt_mode": "Cybertronian car", "voice_actor": "Joe Zieja", "image": null },
+    { "name": "Starscream", "role": "Decepticon Air Commander", "faction": "Decepticon", "alt_mode": "Cybertronian jet", "voice_actor": "Frank Todaro", "image": null },
+    { "name": "Elita-1", "role": "Autobot Resistance Leader", "faction": "Autobot", "alt_mode": "Cybertronian car", "voice_actor": "Linsay Rousseau", "image": null },
+    { "name": "Ultra Magnus", "role": "Autobot Commander", "faction": "Autobot", "alt_mode": "Cybertronian truck", "voice_actor": "Edward Bosco", "image": null },
+    { "name": "Jetfire", "role": "Defector", "faction": "Autobot", "alt_mode": "Cybertronian jet", "voice_actor": "Keith Silverstein", "image": null },
+    { "name": "Optimus Primal", "role": "Maximal Leader", "faction": "Maximal", "alt_mode": "Gorilla", "voice_actor": "Justin Pierce", "image": null },
+    { "name": "Megatron (Beast)", "role": "Predacon Leader", "faction": "Predacon", "alt_mode": "Tyrannosaurus Rex", "voice_actor": "Jason Marnocha", "image": null },
+    { "name": "Dinobot", "role": "Predacon Warrior", "faction": "Maximal", "alt_mode": "Velociraptor", "voice_actor": "Andrew Kishino", "image": null },
+    { "name": "Blackarachnia", "role": "Predacon Scientist", "faction": "Predacon", "alt_mode": "Black Widow spider", "voice_actor": "Sophia Isabella", "image": null },
+    { "name": "Arcee", "role": "Autobot Warrior", "faction": "Autobot", "alt_mode": "Cybertronian motorcycle", "voice_actor": "Jessica DiGiovanni", "image": null }
+  ],
+  "media": [],
+  "trivia": [
+    {
+      "category": "Production",
+      "facts": [
+        "The trilogy was produced by Rooster Teeth and animated by Polygon Pictures, the same studio behind Transformers: Prime.",
+        "Episodes did not have individual titles—they were simply numbered Episode 1 through Episode 6 within each chapter.",
+        "The series was initially rated TV-Y7 but was later re-rated to TV-14 by Netflix due to its dark tone, violence, and brief coarse language."
+      ]
+    },
+    {
+      "category": "Design",
+      "facts": [
+        "Character models were based directly on toy CAD files from the War for Cybertron toyline, giving the show a highly detailed but sometimes stiff aesthetic.",
+        "F.J. DeSanto served as showrunner with writers George Krstic, Gavin Hignight, and Brandon M. Easton.",
+        "The series featured a notably darker and more somber tone than most Transformers cartoons, with themes of moral ambiguity and the costs of war."
+      ]
+    },
+    {
+      "category": "Legacy",
+      "facts": [
+        "A proposed Legacy-based sequel series was pitched to Netflix but ultimately passed on, ending the trilogy as a self-contained story.",
+        "Kingdom marked the first time the Beast Wars characters (Maximals and Predacons) appeared in a new animated Transformers series since the original Beast Wars ended in 1999.",
+        "All episodes within each chapter were released simultaneously on Netflix, following the streaming platform's binge-release model."
+      ]
+    }
+  ]
+}

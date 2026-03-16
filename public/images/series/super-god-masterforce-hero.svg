@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="450" viewBox="0 0 300 450">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1b5e20"/>
+      <stop offset="100%" stop-color="#66bb6a"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="450" fill="url(#bg)"/>
+  <text x="150" y="200" fill="rgba(255,255,255,0.4)" font-size="18" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">MASTERFORCE</text>
+  <text x="150" y="230" fill="rgba(255,255,255,0.2)" font-size="13" text-anchor="middle" font-family="Arial, sans-serif">1988-1989</text>
+</svg>

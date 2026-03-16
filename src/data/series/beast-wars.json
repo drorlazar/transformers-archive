@@ -1,0 +1,889 @@
+{
+  "title": "Beast Wars: Transformers",
+  "slug": "beast-wars",
+  "year_start": 1996,
+  "year_end": 1999,
+  "era": "beast",
+  "synopsis": "Maximals and Predacons crash-land on a mysterious prehistoric planet, adopting beast modes to survive the planet's volatile energon fields. A groundbreaking CGI series that redefined the Transformers franchise with deep character development, shocking twists, and ties to the original Generation One continuity.",
+  "rating": "TV-Y7",
+  "tags": [
+    "CGI",
+    "Action",
+    "Fan Favorite"
+  ],
+  "poster": "/images/series/beast-wars-poster.jpg",
+  "hero_image": "/images/series/beast-wars-hero.jpg",
+  "faction_accent": "red",
+  "seasons": [
+    {
+      "number": 1,
+      "year": 1996,
+      "episodes": [
+        {
+          "number": 1,
+          "title": "Beast Wars (Part 1)",
+          "synopsis": "Two warring factions of Transformers crash-land on an energon-rich planet and adopt beast modes to survive. Dinobot, a disgruntled Predacon, challenges Optimus Primal for leadership of the Maximals.",
+          "air_date": "1996-09-16",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 2,
+          "title": "Beast Wars (Part 2)",
+          "synopsis": "The Maximals and Predacons race to claim a massive energon cache on a mountaintop, leading to a fierce battle that cements the conflict as the Beast Wars.",
+          "air_date": "1996-09-17",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 3,
+          "title": "The Web",
+          "synopsis": "Cheetor is captured by Tarantulas and taken to the Predacon's web-like lair, where the spider plans to devour him. The Maximals must mount a rescue mission.",
+          "air_date": "1996-09-18",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 4,
+          "title": "Equal Measures",
+          "synopsis": "Cheetor and Terrorsaur discover a teleportation link between the two bases. Each tries to use the connection to sabotage the other side.",
+          "air_date": "1996-09-23",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 5,
+          "title": "Chain of Command",
+          "synopsis": "When Optimus Primal is lost in an explosion at a mysterious alien site, the Maximals struggle with leadership as Dinobot and Rattrap clash over who should take command.",
+          "air_date": "1996-09-24",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 6,
+          "title": "Power Surge",
+          "synopsis": "Terrorsaur discovers a mountain of energon and absorbs its power, becoming supercharged. He overthrows Megatron and attacks the Maximals with devastating force.",
+          "air_date": "1996-09-25",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 7,
+          "title": "Fallen Comrades",
+          "synopsis": "A Maximal stasis pod crashes in the arctic, and both factions race to reach the new protoform first. Megatron reprograms the pod, creating the Predacon Tigatron — but the tiger chooses the Maximals.",
+          "air_date": "1996-09-30",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 8,
+          "title": "Double Jeopardy",
+          "synopsis": "Blackarachnia catches Rattrap apparently betraying the Maximals by delivering an energon crystal to Terrorsaur, but Rattrap is actually working as a double agent under Optimus's orders.",
+          "air_date": "1996-10-07",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 9,
+          "title": "A Better Mousetrap",
+          "synopsis": "Rhinox installs a new automated defense system in the Maximal base, but it malfunctions and targets the Maximals themselves. Rattrap must navigate the deadly traps to shut it down.",
+          "air_date": "1996-10-08",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 10,
+          "title": "Gorilla Warfare",
+          "synopsis": "Scorponok infects Optimus Primal with a cyber-bee virus that turns him into a mindless berserker. The Maximals must find a cure before Primal destroys everything.",
+          "air_date": "1996-10-14",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 11,
+          "title": "The Probe",
+          "synopsis": "The Maximals detect a Cybertronian probe passing through the system and desperately attempt to signal it for rescue, but the Predacons try to sabotage their efforts.",
+          "air_date": "1996-10-15",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 12,
+          "title": "Victory",
+          "synopsis": "Dinobot discovers Megatron's plan to use a mega-cannon to destroy the Maximal base. He must decide where his true loyalties lie as both sides prepare for a decisive battle.",
+          "air_date": "1996-11-01",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 13,
+          "title": "Dark Designs",
+          "synopsis": "Megatron captures Rhinox and uses a Predacon shell program to reprogram him as a Predacon. However, the plan backfires spectacularly when Rhinox proves too competent as a villain.",
+          "air_date": "1996-11-04",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 14,
+          "title": "Double Dinobot",
+          "synopsis": "Megatron creates a clone of Dinobot to infiltrate the Maximal base and steal the golden disk. The real Dinobot must fight his doppelganger to expose the deception.",
+          "air_date": "1996-11-05",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 15,
+          "title": "The Spark",
+          "synopsis": "A stasis pod activates and the emerging protoform is critically damaged. Rhinox fights to save its spark while the other Maximals defend against a Predacon attack, and the pod ultimately becomes Airazor.",
+          "air_date": "1996-11-11",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 16,
+          "title": "The Trigger (Part 1)",
+          "synopsis": "Tigatron discovers a mysterious floating island with an alien weapon of immense power. Both factions race to claim the island and its devastating capabilities.",
+          "air_date": "1996-11-18",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 17,
+          "title": "The Trigger (Part 2)",
+          "synopsis": "The battle for the flying island continues as Tigatron must make a choice about the alien weapon. The island is ultimately destroyed to prevent either side from using its power.",
+          "air_date": "1996-11-19",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 18,
+          "title": "Spider's Game",
+          "synopsis": "Tarantulas and Blackarachnia scheme independently against both the Maximals and Megatron, revealing hidden agendas within the Predacon ranks.",
+          "air_date": "1997-01-06",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 19,
+          "title": "Call of the Wild",
+          "synopsis": "The Maximals begin losing their robot identities to their beast instincts. Tigatron struggles most as his tiger nature threatens to overwhelm his Transformer consciousness.",
+          "air_date": "1997-01-07",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 20,
+          "title": "Dark Voyage",
+          "synopsis": "An energon explosion blinds Rhinox, Cheetor, Dinobot, and Rattrap, who must navigate dangerous terrain back to base while guided only by their beast instincts.",
+          "air_date": "1997-01-27",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 21,
+          "title": "Possession",
+          "synopsis": "The immortal spark of the original Starscream possesses Waspinator's body and offers an alliance with Megatron, but his treacherous nature soon reveals his true agenda.",
+          "air_date": "1997-02-03",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 22,
+          "title": "The Low Road",
+          "synopsis": "Rhinox is infected with a strange virus by Tarantulas. While he suffers bizarre symptoms, Rattrap and Dinobot must work together to infiltrate the Predacon base and find the cure.",
+          "air_date": "1997-02-10",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 23,
+          "title": "Law of the Jungle",
+          "synopsis": "Tigatron accidentally causes the destruction of a forest and the death of his tiger companion, leading him to question his role in the Beast Wars and briefly abandon the Maximals.",
+          "air_date": "1997-02-17",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 24,
+          "title": "Before the Storm",
+          "synopsis": "An uneasy ceasefire takes hold as Megatron proposes a truce while secretly preparing for the arrival of the alien Vok. Both sides sense that something catastrophic is approaching.",
+          "air_date": "1997-02-21",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 25,
+          "title": "Other Voices (Part 1)",
+          "synopsis": "The aliens known as the Vok reveal themselves and prepare to sterilize the planet with a massive weapon. Tigatron and Airazor are abducted during the crisis.",
+          "air_date": "1997-03-31",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 26,
+          "title": "Other Voices (Part 2)",
+          "synopsis": "Optimus Primal sacrifices himself to destroy the alien Planet Buster weapon, saving the planet but seemingly perishing in the explosion that also triggers a quantum surge across the planet.",
+          "air_date": "1997-04-01",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 1997,
+      "episodes": [
+        {
+          "number": 1,
+          "title": "Aftermath",
+          "synopsis": "In the wake of the quantum surge, the surviving Transformers discover that some have been mutated into Transmetals. Rhinox works desperately to recover Optimus Primal's spark from the alien probe's wreckage.",
+          "air_date": "1997-10-26",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 2,
+          "title": "Coming of the Fuzors (Part 1)",
+          "synopsis": "Two new Transformers emerge from stasis pods with combined beast modes — Silverbolt, an eagle-wolf Fuzor, and Quickstrike, a scorpion-cobra hybrid. Both factions compete to recruit them.",
+          "air_date": "1997-11-02",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 3,
+          "title": "Coming of the Fuzors (Part 2)",
+          "synopsis": "Silverbolt joins the Maximals while Quickstrike sides with the Predacons. Optimus Primal is successfully revived in a powerful new Transmetal body.",
+          "air_date": "1997-11-09",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 4,
+          "title": "Tangled Web",
+          "synopsis": "Tarantulas plots against Megatron by secretly constructing a transmitter, while the Predacons attempt to build a base camp. Blackarachnia and Tarantulas's scheming threatens to unravel the Predacon alliance.",
+          "air_date": "1997-11-16",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 5,
+          "title": "Maximal, No More",
+          "synopsis": "Dinobot steals the golden disk from Megatron and appears to defect back to the Predacons. His true motives involve uncovering the disk's secrets about the planet's true nature.",
+          "air_date": "1997-11-23",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 6,
+          "title": "Other Visits (Part 1)",
+          "synopsis": "Another alien site is discovered, and Tarantulas reveals his true agenda — he is not working for the Predacon alliance but for a secret organization with its own plans for the aliens' technology.",
+          "air_date": "1998-02-08",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 7,
+          "title": "Other Visits (Part 2)",
+          "synopsis": "Tigatron and Airazor are captured by the Vok aliens' construct. The battle at the alien site results in the device's destruction, but the two Maximals are lost.",
+          "air_date": "1998-02-15",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 8,
+          "title": "Bad Spark",
+          "synopsis": "A stasis pod containing the indestructible and insane Protoform X crashes on the planet. The creature, later named Rampage, proves nearly impossible to stop and is eventually subdued by Optimus.",
+          "air_date": "1998-02-22",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 9,
+          "title": "Code of Hero",
+          "synopsis": "Dinobot discovers that Megatron plans to use the golden disk to alter history by destroying the early humans. In a legendary last stand, Dinobot single-handedly defeats the Predacons to protect humanity, sacrificing his life.",
+          "air_date": "1998-03-09",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 10,
+          "title": "Transmutate",
+          "synopsis": "A damaged stasis pod produces Transmutate, a deformed but powerful Transformer who can't transform. Both Silverbolt and Rampage connect with the creature, leading to a tragic conflict over its fate.",
+          "air_date": "1998-03-10",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 11,
+          "title": "The Agenda (Part 1)",
+          "synopsis": "A Predacon secret agent, Ravage, arrives from Cybertron aboard a transwarp cruiser with orders to arrest Megatron. However, Megatron reveals the true significance of the golden disk and persuades Ravage to join him.",
+          "air_date": "1998-03-11",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 12,
+          "title": "The Agenda (Part 2)",
+          "synopsis": "Ravage turns against the Maximals and launches a devastating attack. The Maximals fight back and destroy Ravage's ship, but Megatron escapes with a shocking revelation about the planet's true identity.",
+          "air_date": "1998-03-12",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 13,
+          "title": "The Agenda (Part 3)",
+          "synopsis": "Megatron confirms the planet is prehistoric Earth and locates the Ark — the crashed Autobot ship containing the original Optimus Prime. In a shocking cliffhanger, Megatron blasts the sleeping Optimus Prime's head, threatening to unravel all of history.",
+          "air_date": "1998-03-13",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "year": 1998,
+      "episodes": [
+        {
+          "number": 1,
+          "title": "Optimal Situation",
+          "synopsis": "With history collapsing around them due to Megatron's attack on the original Optimus Prime, Primal absorbs Prime's spark into his body, gaining a powerful new Optimal form to repair the timeline.",
+          "air_date": "1998-10-25",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 2,
+          "title": "Deep Metal",
+          "synopsis": "Depth Charge, a Maximal obsessed with hunting down Rampage, arrives on the planet via a stasis pod. His single-minded vendetta creates friction with Optimus Primal's leadership.",
+          "air_date": "1998-11-01",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 3,
+          "title": "Changing of the Guard",
+          "synopsis": "Rattrap is left in charge of the Maximal base while the others are away. He must single-handedly defend against a Predacon assault on the base's defenses.",
+          "air_date": "1998-11-08",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 4,
+          "title": "Cutting Edge",
+          "synopsis": "Blackarachnia and Silverbolt discover a strange plant that can merge organic and technological matter. Megatron seeks to exploit this proto-human discovery for his own purposes.",
+          "air_date": "1998-11-15",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 5,
+          "title": "Feral Scream (Part 1)",
+          "synopsis": "Cheetor is caught in an explosion at one of Megatron's experiments involving a Transmetal driver. He begins experiencing strange transformations into a feral Transmetal 2 form.",
+          "air_date": "1999-01-31",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 6,
+          "title": "Feral Scream (Part 2)",
+          "synopsis": "Cheetor's uncontrollable Transmetal 2 transformations intensify. He must learn to master his new feral form before it consumes his personality entirely.",
+          "air_date": "1999-02-07",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 7,
+          "title": "Proving Grounds",
+          "synopsis": "Blackarachnia must prove her loyalty to the Maximals once and for all when Dinobot II and the Predacons attempt to recapture her. She faces a trial by fire against her former faction.",
+          "air_date": "1999-02-14",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 8,
+          "title": "Go with the Flow",
+          "synopsis": "Rattrap and Depth Charge are forced to work together when they discover an underwater Predacon base. Their clashing personalities must be set aside to survive.",
+          "air_date": "1999-02-18",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 9,
+          "title": "Crossing the Rubicon",
+          "synopsis": "Blackarachnia attempts to use a Transmetal driver to remove her Predacon shell program, risking her life. The procedure nearly kills her before Rhinox manages to stabilize her.",
+          "air_date": "1999-02-22",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 10,
+          "title": "Master Blaster",
+          "synopsis": "Quickstrike, manipulated by Megatron, leads a mutiny among the Predacons. Meanwhile, Megatron uses Quickstrike as a diversion while executing his true plan to access the power of the original Decepticon warship Nemesis.",
+          "air_date": "1999-03-15",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 11,
+          "title": "Other Victories",
+          "synopsis": "Tigerhawk, a powerful fusion of Tigatron and Airazor controlled by the Vok, arrives on the planet to destroy Megatron. The alien-empowered warrior wreaks havoc on the Predacon base.",
+          "air_date": "1999-05-05",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 12,
+          "title": "Nemesis (Part 1)",
+          "synopsis": "Megatron raises the Decepticon warship Nemesis from the ocean floor, giving him overwhelming firepower. The Maximals face their greatest crisis as the ancient warship threatens to destroy them all.",
+          "air_date": "1999-05-06",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 13,
+          "title": "Nemesis (Part 2)",
+          "synopsis": "In the final battle of the Beast Wars, the Maximals make a desperate stand against the Nemesis. Megatron is defeated, and the surviving Maximals use the Autobot shuttle to return to Cybertron with their captive, ending the Beast Wars.",
+          "air_date": "1999-05-07",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        }
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "name": "Optimus Primal",
+      "role": "Maximal Commander",
+      "faction": "Maximal",
+      "beast_mode": "Gorilla",
+      "voice_actor": "Gary Chalk",
+      "image": null
+    },
+    {
+      "name": "Rhinox",
+      "role": "Maximal Scientist/Warrior",
+      "faction": "Maximal",
+      "beast_mode": "Rhinoceros",
+      "voice_actor": "Richard Newman",
+      "image": null
+    },
+    {
+      "name": "Cheetor",
+      "role": "Maximal Scout",
+      "faction": "Maximal",
+      "beast_mode": "Cheetah",
+      "voice_actor": "Ian James Corlett",
+      "image": null
+    },
+    {
+      "name": "Rattrap",
+      "role": "Maximal Spy/Demolitions",
+      "faction": "Maximal",
+      "beast_mode": "Rat",
+      "voice_actor": "Scott McNeil",
+      "image": null
+    },
+    {
+      "name": "Dinobot",
+      "role": "Maximal Warrior (ex-Predacon)",
+      "faction": "Maximal",
+      "beast_mode": "Velociraptor",
+      "voice_actor": "Scott McNeil",
+      "image": null
+    },
+    {
+      "name": "Tigatron",
+      "role": "Maximal Scout",
+      "faction": "Maximal",
+      "beast_mode": "White Tiger",
+      "voice_actor": "Blu Mankuma",
+      "image": null
+    },
+    {
+      "name": "Airazor",
+      "role": "Maximal Aerial Recon",
+      "faction": "Maximal",
+      "beast_mode": "Peregrine Falcon",
+      "voice_actor": "Pauline Newstone",
+      "image": null
+    },
+    {
+      "name": "Silverbolt",
+      "role": "Maximal Aerial Warrior",
+      "faction": "Maximal",
+      "beast_mode": "Eagle/Wolf Fuzor",
+      "voice_actor": "Scott McNeil",
+      "image": null
+    },
+    {
+      "name": "Depth Charge",
+      "role": "Maximal Hunter",
+      "faction": "Maximal",
+      "beast_mode": "Manta Ray",
+      "voice_actor": "David Sobolov",
+      "image": null
+    },
+    {
+      "name": "Megatron",
+      "role": "Predacon Commander",
+      "faction": "Predacon",
+      "beast_mode": "Tyrannosaurus Rex",
+      "voice_actor": "David Kaye",
+      "image": null
+    },
+    {
+      "name": "Tarantulas",
+      "role": "Predacon Scientist",
+      "faction": "Predacon",
+      "beast_mode": "Tarantula",
+      "voice_actor": "Alec Willows",
+      "image": null
+    },
+    {
+      "name": "Blackarachnia",
+      "role": "Predacon/Maximal Warrior",
+      "faction": "Predacon",
+      "beast_mode": "Black Widow Spider",
+      "voice_actor": "Venus Terzo",
+      "image": null
+    },
+    {
+      "name": "Waspinator",
+      "role": "Predacon Aerial Warrior",
+      "faction": "Predacon",
+      "beast_mode": "Wasp",
+      "voice_actor": "Scott McNeil",
+      "image": null
+    },
+    {
+      "name": "Inferno",
+      "role": "Predacon Soldier",
+      "faction": "Predacon",
+      "beast_mode": "Fire Ant",
+      "voice_actor": "Jim Byrnes",
+      "image": null
+    }
+  ],
+  "media": [
+    {
+      "title": "Beast Wars Complete Series - YouTube Playlist",
+      "url": "https://www.youtube.com/playlist?list=PL7VEq3tXc6htwcsofnP8GHNYpk13eII42",
+      "source": "youtube",
+      "type": "playlist"
+    },
+    {
+      "title": "Beast Wars Season 1 by Himbo Soundblaster - Dailymotion",
+      "url": "https://www.dailymotion.com/playlist/x6ezp0",
+      "source": "dailymotion",
+      "type": "playlist"
+    },
+    {
+      "title": "Beast Wars Season 2 by Himbo Soundblaster - Dailymotion",
+      "url": "https://www.dailymotion.com/playlist/x6gx60",
+      "source": "dailymotion",
+      "type": "playlist"
+    },
+    {
+      "title": "Beast Wars Season 3 by Himbo Soundblaster - Dailymotion",
+      "url": "https://www.dailymotion.com/playlist/x6h1xd",
+      "source": "dailymotion",
+      "type": "playlist"
+    },
+    {
+      "title": "Beast Wars by tracking291 - Dailymotion Playlist",
+      "url": "https://www.dailymotion.com/playlist/x6dd56",
+      "source": "dailymotion",
+      "type": "playlist"
+    },
+    {
+      "title": "Beast Wars Complete Series (1080p AI Upscale) - Internet Archive",
+      "url": "https://archive.org/details/beastwarstransformers1080p",
+      "source": "other",
+      "type": "compilation"
+    },
+    {
+      "title": "Transformers Beast Wars - Internet Archive",
+      "url": "https://archive.org/details/transformers-beast-wars",
+      "source": "other",
+      "type": "compilation"
+    }
+  ],
+  "trivia": [
+    {
+      "category": "Production",
+      "facts": [
+        "Beast Wars was one of the first fully CGI-animated TV series, produced by Mainframe Entertainment (now Rainmaker Studios) in Vancouver, Canada.",
+        "The show was originally controversial among G1 fans who objected to the animal alt-modes, but it quickly won them over with its writing quality.",
+        "Mainframe Entertainment used Silicon Graphics workstations running Softimage 3D to produce the animation, with each episode taking roughly 6 weeks to render."
+      ]
+    },
+    {
+      "category": "Legacy",
+      "facts": [
+        "The episode 'Code of Hero' is widely regarded as one of the greatest episodes in all of Transformers, featuring Dinobot's heroic sacrifice.",
+        "Beast Wars established that the Maximals and Predacons are descendants of the Autobots and Decepticons, directly connecting it to Generation One.",
+        "The series won multiple awards and is consistently ranked as one of the best Transformers shows ever produced by both fans and critics."
+      ]
+    }
+  ]
+}

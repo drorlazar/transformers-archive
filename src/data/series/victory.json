@@ -1,0 +1,463 @@
+{
+  "title": "Transformers: Victory",
+  "slug": "victory",
+  "year_start": 1989,
+  "year_end": 1989,
+  "era": "g1",
+  "synopsis": "In the year 2025, the brave Autobot Supreme Commander Star Saber leads the Cybertron forces as head of the interplanetary Universal Defense Force. Alongside his adopted human son Jan Minakaze, Star Saber and his allies -- the Brainmasters, the Multiforce, and the Rescue Patrol -- defend the galaxy against the Decepticon Emperor of Destruction Deathsaurus, his elite Breastforce warriors, and the savage Dinoforce. As the conflict escalates, the rebuilt Ginrai returns as Victory Leo, and together with Star Saber forms the ultimate warrior: Victory Saber.",
+  "rating": "TV-Y7",
+  "tags": ["Classic", "Action", "Japanese", "Victory", "Brainmasters"],
+  "poster": "/images/series/victory-poster.jpg",
+  "hero_image": "/images/series/victory-hero.jpg",
+  "faction_accent": "red",
+  "seasons": [
+    {
+      "number": 1,
+      "year": 1989,
+      "episodes": [
+        {
+          "number": 1,
+          "title": "The Brave Hero of the Universe - Star Saber",
+          "synopsis": "Star Saber, the Autobot Supreme Commander, is introduced as he defends the galaxy alongside his adopted human son Jan and the Autobot forces.",
+          "air_date": "1989-03-14",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 2,
+          "title": "Dinoforce, the Fearsome Foes",
+          "synopsis": "The savage Dinoforce, a team of primitive Decepticon Pretenders, attacks an energy plant under orders from Deathsaurus.",
+          "air_date": "1989-03-21",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 3,
+          "title": "Attack! The Leozack Fury",
+          "synopsis": "Breastforce commander Leozack leads a ferocious assault against the Autobots, demonstrating the Decepticons' elite combat capabilities.",
+          "air_date": "1989-03-28",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 4,
+          "title": "Move Out! The Rescue Team",
+          "synopsis": "The Autobot Rescue Patrol team springs into action to save civilians caught in the crossfire of a Decepticon attack.",
+          "air_date": "1989-04-04",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 5,
+          "title": "Island of the Fierce Dinosaurs",
+          "synopsis": "The Dinoforce occupies a remote island, and the Autobots must dislodge them before they can strip it of energy resources.",
+          "air_date": "1989-04-11",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 6,
+          "title": "Forge Onward! The Multiforce",
+          "synopsis": "The Autobot Multiforce team demonstrates their unique ability to combine in multiple configurations to combat the Decepticons.",
+          "air_date": "1989-04-18",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 7,
+          "title": "Ambush in Space! Star Saber, the Brave!!",
+          "synopsis": "Star Saber is lured into a Decepticon ambush in deep space but uses his combat skills and bravery to turn the tables.",
+          "air_date": "1989-04-25",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 8,
+          "title": "The Terror of the Giant Fortress",
+          "synopsis": "Deathsaurus's massive Planet-Destroying Fortress is revealed, a weapon of unimaginable destructive power that threatens all civilization.",
+          "air_date": "1989-05-02",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 9,
+          "title": "Unite!! Multiforce",
+          "synopsis": "The six members of the Multiforce combine into the powerful Landcross for the first time to face an overwhelming Decepticon force.",
+          "air_date": "1989-05-16",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 10,
+          "title": "The Brainmasters Appear!",
+          "synopsis": "The elite Autobot Brainmasters -- Blacker, Laster, and Braver -- arrive and demonstrate their ability to form Road Caesar.",
+          "air_date": "1989-05-23",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 11,
+          "title": "Fight!! The Brainmasters",
+          "synopsis": "The Brainmasters face their first major challenge as Deathsaurus sends his most powerful warriors to test the new Autobot arrivals.",
+          "air_date": "1989-05-30",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 12,
+          "title": "Tankou's Tough Battle!!",
+          "synopsis": "Autobot warrior Tankou finds himself in a desperate fight against superior Decepticon numbers and must rely on ingenuity to survive.",
+          "air_date": "1989-06-06",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 13,
+          "title": "Deathsaurus - The Dictator of Destruction",
+          "synopsis": "The full scope of Deathsaurus's ambitions and power is revealed as he personally enters the battlefield against Star Saber.",
+          "air_date": "1989-06-20",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 14,
+          "title": "The Brave Warrior Jan",
+          "synopsis": "Jan Minakaze proves his courage by taking a dangerous solo mission to help the Autobots, earning his father Star Saber's respect.",
+          "air_date": "1989-06-27",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 15,
+          "title": "Rescue Jan!",
+          "synopsis": "Jan is captured by the Decepticons, and Star Saber must mount a daring rescue mission while balancing his duties as Supreme Commander.",
+          "air_date": "1989-07-04",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 16,
+          "title": "Jet, Save the Refugees!",
+          "synopsis": "Autobot warrior Jet races to evacuate refugees from a war zone before the Decepticons can use them as hostages.",
+          "air_date": "1989-07-11",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 17,
+          "title": "Showdown: The Fortress vs the Victory Unification",
+          "synopsis": "Star Saber leads a strike against Deathsaurus's Planet-Destroying Fortress in one of the war's most critical engagements.",
+          "air_date": "1989-07-18",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 18,
+          "title": "The Wrath of the Resurrected Giant Fortress!",
+          "synopsis": "Deathsaurus reactivates his Giant Fortress with devastating results as the Autobots struggle to contain the renewed threat.",
+          "air_date": "1989-07-25",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 19,
+          "title": "Unite! Liokaiser!!",
+          "synopsis": "The six members of the Breastforce combine to form the monstrous Liokaiser, a gestalt warrior of terrifying power.",
+          "air_date": "1989-08-01",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 20,
+          "title": "Assemble! The New Warrior",
+          "synopsis": "A new Autobot warrior arrives to reinforce the battered defenders as the war reaches a critical turning point.",
+          "air_date": "1989-08-15",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 21,
+          "title": "The Death of Greatshot?!",
+          "synopsis": "The Autobot six-changer Greatshot falls in battle, and his comrades fear the worst as the Decepticons press their advantage.",
+          "air_date": "1989-08-22",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 22,
+          "title": "Fight! Victory Leo!!",
+          "synopsis": "The rebuilt God Ginrai returns as Victory Leo, a ferocious lion-mode warrior with devastating firepower.",
+          "air_date": "1989-08-29",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 23,
+          "title": "Crisis! The Day of Humanity's Extinction",
+          "synopsis": "The Decepticons threaten to render Earth uninhabitable as Deathsaurus's endgame approaches, putting all of humanity at risk.",
+          "air_date": "1989-09-05",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 24,
+          "title": "Ginrai Dies!!",
+          "synopsis": "In a devastating blow, Ginrai's original form is destroyed in battle, but his spirit lives on through the Victory Leo Transtector.",
+          "air_date": "1989-09-12",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 25,
+          "title": "The Strongest! Victory Leo",
+          "synopsis": "Victory Leo unleashes his full power in a rage-fueled rampage against the Decepticons, proving he is the most powerful Autobot warrior.",
+          "air_date": "1989-09-19",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 26,
+          "title": "A Mystery?! The Autobot Base Is Attacked!!",
+          "synopsis": "The Autobot headquarters comes under a mysterious assault, and the team must uncover the source before it is too late.",
+          "air_date": "1989-09-26",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 27,
+          "title": "Hellbat's Target!",
+          "synopsis": "The underhanded Decepticon Hellbat uses his sonic hypnosis powers to target a key Autobot, threatening to turn the tide of battle.",
+          "air_date": "1989-10-03",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 28,
+          "title": "The Tide Is Turned! The Ultimate Weapon, the Victory Unification",
+          "synopsis": "Star Saber and Victory Leo achieve their ultimate combination for the first time, forming the unstoppable Victory Saber.",
+          "air_date": "1989-10-17",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 29,
+          "title": "Jan - Defend the Campus!!",
+          "synopsis": "Jan must protect his school from a Decepticon incursion, putting his training and courage to the ultimate test.",
+          "air_date": "1989-10-24",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 30,
+          "title": "Fight to the Death!! Antarctic Battle",
+          "synopsis": "A brutal engagement erupts in the Antarctic as both factions clash over a strategic resource hidden beneath the ice.",
+          "air_date": "1989-10-31",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 31,
+          "title": "Jan, Protect the School!!",
+          "synopsis": "The Decepticons threaten Jan's school once again, and he rallies his classmates and Autobot allies to defend it.",
+          "air_date": "1989-11-07",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 32,
+          "title": "Mystery!! Rescue Commander Gai",
+          "synopsis": "A mysterious new commander named Gai appears, bringing both hope and questions about his true identity.",
+          "air_date": "1989-11-14",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 33,
+          "title": "The Strongest!! Victory Saber",
+          "synopsis": "Victory Saber is unleashed at full power, proving to be the strongest warrior in the galaxy and a match for any Decepticon.",
+          "air_date": "1989-11-21",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 34,
+          "title": "The Terror Below",
+          "synopsis": "An underground Decepticon base is discovered beneath a major city, and the Autobots must neutralize it without causing civilian casualties.",
+          "air_date": "1989-11-28",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 35,
+          "title": "Leozack's Ambition!!",
+          "synopsis": "Leozack's secret scheme to overthrow Deathsaurus and seize Decepticon leadership reaches its dramatic climax.",
+          "air_date": "1989-12-05",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 36,
+          "title": "Deathsaurus' Desperate Fury!!",
+          "synopsis": "Driven to desperation, Deathsaurus unleashes his full fury in an all-out attack, risking everything on one final gambit.",
+          "air_date": "1989-12-12",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 37,
+          "title": "The Planet-Destroying Fortress Nears!!",
+          "synopsis": "Deathsaurus's Planet-Destroying Fortress approaches Earth, threatening to annihilate the planet unless the Autobots can stop it.",
+          "air_date": "1989-12-14",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 38,
+          "title": "Showdown! The Fortress vs. Victory Saber",
+          "synopsis": "In the series finale, Victory Saber faces Deathsaurus and his Planet-Destroying Fortress in a climactic battle that decides the fate of Earth and the galaxy.",
+          "air_date": "1989-12-19",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        }
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "name": "Star Saber",
+      "role": "Autobot Supreme Commander",
+      "faction": "Autobot",
+      "voice_actor": "Hideyuki Tanaka",
+      "alt_mode": "Cybertronic spacecraft",
+      "image": null
+    },
+    {
+      "name": "Victory Leo",
+      "role": "Autobot Warrior (rebuilt Ginrai)",
+      "faction": "Autobot",
+      "voice_actor": "Hiroshi Takemura",
+      "alt_mode": "Robotic lion / Winged jet",
+      "image": null
+    },
+    {
+      "name": "Deathsaurus",
+      "role": "Decepticon Emperor of Destruction",
+      "faction": "Decepticon",
+      "voice_actor": "Takeshi Aono",
+      "alt_mode": "Dragon / Kaiju beast",
+      "image": null
+    },
+    {
+      "name": "Jan Minakaze",
+      "role": "Star Saber's adopted human son",
+      "faction": "Autobot",
+      "voice_actor": "Miyako Endo",
+      "alt_mode": "None (human)",
+      "image": null
+    },
+    {
+      "name": "Leozack",
+      "role": "Breastforce Commander",
+      "faction": "Decepticon",
+      "voice_actor": "Keiichi Nanba",
+      "alt_mode": "F-14 Tomcat jet fighter",
+      "image": null
+    },
+    {
+      "name": "Hellbat",
+      "role": "Breastforce Warrior",
+      "faction": "Decepticon",
+      "voice_actor": "Yoku Shioya",
+      "alt_mode": "Fighter jet",
+      "image": null
+    },
+    {
+      "name": "Greatshot",
+      "role": "Autobot Six-Changer Warrior",
+      "faction": "Autobot",
+      "voice_actor": "Michihiro Ikemizu",
+      "alt_mode": "Six modes: robot, jet, car, tank, wolf, gun",
+      "image": null
+    },
+    {
+      "name": "Blacker",
+      "role": "Brainmaster Leader / Road Caesar component",
+      "faction": "Autobot",
+      "voice_actor": "Takuro Kitagawa",
+      "alt_mode": "Sports car",
+      "image": null
+    },
+    {
+      "name": "Landcross",
+      "role": "Multiforce Combined Form",
+      "faction": "Autobot",
+      "voice_actor": "Various",
+      "alt_mode": "Six Multiforce members combine",
+      "image": null
+    },
+    {
+      "name": "Liokaiser",
+      "role": "Breastforce Combined Form",
+      "faction": "Decepticon",
+      "voice_actor": "Various",
+      "alt_mode": "Six Breastforce members combine",
+      "image": null
+    }
+  ],
+  "media": [],
+  "trivia": [
+    {
+      "category": "Production",
+      "facts": [
+        "Transformers: Victory ran from March 14 to December 19, 1989, with 38 broadcast episodes plus 6 additional clip show episodes released to video.",
+        "Head writer Hiroyuki Hoshiyama crafted the series with music composed by Chumei Watanabe, featuring the opening theme 'Transformer V' and ending theme 'Cybertron Banzai.'",
+        "Star Saber became one of the most beloved characters in Japanese Transformers history and is considered one of the definitive Autobot leaders in the Japanese continuity."
+      ]
+    },
+    {
+      "category": "Story",
+      "facts": [
+        "Victory Leo is the rebuilt form of God Ginrai from Super-God Masterforce, establishing direct continuity between the two Japanese series.",
+        "Deathsaurus is notable among Decepticon leaders for genuinely caring about his troops, making him one of the more sympathetically portrayed Decepticon commanders in the franchise."
+      ]
+    }
+  ]
+}

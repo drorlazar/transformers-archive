@@ -1,0 +1,505 @@
+{
+  "title": "Beast Machines: Transformers",
+  "slug": "beast-machines",
+  "year_start": 1999,
+  "year_end": 2001,
+  "era": "beast",
+  "synopsis": "The surviving Maximals return to Cybertron only to find it conquered by Megatron and his Vehicon drones. Reformatted into technorganic forms by the ancient Oracle computer, Optimus Primal and his team fight to restore organic life to their homeworld in this dark, philosophical sequel to Beast Wars.",
+  "rating": "TV-Y7",
+  "tags": [
+    "CGI",
+    "Dark",
+    "Philosophical"
+  ],
+  "poster": "/images/series/beast-machines-poster.jpg",
+  "hero_image": "/images/series/beast-machines-hero.jpg",
+  "faction_accent": "blue",
+  "seasons": [
+    {
+      "number": 1,
+      "year": 1999,
+      "episodes": [
+        {
+          "number": 1,
+          "title": "The Reformatting",
+          "synopsis": "The Maximals awaken on Cybertron with no memory of how they got there, unable to transform, and hunted by Vehicon drones. The Oracle supercomputer reformats them into technorganic forms.",
+          "air_date": "1999-09-18",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 2,
+          "title": "Master of the House",
+          "synopsis": "The Maximals discover that Megatron has taken over all of Cybertron and commands three powerful Vehicon generals. They struggle to learn how to transform in their new bodies.",
+          "air_date": "1999-09-25",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 3,
+          "title": "Fires of the Past",
+          "synopsis": "Blackarachnia searches for Silverbolt among the Vehicon generals, suspecting one of them may be her reformatted partner. The Maximals learn more about what happened during their absence.",
+          "air_date": "1999-10-02",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 4,
+          "title": "Mercenary Pursuits",
+          "synopsis": "The Vehicon general Jetstorm is revealed to potentially be a reformatted Maximal. The team attempts to reach his buried memories while fighting off drone attacks.",
+          "air_date": "1999-10-09",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 5,
+          "title": "Forbidden Fruit",
+          "synopsis": "The Maximals discover a lone organic tree on Cybertron, a symbol of hope that the organic life they seek to restore can survive. Megatron sends forces to destroy it.",
+          "air_date": "1999-10-16",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 6,
+          "title": "The Weak Component",
+          "synopsis": "Rattrap struggles with feelings of uselessness as his technorganic form lacks offensive capabilities. He must find his own way to contribute to the team's survival.",
+          "air_date": "1999-10-23",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 7,
+          "title": "Revelations Part I: Discovery",
+          "synopsis": "Nightscream, a new Maximal bat, joins the team. He leads them to an underground chamber where they discover what Megatron has done to the population of Cybertron — their sparks have been extracted.",
+          "air_date": "1999-10-30",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 8,
+          "title": "Revelations Part II: Descent",
+          "synopsis": "The Maximals delve deeper into Cybertron's underground to find the stolen sparks. Optimus Primal receives a disturbing vision from the Oracle about the planet's future.",
+          "air_date": "1999-11-06",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 9,
+          "title": "Revelations Part III: Apocalypse",
+          "synopsis": "The Maximals locate a massive spark containment facility and attempt to free the trapped sparks, but Megatron unleashes devastating countermeasures.",
+          "air_date": "1999-11-13",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 10,
+          "title": "Survivor",
+          "synopsis": "A lone Transformer survivor is found on the surface who has evaded Megatron's purge. His story reveals the terrifying details of Megatron's conquest of Cybertron.",
+          "air_date": "1999-11-27",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 11,
+          "title": "The Key",
+          "synopsis": "Rattrap discovers the key to accessing Megatron's transformation technology. His unique skills make him essential to unlocking the secrets of the Vehicon infrastructure.",
+          "air_date": "1999-12-04",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 12,
+          "title": "The Catalyst",
+          "synopsis": "A powerful catalyst is discovered that could accelerate the technorganic reformatting of Cybertron. Both sides race to control this game-changing element.",
+          "air_date": "1999-12-11",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 13,
+          "title": "End of the Line",
+          "synopsis": "The first season reaches its climax as the Maximals launch a major assault on Megatron's fortress. A devastating betrayal from within shakes the team to its core.",
+          "air_date": "1999-12-18",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2000,
+      "episodes": [
+        {
+          "number": 1,
+          "title": "Fallout",
+          "synopsis": "In the aftermath of the first season's battle, the Maximals regroup and discover that Megatron has created a powerful new body for himself using technorganic technology.",
+          "air_date": "2000-02-09",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 2,
+          "title": "Savage Noble",
+          "synopsis": "A feral beast named Savage roams Cybertron, transforming uncontrollably between a dragon and a wolf. The Maximals discover he is connected to a lost comrade.",
+          "air_date": "2000-02-16",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 3,
+          "title": "Prometheus Unbound",
+          "synopsis": "Megatron's disembodied spark possesses the mindless Noble beast, using the organic form as a vessel to infiltrate and manipulate the Maximals from within.",
+          "air_date": "2000-02-23",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 4,
+          "title": "In Darkest Knight",
+          "synopsis": "Blackarachnia finally succeeds in freeing Silverbolt's spark from the Vehicon general Jetstorm, restoring him to his true self. But Silverbolt is tormented by memories of his actions as a Vehicon.",
+          "air_date": "2000-03-01",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 5,
+          "title": "A Wolf in the Fold",
+          "synopsis": "The restored Silverbolt struggles with darkness and guilt from his time as a Vehicon, isolating himself from the Maximals and becoming dangerously unpredictable.",
+          "air_date": "2000-03-08",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 6,
+          "title": "Home Soil",
+          "synopsis": "Botanica, a plant-based Transformer who has been exploring space, arrives on Cybertron and joins the Maximals, bringing botanical knowledge crucial to the technorganic cause.",
+          "air_date": "2000-03-15",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 7,
+          "title": "Sparkwar Part I: The Strike",
+          "synopsis": "The Maximals launch a coordinated strike to liberate the stolen sparks of Cybertron's population from Megatron's spark containment facilities.",
+          "air_date": "2000-03-22",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 8,
+          "title": "Sparkwar Part II: The Search",
+          "synopsis": "The Maximals desperately search for the sparks that have been moved to a hidden location. Megatron strengthens his defenses as the final conflict approaches.",
+          "air_date": "2000-03-29",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 9,
+          "title": "Sparkwar Part III: The Siege",
+          "synopsis": "The Maximals lay siege to Megatron's central fortress to free the captive sparks. The battle reaches a fever pitch as both sides commit everything.",
+          "air_date": "2000-04-05",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 10,
+          "title": "Spark of Darkness",
+          "synopsis": "Megatron attempts to absorb all the sparks of Cybertron into himself, seeking to become a god. The Maximals face the horrifying reality of his ultimate ambition.",
+          "air_date": "2000-04-12",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 11,
+          "title": "Endgame Part I: The Downward Spiral",
+          "synopsis": "Megatron achieves his ultimate form and begins the final phase of his plan to purge all organic matter from Cybertron. The Maximals are outmatched and losing ground.",
+          "air_date": "2000-04-19",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 12,
+          "title": "Endgame Part II: When Legends Fall",
+          "synopsis": "The Maximals make their last stand against Megatron's overwhelming forces. Several heroes fall in the desperate battle for Cybertron's soul.",
+          "air_date": "2000-04-26",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 13,
+          "title": "Endgame Part III: Seeds of the Future",
+          "synopsis": "In the series finale, Optimus Primal makes the ultimate sacrifice to merge the organic and technological halves of Cybertron, defeating Megatron and reformatting the entire planet into a technorganic paradise.",
+          "air_date": "2000-05-03",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        }
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "name": "Optimus Primal",
+      "role": "Maximal Leader",
+      "faction": "Maximal",
+      "beast_mode": "Technorganic Gorilla",
+      "voice_actor": "Gary Chalk",
+      "image": null
+    },
+    {
+      "name": "Cheetor",
+      "role": "Maximal Second-in-Command",
+      "faction": "Maximal",
+      "beast_mode": "Technorganic Cheetah",
+      "voice_actor": "Ian James Corlett",
+      "image": null
+    },
+    {
+      "name": "Rattrap",
+      "role": "Maximal Technician",
+      "faction": "Maximal",
+      "beast_mode": "Technorganic Rat",
+      "voice_actor": "Scott McNeil",
+      "image": null
+    },
+    {
+      "name": "Blackarachnia",
+      "role": "Maximal Warrior",
+      "faction": "Maximal",
+      "beast_mode": "Technorganic Spider",
+      "voice_actor": "Venus Terzo",
+      "image": null
+    },
+    {
+      "name": "Nightscream",
+      "role": "Maximal Scout",
+      "faction": "Maximal",
+      "beast_mode": "Technorganic Bat",
+      "voice_actor": "Alessandro Juliani",
+      "image": null
+    },
+    {
+      "name": "Silverbolt",
+      "role": "Maximal Warrior (formerly Vehicon Jetstorm)",
+      "faction": "Maximal",
+      "beast_mode": "Technorganic Condor",
+      "voice_actor": "Scott McNeil",
+      "image": null
+    },
+    {
+      "name": "Botanica",
+      "role": "Maximal Scientist",
+      "faction": "Maximal",
+      "beast_mode": "Technorganic Plant",
+      "voice_actor": "Kathleen Barr",
+      "image": null
+    },
+    {
+      "name": "Megatron",
+      "role": "Vehicon Overlord",
+      "faction": "Vehicon",
+      "beast_mode": "Diagnostic Drone / Giant Head",
+      "voice_actor": "David Kaye",
+      "image": null
+    },
+    {
+      "name": "Tankor",
+      "role": "Vehicon General (Tank Division)",
+      "faction": "Vehicon",
+      "beast_mode": "Tank Drone",
+      "voice_actor": "Paul Dobson",
+      "image": null
+    },
+    {
+      "name": "Jetstorm",
+      "role": "Vehicon General (Aerobot Division)",
+      "faction": "Vehicon",
+      "beast_mode": "Jet Drone",
+      "voice_actor": "Brian Drummond",
+      "image": null
+    },
+    {
+      "name": "Thrust",
+      "role": "Vehicon General (Cycle Division)",
+      "faction": "Vehicon",
+      "beast_mode": "Motorcycle Drone",
+      "voice_actor": "Jim Byrnes",
+      "image": null
+    },
+    {
+      "name": "Obsidian",
+      "role": "Vehicon General",
+      "faction": "Vehicon",
+      "beast_mode": "Attack Helicopter",
+      "voice_actor": "Paul Dobson",
+      "image": null
+    }
+  ],
+  "media": [
+    {
+      "title": "Beast Machines Season 2 by Himbo Soundblaster - Dailymotion",
+      "url": "https://www.dailymotion.com/playlist/x6i4ju",
+      "source": "dailymotion",
+      "type": "playlist"
+    },
+    {
+      "title": "Beast Machines HD - Internet Archive",
+      "url": "https://archive.org/details/beast-machines-HD",
+      "source": "other",
+      "type": "compilation"
+    },
+    {
+      "title": "Beast Machines 1080p HD Upscale (Al's Replay) - Internet Archive",
+      "url": "https://archive.org/details/Beast-Machines-1080p-Als-Replay",
+      "source": "other",
+      "type": "compilation"
+    }
+  ],
+  "trivia": [
+    {
+      "category": "Production",
+      "facts": [
+        "Beast Machines was produced by Mainframe Entertainment using a completely new art style and darker tone compared to Beast Wars, which divided the fanbase.",
+        "Co-creators Bob Skir and Marty Isenberg deliberately pursued more philosophical and spiritual themes, drawing inspiration from Eastern philosophy.",
+        "The show premiered at BotCon 1999 on July 17, 1999, months before its regular Fox Kids broadcast debut in September."
+      ]
+    },
+    {
+      "category": "Legacy",
+      "facts": [
+        "Beast Machines was controversial for its dramatically different tone and visual style, and for depicting beloved characters like Rhinox as a villain (Tankor).",
+        "The series explored themes of balance between technology and nature, individuality versus collective consciousness, and the cost of extremism — themes rarely tackled in children's animation.",
+        "Optimus Primal's final sacrifice at the end of the series brought full closure to the Beast era, reformatting Cybertron into a technorganic world."
+      ]
+    }
+  ]
+}

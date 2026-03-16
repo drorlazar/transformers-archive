@@ -1,0 +1,1531 @@
+{
+  "title": "The Transformers",
+  "slug": "g1",
+  "year_start": 1984,
+  "year_end": 1987,
+  "era": "g1",
+  "synopsis": "The original Transformers animated series follows the war between the heroic Autobots and the evil Decepticons, two factions of transforming robots from the planet Cybertron. After crash-landing on Earth four million years ago, they reawaken in 1984 and continue their battle, with the Autobots befriending humans while the Decepticons seek to plunder Earth's energy resources to conquer the universe.",
+  "rating": "TV-Y7",
+  "tags": [
+    "Classic",
+    "Action",
+    "Science Fiction",
+    "80s"
+  ],
+  "poster": "/images/series/g1-poster.jpg",
+  "hero_image": "/images/series/g1-hero.jpg",
+  "faction_accent": "red",
+  "seasons": [
+    {
+      "number": 1,
+      "year": 1984,
+      "episodes": [
+        {
+          "number": 1,
+          "title": "More Than Meets the Eye, Part 1",
+          "synopsis": "The war between the Autobots and Decepticons on Cybertron leads both factions to crash-land on prehistoric Earth, where they reawaken four million years later.",
+          "air_date": "1984-09-17",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 2,
+          "title": "More Than Meets the Eye, Part 2",
+          "synopsis": "The Decepticons begin raiding Earth's energy resources while the Autobots forge an alliance with the humans Spike and Sparkplug Witwicky.",
+          "air_date": "1984-09-18",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 3,
+          "title": "More Than Meets the Eye, Part 3",
+          "synopsis": "The Autobots launch a final assault on the Decepticons' space cruiser to prevent them from returning to Cybertron with Earth's plundered energy.",
+          "air_date": "1984-09-19",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 4,
+          "title": "Transport to Oblivion",
+          "synopsis": "Megatron constructs a space bridge to transport energon cubes back to Cybertron, but the Autobots attempt to sabotage the unstable portal.",
+          "air_date": "1984-10-06",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 5,
+          "title": "Roll for It",
+          "synopsis": "Megatron steals an antimatter formula while Optimus Prime is out of commission, leaving the Autobots scrambling to prevent a catastrophe.",
+          "air_date": "1984-10-13",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 6,
+          "title": "Divide and Conquer",
+          "synopsis": "When Optimus Prime is critically damaged in battle, the Autobots must retrieve a vital component from Cybertron through the space bridge while the Decepticons attack.",
+          "air_date": "1984-10-20",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 7,
+          "title": "S.O.S. Dinobots",
+          "synopsis": "The Autobots create the powerful but difficult-to-control Dinobots to bolster their forces against the Decepticons.",
+          "air_date": "1984-10-27",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 8,
+          "title": "The Ultimate Doom, Part 1: Brainwash",
+          "synopsis": "Megatron uses a device called a hypno-chip to brainwash human slaves, including Sparkplug, as part of a plan to bring Cybertron into Earth's orbit.",
+          "air_date": "1984-11-03",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 9,
+          "title": "The Ultimate Doom, Part 2: Search",
+          "synopsis": "With Cybertron looming above Earth and causing devastating natural disasters, the Autobots search for a way to free the brainwashed humans.",
+          "air_date": "1984-11-10",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 10,
+          "title": "The Ultimate Doom, Part 3: Revival",
+          "synopsis": "The Autobots must send Cybertron back to its original orbit before Earth is destroyed by the gravitational disruption.",
+          "air_date": "1984-11-17",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 11,
+          "title": "War of the Dinobots",
+          "synopsis": "Megatron manipulates the Dinobots Grimlock and Snarl into fighting the Autobots while he steals a meteor's energy.",
+          "air_date": "1984-11-24",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 12,
+          "title": "Countdown to Extinction",
+          "synopsis": "Starscream seizes the opportunity to take control from Megatron using Dr. Arkeville's doomsday device, threatening both factions.",
+          "air_date": "1984-12-01",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 13,
+          "title": "Fire in the Sky",
+          "synopsis": "The Decepticons discover Skyfire, an ancient Autobot scientist frozen in Arctic ice, and attempt to recruit him to their cause.",
+          "air_date": "1984-12-08",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 14,
+          "title": "Heavy Metal War",
+          "synopsis": "Megatron challenges Optimus Prime to a one-on-one duel for leadership, but secretly cheats by absorbing the powers of all the Decepticons.",
+          "air_date": "1984-12-15",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 15,
+          "title": "Fire on the Mountain",
+          "synopsis": "The Decepticons seize an ancient Incan crystal weapon in Peru, and Skyfire joins the Autobots to stop them.",
+          "air_date": "1984-12-22",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 16,
+          "title": "A Plague of Insecticons",
+          "synopsis": "A trio of insect-transforming Decepticons called the Insecticons emerges from a swamp in Bali, devouring everything in their path.",
+          "air_date": "1984-12-29",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 1985,
+      "episodes": [
+        {
+          "number": 1,
+          "title": "Autobot Spike",
+          "synopsis": "When Spike is critically injured, his mind is transferred into a robotic body called Autobot Spike, but the experience drives him to madness.",
+          "air_date": "1985-09-23",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 2,
+          "title": "The Immobilizer",
+          "synopsis": "Wheeljack invents a device that can freeze anything in place, but Ironhide's bumbling allows the Decepticons to steal it.",
+          "air_date": "1985-09-24",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 3,
+          "title": "Dinobot Island, Part 1",
+          "synopsis": "The Dinobots are sent to a mysterious island filled with prehistoric life to train, but their presence causes dangerous time warps.",
+          "air_date": "1985-09-25",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 4,
+          "title": "Dinobot Island, Part 2",
+          "synopsis": "The Decepticons exploit the time-displaced energy from Dinobot Island while prehistoric creatures rampage through the modern world.",
+          "air_date": "1985-09-26",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 5,
+          "title": "Traitor",
+          "synopsis": "Mirage is suspected of being a traitor when the Insecticons appear to be receiving inside information from the Autobots.",
+          "air_date": "1985-09-27",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 6,
+          "title": "Enter the Nightbird",
+          "synopsis": "The Decepticons steal a human-built female ninja robot called Nightbird and reprogram her to infiltrate the Autobots.",
+          "air_date": "1985-09-30",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 7,
+          "title": "Changing Gears",
+          "synopsis": "Megatron steals Gears's personality chip, transforming the cantankerous Autobot into a cheerful helper for the Decepticons' solar needle device.",
+          "air_date": "1985-10-01",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 8,
+          "title": "A Prime Problem",
+          "synopsis": "Megatron creates a perfect clone of Optimus Prime to infiltrate and destroy the Autobots from within.",
+          "air_date": "1985-10-02",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 9,
+          "title": "Atlantis, Arise!",
+          "synopsis": "The Decepticons ally with the underwater kingdom of Sub-Atlantica to attack Washington, D.C.",
+          "air_date": "1985-10-03",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 10,
+          "title": "Attack of the Autobots",
+          "synopsis": "Megatron uses a recharging station to reprogram the Autobots into Decepticon-loyal warriors, leaving only a few unaffected Autobots to fight back.",
+          "air_date": "1985-10-04",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 11,
+          "title": "Microbots",
+          "synopsis": "Megatron discovers the Heart of Cybertron inside the crashed Decepticon ship, while Bumblebee and Spike are shrunk to microscopic size.",
+          "air_date": "1985-10-07",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 12,
+          "title": "The Master Builder",
+          "synopsis": "Grapple and Hoist secretly work with the Constructicons to build a solar tower, not realizing they are being manipulated.",
+          "air_date": "1985-10-08",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 13,
+          "title": "The Insecticon Syndrome",
+          "synopsis": "The Insecticons gorge on an unstable energy source, causing them to grow enormous and become ticking time bombs threatening a nearby city.",
+          "air_date": "1985-10-09",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 14,
+          "title": "Day of the Machines",
+          "synopsis": "Megatron takes control of an offshore oil rig's supercomputer, using it to turn human machinery against the Autobots.",
+          "air_date": "1985-10-10",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 15,
+          "title": "Megatron's Master Plan, Part 1",
+          "synopsis": "Megatron uses a corrupt politician and fabricated evidence to turn the public against the Autobots, who are exiled from Earth.",
+          "air_date": "1985-10-14",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 16,
+          "title": "Megatron's Master Plan, Part 2",
+          "synopsis": "The exiled Autobots narrowly escape a deathtrap in space and return to Earth to expose Megatron's deception to the public.",
+          "air_date": "1985-10-15",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 17,
+          "title": "Auto Berserk",
+          "synopsis": "Red Alert suffers circuit damage that makes him increasingly paranoid, eventually leading him to ally with Starscream.",
+          "air_date": "1985-10-16",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 18,
+          "title": "City of Steel",
+          "synopsis": "The Constructicons rebuild New York City into a Decepticon fortress called New Cybertron, while Optimus Prime is disassembled.",
+          "air_date": "1985-10-17",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 19,
+          "title": "Desertion of the Dinobots, Part 1",
+          "synopsis": "All Transformers on Earth begin malfunctioning due to a shortage of Cybertonium, and the Dinobots refuse to help retrieve more from Cybertron.",
+          "air_date": "1985-10-21",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 20,
+          "title": "Desertion of the Dinobots, Part 2",
+          "synopsis": "Spike and Carly travel to Cybertron to find Cybertonium, encountering the female Autobot warrior Elita One and her team.",
+          "air_date": "1985-10-22",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 21,
+          "title": "Blaster Blues",
+          "synopsis": "Blaster hijacks a communications satellite to broadcast rock music, but the Decepticons exploit the satellite for their own purposes.",
+          "air_date": "1985-10-23",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 22,
+          "title": "A Decepticon Raider in King Arthur's Court",
+          "synopsis": "Warpath, Hoist, and Spike are transported back in time to medieval England along with Starscream, Ramjet, and Ravage.",
+          "air_date": "1985-10-24",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 23,
+          "title": "The God Gambit",
+          "synopsis": "Cosmos crash-lands on Saturn's moon Titan, where the Decepticons trick the primitive inhabitants into worshipping them as gods.",
+          "air_date": "1985-10-28",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 24,
+          "title": "The Core",
+          "synopsis": "The Decepticons drill toward Earth's core to tap its geothermal energy, risking the destruction of the entire planet.",
+          "air_date": "1985-10-29",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 25,
+          "title": "Make Tracks",
+          "synopsis": "Tracks befriends a young car thief named Raoul in New York City while investigating a Decepticon scheme involving stolen cars.",
+          "air_date": "1985-10-30",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 26,
+          "title": "The Autobot Run",
+          "synopsis": "The Decepticons trap most Autobots in vehicle mode using a device, leaving only a few to mount a rescue.",
+          "air_date": "1985-10-31",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 27,
+          "title": "The Golden Lagoon",
+          "synopsis": "Beachcomber discovers a pool of electrum that makes Transformers invulnerable, sparking a destructive race between both factions to claim it.",
+          "air_date": "1985-11-04",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 28,
+          "title": "Quest for Survival",
+          "synopsis": "The Autobots must protect a shipment of robotic insecticide from the Morphobots while the Insecticons pursue them relentlessly.",
+          "air_date": "1985-11-05",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 29,
+          "title": "The Secret of Omega Supreme",
+          "synopsis": "Omega Supreme's vendetta against the Constructicons is revealed through flashbacks to their shared past on Cybertron.",
+          "air_date": "1985-11-06",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 30,
+          "title": "Child's Play",
+          "synopsis": "Several Autobots and Decepticons are accidentally transported to a planet of giants, where they are treated as toys by enormous alien children.",
+          "air_date": "1985-11-07",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 31,
+          "title": "The Gambler",
+          "synopsis": "Smokescreen must gamble for the freedom of his fellow Autobots after they are captured and have their weapons drained on an alien world.",
+          "air_date": "1985-11-11",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 32,
+          "title": "The Search for Alpha Trion",
+          "synopsis": "The Autobots travel to Cybertron to rescue the female Autobots and the legendary Alpha Trion from Shockwave's forces.",
+          "air_date": "1985-11-12",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 33,
+          "title": "Auto-Bop",
+          "synopsis": "Tracks and Blaster infiltrate a Decepticon-run nightclub where humans are being hypnotized through dance music.",
+          "air_date": "1985-11-13",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 34,
+          "title": "Prime Target",
+          "synopsis": "A big-game hunter named Lord Chumley captures several Autobots as trophies and sets his sights on Optimus Prime as his ultimate prize.",
+          "air_date": "1985-11-14",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 35,
+          "title": "The Girl Who Loved Powerglide",
+          "synopsis": "A young heiress named Astoria is targeted by the Decepticons for her inherited energy formula, and Powerglide becomes her unlikely protector.",
+          "air_date": "1985-11-18",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 36,
+          "title": "Triple Takeover",
+          "synopsis": "Starscream, Blitzwing, and Astrotrain each attempt to seize leadership of the Decepticons from Megatron in a three-way power struggle.",
+          "air_date": "1985-11-19",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 37,
+          "title": "Sea Change",
+          "synopsis": "Seaspray falls in love with an alien woman on a water planet and temporarily transforms into a humanoid to be with her.",
+          "air_date": "1985-11-20",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 38,
+          "title": "Hoist Goes Hollywood",
+          "synopsis": "Hoist wanders onto a movie set and accidentally becomes a film star, while the Decepticons try to steal the studio's equipment.",
+          "air_date": "1985-11-21",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 39,
+          "title": "The Key to Vector Sigma, Part 1",
+          "synopsis": "Megatron seeks the ancient computer Vector Sigma on Cybertron to give his new Stunticon warriors true personalities and intelligence.",
+          "air_date": "1985-11-25",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 40,
+          "title": "The Key to Vector Sigma, Part 2",
+          "synopsis": "Alpha Trion sacrifices himself to activate Vector Sigma for the Autobots, who create the Aerialbots to counter the Decepticon Stunticons.",
+          "air_date": "1985-11-26",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 41,
+          "title": "Aerial Assault",
+          "synopsis": "The Aerialbots investigate a Middle Eastern smuggling ring and discover it is a Decepticon operation run by Swindle.",
+          "air_date": "1985-12-10",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 42,
+          "title": "Masquerade",
+          "synopsis": "The Autobots disguise themselves as the Stunticons to infiltrate the Decepticons and steal a key component from their latest weapon.",
+          "air_date": "1985-12-16",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 43,
+          "title": "Trans-Europe Express",
+          "synopsis": "The Autobots enter a European charity car race, but the Decepticons and their Stunticons attempt to sabotage the event.",
+          "air_date": "1985-12-23",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 44,
+          "title": "War Dawn",
+          "synopsis": "The Aerialbots are transported back in time to Cybertron's Golden Age, where they witness the rise of Megatron and the creation of Optimus Prime.",
+          "air_date": "1985-12-25",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 45,
+          "title": "Cosmic Rust",
+          "synopsis": "The Autobots are infected with a corrosive cosmic plague that eats through metal, and must find a cure before they disintegrate.",
+          "air_date": "1985-12-26",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 46,
+          "title": "Kremzeek!",
+          "synopsis": "Megatron creates Kremzeek, a mischievous energy creature that wreaks havoc on the Autobots' electronic systems and travels to Japan.",
+          "air_date": "1985-12-27",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 47,
+          "title": "Starscream's Brigade",
+          "synopsis": "Starscream assembles a team of renegade Combaticons from old Decepticon personality components to challenge Megatron's leadership.",
+          "air_date": "1986-01-07",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 48,
+          "title": "Revenge of Bruticus",
+          "synopsis": "The Combaticons, merged as Bruticus, threaten to destroy Earth by altering its orbit unless Megatron surrenders leadership of the Decepticons.",
+          "air_date": "1986-01-08",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 49,
+          "title": "B.O.T.",
+          "synopsis": "Three high school students build a robot from Combaticon parts that becomes a dangerous weapon sought by both Autobots and Decepticons.",
+          "air_date": "1986-01-09",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "year": 1986,
+      "episodes": [
+        {
+          "number": 1,
+          "title": "Five Faces of Darkness, Part 1",
+          "synopsis": "Set in 2006 after the movie, the Decepticons kidnap Kup and Ultra Magnus, while Rodimus Prime struggles with the burden of leadership.",
+          "air_date": "1986-09-15",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 2,
+          "title": "Five Faces of Darkness, Part 2",
+          "synopsis": "The Autobots discover the Quintessons are behind the kidnappings and are seeking to reclaim Cybertron with a new Decepticon army.",
+          "air_date": "1986-09-16",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 3,
+          "title": "Five Faces of Darkness, Part 3",
+          "synopsis": "Rodimus Prime uncovers the ancient history of the Quintessons as the original creators and slavers of the Transformer race.",
+          "air_date": "1986-09-17",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 4,
+          "title": "Five Faces of Darkness, Part 4",
+          "synopsis": "The Quintessons' plot to freeze all Transformers using a device linked to Vector Sigma advances as Galvatron is reactivated.",
+          "air_date": "1986-09-18",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 5,
+          "title": "Five Faces of Darkness, Part 5",
+          "synopsis": "The Autobots and Decepticons form a temporary truce to defeat the Quintessons and prevent the destruction of all Transformer life.",
+          "air_date": "1986-09-19",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 6,
+          "title": "The Killing Jar",
+          "synopsis": "Ultra Magnus, Cyclonus, Marissa Faireborn, and a Quintesson are trapped together in a Quintesson prison dimension and must cooperate to escape.",
+          "air_date": "1986-09-29",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 7,
+          "title": "Chaos",
+          "synopsis": "A Quintesson scheme causes time itself to become unstable, mixing past, present, and future events across Cybertron.",
+          "air_date": "1986-09-30",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 8,
+          "title": "Dark Awakening",
+          "synopsis": "The Autobots discover a reanimated Optimus Prime in a Quintesson trap, but his revival is part of a sinister plot to destroy the Autobot fleet.",
+          "air_date": "1986-10-01",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 9,
+          "title": "Starscream's Ghost",
+          "synopsis": "Starscream's ghost possesses various Decepticons to exact revenge and seek a new body, causing chaos among both factions.",
+          "air_date": "1986-10-02",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 10,
+          "title": "Thief in the Night",
+          "synopsis": "Octane strikes a deal with the ruler of the fictional nation Carbombya to steal world monuments in exchange for oil.",
+          "air_date": "1986-10-06",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 11,
+          "title": "Forever Is a Long Time Coming",
+          "synopsis": "A young girl is sent back in time to ancient Cybertron and must help prevent the Quintessons from altering history.",
+          "air_date": "1986-10-08",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 12,
+          "title": "Surprise Party",
+          "synopsis": "Daniel and Wheelie inadvertently alert the Quintessons to a neutral alien world while trying to plan a birthday party.",
+          "air_date": "1986-10-09",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 13,
+          "title": "Madman's Paradise",
+          "synopsis": "Daniel and Grimlock are transported to a magical dimension where a banished Quintesson has set himself up as an evil sorcerer.",
+          "air_date": "1986-10-13",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 14,
+          "title": "Carnage in C-Minor",
+          "synopsis": "A trio of alien musicians hold the key to a devastating sonic weapon that both factions race to control.",
+          "air_date": "1986-10-14",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 15,
+          "title": "Fight or Flee",
+          "synopsis": "The Autobots help the peaceful inhabitants of Paradron, a hidden Autobot colony, when the Decepticons invade their world.",
+          "air_date": "1986-10-15",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 16,
+          "title": "Webworld",
+          "synopsis": "The Decepticons bring the increasingly insane Galvatron to an organic planet called Torkulon for psychiatric treatment, with disastrous results.",
+          "air_date": "1986-10-20",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 17,
+          "title": "Ghost in the Machine",
+          "synopsis": "Starscream's ghost allies with Unicron, performing tasks for the planet-eater in exchange for a new body.",
+          "air_date": "1986-10-21",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 18,
+          "title": "The Dweller in the Depths",
+          "synopsis": "The Quintessons unleash a trans-organic creature from Cybertron's depths that drains the life energy from Transformers.",
+          "air_date": "1986-10-30",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 19,
+          "title": "Nightmare Planet",
+          "synopsis": "Daniel's nightmares become reality when a Quintesson device taps into his subconscious, creating dangerous dream creatures.",
+          "air_date": "1986-10-31",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 20,
+          "title": "The Ultimate Weapon",
+          "synopsis": "First Aid quits the Protectobots over his pacifist beliefs, but must return when the Decepticons threaten with a devastating weapon.",
+          "air_date": "1986-11-10",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 21,
+          "title": "The Quintesson Journal",
+          "synopsis": "Both factions race to find a lost Quintesson journal that contains secrets about the origins of the Transformers.",
+          "air_date": "1986-11-11",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 22,
+          "title": "The Big Broadcast of 2006",
+          "synopsis": "An alien transmission causes all Transformers to go haywire, and a small group must trace the signal to its source.",
+          "air_date": "1986-11-12",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 23,
+          "title": "Only Human",
+          "synopsis": "A crime lord uses Synthoid technology to trap Rodimus Prime, Ultra Magnus, Springer, and Arcee in human bodies.",
+          "air_date": "1986-11-13",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 24,
+          "title": "Grimlock's New Brain",
+          "synopsis": "An accident makes Grimlock super-intelligent, and he uses his genius to build the Technobots before reverting to normal.",
+          "air_date": "1986-11-14",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 25,
+          "title": "Money Is Everything",
+          "synopsis": "Dirk Manus hires the Quintessons to help him find a treasure, but the mission puts the Technobots in danger.",
+          "air_date": "1986-11-17",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 26,
+          "title": "Call of the Primitives",
+          "synopsis": "The Transformers with animal alternate modes are summoned by their ancient creator Primacron to fight his renegade creation, Tornedron.",
+          "air_date": "1986-11-18",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 27,
+          "title": "The Burden Hardest to Bear",
+          "synopsis": "Rodimus Prime loses the Matrix of Leadership to the Decepticons, and both he and Scourge must deal with its incredible power.",
+          "air_date": "1986-11-19",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 28,
+          "title": "The Face of the Nijika",
+          "synopsis": "The Quintessons pursue an alien with a power-absorbing mask, and the Autobots must protect the alien from their machinations.",
+          "air_date": "1986-11-20",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 29,
+          "title": "The Return of Optimus Prime, Part 1",
+          "synopsis": "A deadly hate plague infects Transformers across the galaxy, and a group of scientists discovers that only the revived Optimus Prime can stop it.",
+          "air_date": "1987-02-24",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 30,
+          "title": "The Return of Optimus Prime, Part 2",
+          "synopsis": "Optimus Prime is restored to life and uses the wisdom of the Matrix to cure the hate plague, reclaiming leadership of the Autobots.",
+          "air_date": "1987-02-25",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "year": 1987,
+      "episodes": [
+        {
+          "number": 1,
+          "title": "The Rebirth, Part 1",
+          "synopsis": "The Decepticons attack Cybertron to steal the Plasma Energy Chamber's key, inadvertently sending a group of Autobots and Decepticons to the planet Nebulos.",
+          "air_date": "1987-11-09",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 2,
+          "title": "The Rebirth, Part 2",
+          "synopsis": "On Nebulos, the Autobots bond with local rebels to become Headmasters, while the Decepticons form their own Headmaster and Targetmaster partnerships.",
+          "air_date": "1987-11-10",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 3,
+          "title": "The Rebirth, Part 3",
+          "synopsis": "The Autobots and their Nebulan partners must stop the Plasma Energy Chamber from destroying Cybertron, ushering in a new golden age.",
+          "air_date": "1987-11-11",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        }
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "name": "Optimus Prime",
+      "role": "Autobot Supreme Commander",
+      "faction": "Autobot",
+      "voice_actor": "Peter Cullen",
+      "alt_mode": "Freightliner FL86 cab-over semi truck",
+      "image": null
+    },
+    {
+      "name": "Megatron",
+      "role": "Decepticon Leader",
+      "faction": "Decepticon",
+      "voice_actor": "Frank Welker",
+      "alt_mode": "Walther P38 pistol",
+      "image": null
+    },
+    {
+      "name": "Starscream",
+      "role": "Decepticon Air Commander",
+      "faction": "Decepticon",
+      "voice_actor": "Chris Latta",
+      "alt_mode": "F-15 Eagle jet fighter",
+      "image": null
+    },
+    {
+      "name": "Bumblebee",
+      "role": "Autobot Scout",
+      "faction": "Autobot",
+      "voice_actor": "Dan Gilvezan",
+      "alt_mode": "Volkswagen Beetle",
+      "image": null
+    },
+    {
+      "name": "Soundwave",
+      "role": "Decepticon Communications Officer",
+      "faction": "Decepticon",
+      "voice_actor": "Frank Welker",
+      "alt_mode": "Micro-cassette recorder",
+      "image": null
+    },
+    {
+      "name": "Jazz",
+      "role": "Autobot Special Operations",
+      "faction": "Autobot",
+      "voice_actor": "Scatman Crothers",
+      "alt_mode": "Porsche 935 Turbo",
+      "image": null
+    },
+    {
+      "name": "Grimlock",
+      "role": "Dinobot Commander",
+      "faction": "Autobot",
+      "voice_actor": "Gregg Berger",
+      "alt_mode": "Tyrannosaurus Rex",
+      "image": null
+    },
+    {
+      "name": "Ironhide",
+      "role": "Autobot Security",
+      "faction": "Autobot",
+      "voice_actor": "Peter Cullen",
+      "alt_mode": "Nissan Onebox Cherry Vanette",
+      "image": null
+    },
+    {
+      "name": "Rodimus Prime",
+      "role": "Autobot Leader (Seasons 3-4)",
+      "faction": "Autobot",
+      "voice_actor": "Dick Gautier",
+      "alt_mode": "Futuristic sports car",
+      "image": null
+    },
+    {
+      "name": "Galvatron",
+      "role": "Decepticon Leader (Seasons 3-4)",
+      "faction": "Decepticon",
+      "voice_actor": "Leonard Nimoy (movie) / Frank Welker (series)",
+      "alt_mode": "Laser cannon",
+      "image": null
+    },
+    {
+      "name": "Ultra Magnus",
+      "role": "Autobot City Commander",
+      "faction": "Autobot",
+      "voice_actor": "Robert Stack (movie) / Jack Angel (series)",
+      "alt_mode": "Car carrier truck",
+      "image": null
+    },
+    {
+      "name": "Shockwave",
+      "role": "Decepticon Military Commander on Cybertron",
+      "faction": "Decepticon",
+      "voice_actor": "Corey Burton",
+      "alt_mode": "Cybertronian laser gun",
+      "image": null
+    }
+  ],
+  "media": [
+    {
+      "title": "G1 Season 1 - Official Hasbro Pulse YouTube Playlist",
+      "url": "https://www.youtube.com/playlist?list=PLD3dCMp2WHiwrVPo2XaZpkWp3K3xpx3h8",
+      "source": "youtube",
+      "type": "playlist"
+    },
+    {
+      "title": "G1 Season 2 - Official Hasbro Pulse YouTube Playlist",
+      "url": "https://www.youtube.com/playlist?list=PLD3dCMp2WHizDuYwURcwk1VhvsPQo_Fx8",
+      "source": "youtube",
+      "type": "playlist"
+    },
+    {
+      "title": "G1 Season 3 - Official Hasbro Pulse YouTube Playlist",
+      "url": "https://www.youtube.com/playlist?list=PLD3dCMp2WHixI37GR775SsxS70SupKT62",
+      "source": "youtube",
+      "type": "playlist"
+    },
+    {
+      "title": "G1 Season 4 - Official Hasbro Pulse YouTube Playlist",
+      "url": "https://www.youtube.com/playlist?list=PLD3dCMp2WHiwnw25srmaM6hW8rzDg4yqV",
+      "source": "youtube",
+      "type": "playlist"
+    },
+    {
+      "title": "G1 Complete Series - Official Hasbro Pulse YouTube Playlist",
+      "url": "https://www.youtube.com/playlist?list=PLD3dCMp2WHixUHTv2TETDETzoB148KoPy",
+      "source": "youtube",
+      "type": "playlist"
+    },
+    {
+      "title": "G1 Complete Season 1 - Single Video (Hasbro Pulse)",
+      "url": "https://www.youtube.com/watch?v=7dGl6zzFlzI",
+      "source": "youtube",
+      "type": "compilation"
+    },
+    {
+      "title": "Transformers G1 by Navy01 - Dailymotion Playlist",
+      "url": "https://www.dailymotion.com/playlist/x3ne0f",
+      "source": "dailymotion",
+      "type": "playlist"
+    },
+    {
+      "title": "Transformers G1 Season 3 - Dailymotion Playlist",
+      "url": "https://www.dailymotion.com/playlist/x41gjq",
+      "source": "dailymotion",
+      "type": "playlist"
+    },
+    {
+      "title": "Transformers G1 by Mike ChalieBrown - Dailymotion Playlist",
+      "url": "https://www.dailymotion.com/playlist/x4b39t",
+      "source": "dailymotion",
+      "type": "playlist"
+    },
+    {
+      "title": "TRANSFORMERS G1 by CTV Mundo - Dailymotion Playlist",
+      "url": "https://www.dailymotion.com/playlist/x818cx",
+      "source": "dailymotion",
+      "type": "playlist"
+    },
+    {
+      "title": "Transformers G1 S3 by Scott See - Dailymotion Playlist",
+      "url": "https://www.dailymotion.com/playlist/x1ystb",
+      "source": "dailymotion",
+      "type": "playlist"
+    },
+    {
+      "title": "Transformers TV - 24/7 Live Channel on Pluto TV",
+      "url": "https://pluto.tv/us/live-tv/60fb053712f22a0007ff14d2",
+      "source": "other",
+      "type": "live"
+    },
+    {
+      "title": "Transformers G1 Season 1 (1080p) - Internet Archive",
+      "url": "https://archive.org/details/transformers-season-1",
+      "source": "other",
+      "type": "compilation"
+    },
+    {
+      "title": "Transformers G1 Hasbro Pulse Collection - Internet Archive",
+      "url": "https://archive.org/details/transformers-g1-hasbropulse",
+      "source": "other",
+      "type": "compilation"
+    },
+    {
+      "title": "Transformers 1984 Episodes on Rumble",
+      "url": "https://rumble.com/v6pq4bc-transformers-1984-episode-81-ghost-in-the-planet.html",
+      "source": "rumble",
+      "type": "mirror"
+    },
+    {
+      "title": "Transformers Full Series - Telegram Channel",
+      "url": "https://t.me/transformersfullseries",
+      "source": "telegram",
+      "type": "community"
+    }
+  ],
+  "trivia": [
+    {
+      "category": "Production",
+      "facts": [
+        "The series was produced as a collaboration between Marvel Productions, Sunbow Productions, and Toei Animation, with episodes going from script to screen in as little as four months.",
+        "Voice direction was led by Wally Burr, who was known for his demanding and exacting approach to performances, pushing voice actors to deliver multiple takes.",
+        "The show was animated by multiple studios including Toei Animation (68 episodes), AKOM (22 episodes), and Sei Young Animation, resulting in noticeable quality variations between episodes."
+      ]
+    },
+    {
+      "category": "Cultural Impact",
+      "facts": [
+        "The 1986 animated movie killed off many popular Season 1 and 2 characters including Optimus Prime, causing massive backlash from fans and parents that led to his resurrection in Season 3.",
+        "The series introduced the concept of transforming robots to Western audiences and launched a multimedia franchise that has generated over $30 billion in revenue worldwide."
+      ]
+    }
+  ]
+}

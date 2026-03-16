@@ -1,0 +1,58 @@
+.trivia-tab {
+  padding: 1.5rem 4%;
+}
+
+.trivia-tab__title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.trivia-tab__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.trivia-tab__item {
+  padding: 1rem 1.25rem;
+  background: var(--bg-card);
+  border-left: 3px solid var(--trivia-border, var(--text-tertiary));
+  border-radius: 0 var(--card-radius) var(--card-radius) 0;
+  transition: background var(--transition-fast);
+}
+
+.trivia-tab__item:hover {
+  background: var(--bg-card-hover);
+}
+
+.trivia-tab__category {
+  display: inline-block;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--trivia-border, var(--text-secondary));
+  margin-bottom: 0.375rem;
+}
+
+.trivia-tab__text {
+  font-size: 0.9375rem;
+  color: var(--text-body);
+  line-height: 1.6;
+}
+
+.trivia-tab__source {
+  display: block;
+  margin-top: 0.375rem;
+  font-size: 0.75rem;
+  color: var(--text-tertiary);
+  font-style: italic;
+}
+
+.trivia-tab__empty {
+  color: var(--text-secondary);
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 0.9375rem;
+}

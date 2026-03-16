@@ -1,0 +1,28 @@
+.series-page {
+  min-height: 100vh;
+}
+
+.series-page--loading,
+.series-page--error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  padding-top: var(--nav-height);
+  gap: 1rem;
+}
+
+.series-page--error h2 {
+  font-size: 1.5rem;
+  color: var(--accent-red);
+}
+
+.series-page--error p {
+  color: var(--text-secondary);
+}
+
+.series-page__content {
+  min-height: 40vh;
+  padding-bottom: 3rem;
+}

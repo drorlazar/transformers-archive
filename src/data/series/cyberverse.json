@@ -1,0 +1,710 @@
+{
+  "title": "Transformers: Cyberverse",
+  "slug": "cyberverse",
+  "year_start": 2018,
+  "year_end": 2020,
+  "era": "modern",
+  "synopsis": "When Bumblebee loses his memory after crash-landing on Earth, the Autobot Windblade helps him recover his past through fragmented flashbacks. As memories return, Bumblebee and Windblade uncover the history of the war for Cybertron, facing Decepticon pursuers while piecing together the mystery of the Allspark. The series escalates from a personal quest into a full-scale battle for the fate of Cybertron and the universe itself.",
+  "rating": "TV-Y7",
+  "tags": [
+    "CGI",
+    "action",
+    "Cartoon Network",
+    "Boulder Media",
+    "serialized",
+    "no humans",
+    "Allspark"
+  ],
+  "poster": "/images/series/cyberverse-poster.jpg",
+  "hero_image": "/images/series/cyberverse-hero.jpg",
+  "faction_accent": "blue",
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2018,
+      "episodes": [
+        {
+          "number": 1,
+          "title": "Fractured",
+          "air_date": "2018-09-01",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Bumblebee crash-lands on Earth with no memory. Windblade arrives to help him recover his lost past through fragmented flashbacks."
+        },
+        {
+          "number": 2,
+          "title": "Memory",
+          "air_date": "2018-09-08",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Windblade helps Bumblebee access another memory fragment, revealing his friendship with Hot Rod on Cybertron."
+        },
+        {
+          "number": 3,
+          "title": "Allspark",
+          "air_date": "2018-09-15",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A recovered memory reveals the importance of the Allspark and why Bumblebee was sent to Earth."
+        },
+        {
+          "number": 4,
+          "title": "The Journey",
+          "air_date": "2018-09-22",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Bumblebee remembers his journey from Cybertron to Earth and the dangers he faced along the way."
+        },
+        {
+          "number": 5,
+          "title": "Whiteout",
+          "air_date": "2018-09-29",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A blizzard traps Bumblebee and Windblade while Decepticon pursuers close in on their location."
+        },
+        {
+          "number": 6,
+          "title": "Megatron Is My Hero",
+          "air_date": "2018-10-06",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A flashback reveals a time when a young Bumblebee admired Megatron before the war began."
+        },
+        {
+          "number": 7,
+          "title": "Cube",
+          "air_date": "2018-10-13",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Bumblebee and Windblade discover a mysterious cube that contains vital information about the Allspark."
+        },
+        {
+          "number": 8,
+          "title": "Terminal Velocity",
+          "air_date": "2018-10-20",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A high-speed chase pushes Bumblebee to his limits as Decepticons attempt to capture him."
+        },
+        {
+          "number": 9,
+          "title": "Shadowstriker",
+          "air_date": "2018-10-27",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Decepticon Shadow Striker arrives on Earth with a personal vendetta against Bumblebee."
+        },
+        {
+          "number": 10,
+          "title": "Maccadam's",
+          "air_date": "2018-11-03",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Bumblebee remembers Maccadam's, the legendary neutral bar on Cybertron where the war's early seeds were planted."
+        },
+        {
+          "number": 11,
+          "title": "Sabotage",
+          "air_date": "2018-11-10",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Decepticons sabotage Bumblebee's memory recovery process, threatening to erase his identity forever."
+        },
+        {
+          "number": 12,
+          "title": "Teletraan-X",
+          "air_date": "2018-11-17",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Bumblebee and Windblade locate Teletraan-X, an ancient Autobot computer that may hold the key to finding the Allspark."
+        },
+        {
+          "number": 13,
+          "title": "Matrix of Leadership",
+          "air_date": "2018-12-01",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Bumblebee's memories reveal the moment Optimus Prime received the Matrix of Leadership."
+        },
+        {
+          "number": 14,
+          "title": "Siloed",
+          "air_date": "2018-12-08",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Trapped and separated, Bumblebee must rely on his recovered memories to escape."
+        },
+        {
+          "number": 15,
+          "title": "King of the Dinosaurs",
+          "air_date": "2018-12-15",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Grimlock makes his appearance, showcasing the origin of the Dinobots."
+        },
+        {
+          "number": 16,
+          "title": "The Extinction Event",
+          "air_date": "2018-12-22",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Decepticons plan an extinction-level event that threatens both Earth and Cybertron."
+        },
+        {
+          "number": 17,
+          "title": "Awaken Sleeping Giants",
+          "air_date": "2018-12-29",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Ancient Cybertronian giants are awakened, and their allegiance will determine the outcome of the conflict."
+        },
+        {
+          "number": 18,
+          "title": "Eruption",
+          "air_date": "2019-01-05",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Season 1 finale erupts in a massive battle as Bumblebee fully recovers his memory and the Autobots rally to protect the Allspark."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2019,
+      "episodes": [
+        {
+          "number": 1,
+          "title": "Sea of Tranquility",
+          "air_date": "2019-09-07",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Autobots travel to the Sea of Tranquility on Cybertron, where they discover traces of the Allspark's power."
+        },
+        {
+          "number": 2,
+          "title": "Bad Moon Rising",
+          "air_date": "2019-09-14",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A Decepticon operation on one of Cybertron's moons threatens the entire planet."
+        },
+        {
+          "number": 3,
+          "title": "The Visitor",
+          "air_date": "2019-09-21",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A mysterious visitor arrives with information about the Allspark's true nature."
+        },
+        {
+          "number": 4,
+          "title": "Bring Me the Spark of Optimus Prime",
+          "air_date": "2019-09-28",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Megatron sends his forces on a mission to capture Optimus Prime's spark."
+        },
+        {
+          "number": 5,
+          "title": "Trials",
+          "air_date": "2019-10-05",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Autobots face a series of trials to prove their worthiness to access the Allspark."
+        },
+        {
+          "number": 6,
+          "title": "Dark Birth",
+          "air_date": "2019-10-12",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The origin of a dark new threat is revealed as Shockwave experiments with forbidden science."
+        },
+        {
+          "number": 7,
+          "title": "Parley",
+          "air_date": "2019-10-19",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Optimus Prime and Megatron attempt negotiations, but neither side is willing to back down."
+        },
+        {
+          "number": 8,
+          "title": "Starscream's Children",
+          "air_date": "2019-10-26",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Starscream creates his own army of Seeker clones to challenge both Megatron and the Autobots."
+        },
+        {
+          "number": 9,
+          "title": "Spotted",
+          "air_date": "2019-11-02",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Cheetor makes his debut as the Autobots discover ancient beast-mode Transformers."
+        },
+        {
+          "number": 10,
+          "title": "Secret Science",
+          "air_date": "2019-11-09",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Shockwave's secret experiments threaten to unleash something terrible upon Cybertron."
+        },
+        {
+          "number": 11,
+          "title": "Infinite Vendetta",
+          "air_date": "2019-11-16",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "An ancient vendetta resurfaces, drawing the Autobots into a conflict older than the war itself."
+        },
+        {
+          "number": 12,
+          "title": "I Am the Allspark",
+          "air_date": "2019-11-23",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The true nature of the Allspark is revealed as it merges with an unexpected host."
+        },
+        {
+          "number": 13,
+          "title": "Escape from Earth",
+          "air_date": "2019-11-30",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Autobots must escape Earth and return to Cybertron for the final battle."
+        },
+        {
+          "number": 14,
+          "title": "Party Down",
+          "air_date": "2019-12-07",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A lighthearted interlude as the Autobots try to boost morale before the coming fight."
+        },
+        {
+          "number": 15,
+          "title": "Wiped Out",
+          "air_date": "2019-12-14",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Decepticons launch a devastating attack that wipes out Autobot defenses."
+        },
+        {
+          "number": 16,
+          "title": "Ghost Town",
+          "air_date": "2019-12-21",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Autobots discover an abandoned city on Cybertron that holds dark secrets."
+        },
+        {
+          "number": 17,
+          "title": "Perfect Storm",
+          "air_date": "2019-12-28",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Multiple crises converge into a perfect storm of challenges for the Autobots."
+        },
+        {
+          "number": 18,
+          "title": "The Crossroads",
+          "air_date": "2020-01-04",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Season 2 finale brings the Autobots to a crossroads that will determine the future of Cybertron."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "year": 2020,
+      "episodes": [
+        {
+          "number": 1,
+          "title": "Battle for Cybertron I",
+          "air_date": "2020-02-01",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The epic battle for Cybertron begins as Autobots and Decepticons clash in a war for the planet's future."
+        },
+        {
+          "number": 2,
+          "title": "Battle for Cybertron II",
+          "air_date": "2020-02-08",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The battle intensifies as both sides suffer losses and the stakes grow higher."
+        },
+        {
+          "number": 3,
+          "title": "Battle for Cybertron III",
+          "air_date": "2020-02-15",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A turning point in the battle forces the Autobots to adopt a desperate new strategy."
+        },
+        {
+          "number": 4,
+          "title": "Battle for Cybertron IV",
+          "air_date": "2020-02-22",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The opening battle arc concludes with a dramatic shift in the war's balance of power."
+        },
+        {
+          "number": 5,
+          "title": "The Loop",
+          "air_date": "2020-02-29",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Autobots are trapped in a time loop and must find a way to break free."
+        },
+        {
+          "number": 6,
+          "title": "The Dead End",
+          "air_date": "2020-03-07",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A journey through the Dead End reveals the war's toll on Cybertron's forgotten places."
+        },
+        {
+          "number": 7,
+          "title": "The Sleeper",
+          "air_date": "2020-03-14",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A dormant threat awakens beneath Cybertron's surface."
+        },
+        {
+          "number": 8,
+          "title": "The Citizen",
+          "air_date": "2020-03-21",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "An ordinary Cybertronian citizen becomes caught up in the war between factions."
+        },
+        {
+          "number": 9,
+          "title": "The Trial",
+          "air_date": "2020-03-28",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A Transformer is put on trial by the Quintessons, the ancient judges of Cybertron."
+        },
+        {
+          "number": 10,
+          "title": "The Prisoner",
+          "air_date": "2020-04-04",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A captured Autobot must survive imprisonment and find a way to escape."
+        },
+        {
+          "number": 11,
+          "title": "The Scientist",
+          "air_date": "2020-04-11",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Shockwave's ultimate experiment threatens to reshape Cybertron permanently."
+        },
+        {
+          "number": 12,
+          "title": "The Alliance",
+          "air_date": "2020-04-18",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Autobots and Decepticons must form a temporary alliance against the Quintesson invasion."
+        },
+        {
+          "number": 13,
+          "title": "The Judge",
+          "air_date": "2020-04-25",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Quintesson Judge reveals their true intentions for Cybertron."
+        },
+        {
+          "number": 14,
+          "title": "The End of the Universe I",
+          "air_date": "2020-05-02",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Quintessons unleash a weapon that threatens to destroy the entire universe."
+        },
+        {
+          "number": 15,
+          "title": "The End of the Universe II",
+          "air_date": "2020-05-09",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Autobots race to counter the Quintesson weapon before it reaches full power."
+        },
+        {
+          "number": 16,
+          "title": "The End of the Universe III",
+          "air_date": "2020-05-16",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Sacrifices are made as the battle against the Quintessons reaches its climax."
+        },
+        {
+          "number": 17,
+          "title": "The End of the Universe IV",
+          "air_date": "2020-05-23",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Quintessons are defeated and the universe is saved, but at great cost."
+        },
+        {
+          "number": 18,
+          "title": "Enemy Line",
+          "air_date": "2020-05-30",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A covert mission behind enemy lines sets the stage for the final adventures."
+        },
+        {
+          "number": 19,
+          "title": "Thunderhowl",
+          "air_date": "2020-06-06",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The medieval-themed Autobot Thunderhowl arrives with a knightly code of honor."
+        },
+        {
+          "number": 20,
+          "title": "Wild Wild Wheel",
+          "air_date": "2020-06-13",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A wild chase across Cybertron's wastelands puts the team in high-speed danger."
+        },
+        {
+          "number": 21,
+          "title": "Alien Hunt! with Meteorfire and Cosmos",
+          "air_date": "2020-06-20",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Meteorfire and Cosmos investigate alien signals in a buddy-comedy style adventure."
+        },
+        {
+          "number": 22,
+          "title": "Journey to the Valley of Repugnus",
+          "air_date": "2020-06-27",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The team ventures to a dangerous valley ruled by the monstrous Repugnus."
+        },
+        {
+          "number": 23,
+          "title": "Rack 'n' Ruin 'n' Ratchet",
+          "air_date": "2020-07-04",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Ratchet teams up with the conjoined twins Rack'n'Ruin for an adventure."
+        },
+        {
+          "number": 24,
+          "title": "Dweller in the Depths",
+          "air_date": "2020-07-11",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A terrifying creature lurking in Cybertron's depths threatens everyone on the surface."
+        },
+        {
+          "number": 25,
+          "title": "Silent Strike",
+          "air_date": "2020-07-18",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A stealth mission requires absolute silence from the Autobot team."
+        },
+        {
+          "number": 26,
+          "title": "The Other One",
+          "air_date": "2020-07-25",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Season 3 finale introduces a universe-altering revelation about alternate timelines and other versions of familiar characters."
+        }
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "name": "Bumblebee",
+      "role": "Protagonist",
+      "faction": "Autobot",
+      "alt_mode": "Muscle car",
+      "voice_actor": "Jeremy Levy",
+      "image": null
+    },
+    {
+      "name": "Windblade",
+      "role": "Bumblebee's Partner",
+      "faction": "Autobot",
+      "alt_mode": "VTOL jet",
+      "voice_actor": "Jessica DiGiovanni",
+      "image": null
+    },
+    {
+      "name": "Optimus Prime",
+      "role": "Autobot Leader",
+      "faction": "Autobot",
+      "alt_mode": "Truck",
+      "voice_actor": "Jake Foushee",
+      "image": null
+    },
+    {
+      "name": "Hot Rod",
+      "role": "Autobot Warrior",
+      "faction": "Autobot",
+      "alt_mode": "Sports car",
+      "voice_actor": "Travis Artz",
+      "image": null
+    },
+    {
+      "name": "Grimlock",
+      "role": "Dinobot Leader",
+      "faction": "Autobot",
+      "alt_mode": "Tyrannosaurus Rex",
+      "voice_actor": "Ryan Andes",
+      "image": null
+    },
+    {
+      "name": "Cheetor",
+      "role": "Beast Warrior",
+      "faction": "Autobot",
+      "alt_mode": "Cheetah",
+      "voice_actor": "TJ Nelson",
+      "image": null
+    },
+    {
+      "name": "Megatron",
+      "role": "Decepticon Leader",
+      "faction": "Decepticon",
+      "alt_mode": "Tank / jet",
+      "voice_actor": "Marc Thompson",
+      "image": null
+    },
+    {
+      "name": "Starscream",
+      "role": "Decepticon Schemer",
+      "faction": "Decepticon",
+      "alt_mode": "Fighter jet",
+      "voice_actor": "Billy Bob Thompson",
+      "image": null
+    },
+    {
+      "name": "Shockwave",
+      "role": "Decepticon Scientist",
+      "faction": "Decepticon",
+      "alt_mode": "Tank",
+      "voice_actor": "Ryan Andes",
+      "image": null
+    },
+    {
+      "name": "Soundwave",
+      "role": "Decepticon Communications",
+      "faction": "Decepticon",
+      "alt_mode": "Satellite",
+      "voice_actor": "Marc Swint",
+      "image": null
+    },
+    {
+      "name": "Shadow Striker",
+      "role": "Decepticon Warrior",
+      "faction": "Decepticon",
+      "alt_mode": "Muscle car",
+      "voice_actor": "Deanna McGovern",
+      "image": null
+    },
+    {
+      "name": "Maccadam",
+      "role": "Ancient Neutral",
+      "faction": "Neutral",
+      "alt_mode": null,
+      "voice_actor": "Dick Terhune",
+      "image": null
+    }
+  ],
+  "media": [
+    {
+      "title": "Cyberverse Season 1 - Official YouTube Playlist",
+      "url": "https://www.youtube.com/playlist?list=PLNXV9Mb7egjE96pUHvWiF1TMHvvCLvqJk",
+      "source": "youtube",
+      "type": "playlist"
+    },
+    {
+      "title": "Cyberverse Season 2 - YouTube Playlist",
+      "url": "https://www.youtube.com/playlist?list=PL0EtSoFOHlKlIdewBpqKS98zxP7E1sNv6",
+      "source": "youtube",
+      "type": "playlist"
+    },
+    {
+      "title": "Cyberverse Season 3 - YouTube Playlist",
+      "url": "https://www.youtube.com/playlist?list=PL7VEq3tXc6hvM9_DKk8uTX_HApuwFLkpA",
+      "source": "youtube",
+      "type": "playlist"
+    },
+    {
+      "title": "Cyberverse Seasons 3-4 - YouTube Playlist",
+      "url": "https://www.youtube.com/playlist?list=PL7VEq3tXc6hu4fzvmInLNAPHvaB9uTxra",
+      "source": "youtube",
+      "type": "playlist"
+    },
+    {
+      "title": "Cyberverse Season 1 [English] by Himbo Soundblaster - Dailymotion",
+      "url": "https://www.dailymotion.com/playlist/x6h0xf",
+      "source": "dailymotion",
+      "type": "playlist"
+    },
+    {
+      "title": "Cyberverse Season 2 [English] by Himbo Soundblaster - Dailymotion",
+      "url": "https://www.dailymotion.com/playlist/x6gz8o",
+      "source": "dailymotion",
+      "type": "playlist"
+    },
+    {
+      "title": "Cyberverse Seasons 1-3 by Tudor Balin - Dailymotion",
+      "url": "https://www.dailymotion.com/playlist/x6jwub",
+      "source": "dailymotion",
+      "type": "playlist"
+    },
+    {
+      "title": "Cyberverse by Cartoony Studio - Dailymotion",
+      "url": "https://www.dailymotion.com/playlist/x65aj5",
+      "source": "dailymotion",
+      "type": "playlist"
+    }
+  ],
+  "trivia": [
+    {
+      "category": "Production",
+      "facts": [
+        "Cyberverse was animated by Boulder Media Studio and debuted on Cartoon Network's app and website on August 27, 2018, before its TV premiere on September 1, 2018.",
+        "Each episode runs 11 minutes, with episodes paired into half-hour blocks. The show features a unique four-fingered character design style.",
+        "No humans appear in the series at all—a conscious decision by the production staff to keep the focus entirely on Transformers characters."
+      ]
+    },
+    {
+      "category": "Design",
+      "facts": [
+        "The show utilizes 'evergreen' character designs meant to be recognizable across all Transformers media.",
+        "Hasbro chose the name 'Cyberverse' because they already held the trademark. The series was later rebranded as 'Transformers: Bumblebee Cyberverse Adventures' for Chapters 3 and 4.",
+        "Bumblebee's amnesia storyline was inspired by the live-action Bumblebee movie (2018)."
+      ]
+    },
+    {
+      "category": "Legacy",
+      "facts": [
+        "Chapter 4 consisted of only two quadruple-length episodes ('The Immobilizers' and 'The Perfect Decepticon') that served as the series finale in 2021.",
+        "The voice cast recorded individually rather than as an ensemble group, a departure from traditional animation recording methods."
+      ]
+    }
+  ]
+}

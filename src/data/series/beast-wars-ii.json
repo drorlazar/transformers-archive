@@ -1,0 +1,525 @@
+{
+  "title": "Beast Wars II",
+  "slug": "beast-wars-ii",
+  "year_start": 1998,
+  "year_end": 1999,
+  "era": "beast",
+  "synopsis": "On the planet Gaia, Lio Convoy leads a team of Maximals against the Predacon emperor Galvatron, who seeks to harvest the planet's powerful Angolmois Energy. This Japanese-exclusive 2D animated series expanded the Beast Wars universe with a lighter tone and an expansive cast.",
+  "rating": "TV-Y7",
+  "tags": ["Japanese", "Action", "Beast"],
+  "poster": "/images/series/beast-wars-ii-poster.jpg",
+  "hero_image": "/images/series/beast-wars-ii-hero.jpg",
+  "faction_accent": "red",
+  "seasons": [
+    {
+      "number": 1,
+      "year": 1998,
+      "episodes": [
+        {
+          "number": 1,
+          "title": "The New Forces Arrive!",
+          "synopsis": "The Maximals, led by Lio Convoy, arrive on the planet Gaia and clash with Galvatron's Predacons for the first time over the planet's Angolmois Energy.",
+          "air_date": "1998-04-01",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 2,
+          "title": "White Lion, Run!",
+          "synopsis": "Lio Convoy demonstrates his power in lion mode as he races to protect his team from a Predacon ambush in the Gaian wilderness.",
+          "air_date": "1998-04-08",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 3,
+          "title": "Bighorn's Rage",
+          "synopsis": "The hot-headed Maximal Bighorn lets his temper get the better of him during a mission, putting the team at risk during a confrontation with the Predacons.",
+          "air_date": "1998-04-15",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 4,
+          "title": "The Lake Trap",
+          "synopsis": "The Predacons set a trap for the Maximals at a lakeside energon deposit. The Maximals must outsmart Galvatron's forces to escape.",
+          "air_date": "1998-04-22",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 5,
+          "title": "Galvatron Revived",
+          "synopsis": "Galvatron undergoes a power boost from Angolmois Energy, becoming even more dangerous. The Maximals face his enhanced wrath.",
+          "air_date": "1998-04-29",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 6,
+          "title": "Mystery of the Ancient Ruins",
+          "synopsis": "The Maximals discover ancient ruins on Gaia that may hold clues about the planet's mysterious connection to Angolmois Energy.",
+          "air_date": "1998-05-06",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 7,
+          "title": "The Insect Corps Arrive",
+          "synopsis": "A new squad of insect-themed Predacon soldiers arrives on Gaia as reinforcements for Galvatron, bolstering the Predacon forces significantly.",
+          "air_date": "1998-05-13",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 8,
+          "title": "Friend or Foe? The Insect Robos",
+          "synopsis": "The Maximals are unsure whether the newly arrived Insectrons are enemies or potential allies, as the insect warriors seem to follow their own agenda.",
+          "air_date": "1998-05-20",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 9,
+          "title": "The Strongest Tag Team?",
+          "synopsis": "Two Maximals pair up to take on a duo of Predacon warriors in a fierce battle, testing the limits of teamwork and combination attacks.",
+          "air_date": "1998-05-27",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 10,
+          "title": "Autorollers, Roll Out!",
+          "synopsis": "The Autorollers, a trio of transforming Predacon vehicles, are deployed by Galvatron to crush the Maximals with their heavy firepower.",
+          "air_date": "1998-06-03",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 11,
+          "title": "Danger! Scissor Boy",
+          "synopsis": "The Predacon Scissor Boy proves to be a surprisingly formidable opponent for the Maximals with his unpredictable fighting style.",
+          "air_date": "1998-06-10",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 12,
+          "title": "Galvatron Rampages",
+          "synopsis": "Galvatron goes on a destructive rampage fueled by Angolmois Energy, and the Maximals must find a way to stop his berserker assault.",
+          "air_date": "1998-06-17",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 13,
+          "title": "Predacon General Offensive!",
+          "synopsis": "A clip show recapping the battle between the Maximals and Predacons on Gaia as Galvatron launches an all-out offensive.",
+          "air_date": "1998-06-24",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 14,
+          "title": "The Combined Giant, Tripledacus",
+          "synopsis": "The three Jointrons combine to form the mighty Tripledacus. Their allegiance becomes a pivotal factor in the war on Gaia.",
+          "air_date": "1998-07-01",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 15,
+          "title": "The Festive Jointrons",
+          "synopsis": "The Jointrons bring a comical and festive energy to the conflict, as their eccentric personalities clash with both the Maximals and Predacons.",
+          "air_date": "1998-07-08",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 16,
+          "title": "A Fearsome Combination Plan?",
+          "synopsis": "Galvatron devises a plan to create his own combiner force to counter Tripledacus, leading to chaotic results.",
+          "air_date": "1998-07-15",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 17,
+          "title": "Who Is the Leader!?",
+          "synopsis": "A leadership dispute erupts among the Predacon ranks as several warriors vie for command, creating an opportunity for the Maximals.",
+          "air_date": "1998-07-22",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 18,
+          "title": "The Black Lio Convoy",
+          "synopsis": "A dark doppelganger of Lio Convoy appears, forcing the real Maximal leader to confront a twisted mirror of himself.",
+          "air_date": "1998-07-29",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 19,
+          "title": "The Space Pirate Seacons!",
+          "synopsis": "The Seacons, a band of space pirates with aquatic beast modes, arrive on Gaia seeking the Angolmois Energy for themselves.",
+          "air_date": "1998-08-05",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 20,
+          "title": "Who Is the Strongest Warrior!?",
+          "synopsis": "A clip show framed around a debate about which warrior on Gaia is the most powerful, reviewing key battles from the series.",
+          "air_date": "1998-08-12",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 21,
+          "title": "The Tentacular Scuba",
+          "synopsis": "The Maximal Scuba gets into trouble during an underwater mission and must rely on his unique abilities to survive a Predacon attack.",
+          "air_date": "1998-08-19",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 22,
+          "title": "Megastorm's Reckoning",
+          "synopsis": "Megastorm, Galvatron's ambitious brother, makes a bid for power against his sibling, threatening to split the Predacon forces.",
+          "air_date": "1998-08-26",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 23,
+          "title": "Showdown in the Sea",
+          "synopsis": "An epic underwater battle erupts between the Maximals and the Seacons as both sides fight for control of a submerged Angolmois Energy cache.",
+          "air_date": "1998-09-02",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 24,
+          "title": "Face the Setting Sun",
+          "synopsis": "A reflective episode as the Maximals and Predacons pause to consider the cost of their war on Gaia and the lives affected by the conflict.",
+          "air_date": "1998-09-09",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 25,
+          "title": "The Final Battle",
+          "synopsis": "A climactic battle erupts as the first phase of the war on Gaia reaches its peak, with Lio Convoy facing Galvatron in a decisive showdown.",
+          "air_date": "1998-09-16",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 26,
+          "title": "Enter Lio Junior",
+          "synopsis": "A new young Maximal warrior, Lio Junior, arrives and joins Lio Convoy's team, bringing fresh energy to the Maximal forces.",
+          "air_date": "1998-09-23",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 27,
+          "title": "Megastorm Reborn",
+          "synopsis": "Megastorm undergoes a dramatic upgrade and is reborn as the more powerful Gigastorm, shifting the balance of power among the Predacons.",
+          "air_date": "1998-09-30",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 28,
+          "title": "The New Weapon, Tako Tank",
+          "synopsis": "The Maximals deploy a new weapon called the Tako Tank in their fight against the Predacons, turning the tide of a key battle.",
+          "air_date": "1998-10-07",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 29,
+          "title": "The Artificial Planet Nemesis",
+          "synopsis": "A clip show that introduces the artificial planet Nemesis, a massive Predacon weapon that threatens the entire planet Gaia.",
+          "air_date": "1998-10-14",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 30,
+          "title": "Gigastorm's Treachery",
+          "synopsis": "Gigastorm betrays Galvatron in a power grab, attempting to seize control of the Predacon forces and the Nemesis for himself.",
+          "air_date": "1998-10-21",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 31,
+          "title": "The End of Starscream",
+          "synopsis": "The treacherous Starscream meets his fate in a dramatic confrontation, bringing an end to one of the Predacons' most scheming members.",
+          "air_date": "1998-10-28",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 32,
+          "title": "The Lio Convoy Assassination Plot",
+          "synopsis": "The Predacons hatch an elaborate scheme to assassinate Lio Convoy, forcing the Maximal leader to fight for his survival.",
+          "air_date": "1998-11-04",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 33,
+          "title": "The Great Angolmois Freezing Tactic",
+          "synopsis": "The Maximals attempt a desperate strategy to freeze the Angolmois Energy to prevent the Predacons from harvesting it.",
+          "air_date": "1998-11-11",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 34,
+          "title": "Knock Out Nemesis",
+          "synopsis": "The Maximals launch a daring mission to disable the Nemesis, the Predacons' planet-destroying superweapon orbiting Gaia.",
+          "air_date": "1998-11-18",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 35,
+          "title": "Lio Junior's Revolt!?",
+          "synopsis": "Young Lio Junior rebels against Lio Convoy's orders, striking out on his own against the Predacons with reckless determination.",
+          "air_date": "1998-11-25",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 36,
+          "title": "Emissary of the Fourth Planet",
+          "synopsis": "A mysterious emissary from a fourth planet arrives on Gaia bearing critical information about the Angolmois Energy's true origin.",
+          "air_date": "1998-12-02",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 37,
+          "title": "The Crisis of Planet Gaia",
+          "synopsis": "Planet Gaia faces an existential crisis as the Predacons' exploitation of Angolmois Energy threatens to destroy the world itself.",
+          "air_date": "1998-12-09",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 38,
+          "title": "Fly Out! Planet Gaia",
+          "synopsis": "As Gaia nears destruction, the Maximals evacuate and launch a desperate counterattack to save the planet from total annihilation.",
+          "air_date": "1998-12-16",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 39,
+          "title": "Assemble, Thirty-Nine Warriors",
+          "synopsis": "A clip show that rallies together the full roster of warriors who have appeared throughout the series, reflecting on their battles and bonds.",
+          "air_date": "1998-12-23",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 40,
+          "title": "Revenge of the Space Pirates",
+          "synopsis": "The Seacons return seeking vengeance, attacking both the Maximals and Predacons in a chaotic three-way battle for Angolmois Energy.",
+          "air_date": "1999-01-06",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 41,
+          "title": "Breaking into Nemesis",
+          "synopsis": "The Maximals launch a covert infiltration of the Nemesis fortress to disable its weapons from within before Galvatron can use them.",
+          "air_date": "1999-01-13",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 42,
+          "title": "Legend! The Green Warrior",
+          "synopsis": "A legendary green warrior emerges to aid in the final battle, as the conflict on Gaia reaches its ultimate climax.",
+          "air_date": "1999-01-20",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 43,
+          "title": "Farewell! Lio Convoy",
+          "synopsis": "In the series finale, Lio Convoy leads the Maximals in a final decisive battle against Galvatron. The war on Gaia ends as the Angolmois Energy is sealed away and scattered into space as capsules.",
+          "air_date": "1999-01-27",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        }
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "name": "Lio Convoy",
+      "role": "Maximal Commander",
+      "faction": "Maximal",
+      "beast_mode": "White Lion",
+      "voice_actor": "Hozumi Goda",
+      "image": null
+    },
+    {
+      "name": "Apache",
+      "role": "Maximal Warrior",
+      "faction": "Maximal",
+      "beast_mode": "Mandrill",
+      "voice_actor": "Sanryo Odaka",
+      "image": null
+    },
+    {
+      "name": "Bighorn",
+      "role": "Maximal Warrior",
+      "faction": "Maximal",
+      "beast_mode": "Buffalo",
+      "voice_actor": "Masami Iwasaki",
+      "image": null
+    },
+    {
+      "name": "Tasmania Kid",
+      "role": "Maximal Scout",
+      "faction": "Maximal",
+      "beast_mode": "Tasmanian Devil",
+      "voice_actor": "Katashi Ishizuka",
+      "image": null
+    },
+    {
+      "name": "Diver",
+      "role": "Maximal Aquatic Warrior",
+      "faction": "Maximal",
+      "beast_mode": "Frog",
+      "voice_actor": "Kenji Nakano",
+      "image": null
+    },
+    {
+      "name": "Scuba",
+      "role": "Maximal Underwater Specialist",
+      "faction": "Maximal",
+      "beast_mode": "Squid",
+      "voice_actor": "Yuji Kishi",
+      "image": null
+    },
+    {
+      "name": "Lio Junior",
+      "role": "Young Maximal Warrior",
+      "faction": "Maximal",
+      "beast_mode": "Lion Cub",
+      "voice_actor": "Minami Takayama",
+      "image": null
+    },
+    {
+      "name": "Galvatron",
+      "role": "Predacon Emperor",
+      "faction": "Predacon",
+      "beast_mode": "Dragon/Drill Tank",
+      "voice_actor": "Tetsuo Komura",
+      "image": null
+    },
+    {
+      "name": "Megastorm",
+      "role": "Predacon Sub-Commander",
+      "faction": "Predacon",
+      "beast_mode": "Tank",
+      "voice_actor": "Takashi Matsuyama",
+      "image": null
+    },
+    {
+      "name": "Starscream",
+      "role": "Predacon Aerial Warrior",
+      "faction": "Predacon",
+      "beast_mode": "Fighter Jet",
+      "voice_actor": "Hiroki Takahashi",
+      "image": null
+    },
+    {
+      "name": "BB",
+      "role": "Predacon Warrior",
+      "faction": "Predacon",
+      "beast_mode": "Helicopter",
+      "voice_actor": "Takeshi Watanabe",
+      "image": null
+    },
+    {
+      "name": "Dirge",
+      "role": "Predacon Soldier",
+      "faction": "Predacon",
+      "beast_mode": "Beetle",
+      "voice_actor": "Eiji Takemoto",
+      "image": null
+    }
+  ],
+  "media": [],
+  "trivia": [
+    {
+      "category": "Production",
+      "facts": [
+        "Beast Wars II used traditional 2D animation rather than the CGI of the North American Beast Wars series, produced by Ashi Productions.",
+        "The series was created to fill the gap in Japan while the second season of the North American Beast Wars was being dubbed, as the shorter seasons left a scheduling void.",
+        "The show featured a notably more humorous and lighter tone than the original Beast Wars, targeting a younger audience."
+      ]
+    },
+    {
+      "category": "Continuity",
+      "facts": [
+        "Beast Wars II takes place concurrently with the events of the original Beast Wars series but on a different planet called Gaia.",
+        "The Angolmois Energy introduced in this series became a key plot element in Beast Wars Neo, where it was scattered across the galaxy as capsules.",
+        "A theatrical movie, 'Beast Wars II: Lio Convoy, Close Call!', was released on December 19, 1998, as a companion to the TV series."
+      ]
+    }
+  ]
+}

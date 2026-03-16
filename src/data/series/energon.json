@@ -1,0 +1,547 @@
+{
+  "title": "Transformers: Energon",
+  "slug": "energon",
+  "year_start": 2004,
+  "year_end": 2005,
+  "era": "unicron",
+  "synopsis": "Set ten years after the defeat of Unicron, the Autobots and humanity have forged a peaceful alliance, mining energon together across the galaxy. When Megatron is resurrected and the enigmatic Alpha Q unleashes his Terrorcon army to collect energon for his own mysterious purposes, Optimus Prime must rally his forces once more. The conflict escalates as Unicron's shattered body threatens to consume everything, and an ambitious Megatron evolves into Galvatron to seize ultimate power.",
+  "rating": "TV-Y7",
+  "tags": [
+    "Action",
+    "Anime-style",
+    "Sci-Fi",
+    "CGI-Hybrid"
+  ],
+  "poster": "/images/series/energon-poster.jpg",
+  "hero_image": "/images/series/energon-hero.jpg",
+  "faction_accent": "green",
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2004,
+      "episodes": [
+        {
+          "number": 1,
+          "title": "Cybertron City",
+          "air_date": "2004-01-31",
+          "duration": "22m",
+          "synopsis": "Ten years after Unicron's defeat, the Autobots and humans work together in Cybertron City when a sudden Terrorcon attack disrupts the peace.",
+          "video_url": null
+        },
+        {
+          "number": 2,
+          "title": "Energon Stars",
+          "air_date": "2004-02-07",
+          "duration": "22m",
+          "synopsis": "The Autobots discover that the Terrorcons are stealing energon to create powerful Energon Stars, revealing a larger conspiracy.",
+          "video_url": null
+        },
+        {
+          "number": 3,
+          "title": "Scorpinok",
+          "air_date": "2004-02-14",
+          "duration": "22m",
+          "synopsis": "The powerful Decepticon Scorponok emerges as a major threat, leading Terrorcon forces in devastating raids on energon mining operations.",
+          "video_url": null
+        },
+        {
+          "number": 4,
+          "title": "Megatron's Sword",
+          "air_date": "2004-02-21",
+          "duration": "22m",
+          "synopsis": "A mysterious sword connected to Megatron surfaces, hinting that the Decepticon leader may not be as dead as everyone believed.",
+          "video_url": null
+        },
+        {
+          "number": 5,
+          "title": "The New Cybertron City",
+          "air_date": "2004-02-28",
+          "duration": "22m",
+          "synopsis": "The Autobots establish new energon mining outposts while fending off increasingly coordinated Terrorcon attacks.",
+          "video_url": null
+        },
+        {
+          "number": 6,
+          "title": "Megatron Resurrected",
+          "air_date": "2004-03-06",
+          "duration": "22m",
+          "synopsis": "Megatron is brought back to life through the power of Unicron's residual energy, resuming his campaign against the Autobots with terrifying new power.",
+          "video_url": null
+        },
+        {
+          "number": 7,
+          "title": "Megatron Raid",
+          "air_date": "2004-03-13",
+          "duration": "22m",
+          "synopsis": "The resurrected Megatron leads a devastating raid on Autobot positions, demonstrating his enhanced abilities.",
+          "video_url": null
+        },
+        {
+          "number": 8,
+          "title": "Starscream the Mysterious Mercenary",
+          "air_date": "2004-03-20",
+          "duration": "22m",
+          "synopsis": "Starscream returns as a ghostly mercenary with his own agenda, playing both sides of the conflict for his own gain.",
+          "video_url": null
+        },
+        {
+          "number": 9,
+          "title": "Battle of the Asteroid Belt",
+          "air_date": "2004-03-27",
+          "duration": "22m",
+          "synopsis": "A massive battle erupts in the asteroid belt as both factions fight over a rich concentration of energon deposits.",
+          "video_url": null
+        },
+        {
+          "number": 10,
+          "title": "Energon Tower",
+          "air_date": "2004-04-03",
+          "duration": "22m",
+          "synopsis": "The Autobots construct energon towers to defend their mining operations, but Megatron targets these vital structures.",
+          "video_url": null
+        },
+        {
+          "number": 11,
+          "title": "The Legend of Rodimus",
+          "air_date": "2004-04-10",
+          "duration": "22m",
+          "synopsis": "The legendary Autobot Rodimus appears with his own team, bringing both reinforcements and questions about his mysterious mission.",
+          "video_url": null
+        },
+        {
+          "number": 12,
+          "title": "Crisis in Jungle City",
+          "air_date": "2004-04-17",
+          "duration": "22m",
+          "synopsis": "A Terrorcon assault on the jungle-based energon mining city forces the Autobots into a desperate defensive battle.",
+          "video_url": null
+        },
+        {
+          "number": 13,
+          "title": "Kicker Beware!",
+          "air_date": "2004-04-24",
+          "duration": "22m",
+          "synopsis": "The hot-headed human Kicker Jones's energon-sensing abilities make him a target for the Decepticons.",
+          "video_url": null
+        },
+        {
+          "number": 14,
+          "title": "Energon Grid",
+          "air_date": "2004-05-01",
+          "duration": "22m",
+          "synopsis": "The Autobots attempt to create a defensive energon grid to protect Earth, but the project faces sabotage.",
+          "video_url": null
+        },
+        {
+          "number": 15,
+          "title": "Rodimus Friend or Foe?",
+          "air_date": "2004-05-08",
+          "duration": "22m",
+          "synopsis": "Rodimus's secretive behavior raises suspicion among the Autobots, who question whether he can truly be trusted.",
+          "video_url": null
+        },
+        {
+          "number": 16,
+          "title": "Go for Unicron!",
+          "air_date": "2004-05-15",
+          "duration": "22m",
+          "synopsis": "The Autobots launch a mission toward the remains of Unicron as Alpha Q's true plan to revive the chaos-bringer begins to unfold.",
+          "video_url": null
+        },
+        {
+          "number": 17,
+          "title": "The Return of Demolishor",
+          "air_date": "2004-05-22",
+          "duration": "22m",
+          "synopsis": "Former Decepticon Demolishor returns, torn between his old loyalties and a new desire for peace.",
+          "video_url": null
+        },
+        {
+          "number": 18,
+          "title": "A Tale of Two Heros",
+          "air_date": "2004-05-29",
+          "duration": "22m",
+          "synopsis": "Optimus Prime and Rodimus must set aside their differences and work together to face a threat neither can handle alone.",
+          "video_url": null
+        },
+        {
+          "number": 19,
+          "title": "Battle Stations",
+          "air_date": "2004-06-05",
+          "duration": "22m",
+          "synopsis": "The Autobots fortify their positions across multiple planets as Megatron prepares a coordinated multi-front assault.",
+          "video_url": null
+        },
+        {
+          "number": 20,
+          "title": "Alpha Q: Identity",
+          "air_date": "2004-06-12",
+          "duration": "22m",
+          "synopsis": "The mysterious Alpha Q's true identity and motivations are revealed — he seeks to use energon to restore worlds consumed by Unicron.",
+          "video_url": null
+        },
+        {
+          "number": 21,
+          "title": "Shockblast: Rampage",
+          "air_date": "2004-06-19",
+          "duration": "22m",
+          "synopsis": "The dangerous Decepticon Shockblast goes on a violent rampage, proving too powerful and unpredictable for even Megatron to control.",
+          "video_url": null
+        },
+        {
+          "number": 22,
+          "title": "Survival Instincts",
+          "air_date": "2004-06-26",
+          "duration": "22m",
+          "synopsis": "Stranded behind enemy lines, a group of Autobots must rely on their survival instincts to make it back alive.",
+          "video_url": null
+        },
+        {
+          "number": 23,
+          "title": "Each One Fights...",
+          "air_date": "2004-07-03",
+          "duration": "22m",
+          "synopsis": "Every Autobot is called to fight as the Decepticons launch simultaneous attacks across multiple energon mining outposts.",
+          "video_url": null
+        },
+        {
+          "number": 24,
+          "title": "Unicron Unleashed",
+          "air_date": "2004-07-10",
+          "duration": "22m",
+          "synopsis": "Unicron's dormant body begins to reactivate, threatening to consume everything as the conflict over energon spirals out of control.",
+          "video_url": null
+        },
+        {
+          "number": 25,
+          "title": "Open Fire!",
+          "air_date": "2004-07-17",
+          "duration": "22m",
+          "synopsis": "The Autobots launch an all-out offensive against Megatron's forces in a bid to prevent Unicron's full resurrection.",
+          "video_url": null
+        },
+        {
+          "number": 26,
+          "title": "Ripped Up Space",
+          "air_date": "2004-07-24",
+          "duration": "22m",
+          "synopsis": "Unicron's growing power tears apart the fabric of space itself, creating dangerous rifts that threaten planets across the galaxy.",
+          "video_url": null
+        },
+        {
+          "number": 27,
+          "title": "Team Optimus Prime",
+          "air_date": "2004-07-31",
+          "duration": "22m",
+          "synopsis": "Optimus Prime assembles his strongest warriors for a critical mission into the heart of the growing spatial disturbance.",
+          "video_url": null
+        },
+        {
+          "number": 28,
+          "title": "Protection",
+          "air_date": "2004-08-07",
+          "duration": "22m",
+          "synopsis": "The Autobots must protect civilian populations from the escalating conflict as Megatron shows no concern for collateral damage.",
+          "video_url": null
+        },
+        {
+          "number": 29,
+          "title": "Improsoned Inferno",
+          "air_date": "2004-08-14",
+          "duration": "22m",
+          "synopsis": "Autobot Inferno is captured by the Decepticons and imprisoned, prompting a dangerous rescue mission deep in enemy territory.",
+          "video_url": null
+        },
+        {
+          "number": 30,
+          "title": "Jungle Planet",
+          "air_date": "2004-08-21",
+          "duration": "22m",
+          "synopsis": "A lush jungle planet becomes the site of a fierce battle as both factions discover it holds vast reserves of raw energon.",
+          "video_url": null
+        },
+        {
+          "number": 31,
+          "title": "Bulkhead",
+          "air_date": "2004-08-28",
+          "duration": "22m",
+          "synopsis": "The massive Autobot Bulkhead joins the team, bringing formidable strength but struggling to control his power in delicate situations.",
+          "video_url": null
+        },
+        {
+          "number": 32,
+          "title": "Farewell Inferno",
+          "air_date": "2004-09-04",
+          "duration": "22m",
+          "synopsis": "Inferno makes a heroic stand that may cost him everything as the war against the Decepticons takes a tragic turn.",
+          "video_url": null
+        },
+        {
+          "number": 33,
+          "title": "Crash Course",
+          "air_date": "2004-09-11",
+          "duration": "22m",
+          "synopsis": "A high-speed chase through an asteroid field leads to a crash that strands Autobots and Decepticons together on a hostile world.",
+          "video_url": null
+        },
+        {
+          "number": 34,
+          "title": "Omega Supreme",
+          "air_date": "2004-09-18",
+          "duration": "22m",
+          "synopsis": "The colossal Autobot guardian Omega Supreme is activated to counter the growing threat of Unicron's reawakening.",
+          "video_url": null
+        },
+        {
+          "number": 35,
+          "title": "A Heroic Battle",
+          "air_date": "2004-09-25",
+          "duration": "22m",
+          "synopsis": "The Autobots engage in a heroic large-scale battle against Megatron's combined Decepticon and Terrorcon forces.",
+          "video_url": null
+        },
+        {
+          "number": 36,
+          "title": "The Power",
+          "air_date": "2004-10-02",
+          "duration": "22m",
+          "synopsis": "A new source of incredible power is discovered, and the race to control it could determine the outcome of the entire war.",
+          "video_url": null
+        },
+        {
+          "number": 37,
+          "title": "Optimus Supreme",
+          "air_date": "2004-10-09",
+          "duration": "22m",
+          "synopsis": "Optimus Prime combines with Omega Supreme to form the mighty Optimus Supreme, gaining the power needed to confront Unicron directly.",
+          "video_url": null
+        },
+        {
+          "number": 38,
+          "title": "Unicron Perishes",
+          "air_date": "2004-10-16",
+          "duration": "22m",
+          "synopsis": "The Autobots strike a decisive blow against Unicron, but Megatron seizes the opportunity to absorb Unicron's remaining power.",
+          "video_url": null
+        },
+        {
+          "number": 39,
+          "title": "Ambition",
+          "air_date": "2004-10-23",
+          "duration": "22m",
+          "synopsis": "Megatron's growing ambition knows no bounds as he absorbs more of Unicron's energy and transforms into the fearsome Galvatron.",
+          "video_url": null
+        },
+        {
+          "number": 40,
+          "title": "Wishes",
+          "air_date": "2004-10-30",
+          "duration": "22m",
+          "synopsis": "Alpha Q's wish to restore destroyed worlds clashes with Galvatron's desire for total domination as the endgame approaches.",
+          "video_url": null
+        },
+        {
+          "number": 41,
+          "title": "Galvatron!",
+          "air_date": "2004-11-06",
+          "duration": "22m",
+          "synopsis": "Galvatron fully emerges with terrifying new power drawn from Unicron, becoming the most dangerous threat the Autobots have ever faced.",
+          "video_url": null
+        },
+        {
+          "number": 42,
+          "title": "Break Through",
+          "air_date": "2004-11-13",
+          "duration": "22m",
+          "synopsis": "The Autobots break through Galvatron's defenses to launch a desperate assault on his stronghold.",
+          "video_url": null
+        },
+        {
+          "number": 43,
+          "title": "Distribution",
+          "air_date": "2004-11-20",
+          "duration": "22m",
+          "synopsis": "The distribution of energon across the galaxy becomes critical as planets face energy crises caused by the ongoing war.",
+          "video_url": null
+        },
+        {
+          "number": 44,
+          "title": "The Omega Train",
+          "air_date": "2004-11-27",
+          "duration": "22m",
+          "synopsis": "The Autobots use the massive Omega Train to transport crucial energon supplies through Decepticon-controlled space.",
+          "video_url": null
+        },
+        {
+          "number": 45,
+          "title": "Deception Army",
+          "air_date": "2004-12-04",
+          "duration": "22m",
+          "synopsis": "Galvatron assembles a massive Decepticon army for his final push to conquer Cybertron and claim all energon.",
+          "video_url": null
+        },
+        {
+          "number": 46,
+          "title": "Ironhide Team",
+          "air_date": "2004-12-11",
+          "duration": "22m",
+          "synopsis": "Ironhide leads his team on a critical mission that could turn the tide against Galvatron's overwhelming forces.",
+          "video_url": null
+        },
+        {
+          "number": 47,
+          "title": "Formidable",
+          "air_date": "2004-12-18",
+          "duration": "22m",
+          "synopsis": "The Autobots face a formidable challenge as Galvatron unleashes his full power in a bid to end the war on his terms.",
+          "video_url": null
+        },
+        {
+          "number": 48,
+          "title": "Galvatron Terror",
+          "air_date": "2005-01-08",
+          "duration": "22m",
+          "synopsis": "Galvatron's reign of terror reaches its peak as he threatens to destroy everything the Autobots have fought to protect.",
+          "video_url": null
+        },
+        {
+          "number": 49,
+          "title": "Destructive Power",
+          "air_date": "2005-01-15",
+          "duration": "22m",
+          "synopsis": "The destructive power unleashed by Galvatron threatens to tear apart the very fabric of reality as the final battle looms.",
+          "video_url": null
+        },
+        {
+          "number": 50,
+          "title": "Spark",
+          "air_date": "2005-06-11",
+          "duration": "22m",
+          "synopsis": "The power of the Spark becomes central to the conflict as the Autobots discover it may hold the key to defeating Galvatron.",
+          "video_url": null
+        },
+        {
+          "number": 51,
+          "title": "The Sun",
+          "air_date": "2005-06-18",
+          "duration": "22m",
+          "synopsis": "In the series finale, Optimus Prime and the Autobots make their final stand against Galvatron, driving him into a sun of energon to end his threat once and for all.",
+          "video_url": null
+        }
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "name": "Optimus Prime",
+      "role": "Autobot Leader",
+      "faction": "Autobot",
+      "alt_mode": "Semi-Truck / Fire Truck",
+      "voice_actor": "Garry Chalk",
+      "image": null
+    },
+    {
+      "name": "Hot Shot",
+      "role": "Autobot Warrior",
+      "faction": "Autobot",
+      "alt_mode": "Sports Car",
+      "voice_actor": "Brent Miller",
+      "image": null
+    },
+    {
+      "name": "Ironhide",
+      "role": "Young Autobot Warrior",
+      "faction": "Autobot",
+      "alt_mode": "Pickup Truck",
+      "voice_actor": "Matt Hill",
+      "image": null
+    },
+    {
+      "name": "Jetfire",
+      "role": "Autobot Aerial Commander",
+      "faction": "Autobot",
+      "alt_mode": "Cargo Jet",
+      "voice_actor": "Scott McNeil",
+      "image": null
+    },
+    {
+      "name": "Rodimus",
+      "role": "Autobot Team Leader",
+      "faction": "Autobot",
+      "alt_mode": "Sports Car",
+      "voice_actor": "Paul Dobson",
+      "image": null
+    },
+    {
+      "name": "Kicker Jones",
+      "role": "Human Ally / Energon Sensor",
+      "faction": "Autobot",
+      "alt_mode": "None",
+      "voice_actor": "Brad Swaile",
+      "image": null
+    },
+    {
+      "name": "Megatron / Galvatron",
+      "role": "Decepticon Leader",
+      "faction": "Decepticon",
+      "alt_mode": "Jet / Gunship",
+      "voice_actor": "David Kaye",
+      "image": null
+    },
+    {
+      "name": "Starscream",
+      "role": "Decepticon Ghost Warrior",
+      "faction": "Decepticon",
+      "alt_mode": "Fighter Jet",
+      "voice_actor": "Michael Dobson",
+      "image": null
+    },
+    {
+      "name": "Scorponok",
+      "role": "Terrorcon Commander",
+      "faction": "Decepticon",
+      "alt_mode": "Scorpion / Construction Vehicle",
+      "voice_actor": "Colin Murdock",
+      "image": null
+    },
+    {
+      "name": "Alpha Q",
+      "role": "Enigmatic Manipulator",
+      "faction": "Neutral",
+      "alt_mode": "None",
+      "voice_actor": "Trevor Devall",
+      "image": null
+    }
+  ],
+  "media": [
+    {
+      "title": "Transformers Energon Complete Series by Anime World - Dailymotion",
+      "url": "https://www.dailymotion.com/playlist/x6bnlu",
+      "source": "dailymotion",
+      "type": "playlist"
+    },
+    {
+      "title": "Transformers Energon by Ida Nordqvist - Dailymotion",
+      "url": "https://www.dailymotion.com/playlist/x4dxr0",
+      "source": "dailymotion",
+      "type": "playlist"
+    }
+  ],
+  "trivia": [
+    {
+      "category": "Production",
+      "facts": [
+        "Energon was the first Transformers series to use a blend of cel-shaded CGI for the robots and traditional 2D hand-drawn animation for human characters and backgrounds.",
+        "The show is widely considered the weakest entry in the Transformers franchise by fans and critics due to its repetitive plot structure and inconsistent animation quality.",
+        "Produced by Actas Inc. and Studio A-CAT, the series aired in Japan as 'Transformers: Super Link' with different opening and ending theme songs."
+      ]
+    },
+    {
+      "category": "Legacy",
+      "facts": [
+        "Despite its reputation, Energon introduced several concepts that became franchise staples, including the idea of Transformers combining with each other through 'Powerlinx' and energon-based weaponry.",
+        "The series is the second installment of the Unicron Trilogy, serving as a direct sequel to Armada and preceding Cybertron."
+      ]
+    }
+  ]
+}

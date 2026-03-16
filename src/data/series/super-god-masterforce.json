@@ -1,0 +1,499 @@
+{
+  "title": "Transformers: Super-God Masterforce",
+  "slug": "super-god-masterforce",
+  "year_start": 1988,
+  "year_end": 1989,
+  "era": "g1",
+  "synopsis": "In this bold departure from previous Transformers series, the ancient Pretenders have secretly lived among humans on Earth for thousands of years. When the Decepticon Pretenders resurface to threaten humanity, Autobot Pretender Metalhawk recruits human allies who can bond with Transtector bodies as Headmaster Juniors and Godmasters. The young truck driver Ginrai discovers he can merge with a Transtector resembling Optimus Prime, becoming the powerful Super Ginrai and eventually God Ginrai to battle the Decepticon Godmaster Overlord and the malevolent energy being Devil Z.",
+  "rating": "TV-Y7",
+  "tags": ["Classic", "Action", "Japanese", "Masterforce", "Pretenders", "Godmasters"],
+  "poster": "/images/series/super-god-masterforce-poster.jpg",
+  "hero_image": "/images/series/super-god-masterforce-hero.jpg",
+  "faction_accent": "red",
+  "seasons": [
+    {
+      "number": 1,
+      "year": 1988,
+      "episodes": [
+        {
+          "number": 1,
+          "title": "Rise Up!! Pretenders",
+          "synopsis": "The Autobot Pretenders Metalhawk, Lander, Diver, and Phoenix reveal themselves after centuries of hiding among humans to combat the reawakened Decepticon Pretenders.",
+          "air_date": "1988-04-12",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 2,
+          "title": "Terror! The Decepticons' Manhunt",
+          "synopsis": "The Decepticon Pretenders hunt for human targets as the Autobot Pretenders work to protect the population from their ancient enemies.",
+          "air_date": "1988-04-19",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 3,
+          "title": "Kidnapping!? The Targeted Jumbo Jet",
+          "synopsis": "The Decepticons target a jumbo jet in a kidnapping scheme, forcing the Autobot Pretenders to mount a daring mid-air rescue.",
+          "air_date": "1988-04-26",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 4,
+          "title": "Birth! Headmaster Juniors",
+          "synopsis": "Three human children discover they can bond with Transtector bodies, becoming the first Headmaster Juniors and joining the Autobot cause.",
+          "air_date": "1988-05-03",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 5,
+          "title": "Rage!! Little Devils with No Need for Rules",
+          "synopsis": "The Decepticon Headmaster Juniors wreak havoc with their reckless and destructive behavior, challenging the Autobot Juniors.",
+          "air_date": "1988-05-10",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 6,
+          "title": "Go, Goshooter - Showdown in the Wasteland",
+          "synopsis": "Headmaster Junior Goshooter faces a personal trial in a desolate wasteland, proving his worth as a warrior.",
+          "air_date": "1988-05-17",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 7,
+          "title": "Panic! Protect the Wild Animals!!",
+          "synopsis": "The Decepticons threaten a wildlife preserve, and the Autobots must protect the endangered animals while battling the enemy.",
+          "air_date": "1988-05-24",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 8,
+          "title": "Super Warriors - The Godmaster Brothers",
+          "synopsis": "The Decepticon Godmaster brothers Buster and Hydra are introduced as powerful new enemies who can merge with Transtector jets.",
+          "air_date": "1988-05-31",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 9,
+          "title": "A Fierce Battle!! The Autobots Are in Trouble",
+          "synopsis": "The combined forces of the Decepticon Godmasters and Pretenders overwhelm the Autobots in a devastating offensive.",
+          "air_date": "1988-06-07",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 10,
+          "title": "A Hero Is Chosen - His Name Is Ginrai",
+          "synopsis": "Young truck driver Ginrai discovers he can bond with a mysterious Transtector, becoming the powerful Autobot Godmaster Ginrai.",
+          "air_date": "1988-06-14",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 11,
+          "title": "Ginrai: God On of Rage!!",
+          "synopsis": "Ginrai struggles to control the immense power of his Godmaster abilities as his fury drives him to new heights in battle.",
+          "air_date": "1988-06-21",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 12,
+          "title": "A Strange Friendship: Doubleclouder",
+          "synopsis": "The enigmatic Doubleclouder appears, a double agent who can disguise himself as both an Autobot and a Decepticon.",
+          "air_date": "1988-06-28",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 13,
+          "title": "The Autobot Warrior, Sixknight?!",
+          "synopsis": "The mysterious six-changer Sixknight appears as a potential Autobot ally, but questions surround his true allegiance.",
+          "air_date": "1988-07-05",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 14,
+          "title": "Life? Death? Lightfoot's Dilemma",
+          "synopsis": "Autobot Godmaster Lightfoot faces a life-or-death decision that tests his resolve and commitment to the cause.",
+          "air_date": "1988-07-12",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 15,
+          "title": "Heroism!! The Birth of Super Ginrai",
+          "synopsis": "Ginrai achieves a new level of power by combining with his trailer to become the mighty Super Ginrai.",
+          "air_date": "1988-07-19",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 16,
+          "title": "An Enemy? The Third Godmaster, Ranger",
+          "synopsis": "A third Autobot Godmaster named Ranger is discovered, but his hostile attitude makes the Autobots question whether he is friend or foe.",
+          "air_date": "1988-07-26",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 17,
+          "title": "The Targetmasters Strike Back!!",
+          "synopsis": "Targetmaster warriors return to action as the war between Godmasters escalates on multiple fronts.",
+          "air_date": "1988-08-02",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 18,
+          "title": "The Godmasters' Battlefield: The Canadian Rockies",
+          "synopsis": "An epic battle between the Autobot and Decepticon Godmasters erupts in the Canadian Rocky Mountains.",
+          "air_date": "1988-08-09",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 19,
+          "title": "The Autobots' Desperateستand",
+          "synopsis": "The Autobots are pushed to their limits as the Decepticons launch their most devastating assault yet.",
+          "air_date": "1988-08-16",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 20,
+          "title": "Overlord: The New Emperor of Destruction",
+          "synopsis": "The fearsome Overlord arrives on Earth as Devil Z's ultimate weapon, formed from the fusion of Giga and Mega with the largest Transtector.",
+          "air_date": "1988-08-23",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 21,
+          "title": "Super Ginrai Gets Blown Away in the Desert!?",
+          "synopsis": "Super Ginrai faces Overlord in a brutal desert battle that pushes the Autobot Godmaster to the edge of defeat.",
+          "air_date": "1988-08-30",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 22,
+          "title": "Expose the Decepticons' Dark Trap!!",
+          "synopsis": "The Autobots work to uncover and dismantle an elaborate Decepticon trap designed to destroy their forces.",
+          "air_date": "1988-09-06",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 23,
+          "title": "The Last Pretender",
+          "synopsis": "Metalhawk makes a fateful sacrifice in a climactic battle, marking the end of the Pretender era.",
+          "air_date": "1988-09-13",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 24,
+          "title": "The Appearance of the Monstrous Pretenders",
+          "synopsis": "Terrifying new Decepticon Pretenders with monstrous outer shells join the battle, adding fearsome new enemies for the Autobots.",
+          "air_date": "1988-09-20",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 25,
+          "title": "The Warrior of Love, Doubleclouder",
+          "synopsis": "Doubleclouder's true loyalties are finally revealed as his conflicted nature comes to a dramatic resolution.",
+          "air_date": "1988-09-27",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 26,
+          "title": "Ginrai Dies on the Battlefield!!",
+          "synopsis": "Ginrai falls in battle against overwhelming Decepticon forces, leaving the Autobots without their most powerful warrior.",
+          "air_date": "1988-10-04",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 27,
+          "title": "The Miracle of the Multiforce!!",
+          "synopsis": "A new team of Autobot combiners called the Multiforce appears, bringing hope with their ability to merge into powerful warriors.",
+          "air_date": "1988-10-11",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 28,
+          "title": "Lightfoot: A Dramatic Turnabout",
+          "synopsis": "Lightfoot's strategic brilliance turns the tide in a critical battle against the Decepticon Godmasters.",
+          "air_date": "1988-10-18",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 29,
+          "title": "Grand Maximus Arrives!",
+          "synopsis": "The mighty Autobot Grand Maximus arrives on Earth, bringing massive reinforcements to the Autobot cause.",
+          "air_date": "1988-10-25",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 30,
+          "title": "Destroy Godbomber!!",
+          "synopsis": "The Decepticons target Godbomber, the support unit that allows Ginrai to achieve his most powerful form.",
+          "air_date": "1988-11-01",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 31,
+          "title": "God Ginrai - Save Cancer!?",
+          "synopsis": "God Ginrai faces a moral dilemma when he must decide whether to save the Decepticon Headmaster Junior Cancer from destruction.",
+          "air_date": "1988-11-08",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 32,
+          "title": "God Ginrai: Showdown at the Superhuman Shrine",
+          "synopsis": "God Ginrai battles at a mystical shrine where ancient superhuman powers converge, testing his strength to its limits.",
+          "air_date": "1988-11-15",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 33,
+          "title": "God Ginrai: Destroy the Fortress!!",
+          "synopsis": "God Ginrai leads an all-out assault on the Decepticon fortress to cripple the enemy's base of operations.",
+          "air_date": "1988-11-22",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 34,
+          "title": "God Ginrai: The Perfect Winning Strategy!!",
+          "synopsis": "God Ginrai devises a brilliant tactical plan to outmaneuver the Decepticon forces in a pivotal engagement.",
+          "air_date": "1988-11-29",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 35,
+          "title": "BlackZarak: Destroyer from Space",
+          "synopsis": "The terrifying BlackZarak descends from space as Devil Z's ultimate instrument of destruction, threatening to overwhelm all opposition.",
+          "air_date": "1988-12-06",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 36,
+          "title": "The Day of Mankind's Destruction",
+          "synopsis": "Devil Z launches his final plan to destroy humanity, and the Autobots face their darkest hour.",
+          "air_date": "1988-12-13",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 37,
+          "title": "Battle to the Death!! God Ginrai VS Darkwings Reborn",
+          "synopsis": "God Ginrai confronts a resurrected and more powerful Darkwings in a furious battle to the death.",
+          "air_date": "1988-12-20",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 38,
+          "title": "The Ultimate Combination!! BlackZarak vs God Ginrai",
+          "synopsis": "God Ginrai and BlackZarak clash in an apocalyptic showdown as the fate of Earth hangs in the balance.",
+          "air_date": "1988-12-27",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 39,
+          "title": "Autobots! Desperate Attack!!",
+          "synopsis": "The Autobots launch a desperate final offensive against Devil Z's forces as the war approaches its climax.",
+          "air_date": "1989-01-10",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 40,
+          "title": "A Battle... and Then...",
+          "synopsis": "The climactic final battle against Devil Z reaches its peak as God Ginrai and the Autobot forces make their last stand.",
+          "air_date": "1989-01-17",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 41,
+          "title": "God Ginrai: Showdown on the Surface of the Moon",
+          "synopsis": "The battle moves to the moon's surface for a final confrontation between God Ginrai and the remaining Decepticon forces.",
+          "air_date": "1989-01-24",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 42,
+          "title": "The Birth of the Super Life-Forms",
+          "synopsis": "In the series finale, Devil Z is defeated and the Transtectors are infused with true life, becoming autonomous super-robot lifeforms independent of their human partners.",
+          "air_date": "1989-01-31",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        }
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "name": "Ginrai",
+      "role": "Autobot Godmaster / Commander",
+      "faction": "Autobot",
+      "voice_actor": "Hiroshi Takemura",
+      "alt_mode": "Red tractor-trailer truck",
+      "image": null
+    },
+    {
+      "name": "Metalhawk",
+      "role": "Autobot Pretender Leader",
+      "faction": "Autobot",
+      "voice_actor": "Katsuji Mori",
+      "alt_mode": "Jet",
+      "image": null
+    },
+    {
+      "name": "Overlord",
+      "role": "Decepticon Godmaster / Ambassador of Destruction",
+      "faction": "Decepticon",
+      "voice_actor": "Keiichi Noda",
+      "alt_mode": "Tank and jet combination",
+      "image": null
+    },
+    {
+      "name": "Devil Z",
+      "role": "Supreme Leader of Darkness",
+      "faction": "Decepticon",
+      "voice_actor": "Hidekatsu Shibata",
+      "alt_mode": "Energy being (no alt mode)",
+      "image": null
+    },
+    {
+      "name": "Sixknight",
+      "role": "Autobot Six-Changer Warrior",
+      "faction": "Autobot",
+      "voice_actor": "Kozo Shioya",
+      "alt_mode": "Six modes: robot, jet, car, tank, wolf, gun",
+      "image": null
+    },
+    {
+      "name": "Grand Maximus",
+      "role": "Autobot Headmaster Commander",
+      "faction": "Autobot",
+      "voice_actor": "Kazuo Oka",
+      "alt_mode": "Battleship / City",
+      "image": null
+    },
+    {
+      "name": "Lightfoot",
+      "role": "Autobot Godmaster",
+      "faction": "Autobot",
+      "voice_actor": "Takeshi Kusao",
+      "alt_mode": "Sports car",
+      "image": null
+    },
+    {
+      "name": "Buster",
+      "role": "Decepticon Godmaster (Darkwings)",
+      "faction": "Decepticon",
+      "voice_actor": "Toshio Kobayashi",
+      "alt_mode": "Jet fighter",
+      "image": null
+    },
+    {
+      "name": "Hydra",
+      "role": "Decepticon Godmaster (Darkwings)",
+      "faction": "Decepticon",
+      "voice_actor": "Jin Horikawa",
+      "alt_mode": "Jet fighter",
+      "image": null
+    },
+    {
+      "name": "BlackZarak",
+      "role": "Decepticon Titan",
+      "faction": "Decepticon",
+      "voice_actor": "Hidekatsu Shibata",
+      "alt_mode": "Scorpion / City",
+      "image": null
+    }
+  ],
+  "media": [],
+  "trivia": [
+    {
+      "category": "Production",
+      "facts": [
+        "Super-God Masterforce was a radical departure from previous Transformers series, focusing primarily on human characters who could merge with Transformer bodies rather than on the robots themselves.",
+        "The series introduced the concept of Godmasters, humans chosen by special bracelets to bond with Transtector bodies, predating similar human-Transformer bonding concepts in later series.",
+        "The opening theme 'Choujin Masterforce no Theme' and ending theme 'Moero! Transformer' were composed specifically for the series."
+      ]
+    },
+    {
+      "category": "Story",
+      "facts": [
+        "Ginrai's Transtector resembles Optimus Prime but is explicitly a different character in the Japanese continuity, later being rebuilt as Victory Leo in the sequel series Victory.",
+        "The series finale establishes that the Transtectors gained true independent life after Devil Z's defeat, becoming autonomous super-robot lifeforms separate from their human partners."
+      ]
+    }
+  ]
+}

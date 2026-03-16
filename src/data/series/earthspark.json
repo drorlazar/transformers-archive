@@ -1,0 +1,537 @@
+{
+  "title": "Transformers: EarthSpark",
+  "slug": "earthspark",
+  "year_start": 2022,
+  "year_end": 2024,
+  "era": "modern",
+  "synopsis": "Fifteen years after the end of the Autobot-Decepticon war, young humans Robby and Mo Malto discover a mysterious cave that grants them cyber-sleeves and brings two new Earth-born Transformers—Terrans—to life. Named Twitch and Thrash, these first-of-their-kind robots are neither Autobot nor Decepticon but something entirely new. Mentored by Bumblebee and embraced by the Malto family, the Terrans must navigate their identity while facing threats from rogue Decepticons, the shadowy G.H.O.S.T. organization, and the mad scientist Mandroid.",
+  "rating": "TV-Y7-FV",
+  "tags": [
+    "CGI",
+    "Paramount+",
+    "Nickelodeon",
+    "family",
+    "Terrans",
+    "post-war",
+    "Icon Creative Studio",
+    "88 Pictures"
+  ],
+  "poster": "/images/series/earthspark-poster.jpg",
+  "hero_image": "/images/series/earthspark-hero.jpg",
+  "faction_accent": "teal",
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2022,
+      "episodes": [
+        {
+          "number": 1,
+          "title": "Secret Legacy, Part 1",
+          "air_date": "2022-11-11",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Malto family moves to the small town of Witwicky, Pennsylvania. Robby and Mo discover a cave with Cybertronian energy that bonds with them and births the first Terrans."
+        },
+        {
+          "number": 2,
+          "title": "Secret Legacy, Part 2",
+          "air_date": "2022-11-11",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The newly born Twitch and Thrash learn about the world while Bumblebee arrives to mentor them. The family must keep their existence secret from the government."
+        },
+        {
+          "number": 3,
+          "title": "Moo-ving In",
+          "air_date": "2022-11-11",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Maltos try to settle into their new home while hiding two young Transformers from the neighbors."
+        },
+        {
+          "number": 4,
+          "title": "House Rules",
+          "air_date": "2022-11-11",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Dot Malto establishes ground rules for having Transformers living in the house, leading to comedic clashes."
+        },
+        {
+          "number": 5,
+          "title": "Classified",
+          "air_date": "2022-11-11",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The government organization G.H.O.S.T. becomes aware of unusual activity in Witwicky and begins investigating."
+        },
+        {
+          "number": 6,
+          "title": "Traditions",
+          "air_date": "2022-11-11",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Malto family shares their traditions with the Terrans, who begin to develop their own sense of identity and culture."
+        },
+        {
+          "number": 7,
+          "title": "Friends and Family",
+          "air_date": "2022-11-11",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Twitch and Thrash learn about the importance of both friends and family as they navigate their new world."
+        },
+        {
+          "number": 8,
+          "title": "Decoy",
+          "air_date": "2022-11-11",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The family creates elaborate decoys to throw G.H.O.S.T. off the trail of the Terrans."
+        },
+        {
+          "number": 9,
+          "title": "Age of Evolution, Part 1",
+          "air_date": "2022-11-11",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A new threat emerges as Mandroid begins experimenting with Cybertronian technology to create anti-Transformer weapons."
+        },
+        {
+          "number": 10,
+          "title": "Age of Evolution, Part 2",
+          "air_date": "2022-11-11",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Terrans discover their unique abilities evolving beyond those of regular Transformers, setting them apart from both Autobots and Decepticons."
+        },
+        {
+          "number": 11,
+          "title": "Hashtag: Oops",
+          "air_date": "2023-06-01",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A new Terran named Hashtag is born—a social-media-savvy bot who nearly exposes the Transformers' existence online."
+        },
+        {
+          "number": 12,
+          "title": "Outtakes",
+          "air_date": "2023-06-01",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Behind-the-scenes mishaps reveal the daily challenges of hiding giant robots in a small town."
+        },
+        {
+          "number": 13,
+          "title": "Missed Connection",
+          "air_date": "2023-06-01",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A communication breakdown between the Terrans and their human family leads to a dangerous misunderstanding."
+        },
+        {
+          "number": 14,
+          "title": "Security Protocols",
+          "air_date": "2023-06-01",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "G.H.O.S.T. upgrades their security protocols, making it harder for the Transformers to move freely."
+        },
+        {
+          "number": 15,
+          "title": "Bear Necessities",
+          "air_date": "2023-06-01",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "An encounter with local wildlife teaches the Terrans about Earth's ecosystem and their place in it."
+        },
+        {
+          "number": 16,
+          "title": "Warzone",
+          "air_date": "2023-06-01",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Mandroid escalates his attacks, turning Witwicky into a warzone and forcing the Autobots to defend their adopted home."
+        },
+        {
+          "number": 17,
+          "title": "Home, Part 1",
+          "air_date": "2023-06-01",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The battle for Witwicky intensifies as Mandroid unveils his ultimate weapon against the Transformers."
+        },
+        {
+          "number": 18,
+          "title": "Home, Part 2",
+          "air_date": "2023-06-01",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Malto family and their Transformer allies make a final stand to protect their home from Mandroid's forces."
+        },
+        {
+          "number": 19,
+          "title": "A Stygi Situation",
+          "air_date": "2023-06-01",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A Stygian-class threat puts the Terrans in an unfamiliar danger that tests their growing abilities."
+        },
+        {
+          "number": 20,
+          "title": "Disarmed",
+          "air_date": "2023-06-01",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "One of the Terrans loses a key ability and must find new ways to contribute to the team."
+        },
+        {
+          "number": 21,
+          "title": "What Dwells Within",
+          "air_date": "2023-06-01",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The cave where the Terrans were born holds more secrets, and something ancient begins to stir within."
+        },
+        {
+          "number": 22,
+          "title": "Prime Time",
+          "air_date": "2023-06-01",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Optimus Prime arrives in Witwicky, bringing both help and the attention of more powerful enemies."
+        },
+        {
+          "number": 23,
+          "title": "Stowed Away, Stowaways",
+          "air_date": "2023-06-01",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Terrans stow away on a mission and end up in over their heads."
+        },
+        {
+          "number": 24,
+          "title": "The Battle of Witwicky",
+          "air_date": "2023-06-01",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A full-scale battle erupts in Witwicky as multiple factions converge on the small town."
+        },
+        {
+          "number": 25,
+          "title": "The Last Hope, Part 1",
+          "air_date": "2023-06-01",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Mandroid's most devastating plan yet threatens not just Witwicky but all Transformers on Earth."
+        },
+        {
+          "number": 26,
+          "title": "The Last Hope, Part 2",
+          "air_date": "2023-06-01",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Season 1 finale sees the Malto family and their Transformer allies unite to defeat Mandroid and protect the future of human-Transformer coexistence."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "year": 2024,
+      "episodes": [
+        {
+          "number": 1,
+          "title": "Aftermath",
+          "air_date": "2024-06-07",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "In the aftermath of Mandroid's defeat, a new Terran named Aftermath is born, and the Malto family deals with the consequences of the battle for Witwicky."
+        },
+        {
+          "number": 2,
+          "title": "In Ruins",
+          "air_date": "2024-06-07",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The town of Witwicky lies in ruins and the community must rebuild, but new threats lurk in the shadows."
+        },
+        {
+          "number": 3,
+          "title": "Control Alt Delete",
+          "air_date": "2024-06-07",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A computer virus threatens the Transformers' systems, and the Terrans must find a cure before it spreads."
+        },
+        {
+          "number": 4,
+          "title": "The Butterfly Effect",
+          "air_date": "2024-06-07",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Small actions have big consequences as a chain of events spirals out of control."
+        },
+        {
+          "number": 5,
+          "title": "Togetherness",
+          "air_date": "2024-06-07",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The bonds between the Malto family and their Transformer allies are tested when they must work together under extreme pressure."
+        },
+        {
+          "number": 6,
+          "title": "Spitfire",
+          "air_date": "2024-06-07",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A new Terran named Spitfire is born with a fiery personality that matches her abilities."
+        },
+        {
+          "number": 7,
+          "title": "The Imposters",
+          "air_date": "2024-06-07",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Shapeshifting enemies impersonate the Terrans, causing confusion and distrust within the group."
+        },
+        {
+          "number": 8,
+          "title": "Dude, Where's My Trailer?",
+          "air_date": "2024-06-07",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Optimus Prime's trailer goes missing, leading to a comedic search across Witwicky."
+        },
+        {
+          "number": 9,
+          "title": "Witwicky, Part 1",
+          "air_date": "2024-06-07",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A massive new threat targets the town of Witwicky itself, and all the Transformers must unite to defend it."
+        },
+        {
+          "number": 10,
+          "title": "Witwicky, Part 2",
+          "air_date": "2024-06-07",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The battle for Witwicky reaches its climax as the Terrans discover the true extent of their powers."
+        },
+        {
+          "number": 11,
+          "title": "The Need for Read",
+          "air_date": "2024-10-04",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The team discovers ancient texts that hold clues about the Terrans' origin and purpose."
+        },
+        {
+          "number": 12,
+          "title": "Attack of the Drive-In Movie",
+          "air_date": "2024-10-04",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A drive-in movie screening goes wrong when a Decepticon attack brings the action off the screen and into reality."
+        },
+        {
+          "number": 13,
+          "title": "The Great Escape",
+          "air_date": "2024-10-04",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Captured allies must be rescued in a daring escape plan orchestrated by the Terrans."
+        },
+        {
+          "number": 14,
+          "title": "No Soldier Left Behind",
+          "air_date": "2024-10-04",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The team refuses to abandon a fallen comrade, risking everything to bring them home."
+        },
+        {
+          "number": 15,
+          "title": "Fire and Ice",
+          "air_date": "2024-10-04",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Opposing elemental forces collide in a battle that tests the Terrans' adaptability."
+        },
+        {
+          "number": 16,
+          "title": "The Truth Is Out There",
+          "air_date": "2024-10-04",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The existence of Transformers can no longer be hidden as the truth is revealed to the wider world."
+        },
+        {
+          "number": 17,
+          "title": "Judgment Day, Part 1",
+          "air_date": "2024-10-04",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The ultimate threat arrives as ancient Cybertronian forces descend upon Earth to judge the Terrans."
+        },
+        {
+          "number": 18,
+          "title": "Judgment Day, Part 2",
+          "air_date": "2024-10-04",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "In the season finale, the Terrans prove that what they are doesn't define who they are, standing united with humans and Transformers alike to defend Earth."
+        }
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "name": "Twitch",
+      "role": "Terran",
+      "faction": "Terran",
+      "alt_mode": "Drone helicopter",
+      "voice_actor": "Kathreen Khavari",
+      "image": null
+    },
+    {
+      "name": "Thrash",
+      "role": "Terran",
+      "faction": "Terran",
+      "alt_mode": "Motorcycle",
+      "voice_actor": "Zeno Robinson",
+      "image": null
+    },
+    {
+      "name": "Bumblebee",
+      "role": "Mentor",
+      "faction": "Autobot",
+      "alt_mode": "Muscle car",
+      "voice_actor": "Danny Pudi",
+      "image": null
+    },
+    {
+      "name": "Optimus Prime",
+      "role": "Autobot Leader",
+      "faction": "Autobot",
+      "alt_mode": "Truck",
+      "voice_actor": "Alan Tudyk",
+      "image": null
+    },
+    {
+      "name": "Elita-1",
+      "role": "Autobot Warrior",
+      "faction": "Autobot",
+      "alt_mode": "Truck",
+      "voice_actor": "Cissy Jones",
+      "image": null
+    },
+    {
+      "name": "Megatron",
+      "role": "Reformed Decepticon Leader",
+      "faction": "Decepticon",
+      "alt_mode": "Tank",
+      "voice_actor": "Rory McCann",
+      "image": null
+    },
+    {
+      "name": "Nightshade",
+      "role": "Terran",
+      "faction": "Terran",
+      "alt_mode": "Owl",
+      "voice_actor": "Z Infante",
+      "image": null
+    },
+    {
+      "name": "Hashtag",
+      "role": "Terran",
+      "faction": "Terran",
+      "alt_mode": "SUV",
+      "voice_actor": "Stephanie Lemelin",
+      "image": null
+    },
+    {
+      "name": "Jawbreaker",
+      "role": "Terran",
+      "faction": "Terran",
+      "alt_mode": "Monster truck",
+      "voice_actor": "Cyrus Arnold",
+      "image": null
+    },
+    {
+      "name": "Robby Malto",
+      "role": "Human Protagonist",
+      "faction": "Human",
+      "alt_mode": null,
+      "voice_actor": "Sydney Mikayla",
+      "image": null
+    },
+    {
+      "name": "Mo Malto",
+      "role": "Human Protagonist",
+      "faction": "Human",
+      "alt_mode": null,
+      "voice_actor": "Zion Broadnax",
+      "image": null
+    },
+    {
+      "name": "Mandroid",
+      "role": "Villain",
+      "faction": "Human",
+      "alt_mode": null,
+      "voice_actor": "Diedrich Bader",
+      "image": null
+    }
+  ],
+  "media": [
+    {
+      "title": "Transformers EarthSpark Season 1 - Dailymotion Compilation",
+      "url": "https://www.dailymotion.com/video/x8mpp4y",
+      "source": "dailymotion",
+      "type": "compilation"
+    },
+    {
+      "title": "Transformers EarthSpark S01 - Dailymotion Compilation",
+      "url": "https://www.dailymotion.com/video/x8mpp5a",
+      "source": "dailymotion",
+      "type": "compilation"
+    },
+    {
+      "title": "Transformers EarthSpark Season 2 - Dailymotion Compilation",
+      "url": "https://www.dailymotion.com/video/x8ygk4e",
+      "source": "dailymotion",
+      "type": "compilation"
+    },
+    {
+      "title": "Transformers EarthSpark S02 - Dailymotion Compilation",
+      "url": "https://www.dailymotion.com/video/x8ygk4s",
+      "source": "dailymotion",
+      "type": "compilation"
+    }
+  ],
+  "trivia": [
+    {
+      "category": "Production",
+      "facts": [
+        "EarthSpark was originally titled 'Transformers: Home World' during early development and was initially planned for a Nickelodeon premiere before shifting to Paramount+ as the primary platform.",
+        "Season 1 animation was produced by Icon Creative Studio, but production transferred to 88 Pictures for later seasons due to workplace concerns.",
+        "The series was developed by Dale Malinowski, Nicole Dubuc, and Ant Ward, with significant creative changes between seasons including the departure of executive producer Nicole Dubuc."
+      ]
+    },
+    {
+      "category": "Casting",
+      "facts": [
+        "The voice cast features notable stars including Danny Pudi (Community) as Bumblebee, Alan Tudyk (Firefly) as Optimus Prime, Rory McCann (Game of Thrones) as Megatron, and 'Weird Al' Yankovic as Cosmos.",
+        "Diedrich Bader voices the villain Mandroid, while Keith David provides the voice for Grimlock."
+      ]
+    },
+    {
+      "category": "Legacy",
+      "facts": [
+        "EarthSpark introduced the concept of Terrans—Transformers born on Earth who are neither Autobot nor Decepticon—a first for the franchise.",
+        "The series tagline 'What you are doesn't define who you are' reflects its core theme of identity and belonging.",
+        "The show is set in the fictional town of Witwicky, Pennsylvania, named after the Witwicky family from the live-action films and G1 cartoon."
+      ]
+    }
+  ]
+}

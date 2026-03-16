@@ -1,0 +1,436 @@
+{
+  "title": "Transformers: The Headmasters",
+  "slug": "headmasters",
+  "year_start": 1987,
+  "year_end": 1988,
+  "era": "g1",
+  "synopsis": "The first Japanese-exclusive Transformers animated series continues the Generation 1 storyline after the events of 'The Return of Optimus Prime,' ignoring the American 'Rebirth' finale. On the planet Master, a group of small Cybertronians developed Headmaster technology, allowing them to transform into the heads of larger Transtector bodies. As Scorponok's Decepticon Headmasters wage war, Autobot Headmaster leader Fortress Maximus and his trusted warriors Chromedome, Hardhead, Brainstorm, and Highbrow must defend both Cybertron and Earth from destruction.",
+  "rating": "TV-Y7",
+  "tags": ["Classic", "Action", "Japanese", "Headmasters"],
+  "poster": "/images/series/headmasters-poster.jpg",
+  "hero_image": "/images/series/headmasters-hero.jpg",
+  "faction_accent": "red",
+  "seasons": [
+    {
+      "number": 1,
+      "year": 1987,
+      "episodes": [
+        {
+          "number": 1,
+          "title": "Four Warriors Come out of the Sky",
+          "synopsis": "Four Autobot Headmasters from Planet Master arrive on Earth to aid in the battle against the Decepticons, as Galvatron launches a massive attack on Cybertron.",
+          "air_date": "1987-07-03",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 2,
+          "title": "The Mystery of Planet Master",
+          "synopsis": "The origins of the Headmasters are revealed as the Autobots learn about Planet Master and the technology that allowed small robots to merge with larger Transtector bodies.",
+          "air_date": "1987-07-10",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 3,
+          "title": "Birth of the Fantastic Double Prime",
+          "synopsis": "Optimus Prime and Hot Rod combine their powers in an unprecedented fusion to combat the growing Decepticon threat.",
+          "air_date": "1987-07-17",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 4,
+          "title": "The Great Cassette Operation",
+          "synopsis": "Soundwave's and Blaster's cassette warriors engage in a fierce battle as both sides compete for a strategic advantage.",
+          "air_date": "1987-07-24",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 5,
+          "title": "Rebellion on Planet Beast",
+          "synopsis": "The Autobots travel to a planet inhabited by beast-mode Transformers who are rebelling against Decepticon oppression.",
+          "air_date": "1987-07-31",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 6,
+          "title": "Approach of the Demon Meteorite",
+          "synopsis": "A deadly meteorite heads toward Earth, and the Autobots must intercept it before the Decepticons can weaponize its energy.",
+          "air_date": "1987-08-07",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 7,
+          "title": "The Four-Million-Year-Old Veil of Mystery",
+          "synopsis": "Ancient secrets from Cybertron's four-million-year history are uncovered, shedding new light on the origins of the Transformer war.",
+          "air_date": "1987-08-14",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 8,
+          "title": "Terror! The Six Shadows",
+          "synopsis": "The fearsome Sixshot, a Decepticon warrior with six transformation modes, is unleashed against the Autobot Headmasters.",
+          "air_date": "1987-08-21",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 9,
+          "title": "Cybertron Is in Grave Danger, Part 1",
+          "synopsis": "The Decepticons launch an all-out assault on Cybertron, threatening to destroy the Autobot homeworld once and for all.",
+          "air_date": "1987-08-28",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 10,
+          "title": "Cybertron Is in Grave Danger, Part 2",
+          "synopsis": "As the battle for Cybertron intensifies, the planet is destroyed in a devastating explosion, forcing both sides to regroup on Earth.",
+          "air_date": "1987-09-04",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 11,
+          "title": "The Shadow Emperor, Scorponok",
+          "synopsis": "Scorponok rises to power among the Decepticons, taking command with his massive MegaZarak Transtector after Galvatron's disappearance.",
+          "air_date": "1987-09-18",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 12,
+          "title": "The Dormant Volcano Mysteriously Erupts",
+          "synopsis": "The Decepticons trigger a dormant volcano as part of an energy-gathering scheme, endangering nearby human settlements.",
+          "air_date": "1987-09-25",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 13,
+          "title": "Head On!! Fortress Maximus",
+          "synopsis": "Fortress reveals his ultimate Transtector form, Fortress Maximus, in a climactic head-on battle against the Decepticon forces.",
+          "air_date": "1987-10-02",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 14,
+          "title": "Explosion on Mars!! Maximus Is in Danger",
+          "synopsis": "The battle moves to Mars where Fortress Maximus faces a trap set by Scorponok that threatens to destroy the Autobot commander.",
+          "air_date": "1987-10-09",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 15,
+          "title": "Explosion on Mars!! MegaZarak Appears",
+          "synopsis": "Scorponok unveils his massive MegaZarak body on Mars, challenging Fortress Maximus in an epic clash of titans.",
+          "air_date": "1987-10-16",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 16,
+          "title": "Return of the Immortal Emperor",
+          "synopsis": "Galvatron returns from apparent death, creating a power struggle with Scorponok for leadership of the Decepticons.",
+          "air_date": "1987-10-23",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 17,
+          "title": "SOS from Planet Sandra",
+          "synopsis": "The Autobots receive a distress signal from Planet Sandra and launch a rescue mission against Decepticon forces occupying the world.",
+          "air_date": "1987-10-30",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 18,
+          "title": "Daniel Faces His Biggest Crisis Ever!!",
+          "synopsis": "Young Daniel Witwicky finds himself in mortal peril when he is captured by the Decepticons and used as bait for the Autobots.",
+          "air_date": "1987-11-06",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 19,
+          "title": "Fight to the Death on Planet Hive!!",
+          "synopsis": "A desperate battle erupts on the insectoid Planet Hive as the Autobots fight to prevent the Decepticons from harvesting its resources.",
+          "air_date": "1987-11-13",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 20,
+          "title": "Battle for Defense of the False Planet",
+          "synopsis": "The Decepticons construct a fake planet as a trap, and the Autobots must see through the deception before it is too late.",
+          "air_date": "1987-11-20",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 21,
+          "title": "Find MegaZarak's Weak Spot!!",
+          "synopsis": "The Autobots desperately search for a vulnerability in Scorponok's seemingly invincible MegaZarak Transtector.",
+          "air_date": "1987-11-27",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 22,
+          "title": "Head Formation of Friendship",
+          "synopsis": "The Autobot Headmasters strengthen their bonds and perfect their head-on combination techniques through the power of friendship.",
+          "air_date": "1987-12-04",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 23,
+          "title": "Mystery of the Space Pirate Ship",
+          "synopsis": "A mysterious derelict spaceship drifting through space holds secrets that both factions race to uncover.",
+          "air_date": "1987-12-11",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 24,
+          "title": "Ultra Magnus Dies!!",
+          "synopsis": "In a shocking turn, Ultra Magnus falls in battle against the Decepticons, leaving the Autobots reeling from the loss of their veteran warrior.",
+          "air_date": "1987-12-18",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 25,
+          "title": "The Emperor of Destruction Vanishes on an Iceberg",
+          "synopsis": "Galvatron meets his fate on a frozen iceberg as the power struggle among the Decepticons reaches its dramatic conclusion.",
+          "air_date": "1987-12-25",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 26,
+          "title": "I Risk My Life for Earth",
+          "synopsis": "With Earth under direct Decepticon assault, the Autobot Headmasters make a last stand to protect the planet at all costs.",
+          "air_date": "1988-01-08",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 27,
+          "title": "Miraculous Warriors, Targetmasters, Part 1",
+          "synopsis": "A new breed of Transformer warriors called Targetmasters emerges, with partners who transform into powerful weapons.",
+          "air_date": "1988-01-15",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 28,
+          "title": "Miraculous Warriors, Targetmasters, Part 2",
+          "synopsis": "The Targetmasters prove their worth in battle as both Autobot and Decepticon Targetmaster teams clash in a fierce confrontation.",
+          "air_date": "1988-01-22",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 29,
+          "title": "The Master Sword Is in Danger!!",
+          "synopsis": "The legendary Master Sword, a powerful Autobot weapon, is targeted by the Decepticons who seek to destroy or capture it.",
+          "air_date": "1988-01-29",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 30,
+          "title": "The Zarak Shield Turns the Tide",
+          "synopsis": "Scorponok deploys the powerful Zarak Shield, a defensive weapon that threatens to turn the war decisively in the Decepticons' favor.",
+          "air_date": "1988-02-05",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 31,
+          "title": "Operation: Destroy the Decepticons",
+          "synopsis": "The Autobots launch a bold offensive operation aimed at crippling the Decepticon forces once and for all.",
+          "air_date": "1988-02-12",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 32,
+          "title": "My Friend Sixshot!",
+          "synopsis": "Daniel befriends the fearsome Decepticon Sixshot, leading to a surprising bond that challenges both factions' assumptions about the enemy.",
+          "air_date": "1988-02-19",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 33,
+          "title": "Duel on the Asteroid",
+          "synopsis": "Chromedome and a Decepticon rival face off in a one-on-one duel on a remote asteroid, with honor and the war's outcome at stake.",
+          "air_date": "1988-02-26",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 34,
+          "title": "The Final Showdown on Earth, Part 1",
+          "synopsis": "Scorponok initiates his endgame to conquer Earth, and the Autobots prepare for the ultimate battle to save the planet.",
+          "air_date": "1988-03-18",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 35,
+          "title": "The Final Showdown on Earth, Part 2",
+          "synopsis": "In the series finale, Fortress Maximus and Scorponok clash in a decisive final battle that determines the fate of Earth and the Headmasters.",
+          "air_date": "1988-03-25",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        }
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "name": "Fortress Maximus",
+      "role": "Autobot Supreme Commander",
+      "faction": "Autobot",
+      "voice_actor": "Ikuya Sawaki",
+      "alt_mode": "Battleship Maximus / City",
+      "image": null
+    },
+    {
+      "name": "Chromedome",
+      "role": "Autobot Headmaster, Second-in-Command",
+      "faction": "Autobot",
+      "voice_actor": "Hideyuki Hori",
+      "alt_mode": "Car",
+      "image": null
+    },
+    {
+      "name": "Hardhead",
+      "role": "Autobot Headmaster Warrior",
+      "faction": "Autobot",
+      "voice_actor": "Masato Hirano",
+      "alt_mode": "Tank",
+      "image": null
+    },
+    {
+      "name": "Highbrow",
+      "role": "Autobot Headmaster Warrior",
+      "faction": "Autobot",
+      "voice_actor": "Michitaka Kobayashi",
+      "alt_mode": "Helicopter",
+      "image": null
+    },
+    {
+      "name": "Brainstorm",
+      "role": "Autobot Headmaster Warrior",
+      "faction": "Autobot",
+      "voice_actor": "Ryoichi Tanaka",
+      "alt_mode": "Jet fighter",
+      "image": null
+    },
+    {
+      "name": "Scorponok",
+      "role": "Decepticon Headmaster Leader",
+      "faction": "Decepticon",
+      "voice_actor": "Banjo Ginga",
+      "alt_mode": "Scorpion (MegaZarak Transtector)",
+      "image": null
+    },
+    {
+      "name": "Sixshot",
+      "role": "Decepticon Ninja Commander",
+      "faction": "Decepticon",
+      "voice_actor": "Michihiro Ikemizu",
+      "alt_mode": "Six modes: robot, jet, tank, car, wolf, gun",
+      "image": null
+    },
+    {
+      "name": "Galvatron",
+      "role": "Decepticon Emperor of Destruction",
+      "faction": "Decepticon",
+      "voice_actor": "Seizou Katou",
+      "alt_mode": "Laser cannon",
+      "image": null
+    },
+    {
+      "name": "Hot Rod",
+      "role": "Autobot Warrior",
+      "faction": "Autobot",
+      "voice_actor": "Hiroya Ishimaru",
+      "alt_mode": "Futuristic sports car",
+      "image": null
+    },
+    {
+      "name": "Ultra Magnus",
+      "role": "Autobot City Commander",
+      "faction": "Autobot",
+      "voice_actor": "Banjo Ginga",
+      "alt_mode": "Car carrier truck",
+      "image": null
+    }
+  ],
+  "media": [],
+  "trivia": [
+    {
+      "category": "Production",
+      "facts": [
+        "The Headmasters was the first Japanese-exclusive Transformers animated series, commissioned by Takara from Toei Animation in December 1986.",
+        "The series deliberately ignored the American 'Rebirth' three-part finale, creating a divergent Japanese continuity that would continue through Super-God Masterforce and Victory.",
+        "Character designs were created by Ban Magami, with series planning handled by Masumi Kaneda, a TV Magazine writer with prior Transformers manga experience."
+      ]
+    },
+    {
+      "category": "Story",
+      "facts": [
+        "Sixshot is widely considered the breakout character of the series, with his complex arc including an unlikely friendship with the human boy Daniel Witwicky.",
+        "The series controversially killed off several beloved characters including Ultra Magnus and Galvatron, establishing the Japanese continuity's willingness to make dramatic story changes."
+      ]
+    }
+  ]
+}

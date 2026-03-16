@@ -1,0 +1,28 @@
+.characters-tab {
+  padding: 1.5rem 4%;
+}
+
+.characters-tab__title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.characters-tab__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.characters-tab__empty {
+  color: var(--text-secondary);
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 0.9375rem;
+}
+
+@media (max-width: 480px) {
+  .characters-tab__grid {
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  }
+}

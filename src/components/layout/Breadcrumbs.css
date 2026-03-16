@@ -1,0 +1,35 @@
+.breadcrumbs {
+  padding: 0.75rem 4%;
+}
+
+.breadcrumbs__list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.breadcrumbs__item {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.8125rem;
+}
+
+.breadcrumbs__separator {
+  color: var(--text-tertiary);
+}
+
+.breadcrumbs__link {
+  color: var(--text-secondary);
+  transition: color var(--transition-fast);
+}
+
+.breadcrumbs__link:hover {
+  color: var(--text-primary);
+}
+
+.breadcrumbs__current {
+  color: var(--text-body);
+}

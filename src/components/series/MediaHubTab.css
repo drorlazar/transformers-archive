@@ -1,0 +1,28 @@
+.media-hub-tab {
+  padding: 1.5rem 4%;
+}
+
+.media-hub-tab__title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.media-hub-tab__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.media-hub-tab__empty {
+  color: var(--text-secondary);
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 0.9375rem;
+}
+
+@media (max-width: 640px) {
+  .media-hub-tab__grid {
+    grid-template-columns: 1fr;
+  }
+}
