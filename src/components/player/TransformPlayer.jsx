@@ -285,7 +285,7 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
     // Sound
     try {
       const a = new Audio(assetUrl('sounds/transform.ogg'));
-      a.volume = 0.7; a.play().catch(() => {});
+      a.volume = 0.35; a.play().catch(() => {});
     } catch {}
 
     // ── ANIMATION ──
@@ -368,7 +368,7 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
     if (three.tl) three.tl.kill();
     three.glows.forEach(g => gsap.killTweensOf(g.material));
 
-    try { const a = new Audio(assetUrl('sounds/transform.ogg')); a.volume = 0.4; a.playbackRate = 1.5; a.play().catch(() => {}); } catch {}
+    try { const a = new Audio(assetUrl('sounds/transform.ogg')); a.volume = 0.2; a.playbackRate = 1.5; a.play().catch(() => {}); } catch {}
 
     const closeTl = gsap.timeline({ onComplete: onClose });
     // Glows off
