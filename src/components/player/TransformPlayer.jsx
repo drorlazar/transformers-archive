@@ -10,22 +10,27 @@ function extractYouTubeId(url) {
   return m ? m[1] : null;
 }
 
-// Beveled box — uses ExtrudeGeometry for proper edge bevels that catch light
-function bevelBox(w, h, d, bevel = 0.03) {
+// Beveled box — chunky chamfered edges that catch light like real machined metal
+function bevelBox(w, h, d, bevel = 0.06) {
   const shape = new THREE.Shape();
   const hw = w / 2 - bevel;
   const hh = h / 2 - bevel;
+  // Chamfered rectangle — 45° cuts at corners
   shape.moveTo(-hw, -h / 2);
   shape.lineTo(hw, -h / 2);
-  shape.quadraticCurveTo(w / 2, -h / 2, w / 2, -hh);
+  shape.lineTo(w / 2, -hh);
   shape.lineTo(w / 2, hh);
-  shape.quadraticCurveTo(w / 2, h / 2, hw, h / 2);
+  shape.lineTo(hw, h / 2);
   shape.lineTo(-hw, h / 2);
-  shape.quadraticCurveTo(-w / 2, h / 2, -w / 2, hh);
+  shape.lineTo(-w / 2, hh);
   shape.lineTo(-w / 2, -hh);
-  shape.quadraticCurveTo(-w / 2, -h / 2, -hw, -h / 2);
+  shape.closePath();
   return new THREE.ExtrudeGeometry(shape, {
-    depth: d, bevelEnabled: true, bevelThickness: bevel, bevelSize: bevel, bevelSegments: 3,
+    depth: d,
+    bevelEnabled: true,
+    bevelThickness: bevel * 0.7,
+    bevelSize: bevel * 0.7,
+    bevelSegments: 4,
   });
 }
 
@@ -115,31 +120,58 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
     orbitLight3.position.set(0, 4, 4);
     scene.add(orbitLight3);
 
-    // ── MATERIALS — mixed tones, not pure red/blue ──
+    // ── MATERIALS — textured when available, rich fallbacks ──
     const allMats = [];
     const allGeos = [];
+    const loader = new THREE.TextureLoader();
 
-    // Crimson with warmth (not pure red)
+    // Try loading textures (graceful fallback if missing)
+    function loadTex(path) {
+      const tex = loader.load(assetUrl(path), undefined, undefined, () => {});
+      tex.wrapS = tex.wrapT = THREE.RepeatWrapping;
+      tex.colorSpace = THREE.SRGBColorSpace;
+      return tex;
+    }
+
+    let redTex, blueTex, darkTex, circuitTex;
+    try {
+      redTex = loadTex('textures/red-metal.jpg');
+      redTex.repeat.set(2, 2);
+      blueTex = loadTex('textures/blue-metal.jpg');
+      blueTex.repeat.set(2, 3);
+      darkTex = loadTex('textures/dark-metal.jpg');
+      darkTex.repeat.set(3, 3);
+      circuitTex = loadTex('textures/circuit-glow.jpg');
+      circuitTex.repeat.set(4, 1);
+    } catch {}
+
+    // Crimson — weathered red armor plating
     const crimson = new THREE.MeshPhysicalMaterial({
-      color: 0xa52030, metalness: 0.88, roughness: 0.12,
-      clearcoat: 0.8, clearcoatRoughness: 0.04,
+      color: 0xcc3333,
+      map: redTex || null,
+      metalness: 0.85, roughness: 0.18,
+      clearcoat: 0.7, clearcoatRoughness: 0.06,
     });
-    // Deep navy with purple tint (not pure blue)
+    // Navy — deep indigo-blue panels
     const navy = new THREE.MeshPhysicalMaterial({
-      color: 0x252878, metalness: 0.88, roughness: 0.12,
-      clearcoat: 0.6, clearcoatRoughness: 0.06,
+      color: 0x2a3088,
+      map: blueTex || null,
+      metalness: 0.85, roughness: 0.18,
+      clearcoat: 0.5, clearcoatRoughness: 0.08,
     });
-    // Gunmetal
+    // Gunmetal — back panels
     const gunmetal = new THREE.MeshPhysicalMaterial({
-      color: 0x2a2a35, metalness: 0.95, roughness: 0.08,
-      clearcoat: 0.5,
+      color: 0x2a2a38,
+      map: darkTex || null,
+      metalness: 0.95, roughness: 0.08,
+      clearcoat: 0.4,
     });
-    // Chrome bolts
+    // Chrome bolts — mirror finish
     const chrome = new THREE.MeshPhysicalMaterial({
       color: 0xbbbbcc, metalness: 1.0, roughness: 0.03,
       clearcoat: 1.0, clearcoatRoughness: 0.01,
     });
-    // Gear steel — slightly warm
+    // Gear steel
     const steel = new THREE.MeshPhysicalMaterial({
       color: 0x607080, metalness: 0.95, roughness: 0.08,
       clearcoat: 0.4,
@@ -148,7 +180,7 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
     const ledGlow = new THREE.MeshBasicMaterial({
       color: 0x22aaff, transparent: true, opacity: 0,
     });
-    // Orange glow for accents
+    // Orange glow
     const orangeGlow = new THREE.MeshBasicMaterial({
       color: 0xff6600, transparent: true, opacity: 0,
     });
@@ -182,24 +214,24 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
     }
 
     // ── FRAME PIECES (beveled) ──
-    // Top bar
-    addPiece(bevelBox(frameW, barW, barD, 0.04), crimson,
+    // Top bar — chunky bevel
+    addPiece(bevelBox(frameW, barW, barD, 0.08), crimson,
       [0, cs * 0.5, 0], [0, 0, 0], [cs / frameW, 1, cs / barD * 0.6],
       [0, frameH / 2 - barW / 2, 0], [0, 0, 0], [1, 1, 1]);
     // Bottom bar
-    addPiece(bevelBox(frameW, barW, barD, 0.04), crimson,
+    addPiece(bevelBox(frameW, barW, barD, 0.08), crimson,
       [0, -cs * 0.5, 0], [0, 0, 0], [cs / frameW, 1, cs / barD * 0.6],
       [0, -frameH / 2 + barW / 2, 0], [0, 0, 0], [1, 1, 1]);
     // Left bar — starts rotated
-    addPiece(bevelBox(barW, frameH - barW * 2, barD, 0.04), navy,
+    addPiece(bevelBox(barW, frameH - barW * 2, barD, 0.08), navy,
       [-cs * 0.5, 0, 0], [0, 0, Math.PI / 2], [1, cs / (frameH - barW * 2), cs / barD * 0.6],
       [-frameW / 2 + barW / 2, 0, 0], [0, 0, 0], [1, 1, 1]);
     // Right bar — starts rotated
-    addPiece(bevelBox(barW, frameH - barW * 2, barD, 0.04), navy,
+    addPiece(bevelBox(barW, frameH - barW * 2, barD, 0.08), navy,
       [cs * 0.5, 0, 0], [0, 0, -Math.PI / 2], [1, cs / (frameH - barW * 2), cs / barD * 0.6],
       [frameW / 2 - barW / 2, 0, 0], [0, 0, 0], [1, 1, 1]);
     // Back panel — flips from front
-    addPiece(bevelBox(frameW - barW * 2, frameH - barW * 2, 0.06, 0.02), gunmetal,
+    addPiece(bevelBox(frameW - barW * 2, frameH - barW * 2, 0.08, 0.03), gunmetal,
       [0, 0, cs * 0.5], [0, Math.PI, 0], [cs / (frameW - barW * 2), cs / (frameH - barW * 2), 1],
       [0, 0, -barD * 0.5], [0, 0, 0], [1, 1, 1]);
 
@@ -224,15 +256,15 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
     ];
     brkTargets.forEach(({ ex, ey, sx, sy, sRz }) => {
       const grp = new THREE.Group();
-      const hGeo = bevelBox(brkSize, 0.14, barD * 0.8, 0.025);
+      const hGeo = bevelBox(brkSize, 0.16, barD * 0.85, 0.04);
       allGeos.push(hGeo);
       const hM = new THREE.Mesh(hGeo, crimson);
-      hM.position.y = brkSize / 2 - 0.07;
+      hM.position.y = brkSize / 2 - 0.08;
       grp.add(hM);
-      const vGeo = bevelBox(0.14, brkSize, barD * 0.8, 0.025);
+      const vGeo = bevelBox(0.16, brkSize, barD * 0.85, 0.04);
       allGeos.push(vGeo);
       const vM = new THREE.Mesh(vGeo, crimson);
-      vM.position.x = -brkSize / 2 + 0.07;
+      vM.position.x = -brkSize / 2 + 0.08;
       grp.add(vM);
       grp.position.set(sx, sy, cs * 0.5 + 0.05);
       grp.rotation.z = sRz;
