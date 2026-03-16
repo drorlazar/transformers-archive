@@ -1,0 +1,151 @@
+{
+  "title": "Transformers: Titans Return",
+  "slug": "titans-return",
+  "year_start": 2017,
+  "year_end": 2018,
+  "era": "modern",
+  "synopsis": "Following the Combiner Wars, Cybertron attempts to rebuild, but the reawakening of the monstrous Titan Trypticon threatens to undo the fragile peace. Starscream's ghost possesses new bodies, the warlord Overlord returns seeking vengeance, and the race to resurrect Fortress Maximus becomes the planet's last hope. As the conflict escalates, the ancient being Megatronus — the Fallen, the first Decepticon — awakens and kills Optimus Prime, claiming the Matrix of Leadership and the Enigma of Combination for a dark purpose yet to be revealed.",
+  "rating": "TV-Y7-FV",
+  "tags": ["Web Series", "CGI", "Action", "Machinima", "Prime Wars Trilogy", "Tatsunoko Production"],
+  "poster": "/images/series/titans-return-poster.jpg",
+  "hero_image": "/images/series/titans-return-hero.jpg",
+  "faction_accent": "red",
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2017,
+      "episodes": [
+        {
+          "number": 1,
+          "title": "Aftermath and Rebirth",
+          "synopsis": "Following the Combiner Wars, Cybertron rebuilds while Optimus Prime prepares to depart. Rodimus returns the Matrix of Leadership and is reformatted back to Hot Rod, while Starscream's wandering spark awakens the Titan Trypticon.",
+          "air_date": "2017-11-14",
+          "duration": "11m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 2,
+          "title": "Our Heroes Respond",
+          "synopsis": "The Autobots scramble to respond to Trypticon's reawakening as the massive Titan threatens Cybertron. Fortress Maximus is identified as the key to stopping the threat.",
+          "air_date": "2017-11-14",
+          "duration": "11m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 3,
+          "title": "The Fight Begins",
+          "synopsis": "The battle against Trypticon escalates as the Autobots struggle to contain the Titan. The team races to find a way to resurrect Fortress Maximus to match Trypticon's power.",
+          "air_date": "2017-11-21",
+          "duration": "11m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 4,
+          "title": "Overlord and Emissary",
+          "synopsis": "The fearsome Overlord returns to Cybertron, adding a deadly new threat to an already desperate situation. An emissary arrives bearing grave warnings about the future.",
+          "air_date": "2017-11-28",
+          "duration": "11m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 5,
+          "title": "At the Last Second",
+          "synopsis": "With time running out, a last-ditch effort is made to activate Fortress Maximus. The combined threats of Trypticon and Overlord push the defenders to the breaking point.",
+          "air_date": "2017-12-05",
+          "duration": "11m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 6,
+          "title": "Desperate Actions",
+          "synopsis": "Desperate measures are taken as Fortress Maximus is finally brought online. Overlord's schemes grow more dangerous as alliances shift in the heat of battle.",
+          "air_date": "2017-12-12",
+          "duration": "11m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 7,
+          "title": "Run for Our Lives",
+          "synopsis": "The Autobots are forced to retreat as the conflict reaches a critical point. Sacrifices must be made to ensure Cybertron's survival against overwhelming odds.",
+          "air_date": "2017-12-19",
+          "duration": "11m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 8,
+          "title": "In Good Hands",
+          "synopsis": "Leadership is tested as command passes to unexpected hands. The tide of battle begins to turn as new strategies are deployed against the Titan threat.",
+          "air_date": "2017-12-26",
+          "duration": "11m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 9,
+          "title": "Consumed",
+          "synopsis": "Trypticon absorbs the Matrix of Leadership, but the artifact rejects him and he returns to normal size. Starscream's ghost is expelled from Trypticon and vanishes.",
+          "air_date": "2018-01-02",
+          "duration": "11m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 10,
+          "title": "All Things Must Pass",
+          "synopsis": "The ancient Megatronus appears, declaring the time of the Transformers is at an end. He kills Optimus Prime and claims both the Enigma and Matrix before departing, while Megatron rallies the survivors to unite.",
+          "air_date": "2018-01-09",
+          "duration": "11m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        }
+      ]
+    }
+  ],
+  "characters": [
+    { "name": "Optimus Prime", "role": "Autobot Leader", "faction": "Autobot", "alt_mode": "Truck", "voice_actor": "Peter Cullen", "image": null },
+    { "name": "Megatron", "role": "Decepticon Leader", "faction": "Decepticon", "alt_mode": "Tank", "voice_actor": "Jason Marnocha", "image": null },
+    { "name": "Rodimus Prime / Hot Rod", "role": "Autobot Warrior", "faction": "Autobot", "alt_mode": "Race car", "voice_actor": "Judd Nelson", "image": null },
+    { "name": "Windblade", "role": "Camien Warrior", "faction": "Autobot", "alt_mode": "VTOL jet", "voice_actor": "Abby Trott", "image": null },
+    { "name": "Perceptor", "role": "Autobot Scientist", "faction": "Autobot", "alt_mode": "Microscope", "voice_actor": "Wil Wheaton", "image": null },
+    { "name": "Fortress Maximus", "role": "Autobot Titan", "faction": "Autobot", "alt_mode": "Battle station / City", "voice_actor": "Michael Dorn", "image": null },
+    { "name": "Overlord", "role": "Decepticon Warlord", "faction": "Decepticon", "alt_mode": "Jet / Tank", "voice_actor": "Patrick Seitz", "image": null },
+    { "name": "Starscream", "role": "Ghost / Antagonist", "faction": "Decepticon", "alt_mode": "Jet (ghost form)", "voice_actor": "Frank Todaro", "image": null },
+    { "name": "Trypticon", "role": "Titan / Antagonist", "faction": "Decepticon", "alt_mode": "Dinosaur / City", "voice_actor": null, "image": null },
+    { "name": "Megatronus", "role": "The Fallen", "faction": "Neutral", "alt_mode": "None", "voice_actor": "Mark Hamill", "image": null }
+  ],
+  "media": [],
+  "trivia": [
+    {
+      "category": "Production",
+      "facts": [
+        "Titans Return was the second installment of the Prime Wars Trilogy, produced by Hasbro Studios and Machinima with animation by Tatsunoko Production.",
+        "The series was written by Adam Beechen and showrun by Eric S. Calderon and F.J. DeSanto.",
+        "Episode lengths were doubled from Combiner Wars' 5 minutes to approximately 11 minutes each, responding to criticism of the first series' brevity.",
+        "Peter Cullen and Judd Nelson reprised their iconic G1 movie roles as Optimus Prime and Hot Rod/Rodimus respectively."
+      ]
+    },
+    {
+      "category": "Cast",
+      "facts": [
+        "Michael Dorn (Worf from Star Trek: The Next Generation) voiced Fortress Maximus.",
+        "Wil Wheaton voiced Perceptor, marking another Star Trek actor joining the Transformers franchise.",
+        "Mark Hamill joined the cast as Megatronus (The Fallen), appearing in the final episode as a lead-in to Power of the Primes."
+      ]
+    },
+    {
+      "category": "Distribution",
+      "facts": [
+        "The series premiered on November 14, 2017 on go90 in the United States, Sohu.com in China, and Tumblr internationally.",
+        "When reuploaded to Rooster Teeth in 2019 after Machinima's closure, several episodes were uploaded with incorrect metadata that required weeks to correct.",
+        "The series launched after the Titans Return toyline had already been succeeded by Power of the Primes on store shelves, continuing the trilogy's pattern of poor release timing."
+      ]
+    }
+  ]
+}

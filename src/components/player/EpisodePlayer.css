@@ -70,3 +70,18 @@
 .episode-player__link:hover {
   background: var(--accent-red-hover);
 }
+
+.episode-player__search-link {
+  text-align: right;
+  font-size: 0.75rem;
+  color: var(--text-tertiary);
+  margin-top: 0.5rem;
+}
+
+.episode-player__search-link a {
+  color: var(--accent-blue);
+}
+
+.episode-player__search-link a:hover {
+  text-decoration: underline;
+}

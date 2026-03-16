@@ -11,26 +11,15 @@ function extractYouTubeId(url) {
 export default function EpisodePlayer({ episode }) {
   if (!episode) return null;
 
-  // Try YouTube links from watch_links
-  let youtubeId = null;
-  if (episode.watch_links) {
-    for (const link of episode.watch_links) {
-      const id = extractYouTubeId(link.url);
-      if (id) {
-        youtubeId = id;
-        break;
-      }
-    }
-  }
+  const videoData = episode.video || {};
+  const youtubeUrl = videoData.youtube;
+  const youtubeId = extractYouTubeId(youtubeUrl);
 
-  // Fallback: direct youtube_url field
-  if (!youtubeId && episode.youtube_url) {
-    youtubeId = extractYouTubeId(episode.youtube_url);
-  }
+  const searchQuery = encodeURIComponent(`${episode.title} Transformers full episode`);
 
-  return (
-    <div className="episode-player">
-      {youtubeId ? (
+  if (youtubeId) {
+    return (
+      <div className="episode-player">
         <div className="episode-player__iframe-wrap">
           <iframe
             className="episode-player__iframe"
@@ -40,30 +29,64 @@ export default function EpisodePlayer({ episode }) {
             allowFullScreen
           />
         </div>
-      ) : (
-        <div className="episode-player__fallback">
-          <div className="episode-player__fallback-content">
-            <span className="episode-player__fallback-icon">&#9654;</span>
-            <p>No video embed available for this episode.</p>
-            {episode.watch_links && episode.watch_links.length > 0 && (
-              <div className="episode-player__links">
-                <p>Watch on:</p>
-                {episode.watch_links.map((link, i) => (
-                  <a
-                    key={i}
-                    href={link.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="episode-player__link"
-                  >
-                    {link.source || link.label || 'Watch'}
-                  </a>
-                ))}
-              </div>
-            )}
-          </div>
+        <div className="episode-player__search-link">
+          Video not working?{' '}
+          <a
+            href={`https://www.youtube.com/results?search_query=${searchQuery}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Search on YouTube
+          </a>
         </div>
-      )}
+      </div>
+    );
+  }
+
+  return (
+    <div className="episode-player">
+      <div className="episode-player__fallback">
+        <div className="episode-player__fallback-content">
+          <span className="episode-player__fallback-icon">&#9654;</span>
+          {videoData.dailymotion ? (
+            <>
+              <p>This episode is available on Dailymotion</p>
+              <a
+                href={videoData.dailymotion}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="episode-player__link"
+              >
+                Watch on Dailymotion
+              </a>
+            </>
+          ) : videoData.other ? (
+            <>
+              <p>This episode is available externally</p>
+              <a
+                href={videoData.other}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="episode-player__link"
+              >
+                Watch Episode
+              </a>
+            </>
+          ) : (
+            <>
+              <p>No video embed available for this episode.</p>
+              <a
+                href={`https://www.youtube.com/results?search_query=${searchQuery}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="episode-player__link"
+              >
+                Search on YouTube
+              </a>
+            </>
+          )}
+        </div>
+      </div>
     </div>
   );
 }

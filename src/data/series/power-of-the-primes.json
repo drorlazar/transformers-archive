@@ -1,0 +1,151 @@
+{
+  "title": "Transformers: Power of the Primes",
+  "slug": "power-of-the-primes",
+  "year_start": 2018,
+  "year_end": 2018,
+  "era": "modern",
+  "synopsis": "With Optimus Prime dead at the hands of Megatronus, the surviving Transformers must unite under Megatron's unlikely leadership to stop the Fallen from assembling a doomsday weapon. Megatronus seeks the Requiem Blaster to combine with the Matrix of Leadership and the Enigma of Combination, which would give him the power to destroy the Transformer race entirely. The quest leads through the Primal Swamp, the ancient Athenaeum Sanctorum, and a final confrontation where Optimus Primal, Solus Prime, and unexpected sacrifices from former enemies determine the fate of Cybertron and all Transformer life.",
+  "rating": "TV-Y7-FV",
+  "tags": ["Web Series", "CGI", "Action", "Machinima", "Prime Wars Trilogy", "Tatsunoko Production"],
+  "poster": "/images/series/power-of-the-primes-poster.jpg",
+  "hero_image": "/images/series/power-of-the-primes-hero.jpg",
+  "faction_accent": "red",
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2018,
+      "episodes": [
+        {
+          "number": 1,
+          "title": "The Swamp",
+          "synopsis": "Megatronus searches Cybertron's marshlands for the Requiem Blaster. Megatron leads a team through the Primal Swamp where they are ambushed by Dinobots who combine into the fearsome Volcanicus.",
+          "air_date": "2018-05-01",
+          "duration": "11m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 2,
+          "title": "Volcanicus",
+          "synopsis": "The team confronts the Dinobot Combiner Volcanicus in the swamp. They must convince the Dinobots that Megatron is not the enemy this time — Megatronus is the true threat to all Transformers.",
+          "air_date": "2018-05-08",
+          "duration": "11m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 3,
+          "title": "Without Warning",
+          "synopsis": "Megatronus closes in on the Requiem Blaster as the team races to reach it first. An unexpected attack forces the group to make difficult choices about who to trust.",
+          "air_date": "2018-05-15",
+          "duration": "11m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 4,
+          "title": "Primal",
+          "synopsis": "Optimus Primal emerges as an unexpected ally in the fight against Megatronus. The ancient connection between the Primes and the fate of Cybertron becomes clearer.",
+          "air_date": "2018-05-22",
+          "duration": "11m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 5,
+          "title": "Athenaeum Sanctorum",
+          "synopsis": "The team discovers the Athenaeum Sanctorum, the legendary library of the Primes. Ancient knowledge within may hold the key to defeating Megatronus and his apocalyptic plan.",
+          "air_date": "2018-05-29",
+          "duration": "11m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 6,
+          "title": "Countdown",
+          "synopsis": "Time runs out as Megatronus nears his goal of uniting all three artifacts. The team splits up in a desperate gambit to intercept him before it is too late.",
+          "air_date": "2018-06-05",
+          "duration": "11m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 7,
+          "title": "Consequences",
+          "synopsis": "The consequences of past choices catch up with the team as betrayals are revealed. Hot Rod, corrupted by Overlord's influence, becomes an obstacle at the worst possible moment.",
+          "air_date": "2018-06-12",
+          "duration": "11m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 8,
+          "title": "Collision Course",
+          "synopsis": "The heroes and Megatronus are set on a collision course as Unicron's dark influence spreads. Rodimus must break free of his corruption to rejoin the fight.",
+          "air_date": "2018-06-19",
+          "duration": "11m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 9,
+          "title": "Megatronus Unleashed",
+          "synopsis": "Megatronus unleashes the full power of the combined artifacts, threatening to annihilate all Transformer life. Optimal Optimus rises to challenge him in a desperate final battle.",
+          "air_date": "2018-06-26",
+          "duration": "11m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        },
+        {
+          "number": 10,
+          "title": "Saga's End",
+          "synopsis": "Solus Prime sacrifices herself to drag Megatronus into the Well of Sparks. Megatron takes the Matrix of Chaos and allows Optimal Optimus to destroy both him and Unicron, restoring Optimus Prime and seeding new life across the universe.",
+          "air_date": "2018-07-03",
+          "duration": "11m",
+          "thumbnail": null,
+          "video": { "youtube": null, "dailymotion": null, "other": null }
+        }
+      ]
+    }
+  ],
+  "characters": [
+    { "name": "Megatronus / The Fallen", "role": "Primary Antagonist", "faction": "Neutral", "alt_mode": "None", "voice_actor": "Mark Hamill", "image": null },
+    { "name": "Optimus Prime", "role": "Autobot Leader (deceased / restored)", "faction": "Autobot", "alt_mode": "Truck", "voice_actor": "Peter Cullen", "image": null },
+    { "name": "Megatron", "role": "Team Leader / Anti-Hero", "faction": "Decepticon", "alt_mode": "Tank", "voice_actor": "Jason Marnocha", "image": null },
+    { "name": "Optimus Primal", "role": "Maximal Leader", "faction": "Maximal", "alt_mode": "Gorilla", "voice_actor": "Ron Perlman", "image": null },
+    { "name": "Windblade", "role": "Camien Warrior", "faction": "Autobot", "alt_mode": "VTOL jet", "voice_actor": "Abby Trott", "image": null },
+    { "name": "Rodimus / Hot Rod", "role": "Autobot Warrior (corrupted)", "faction": "Autobot", "alt_mode": "Race car", "voice_actor": "Judd Nelson", "image": null },
+    { "name": "Perceptor", "role": "Autobot Scientist", "faction": "Autobot", "alt_mode": "Microscope", "voice_actor": "Wil Wheaton", "image": null },
+    { "name": "Victorion", "role": "Autobot Combiner", "faction": "Autobot", "alt_mode": "Combined form", "voice_actor": "Anna Akana", "image": null },
+    { "name": "Volcanicus", "role": "Dinobot Combiner", "faction": "Autobot", "alt_mode": "Combined form", "voice_actor": null, "image": null },
+    { "name": "Solus Prime", "role": "Ancient Prime", "faction": "Prime", "alt_mode": "None", "voice_actor": null, "image": null },
+    { "name": "Overlord", "role": "Decepticon Warlord", "faction": "Decepticon", "alt_mode": "Jet / Tank", "voice_actor": "Patrick Seitz", "image": null }
+  ],
+  "media": [],
+  "trivia": [
+    {
+      "category": "Production",
+      "facts": [
+        "Power of the Primes was the third and final installment of the Prime Wars Trilogy, produced by Hasbro and Machinima with animation by Tatsunoko Production.",
+        "The series was showrun by F.J. DeSanto, written by Adam Beechen and Jamie Iracleanos, and directed by Yuzo Sato.",
+        "The mid-2018 premiere managed to coincide with the Power of the Primes toyline better than its predecessors, which had both missed their respective toy windows."
+      ]
+    },
+    {
+      "category": "Cast",
+      "facts": [
+        "Mark Hamill starred as the primary antagonist Megatronus (The Fallen), bringing major star power to the web series.",
+        "Ron Perlman voiced Optimus Primal, while Peter Cullen and Judd Nelson continued as Optimus Prime and Hot Rod/Rodimus.",
+        "Jason Marnocha's Megatron was given a rare heroic arc across the trilogy, culminating in a sacrificial redemption in the finale."
+      ]
+    },
+    {
+      "category": "Legacy",
+      "facts": [
+        "Power of the Primes fared slightly better critically than its predecessors, though it was still considered a disappointing conclusion to the trilogy.",
+        "Machinima closed its doors in January 2019, and all three Prime Wars Trilogy series were removed from their platforms before resurfacing on Rooster Teeth in March 2019.",
+        "The trilogy's mixed reception directly informed Hasbro's decision to partner with Netflix and Rooster Teeth for the War for Cybertron Trilogy, which received significantly better production values."
+      ]
+    }
+  ]
+}

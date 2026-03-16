@@ -5,7 +5,7 @@
     "year_start": 1984,
     "year_end": 1987,
     "era": "g1",
-    "poster": "/images/series/g1-poster.svg",
+    "poster": "/images/series/g1-poster.jpg",
     "faction_accent": "red",
     "tags": [
       "Classic",
@@ -23,7 +23,7 @@
     "year_start": 1987,
     "year_end": 1988,
     "era": "g1",
-    "poster": "/images/series/headmasters-poster.svg",
+    "poster": "/images/series/headmasters-poster.jpg",
     "faction_accent": "red",
     "tags": [
       "Japanese",
@@ -41,7 +41,7 @@
     "year_start": 1988,
     "year_end": 1989,
     "era": "g1",
-    "poster": "/images/series/super-god-masterforce-poster.svg",
+    "poster": "/images/series/super-god-masterforce-poster.jpg",
     "faction_accent": "red",
     "tags": [
       "Japanese",
@@ -59,7 +59,7 @@
     "year_start": 1989,
     "year_end": 1989,
     "era": "g1",
-    "poster": "/images/series/victory-poster.svg",
+    "poster": "/images/series/victory-poster.jpg",
     "faction_accent": "red",
     "tags": [
       "Japanese",
@@ -77,7 +77,7 @@
     "year_start": 1990,
     "year_end": 1990,
     "era": "g1",
-    "poster": "/images/series/zone-poster.svg",
+    "poster": "/images/series/zone-poster.jpg",
     "faction_accent": "red",
     "tags": [
       "Japanese",
@@ -95,7 +95,7 @@
     "year_start": 1996,
     "year_end": 1999,
     "era": "beast",
-    "poster": "/images/series/beast-wars-poster.svg",
+    "poster": "/images/series/beast-wars-poster.jpg",
     "faction_accent": "red",
     "tags": [
       "CGI",
@@ -113,7 +113,7 @@
     "year_start": 1998,
     "year_end": 1999,
     "era": "beast",
-    "poster": "/images/series/beast-wars-ii-poster.svg",
+    "poster": "/images/series/beast-wars-ii-poster.jpg",
     "faction_accent": "red",
     "tags": [
       "Japanese",
@@ -131,7 +131,7 @@
     "year_start": 1999,
     "year_end": 1999,
     "era": "beast",
-    "poster": "/images/series/beast-wars-neo-poster.svg",
+    "poster": "/images/series/beast-wars-neo-poster.jpg",
     "faction_accent": "red",
     "tags": [
       "Japanese",
@@ -149,7 +149,7 @@
     "year_start": 1999,
     "year_end": 2001,
     "era": "beast",
-    "poster": "/images/series/beast-machines-poster.svg",
+    "poster": "/images/series/beast-machines-poster.jpg",
     "faction_accent": "blue",
     "tags": [
       "CGI",
@@ -167,7 +167,7 @@
     "year_start": 2001,
     "year_end": 2001,
     "era": "unicron",
-    "poster": "/images/series/robots-in-disguise-2001-poster.svg",
+    "poster": "/images/series/robots-in-disguise-2001-poster.jpg",
     "faction_accent": "red",
     "tags": [
       "Action",
@@ -185,7 +185,7 @@
     "year_start": 2002,
     "year_end": 2003,
     "era": "unicron",
-    "poster": "/images/series/armada-poster.svg",
+    "poster": "/images/series/armada-poster.jpg",
     "faction_accent": "red",
     "tags": [
       "Action",
@@ -203,7 +203,7 @@
     "year_start": 2004,
     "year_end": 2005,
     "era": "unicron",
-    "poster": "/images/series/energon-poster.svg",
+    "poster": "/images/series/energon-poster.jpg",
     "faction_accent": "red",
     "tags": [
       "Sequel",
@@ -221,7 +221,7 @@
     "year_start": 2005,
     "year_end": 2007,
     "era": "unicron",
-    "poster": "/images/series/cybertron-poster.svg",
+    "poster": "/images/series/cybertron-poster.jpg",
     "faction_accent": "red",
     "tags": [
       "Space",
@@ -239,7 +239,7 @@
     "year_start": 2007,
     "year_end": 2009,
     "era": "animated",
-    "poster": "/images/series/animated-poster.svg",
+    "poster": "/images/series/animated-poster.jpg",
     "faction_accent": "red",
     "tags": [
       "Stylized",
@@ -257,7 +257,7 @@
     "year_start": 2010,
     "year_end": 2013,
     "era": "aligned",
-    "poster": "/images/series/prime-poster.svg",
+    "poster": "/images/series/prime-poster.jpg",
     "faction_accent": "red",
     "tags": [
       "CGI",
@@ -275,7 +275,7 @@
     "year_start": 2012,
     "year_end": 2016,
     "era": "aligned",
-    "poster": "/images/series/rescue-bots-poster.svg",
+    "poster": "/images/series/rescue-bots-poster.jpg",
     "faction_accent": "red",
     "tags": [
       "Kids",
@@ -293,7 +293,7 @@
     "year_start": 2015,
     "year_end": 2017,
     "era": "aligned",
-    "poster": "/images/series/robots-in-disguise-2015-poster.svg",
+    "poster": "/images/series/robots-in-disguise-2015-poster.jpg",
     "faction_accent": "red",
     "tags": [
       "Action",
@@ -306,12 +306,66 @@
     "has_live_streams": false
   },
   {
+    "slug": "combiner-wars",
+    "title": "Transformers: Combiner Wars",
+    "year_start": 2016,
+    "year_end": 2016,
+    "era": "modern",
+    "poster": "/images/series/combiner-wars-poster.jpg",
+    "faction_accent": "red",
+    "tags": [
+      "Web Series",
+      "CGI",
+      "Prime Wars Trilogy"
+    ],
+    "episode_count": 8,
+    "season_count": 1,
+    "synopsis": "Forty years after the Great War, the Enigma of Combination creates powerful Combiner warriors that threaten Cybertron's peace. Windblade must stop Starscream's scheme to absorb them all.",
+    "has_live_streams": false
+  },
+  {
+    "slug": "titans-return",
+    "title": "Transformers: Titans Return",
+    "year_start": 2017,
+    "year_end": 2018,
+    "era": "modern",
+    "poster": "/images/series/titans-return-poster.jpg",
+    "faction_accent": "red",
+    "tags": [
+      "Web Series",
+      "CGI",
+      "Prime Wars Trilogy"
+    ],
+    "episode_count": 10,
+    "season_count": 1,
+    "synopsis": "The Titan Trypticon reawakens on a rebuilding Cybertron. As Overlord returns and Fortress Maximus rises, the ancient Megatronus arrives to herald the end of the Transformers.",
+    "has_live_streams": false
+  },
+  {
+    "slug": "power-of-the-primes",
+    "title": "Transformers: Power of the Primes",
+    "year_start": 2018,
+    "year_end": 2018,
+    "era": "modern",
+    "poster": "/images/series/power-of-the-primes-poster.jpg",
+    "faction_accent": "red",
+    "tags": [
+      "Web Series",
+      "CGI",
+      "Prime Wars Trilogy"
+    ],
+    "episode_count": 10,
+    "season_count": 1,
+    "synopsis": "With Optimus Prime dead, Megatron leads an unlikely alliance to stop Megatronus from assembling the Requiem Blaster and annihilating all Transformer life.",
+    "has_live_streams": false
+  },
+  {
     "slug": "rescue-bots-academy",
     "title": "Transformers: Rescue Bots Academy",
     "year_start": 2019,
     "year_end": 2020,
     "era": "modern",
-    "poster": "/images/series/rescue-bots-academy-poster.svg",
+    "poster": "/images/series/rescue-bots-academy-poster.jpg",
     "faction_accent": "red",
     "tags": [
       "Kids",
@@ -329,7 +383,7 @@
     "year_start": 2018,
     "year_end": 2020,
     "era": "modern",
-    "poster": "/images/series/cyberverse-poster.svg",
+    "poster": "/images/series/cyberverse-poster.jpg",
     "faction_accent": "red",
     "tags": [
       "Action",
@@ -347,7 +401,7 @@
     "year_start": 2020,
     "year_end": 2021,
     "era": "modern",
-    "poster": "/images/series/war-for-cybertron-poster.svg",
+    "poster": "/images/series/war-for-cybertron-poster.jpg",
     "faction_accent": "blue",
     "tags": [
       "Netflix",
@@ -365,7 +419,7 @@
     "year_start": 2022,
     "year_end": 2022,
     "era": "modern",
-    "poster": "/images/series/botbots-poster.svg",
+    "poster": "/images/series/botbots-poster.jpg",
     "faction_accent": "red",
     "tags": [
       "Comedy",
@@ -383,7 +437,7 @@
     "year_start": 2022,
     "year_end": 2024,
     "era": "modern",
-    "poster": "/images/series/earthspark-poster.svg",
+    "poster": "/images/series/earthspark-poster.jpg",
     "faction_accent": "red",
     "tags": [
       "Action",
