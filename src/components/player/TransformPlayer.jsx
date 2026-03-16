@@ -36,11 +36,11 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
     renderer.setSize(W, H);
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
     renderer.toneMapping = THREE.ACESFilmicToneMapping;
-    renderer.toneMappingExposure = 1.2;
+    renderer.toneMappingExposure = 2.0;
 
     // ── Scene ──
     const scene = new THREE.Scene();
-    scene.background = new THREE.Color(0x080810);
+    scene.background = new THREE.Color(0x0e0e18);
 
     // ── Camera ──
     const camera = new THREE.PerspectiveCamera(50, W / H, 0.1, 100);
@@ -49,38 +49,46 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
     // ── Env map for reflections ──
     const pmrem = new THREE.PMREMGenerator(renderer);
     const envScene = new THREE.Scene();
-    envScene.add(new THREE.HemisphereLight(0x4466aa, 0x112211, 1.5));
+    envScene.add(new THREE.HemisphereLight(0x6688cc, 0x334422, 3.0));
+    envScene.add(new THREE.PointLight(0xff6600, 2, 20));
     const envMap = pmrem.fromScene(envScene, 0.04).texture;
     scene.environment = envMap;
     pmrem.dispose();
 
-    // ── Lights ──
-    scene.add(new THREE.AmbientLight(0x222233, 0.5));
-    const keyLight = new THREE.DirectionalLight(0xffffff, 1);
+    // ── Lights — much brighter ──
+    scene.add(new THREE.AmbientLight(0x8888aa, 1.2));
+    const keyLight = new THREE.DirectionalLight(0xffffff, 2.5);
     keyLight.position.set(3, 4, 5);
     scene.add(keyLight);
+    const fillLight = new THREE.DirectionalLight(0x6688ff, 1.0);
+    fillLight.position.set(-3, 2, 4);
+    scene.add(fillLight);
+    const rimLight = new THREE.PointLight(0xff4400, 1.5, 15);
+    rimLight.position.set(0, -2, 4);
+    scene.add(rimLight);
 
-    // ── Materials ──
+    // ── Materials — brighter, more vivid ──
     const redMat = new THREE.MeshPhysicalMaterial({
-      color: 0x991111, metalness: 0.85, roughness: 0.2,
+      color: 0xcc2222, metalness: 0.7, roughness: 0.25,
+      emissive: new THREE.Color(0x440000), emissiveIntensity: 0.3,
     });
     const frameMat = new THREE.MeshPhysicalMaterial({
-      color: 0x1a1a3e, metalness: 0.8, roughness: 0.25,
-      emissive: new THREE.Color(0x0044aa), emissiveIntensity: 0,
+      color: 0x2a2a5e, metalness: 0.7, roughness: 0.3,
+      emissive: new THREE.Color(0x1155cc), emissiveIntensity: 0,
     });
     const ledMat = new THREE.MeshBasicMaterial({
-      color: 0x0088ff, transparent: true, opacity: 0,
+      color: 0x33aaff, transparent: true, opacity: 0,
     });
     const screenMat = new THREE.MeshBasicMaterial({
-      color: 0x000000,
+      color: 0x050510,
     });
 
     // ── Dimensions ──
     // The video frame (what's revealed behind the corners)
-    const frameW = 5.6;
-    const frameH = 3.6;
-    const frameD = 0.25;
-    const barThick = 0.3;
+    const frameW = 5.8;
+    const frameH = 3.8;
+    const frameD = 0.35;
+    const barThick = 0.4;
     const cornerSize = frameW / 2; // each corner covers half width
     const cornerH = frameH / 2;
     const cornerD = 0.35;
@@ -110,10 +118,10 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
 
     // LED strips on bars (thin glowing lines)
     const ledPositions = [
-      [0, frameH / 2 - barThick / 2, frameD / 2 + 0.01, frameW - 0.4, 0.06], // top
-      [0, -frameH / 2 + barThick / 2, frameD / 2 + 0.01, frameW - 0.4, 0.06], // bottom
-      [-frameW / 2 + barThick / 2, 0, frameD / 2 + 0.01, 0.06, frameH - barThick * 2 - 0.3], // left
-      [frameW / 2 - barThick / 2, 0, frameD / 2 + 0.01, 0.06, frameH - barThick * 2 - 0.3], // right
+      [0, frameH / 2 - barThick / 2, frameD / 2 + 0.02, frameW - 0.6, 0.1], // top
+      [0, -frameH / 2 + barThick / 2, frameD / 2 + 0.02, frameW - 0.6, 0.1], // bottom
+      [-frameW / 2 + barThick / 2, 0, frameD / 2 + 0.02, 0.1, frameH - barThick * 2 - 0.4], // left
+      [frameW / 2 - barThick / 2, 0, frameD / 2 + 0.02, 0.1, frameH - barThick * 2 - 0.4], // right
     ];
     const leds = [];
     ledPositions.forEach(([x, y, z, w, h]) => {
@@ -134,7 +142,7 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
     // Back plate
     const backPlate = new THREE.Mesh(
       new THREE.BoxGeometry(frameW + 0.1, frameH + 0.1, 0.08),
-      new THREE.MeshPhysicalMaterial({ color: 0x0a0a14, metalness: 0.9, roughness: 0.3 })
+      new THREE.MeshPhysicalMaterial({ color: 0x151520, metalness: 0.8, roughness: 0.4 })
     );
     backPlate.position.z = -frameD / 2 - 0.05;
     frameGroup.add(backPlate);
@@ -257,7 +265,7 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
 
     // Phase 3 (0.8-1.2s): Frame bars become visible (emissive glow fades in)
     tl.to(frameMat, {
-      emissiveIntensity: 0.3, duration: 0.4, ease: 'power2.out',
+      emissiveIntensity: 0.6, duration: 0.4, ease: 'power2.out',
     }, 0.8);
 
     // Phase 4 (1.0-1.3s): LED strips pulse on
