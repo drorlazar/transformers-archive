@@ -10,22 +10,6 @@ function extractYouTubeId(url) {
   return m ? m[1] : null;
 }
 
-/*
- * The concept: A cube made of mechanical pieces sits at center.
- * Each piece transforms (moves + rotates) to become part of a video player frame.
- * The frame is built from the SAME pieces that formed the cube.
- *
- * Cube decomposition → Frame assembly:
- *   - Top face    → top bar of frame
- *   - Bottom face → bottom bar of frame
- *   - Left face   → left bar of frame
- *   - Right face  → right bar of frame
- *   - Front face  → dissolves/fades (reveals screen)
- *   - Back face   → back panel behind screen
- *   - Corner bolts → move to frame corners
- *   - Center gears → spin during transform, then fade
- */
-
 export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClose }) {
   const canvasRef = useRef(null);
   const iframeRef = useRef(null);
@@ -45,411 +29,367 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
     const W = window.innerWidth;
     const H = window.innerHeight;
 
-    // ── Renderer ──
     const renderer = new THREE.WebGLRenderer({ canvas, antialias: true });
     renderer.setSize(W, H);
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
     renderer.toneMapping = THREE.ACESFilmicToneMapping;
-    renderer.toneMappingExposure = 2.2;
+    renderer.toneMappingExposure = 2.5;
 
-    // ── Scene ──
     const scene = new THREE.Scene();
-    scene.background = new THREE.Color(0x0a0a14);
+    scene.background = new THREE.Color(0x08080f);
 
-    // ── Camera ──
     const camera = new THREE.PerspectiveCamera(50, W / H, 0.1, 100);
     camera.position.set(0, 0, 8);
 
-    // ── Env map ──
+    // Env map
     const pmrem = new THREE.PMREMGenerator(renderer);
     const es = new THREE.Scene();
     es.add(new THREE.HemisphereLight(0x6688cc, 0x332211, 3));
     scene.environment = pmrem.fromScene(es, 0.04).texture;
     pmrem.dispose();
 
-    // ── Lights ──
-    scene.add(new THREE.AmbientLight(0x9999bb, 1.0));
-    const key = new THREE.DirectionalLight(0xffffff, 2.5);
+    // Lights
+    scene.add(new THREE.AmbientLight(0xaaaacc, 1.2));
+    const key = new THREE.DirectionalLight(0xffffff, 3);
     key.position.set(3, 4, 6);
     scene.add(key);
-    const fill = new THREE.DirectionalLight(0x4477ff, 1.0);
+    const fill = new THREE.DirectionalLight(0x4477ff, 1.2);
     fill.position.set(-4, 2, 4);
     scene.add(fill);
+    const rim = new THREE.PointLight(0xff4400, 1.5, 15);
+    rim.position.set(0, -3, 5);
+    scene.add(rim);
 
-    // ── Materials ──
+    // Materials
     const redMetal = new THREE.MeshPhysicalMaterial({
       color: 0xcc2222, metalness: 0.8, roughness: 0.2,
-      clearcoat: 0.4, clearcoatRoughness: 0.1,
+      clearcoat: 0.5, clearcoatRoughness: 0.1,
     });
     const blueMetal = new THREE.MeshPhysicalMaterial({
-      color: 0x2233aa, metalness: 0.8, roughness: 0.25,
+      color: 0x2838aa, metalness: 0.8, roughness: 0.2,
+      clearcoat: 0.3,
     });
     const darkMetal = new THREE.MeshPhysicalMaterial({
-      color: 0x222233, metalness: 0.85, roughness: 0.2,
+      color: 0x1a1a2a, metalness: 0.9, roughness: 0.15,
     });
     const boltMat = new THREE.MeshPhysicalMaterial({
-      color: 0x888899, metalness: 0.9, roughness: 0.15,
-    });
-    const gearMat = new THREE.MeshPhysicalMaterial({
-      color: 0x666677, metalness: 0.9, roughness: 0.1,
+      color: 0x999aaa, metalness: 0.95, roughness: 0.1,
     });
     const glowMat = new THREE.MeshBasicMaterial({
-      color: 0x0088ff, transparent: true, opacity: 0,
+      color: 0x0099ff, transparent: true, opacity: 0,
     });
 
-    const allMats = [redMetal, blueMetal, darkMetal, boltMat, gearMat, glowMat];
-
-    // ── Frame target dimensions (what the pieces transform INTO) ──
-    const frameW = 6.4;  // 16:9 ratio frame
-    const frameH = 4.0;
-    const barThick = 0.28;
-    const barDepth = 0.3;
-
-    // ── Cube size (starting shape) ──
-    const cubeSize = 1.2;
-    const cs = cubeSize;
-
-    // ── BUILD PIECES ──
-    // Each piece starts as part of the cube, ends as part of the frame
-    const pieces = [];
+    const allMats = [redMetal, blueMetal, darkMetal, boltMat, glowMat];
     const allGeos = [];
 
-    function makePiece(geo, mat, startPos, startRot, startScale, endPos, endRot, endScale) {
+    // Frame dimensions — BIGGER
+    const frameW = 7.5;
+    const frameH = 4.6;
+    const barW = 0.35; // bar thickness
+    const barD = 0.4;  // bar depth (z)
+
+    // Cube size
+    const cs = 1.3;
+
+    // Helper
+    const pieces = [];
+    function addPiece(geo, mat, sPos, sRot, sScale, ePos, eRot, eScale) {
       allGeos.push(geo);
       const mesh = new THREE.Mesh(geo, mat);
-      mesh.position.set(startPos.x, startPos.y, startPos.z);
-      mesh.rotation.set(startRot.x, startRot.y, startRot.z);
-      mesh.scale.set(startScale.x, startScale.y, startScale.z);
+      mesh.position.set(sPos[0], sPos[1], sPos[2]);
+      mesh.rotation.set(sRot[0], sRot[1], sRot[2]);
+      mesh.scale.set(sScale[0], sScale[1], sScale[2]);
       scene.add(mesh);
-      pieces.push({
-        mesh,
-        end: { pos: endPos, rot: endRot, scale: endScale },
-      });
+      pieces.push({ mesh, ePos, eRot, eScale });
       return mesh;
     }
 
-    // ── TOP BAR: starts as top face of cube → stretches into top bar ──
-    makePiece(
-      new THREE.BoxGeometry(1, 0.15, 1),
+    // ── TOP BAR: cube top face → rotates forward and stretches wide ──
+    addPiece(
+      new THREE.BoxGeometry(1, barW, barD),
       redMetal,
-      { x: 0, y: cs / 2, z: 0 },
-      { x: 0, y: 0, z: 0 },
-      { x: cs, y: 1, z: cs },
-      { x: 0, y: frameH / 2 - barThick / 2, z: 0 },
-      { x: 0, y: 0, z: 0 },
-      { x: frameW, y: 1, z: barDepth / 0.15 }
+      [0, cs * 0.5, 0],          // start: top of cube
+      [0, 0, 0],
+      [cs, 1, cs * 0.8],
+      [0, frameH / 2 - barW / 2, 0], // end: top of frame
+      [0, 0, 0],
+      [frameW, 1, 1]
     );
 
-    // ── BOTTOM BAR: starts as bottom face → stretches into bottom bar ──
-    makePiece(
-      new THREE.BoxGeometry(1, 0.15, 1),
+    // ── BOTTOM BAR: cube bottom → rotates and stretches ──
+    addPiece(
+      new THREE.BoxGeometry(1, barW, barD),
       redMetal,
-      { x: 0, y: -cs / 2, z: 0 },
-      { x: 0, y: 0, z: 0 },
-      { x: cs, y: 1, z: cs },
-      { x: 0, y: -frameH / 2 + barThick / 2, z: 0 },
-      { x: 0, y: 0, z: 0 },
-      { x: frameW, y: 1, z: barDepth / 0.15 }
+      [0, -cs * 0.5, 0],
+      [0, 0, 0],
+      [cs, 1, cs * 0.8],
+      [0, -frameH / 2 + barW / 2, 0],
+      [0, 0, 0],
+      [frameW, 1, 1]
     );
 
-    // ── LEFT BAR: starts as left face (rotated) → becomes left bar ──
-    makePiece(
-      new THREE.BoxGeometry(0.15, 1, 1),
+    // ── LEFT BAR: starts rotated 90° on Z, unfolds to vertical ──
+    addPiece(
+      new THREE.BoxGeometry(barW, 1, barD),
       blueMetal,
-      { x: -cs / 2, y: 0, z: 0 },
-      { x: 0, y: 0, z: 0 },
-      { x: 1, y: cs, z: cs },
-      { x: -frameW / 2 + barThick / 2, y: 0, z: 0 },
-      { x: 0, y: 0, z: 0 },
-      { x: 1, y: frameH - barThick * 2, z: barDepth / 1 }
+      [-cs * 0.5, 0, 0],
+      [0, 0, Math.PI / 2],      // starts rotated 90°
+      [1, cs, cs * 0.8],
+      [-frameW / 2 + barW / 2, 0, 0],
+      [0, 0, 0],                 // ends upright
+      [1, frameH - barW * 2, 1]
     );
 
-    // ── RIGHT BAR: starts as right face → becomes right bar ──
-    makePiece(
-      new THREE.BoxGeometry(0.15, 1, 1),
+    // ── RIGHT BAR: starts rotated -90° on Z, unfolds ──
+    addPiece(
+      new THREE.BoxGeometry(barW, 1, barD),
       blueMetal,
-      { x: cs / 2, y: 0, z: 0 },
-      { x: 0, y: 0, z: 0 },
-      { x: 1, y: cs, z: cs },
-      { x: frameW / 2 - barThick / 2, y: 0, z: 0 },
-      { x: 0, y: 0, z: 0 },
-      { x: 1, y: frameH - barThick * 2, z: barDepth / 1 }
+      [cs * 0.5, 0, 0],
+      [0, 0, -Math.PI / 2],
+      [1, cs, cs * 0.8],
+      [frameW / 2 - barW / 2, 0, 0],
+      [0, 0, 0],
+      [1, frameH - barW * 2, 1]
     );
 
-    // ── BACK PANEL: starts as back face → expands behind the screen ──
-    makePiece(
-      new THREE.BoxGeometry(1, 1, 0.08),
+    // ── BACK PANEL: flips from front face of cube to behind screen ──
+    addPiece(
+      new THREE.BoxGeometry(1, 1, 0.06),
       darkMetal,
-      { x: 0, y: 0, z: -cs / 2 },
-      { x: 0, y: 0, z: 0 },
-      { x: cs, y: cs, z: 1 },
-      { x: 0, y: 0, z: -barDepth / 2 },
-      { x: 0, y: 0, z: 0 },
-      { x: frameW - barThick, y: frameH - barThick, z: 1 }
+      [0, 0, cs * 0.5],          // starts as front face
+      [0, Math.PI, 0],           // facing us, will flip
+      [cs, cs, 1],
+      [0, 0, -barD * 0.5],       // ends behind screen
+      [0, 0, 0],
+      [frameW - barW * 2, frameH - barW * 2, 1]
     );
 
-    // ── FRONT FACE: dissolves during transform ──
-    const frontGeo = new THREE.BoxGeometry(1, 1, 0.08);
+    // ── FRONT FACE: dissolves ──
+    const frontGeo = new THREE.BoxGeometry(cs, cs, 0.06);
     allGeos.push(frontGeo);
-    const frontFace = new THREE.Mesh(frontGeo, darkMetal.clone());
-    allMats.push(frontFace.material);
-    frontFace.material.transparent = true;
-    frontFace.position.set(0, 0, cs / 2);
-    frontFace.scale.set(cs, cs, 1);
+    const frontMat = darkMetal.clone();
+    frontMat.transparent = true;
+    allMats.push(frontMat);
+    const frontFace = new THREE.Mesh(frontGeo, frontMat);
+    frontFace.position.set(0, 0, cs * 0.5);
     scene.add(frontFace);
 
-    // ── 4 CORNER BOLTS: small cylinders at cube corners → move to frame corners ──
-    const boltGeo = new THREE.CylinderGeometry(0.08, 0.08, 0.15, 8);
-    allGeos.push(boltGeo);
-    const boltRadius = cs * 0.45;
-    const boltCorners = [
-      { sx: -boltRadius, sy: boltRadius, ex: -frameW / 2 + 0.15, ey: frameH / 2 - 0.15 },
-      { sx: boltRadius, sy: boltRadius, ex: frameW / 2 - 0.15, ey: frameH / 2 - 0.15 },
-      { sx: -boltRadius, sy: -boltRadius, ex: -frameW / 2 + 0.15, ey: -frameH / 2 + 0.15 },
-      { sx: boltRadius, sy: -boltRadius, ex: frameW / 2 - 0.15, ey: -frameH / 2 + 0.15 },
+    // ── 4 CORNER BRACKETS: L-shaped pieces at cube edges → frame corners ──
+    const bracketSize = 0.5;
+    const brackets = [];
+    const bracketTargets = [
+      { ex: -frameW / 2 + bracketSize / 2, ey: frameH / 2 - bracketSize / 2, sx: -cs * 0.35, sy: cs * 0.35, sRotZ: Math.PI * 0.5 },
+      { ex: frameW / 2 - bracketSize / 2, ey: frameH / 2 - bracketSize / 2, sx: cs * 0.35, sy: cs * 0.35, sRotZ: -Math.PI * 0.5 },
+      { ex: -frameW / 2 + bracketSize / 2, ey: -frameH / 2 + bracketSize / 2, sx: -cs * 0.35, sy: -cs * 0.35, sRotZ: -Math.PI * 0.5 },
+      { ex: frameW / 2 - bracketSize / 2, ey: -frameH / 2 + bracketSize / 2, sx: cs * 0.35, sy: -cs * 0.35, sRotZ: Math.PI * 0.5 },
     ];
-    const bolts = boltCorners.map(({ sx, sy, ex, ey }) => {
-      const bolt = new THREE.Mesh(boltGeo, boltMat);
-      bolt.position.set(sx, sy, cs / 2 + 0.05);
-      bolt.rotation.x = Math.PI / 2;
-      scene.add(bolt);
-      return { mesh: bolt, endX: ex, endY: ey };
+
+    bracketTargets.forEach(({ ex, ey, sx, sy, sRotZ }) => {
+      const group = new THREE.Group();
+      const h = new THREE.Mesh(new THREE.BoxGeometry(bracketSize, 0.12, barD * 0.8), redMetal);
+      h.position.y = bracketSize / 2 - 0.06;
+      group.add(h);
+      allGeos.push(h.geometry);
+      const v = new THREE.Mesh(new THREE.BoxGeometry(0.12, bracketSize, barD * 0.8), redMetal);
+      v.position.x = -bracketSize / 2 + 0.06;
+      group.add(v);
+      allGeos.push(v.geometry);
+
+      group.position.set(sx, sy, cs * 0.5 + 0.05);
+      group.rotation.z = sRotZ;
+      scene.add(group);
+      brackets.push({ mesh: group, ex, ey, sRotZ });
     });
 
-    // ── 2 GEARS: spin during transform for mechanical feel ──
-    const gearGeo = new THREE.TorusGeometry(0.2, 0.04, 6, 16);
-    allGeos.push(gearGeo);
-    const gear1 = new THREE.Mesh(gearGeo, gearMat);
-    gear1.position.set(-0.25, 0, cs / 2 + 0.1);
-    scene.add(gear1);
-    const gear2 = new THREE.Mesh(gearGeo, gearMat);
-    gear2.position.set(0.25, 0, cs / 2 + 0.1);
-    scene.add(gear2);
+    // ── 8 BOLTS: tiny cylinders on cube → scatter to frame positions ──
+    const boltGeo = new THREE.CylinderGeometry(0.06, 0.06, 0.18, 6);
+    allGeos.push(boltGeo);
+    const boltPositions = [
+      // On cube face
+      { sx: -cs * 0.3, sy: cs * 0.3 },
+      { sx: cs * 0.3, sy: cs * 0.3 },
+      { sx: -cs * 0.3, sy: -cs * 0.3 },
+      { sx: cs * 0.3, sy: -cs * 0.3 },
+      { sx: 0, sy: cs * 0.3 },
+      { sx: 0, sy: -cs * 0.3 },
+      { sx: -cs * 0.3, sy: 0 },
+      { sx: cs * 0.3, sy: 0 },
+    ];
+    // End positions along frame bars
+    const boltEnds = [
+      { ex: -frameW * 0.35, ey: frameH / 2 - barW / 2 },
+      { ex: frameW * 0.35, ey: frameH / 2 - barW / 2 },
+      { ex: -frameW * 0.35, ey: -frameH / 2 + barW / 2 },
+      { ex: frameW * 0.35, ey: -frameH / 2 + barW / 2 },
+      { ex: 0, ey: frameH / 2 - barW / 2 },
+      { ex: 0, ey: -frameH / 2 + barW / 2 },
+      { ex: -frameW / 2 + barW / 2, ey: 0 },
+      { ex: frameW / 2 - barW / 2, ey: 0 },
+    ];
+    const bolts = boltPositions.map(({ sx, sy }, i) => {
+      const bolt = new THREE.Mesh(boltGeo, boltMat);
+      bolt.position.set(sx, sy, cs * 0.5 + 0.1);
+      bolt.rotation.x = Math.PI / 2;
+      scene.add(bolt);
+      return { mesh: bolt, ...boltEnds[i] };
+    });
 
-    // ── GLOW STRIPS: appear on frame bars after transform ──
-    const glowGeos = [];
+    // ── GLOW STRIPS on final frame ──
     const glows = [];
-    [[0, frameH / 2 - barThick / 2, frameW * 0.8, 0.05],
-     [0, -frameH / 2 + barThick / 2, frameW * 0.8, 0.05],
-     [-frameW / 2 + barThick / 2, 0, 0.05, (frameH - barThick * 2) * 0.8],
-     [frameW / 2 - barThick / 2, 0, 0.05, (frameH - barThick * 2) * 0.8],
+    [
+      [0, frameH / 2 - barW / 2, frameW * 0.85, 0.06],
+      [0, -frameH / 2 + barW / 2, frameW * 0.85, 0.06],
+      [-frameW / 2 + barW / 2, 0, 0.06, (frameH - barW * 2) * 0.85],
+      [frameW / 2 - barW / 2, 0, 0.06, (frameH - barW * 2) * 0.85],
     ].forEach(([x, y, w, h]) => {
       const g = new THREE.BoxGeometry(w, h, 0.01);
-      glowGeos.push(g);
       allGeos.push(g);
       const m = glowMat.clone();
       allMats.push(m);
       const mesh = new THREE.Mesh(g, m);
-      mesh.position.set(x, y, barDepth / 2 + 0.01);
+      mesh.position.set(x, y, barD / 2 + 0.01);
       scene.add(mesh);
       glows.push(mesh);
     });
 
-    // ── Store refs ──
+    // Store
+    const screenW = frameW - barW * 2 - 0.15;
+    const screenH = frameH - barW * 2 - 0.15;
     threeRef.current = {
-      renderer, scene, camera, pieces, frontFace, bolts, gear1, gear2, glows,
-      allGeos, allMats, frameW, frameH, barThick,
-      screenW: frameW - barThick * 2 - 0.1,
-      screenH: frameH - barThick * 2 - 0.1,
-      animId: null, tl: null,
+      renderer, scene, camera, pieces, frontFace, frontMat, brackets, bolts, glows,
+      allGeos, allMats, screenW, screenH, animId: null, tl: null,
     };
 
-    // ── Render loop ──
+    // Render
     let running = true;
-    let time = 0;
     function animate() {
       if (!running) return;
       threeRef.current.animId = requestAnimationFrame(animate);
-      time += 0.016;
-      gear1.rotation.z = time * 8;
-      gear2.rotation.z = -time * 10;
       renderer.render(scene, camera);
-      updateIframe();
+      // Keep iframe aligned
+      if (iframeRef.current && showVideo) {
+        const tlv = new THREE.Vector3(-screenW / 2, screenH / 2, 0).project(camera);
+        const brv = new THREE.Vector3(screenW / 2, -screenH / 2, 0).project(camera);
+        const el = iframeRef.current;
+        el.style.left = ((tlv.x * 0.5 + 0.5) * W) + 'px';
+        el.style.top = ((-tlv.y * 0.5 + 0.5) * H) + 'px';
+        el.style.width = ((brv.x - tlv.x) * 0.5 * W) + 'px';
+        el.style.height = ((tlv.y - brv.y) * 0.5 * H) + 'px';
+      }
     }
-
-    function updateIframe() {
-      const el = iframeRef.current;
-      if (!el || !showVideo) return;
-      const sw = threeRef.current.screenW;
-      const sh = threeRef.current.screenH;
-      const tl = new THREE.Vector3(-sw / 2, sh / 2, 0).project(camera);
-      const br = new THREE.Vector3(sw / 2, -sh / 2, 0).project(camera);
-      el.style.left = ((tl.x * 0.5 + 0.5) * W) + 'px';
-      el.style.top = ((-tl.y * 0.5 + 0.5) * H) + 'px';
-      el.style.width = ((br.x - tl.x) * 0.5 * W) + 'px';
-      el.style.height = ((tl.y - br.y) * 0.5 * H) + 'px';
-    }
-
     animate();
 
-    // ── Sound ──
+    // Sound
     try {
-      const audio = new Audio(assetUrl('sounds/transform.ogg'));
-      audio.volume = 0.7;
-      audio.play().catch(() => {});
+      const a = new Audio(assetUrl('sounds/transform.ogg'));
+      a.volume = 0.7; a.play().catch(() => {});
     } catch {}
 
-    // ── TRANSFORM ANIMATION (1 second) ──
-    const tl = gsap.timeline({
-      onComplete: () => setShowVideo(true),
-    });
+    // ── ANIMATION ──
+    const tl = gsap.timeline({ onComplete: () => setShowVideo(true) });
     threeRef.current.tl = tl;
 
-    // Phase 1 (0-0.15s): Cube sits, camera pulls back slightly
-    tl.to(camera.position, { z: 9, duration: 1.0, ease: 'power2.out' }, 0);
+    // Camera pull back
+    tl.to(camera.position, { z: 10, duration: 1.1, ease: 'power2.out' }, 0);
 
-    // Phase 2 (0.15-0.8s): All pieces transform simultaneously
-    pieces.forEach(({ mesh, end }, i) => {
-      const delay = 0.15 + i * 0.03;
-      tl.to(mesh.position, {
-        x: end.pos.x, y: end.pos.y, z: end.pos.z,
-        duration: 0.65, ease: 'power2.inOut',
-      }, delay);
-      tl.to(mesh.rotation, {
-        x: end.rot.x, y: end.rot.y, z: end.rot.z,
-        duration: 0.65, ease: 'power2.inOut',
-      }, delay);
-      tl.to(mesh.scale, {
-        x: end.scale.x, y: end.scale.y, z: end.scale.z,
-        duration: 0.65, ease: 'power2.inOut',
-      }, delay);
+    // Pieces transform with ROTATION
+    pieces.forEach(({ mesh, ePos, eRot, eScale }, i) => {
+      const d = 0.15 + i * 0.04;
+      tl.to(mesh.position, { x: ePos[0], y: ePos[1], z: ePos[2], duration: 0.7, ease: 'power3.inOut' }, d);
+      tl.to(mesh.rotation, { x: eRot[0], y: eRot[1], z: eRot[2], duration: 0.7, ease: 'power3.inOut' }, d);
+      tl.to(mesh.scale, { x: eScale[0], y: eScale[1], z: eScale[2], duration: 0.7, ease: 'power3.inOut' }, d);
     });
 
     // Front face dissolves
-    tl.to(frontFace.material, {
-      opacity: 0, duration: 0.4, ease: 'power2.in',
-    }, 0.2);
-    tl.to(frontFace.scale, {
-      x: frameW * 0.5, y: frameH * 0.5,
-      duration: 0.4, ease: 'power2.in',
-    }, 0.2);
+    tl.to(frontMat, { opacity: 0, duration: 0.35 }, 0.15);
 
-    // Bolts fly to corners
-    bolts.forEach(({ mesh, endX, endY }, i) => {
-      tl.to(mesh.position, {
-        x: endX, y: endY, z: barDepth / 2 + 0.08,
-        duration: 0.5, ease: 'back.out(1.5)',
-      }, 0.3 + i * 0.04);
-      // Bolt spins during flight
-      tl.to(mesh.rotation, {
-        z: Math.PI * 3,
-        duration: 0.5, ease: 'power2.out',
-      }, 0.3 + i * 0.04);
+    // Corner brackets rotate into place
+    brackets.forEach(({ mesh, ex, ey, sRotZ }, i) => {
+      tl.to(mesh.position, { x: ex, y: ey, z: barD / 2, duration: 0.6, ease: 'back.out(1.3)' }, 0.25 + i * 0.04);
+      tl.to(mesh.rotation, { z: 0, duration: 0.6, ease: 'power3.out' }, 0.25 + i * 0.04);
     });
 
-    // Gears spin fast then fade
-    tl.to(gear1.material, { opacity: 0, transparent: true, duration: 0.3 }, 0.5);
-    tl.to(gear2.material, { opacity: 0, transparent: true, duration: 0.3 }, 0.5);
-    tl.to(gear1.scale, { x: 2, y: 2, duration: 0.3 }, 0.5);
-    tl.to(gear2.scale, { x: 2, y: 2, duration: 0.3 }, 0.5);
+    // Bolts spin and fly to frame
+    bolts.forEach(({ mesh, ex, ey }, i) => {
+      tl.to(mesh.position, { x: ex, y: ey, z: barD / 2 + 0.1, duration: 0.5, ease: 'back.out(1.2)' }, 0.3 + i * 0.025);
+      tl.to(mesh.rotation, { z: Math.PI * 4, duration: 0.5, ease: 'power2.out' }, 0.3 + i * 0.025);
+    });
 
-    // Glow strips power on
+    // Glow strips on
     glows.forEach((g, i) => {
-      tl.to(g.material, {
-        opacity: 0.8, duration: 0.2, ease: 'power2.out',
-      }, 0.7 + i * 0.04);
+      tl.to(g.material, { opacity: 0.9, duration: 0.2, ease: 'power2.out' }, 0.75 + i * 0.04);
     });
-
-    // Glow pulse loop
     tl.call(() => {
       glows.forEach(g => {
-        gsap.to(g.material, {
-          opacity: 0.3, duration: 1.2, yoyo: true, repeat: -1, ease: 'sine.inOut',
-        });
+        gsap.to(g.material, { opacity: 0.35, duration: 1.5, yoyo: true, repeat: -1, ease: 'sine.inOut' });
       });
-    }, [], 0.95);
+    }, [], 1.0);
 
     // Resize
     function onResize() {
-      const w = window.innerWidth;
-      const h = window.innerHeight;
-      camera.aspect = w / h;
-      camera.updateProjectionMatrix();
-      renderer.setSize(w, h);
+      const w = window.innerWidth; const h = window.innerHeight;
+      camera.aspect = w / h; camera.updateProjectionMatrix(); renderer.setSize(w, h);
     }
     window.addEventListener('resize', onResize);
 
     return () => {
       running = false;
       if (threeRef.current?.animId) cancelAnimationFrame(threeRef.current.animId);
-      tl.kill();
-      window.removeEventListener('resize', onResize);
-      allGeos.forEach(g => g.dispose());
-      allMats.forEach(m => m.dispose());
+      tl.kill(); window.removeEventListener('resize', onResize);
+      allGeos.forEach(g => g.dispose()); allMats.forEach(m => m.dispose());
       if (scene.environment) scene.environment.dispose();
       renderer.dispose();
     };
   }, []); // eslint-disable-line
 
-  // Position iframe when video shows
+  // Iframe position on show
   useEffect(() => {
     if (!showVideo || !iframeRef.current || !threeRef.current) return;
     const { screenW, screenH, camera } = threeRef.current;
-    const W = window.innerWidth;
-    const H = window.innerHeight;
-    const tl = new THREE.Vector3(-screenW / 2, screenH / 2, 0).project(camera);
-    const br = new THREE.Vector3(screenW / 2, -screenH / 2, 0).project(camera);
+    const W = window.innerWidth; const H = window.innerHeight;
+    const tlv = new THREE.Vector3(-screenW / 2, screenH / 2, 0).project(camera);
+    const brv = new THREE.Vector3(screenW / 2, -screenH / 2, 0).project(camera);
     const el = iframeRef.current;
-    el.style.left = ((tl.x * 0.5 + 0.5) * W) + 'px';
-    el.style.top = ((-tl.y * 0.5 + 0.5) * H) + 'px';
-    el.style.width = ((br.x - tl.x) * 0.5 * W) + 'px';
-    el.style.height = ((tl.y - br.y) * 0.5 * H) + 'px';
+    el.style.left = ((tlv.x * 0.5 + 0.5) * W) + 'px';
+    el.style.top = ((-tlv.y * 0.5 + 0.5) * H) + 'px';
+    el.style.width = ((brv.x - tlv.x) * 0.5 * W) + 'px';
+    el.style.height = ((tlv.y - brv.y) * 0.5 * H) + 'px';
   }, [showVideo]);
 
   // Close
   const handleClose = useCallback(() => {
     if (isClosing) return;
-    setIsClosing(true);
-    setShowVideo(false);
-
+    setIsClosing(true); setShowVideo(false);
     const three = threeRef.current;
     if (!three) { onClose(); return; }
     if (three.tl) three.tl.kill();
-
-    // Kill glow loops
     three.glows.forEach(g => gsap.killTweensOf(g.material));
 
-    try {
-      const audio = new Audio(assetUrl('sounds/transform.ogg'));
-      audio.volume = 0.4;
-      audio.playbackRate = 1.5;
-      audio.play().catch(() => {});
-    } catch {}
+    try { const a = new Audio(assetUrl('sounds/transform.ogg')); a.volume = 0.4; a.playbackRate = 1.5; a.play().catch(() => {}); } catch {}
 
     const closeTl = gsap.timeline({ onComplete: onClose });
-
     // Glows off
-    three.glows.forEach(g => {
-      closeTl.to(g.material, { opacity: 0, duration: 0.15 }, 0);
-    });
-
-    // Pieces transform back to cube
+    three.glows.forEach(g => closeTl.to(g.material, { opacity: 0, duration: 0.12 }, 0));
+    // Pieces back to cube positions with rotation
     three.pieces.forEach(({ mesh }, i) => {
-      const s = mesh.userData;
-      closeTl.to(mesh.position, { x: 0, y: (i < 2 ? 1 : i < 4 ? -1 : 0) * 0.6, z: 0, duration: 0.5, ease: 'power2.in' }, 0.1);
-      closeTl.to(mesh.scale, { x: 1.2, y: 1.2, z: 1.2, duration: 0.5, ease: 'power2.in' }, 0.1);
+      closeTl.to(mesh.position, { x: 0, y: (i < 2 ? (i === 0 ? 0.65 : -0.65) : 0), z: 0, duration: 0.5, ease: 'power3.in' }, 0.05 + i * 0.03);
+      closeTl.to(mesh.scale, { x: 1.3, y: 1.3, z: 1.3, duration: 0.5, ease: 'power3.in' }, 0.05 + i * 0.03);
+      closeTl.to(mesh.rotation, { x: 0, y: i === 4 ? Math.PI : 0, z: i >= 2 && i < 4 ? (i === 2 ? Math.PI / 2 : -Math.PI / 2) : 0, duration: 0.5, ease: 'power3.in' }, 0.05 + i * 0.03);
     });
-
-    // Bolts back
-    three.bolts.forEach(({ mesh }) => {
-      closeTl.to(mesh.position, { x: 0, y: 0, z: 0.7, duration: 0.4, ease: 'power2.in' }, 0.1);
-    });
-
-    // Camera push in
+    // Brackets + bolts back
+    three.brackets.forEach(({ mesh, sRotZ }) => closeTl.to(mesh.position, { x: 0, y: 0, z: 0.7, duration: 0.4, ease: 'power3.in' }, 0.1));
+    three.bolts.forEach(({ mesh }) => closeTl.to(mesh.position, { x: 0, y: 0, z: 0.7, duration: 0.4, ease: 'power3.in' }, 0.1));
+    // Camera
     closeTl.to(three.camera.position, { z: 6, duration: 0.5, ease: 'power2.in' }, 0.1);
-
-    // Fade
-    closeTl.to(canvasRef.current, { opacity: 0, duration: 0.2 }, 0.5);
+    closeTl.to(canvasRef.current, { opacity: 0, duration: 0.15 }, 0.5);
   }, [isClosing, onClose]);
 
-  // Escape
   useEffect(() => {
     const fn = (e) => { if (e.key === 'Escape') handleClose(); };
     window.addEventListener('keydown', fn);
     return () => window.removeEventListener('keydown', fn);
   }, [handleClose]);
 
-  // Lock scroll
   useEffect(() => {
     document.body.style.overflow = 'hidden';
     return () => { document.body.style.overflow = ''; };
@@ -463,13 +403,11 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
       {showVideo && (
         <div className="tfp-iframe-wrap" ref={iframeRef}>
           {youtubeId ? (
-            <iframe
-              className="tfp-iframe"
+            <iframe className="tfp-iframe"
               src={`https://www.youtube-nocookie.com/embed/${youtubeId}?rel=0&autoplay=1`}
               title={episode.title}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
+              allowFullScreen />
           ) : (
             <div className="tfp-fallback">
               <span>&#9654;</span>
@@ -488,9 +426,7 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
           <h2>{episode.title}</h2>
           <p>{seriesTitle && `${seriesTitle} — `}S{seasonNum} E{episode.number}</p>
           {youtubeId && (
-            <p className="tfp-search">
-              Video not working? <a href={`https://www.youtube.com/results?search_query=${searchQuery}`} target="_blank" rel="noopener noreferrer">Search YouTube</a>
-            </p>
+            <p className="tfp-search">Video not working? <a href={`https://www.youtube.com/results?search_query=${searchQuery}`} target="_blank" rel="noopener noreferrer">Search YouTube</a></p>
           )}
         </div>
       )}
