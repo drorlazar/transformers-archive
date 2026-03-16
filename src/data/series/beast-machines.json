@@ -11,8 +11,8 @@
     "Dark",
     "Philosophical"
   ],
-  "poster": "/images/series/beast-machines-poster.jpg",
-  "hero_image": "/images/series/beast-machines-hero.jpg",
+  "poster": "images/series/beast-machines-poster.jpg",
+  "hero_image": "images/series/beast-machines-hero.jpg",
   "faction_accent": "blue",
   "seasons": [
     {
@@ -373,7 +373,7 @@
       "faction": "Maximal",
       "beast_mode": "Technorganic Gorilla",
       "voice_actor": "Gary Chalk",
-      "image": "/images/characters/beast-wars-optimus-primal.jpg"
+      "image": "images/characters/beast-wars-optimus-primal.jpg"
     },
     {
       "name": "Cheetor",
@@ -381,7 +381,7 @@
       "faction": "Maximal",
       "beast_mode": "Technorganic Cheetah",
       "voice_actor": "Ian James Corlett",
-      "image": "/images/characters/beast-wars-cheetor.jpg"
+      "image": "images/characters/beast-wars-cheetor.jpg"
     },
     {
       "name": "Rattrap",
@@ -389,7 +389,7 @@
       "faction": "Maximal",
       "beast_mode": "Technorganic Rat",
       "voice_actor": "Scott McNeil",
-      "image": "/images/characters/beast-wars-rattrap.jpg"
+      "image": "images/characters/beast-wars-rattrap.jpg"
     },
     {
       "name": "Blackarachnia",
@@ -397,7 +397,7 @@
       "faction": "Maximal",
       "beast_mode": "Technorganic Spider",
       "voice_actor": "Venus Terzo",
-      "image": "/images/characters/beast-wars-blackarachnia.jpg"
+      "image": "images/characters/beast-wars-blackarachnia.jpg"
     },
     {
       "name": "Nightscream",
@@ -405,7 +405,7 @@
       "faction": "Maximal",
       "beast_mode": "Technorganic Bat",
       "voice_actor": "Alessandro Juliani",
-      "image": "/images/characters/beast-machines-nightscream.jpg"
+      "image": "images/characters/beast-machines-nightscream.jpg"
     },
     {
       "name": "Silverbolt",
@@ -413,7 +413,7 @@
       "faction": "Maximal",
       "beast_mode": "Technorganic Condor",
       "voice_actor": "Scott McNeil",
-      "image": "/images/characters/beast-wars-silverbolt.jpg"
+      "image": "images/characters/beast-wars-silverbolt.jpg"
     },
     {
       "name": "Botanica",
@@ -421,7 +421,7 @@
       "faction": "Maximal",
       "beast_mode": "Technorganic Plant",
       "voice_actor": "Kathleen Barr",
-      "image": "/images/characters/beast-machines-botanica.jpg"
+      "image": "images/characters/beast-machines-botanica.jpg"
     },
     {
       "name": "Megatron",
@@ -429,7 +429,7 @@
       "faction": "Vehicon",
       "beast_mode": "Diagnostic Drone / Giant Head",
       "voice_actor": "David Kaye",
-      "image": "/images/characters/beast-wars-megatron.jpg"
+      "image": "images/characters/beast-wars-megatron.jpg"
     },
     {
       "name": "Tankor",
@@ -437,7 +437,7 @@
       "faction": "Vehicon",
       "beast_mode": "Tank Drone",
       "voice_actor": "Paul Dobson",
-      "image": "/images/characters/beast-machines-tankor.jpg"
+      "image": "images/characters/beast-machines-tankor.jpg"
     },
     {
       "name": "Jetstorm",
@@ -445,7 +445,7 @@
       "faction": "Vehicon",
       "beast_mode": "Jet Drone",
       "voice_actor": "Brian Drummond",
-      "image": "/images/characters/beast-machines-jetstorm.jpg"
+      "image": "images/characters/beast-machines-jetstorm.jpg"
     },
     {
       "name": "Thrust",
@@ -453,7 +453,7 @@
       "faction": "Vehicon",
       "beast_mode": "Motorcycle Drone",
       "voice_actor": "Jim Byrnes",
-      "image": "/images/characters/beast-machines-thrust.jpg"
+      "image": "images/characters/beast-machines-thrust.jpg"
     },
     {
       "name": "Obsidian",
@@ -461,7 +461,7 @@
       "faction": "Vehicon",
       "beast_mode": "Attack Helicopter",
       "voice_actor": "Paul Dobson",
-      "image": "/images/characters/beast-machines-obsidian.jpg"
+      "image": "images/characters/beast-machines-obsidian.jpg"
     }
   ],
   "media": [

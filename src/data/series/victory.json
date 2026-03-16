@@ -13,8 +13,8 @@
     "Victory",
     "Brainmasters"
   ],
-  "poster": "/images/series/victory-poster.jpg",
-  "hero_image": "/images/series/victory-hero.jpg",
+  "poster": "images/series/victory-poster.jpg",
+  "hero_image": "images/series/victory-hero.jpg",
   "faction_accent": "red",
   "seasons": [
     {
@@ -525,7 +525,7 @@
       "faction": "Autobot",
       "voice_actor": "Hideyuki Tanaka",
       "alt_mode": "Cybertronic spacecraft",
-      "image": "/images/characters/victory-star-saber.jpg"
+      "image": "images/characters/victory-star-saber.jpg"
     },
     {
       "name": "Victory Leo",
@@ -533,7 +533,7 @@
       "faction": "Autobot",
       "voice_actor": "Hiroshi Takemura",
       "alt_mode": "Robotic lion / Winged jet",
-      "image": "/images/characters/victory-victory-leo.jpg"
+      "image": "images/characters/victory-victory-leo.jpg"
     },
     {
       "name": "Deathsaurus",
@@ -541,7 +541,7 @@
       "faction": "Decepticon",
       "voice_actor": "Takeshi Aono",
       "alt_mode": "Dragon / Kaiju beast",
-      "image": "/images/characters/victory-deathsaurus.jpg"
+      "image": "images/characters/victory-deathsaurus.jpg"
     },
     {
       "name": "Jan Minakaze",
@@ -557,7 +557,7 @@
       "faction": "Decepticon",
       "voice_actor": "Keiichi Nanba",
       "alt_mode": "F-14 Tomcat jet fighter",
-      "image": "/images/characters/victory-leozack.jpg"
+      "image": "images/characters/victory-leozack.jpg"
     },
     {
       "name": "Hellbat",
@@ -565,7 +565,7 @@
       "faction": "Decepticon",
       "voice_actor": "Yoku Shioya",
       "alt_mode": "Fighter jet",
-      "image": "/images/characters/victory-hellbat.jpg"
+      "image": "images/characters/victory-hellbat.jpg"
     },
     {
       "name": "Greatshot",
@@ -573,7 +573,7 @@
       "faction": "Autobot",
       "voice_actor": "Michihiro Ikemizu",
       "alt_mode": "Six modes: robot, jet, car, tank, wolf, gun",
-      "image": "/images/characters/victory-greatshot.jpg"
+      "image": "images/characters/victory-greatshot.jpg"
     },
     {
       "name": "Blacker",
@@ -581,7 +581,7 @@
       "faction": "Autobot",
       "voice_actor": "Takuro Kitagawa",
       "alt_mode": "Sports car",
-      "image": "/images/characters/victory-blacker.jpg"
+      "image": "images/characters/victory-blacker.jpg"
     },
     {
       "name": "Landcross",
@@ -589,7 +589,7 @@
       "faction": "Autobot",
       "voice_actor": "Various",
       "alt_mode": "Six Multiforce members combine",
-      "image": "/images/characters/victory-landcross.jpg"
+      "image": "images/characters/victory-landcross.jpg"
     },
     {
       "name": "Liokaiser",
@@ -597,7 +597,7 @@
       "faction": "Decepticon",
       "voice_actor": "Various",
       "alt_mode": "Six Breastforce members combine",
-      "image": "/images/characters/victory-liokaiser.jpg"
+      "image": "images/characters/victory-liokaiser.jpg"
     }
   ],
   "media": [

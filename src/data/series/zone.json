@@ -13,8 +13,8 @@
     "OVA",
     "Zone"
   ],
-  "poster": "/images/series/zone-poster.jpg",
-  "hero_image": "/images/series/zone-hero.jpg",
+  "poster": "images/series/zone-poster.jpg",
+  "hero_image": "images/series/zone-hero.jpg",
   "faction_accent": "red",
   "seasons": [
     {
@@ -44,7 +44,7 @@
       "faction": "Autobot",
       "voice_actor": "Yusaku Yara",
       "alt_mode": "Drill tank / Jet / Base (quad-changer)",
-      "image": "/images/characters/zone-dai-atlas.jpg"
+      "image": "images/characters/zone-dai-atlas.jpg"
     },
     {
       "name": "Sonic Bomber",
@@ -52,7 +52,7 @@
       "faction": "Autobot",
       "voice_actor": "Kaneto Shiozawa",
       "alt_mode": "SR-71 Blackbird-style aircraft",
-      "image": "/images/characters/zone-sonic-bomber.jpg"
+      "image": "images/characters/zone-sonic-bomber.jpg"
     },
     {
       "name": "Roadfire",
@@ -60,7 +60,7 @@
       "faction": "Autobot",
       "voice_actor": "Unknown",
       "alt_mode": "Cybertronian tank",
-      "image": "/images/characters/zone-roadfire.jpg"
+      "image": "images/characters/zone-roadfire.jpg"
     },
     {
       "name": "Victory Saber",
@@ -68,7 +68,7 @@
       "faction": "Autobot",
       "voice_actor": "Hideyuki Tanaka",
       "alt_mode": "Combined spacecraft (Star Saber + Victory Leo)",
-      "image": "/images/characters/victory-star-saber.jpg"
+      "image": "images/characters/victory-star-saber.jpg"
     },
     {
       "name": "Violen Jiger",
@@ -76,7 +76,7 @@
       "faction": "Decepticon",
       "voice_actor": "Daisuke Gori",
       "alt_mode": "Three insectoid forms: Vion (stag beetle), Lenger (mole cricket), Iguarn (mantis)",
-      "image": "/images/characters/zone-violen-jiger.jpg"
+      "image": "images/characters/zone-violen-jiger.jpg"
     },
     {
       "name": "Akira Serikawa",

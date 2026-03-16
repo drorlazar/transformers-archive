@@ -1,3 +1,4 @@
+import { assetUrl } from '../../utils/assetUrl';
 import './CharacterCard.css';
 
 const FACTION_COLORS = {
@@ -17,7 +18,7 @@ export default function CharacterCard({ character }) {
     <div className="character-card" style={{ '--faction-color': factionColor }}>
       <div className="character-card__image">
         {image ? (
-          <img src={image} alt={character.name} loading="lazy" />
+          <img src={assetUrl(image)} alt={character.name} loading="lazy" />
         ) : (
           <div className="character-card__placeholder">
             <span>{character.name?.[0] || '?'}</span>

@@ -14,8 +14,8 @@
     "Prime Wars Trilogy",
     "Tatsunoko Production"
   ],
-  "poster": "/images/series/combiner-wars-poster.jpg",
-  "hero_image": "/images/series/combiner-wars-hero.jpg",
+  "poster": "images/series/combiner-wars-poster.jpg",
+  "hero_image": "images/series/combiner-wars-hero.jpg",
   "faction_accent": "red",
   "seasons": [
     {
@@ -136,7 +136,7 @@
       "faction": "Autobot",
       "alt_mode": "VTOL jet",
       "voice_actor": "Abby Trott",
-      "image": "/images/characters/combiner-wars-windblade.jpg"
+      "image": "images/characters/combiner-wars-windblade.jpg"
     },
     {
       "name": "Optimus Prime",
@@ -144,7 +144,7 @@
       "faction": "Autobot",
       "alt_mode": "Truck",
       "voice_actor": "Jon Bailey",
-      "image": "/images/characters/g1-optimus-prime.jpg"
+      "image": "images/characters/g1-optimus-prime.jpg"
     },
     {
       "name": "Megatron",
@@ -152,7 +152,7 @@
       "faction": "Decepticon",
       "alt_mode": "Tank",
       "voice_actor": "Jason Marnocha",
-      "image": "/images/characters/g1-megatron.jpg"
+      "image": "images/characters/g1-megatron.jpg"
     },
     {
       "name": "Starscream",
@@ -160,7 +160,7 @@
       "faction": "Decepticon",
       "alt_mode": "Jet",
       "voice_actor": "Frank Todaro",
-      "image": "/images/characters/g1-starscream.jpg"
+      "image": "images/characters/g1-starscream.jpg"
     },
     {
       "name": "Rodimus Prime",
@@ -168,7 +168,7 @@
       "faction": "Autobot",
       "alt_mode": "Race car",
       "voice_actor": "Ben Pronsky",
-      "image": "/images/characters/g1-rodimus-prime.jpg"
+      "image": "images/characters/g1-rodimus-prime.jpg"
     },
     {
       "name": "Mistress of Flame",
@@ -176,7 +176,7 @@
       "faction": "Camien",
       "alt_mode": "None",
       "voice_actor": "Lana McKissack",
-      "image": "/images/characters/combiner-wars-mistress-of-flame.jpg"
+      "image": "images/characters/combiner-wars-mistress-of-flame.jpg"
     },
     {
       "name": "Computron",
@@ -184,7 +184,7 @@
       "faction": "Autobot",
       "alt_mode": "Combined form",
       "voice_actor": "Ricky Hayberg",
-      "image": "/images/characters/combiner-wars-computron.jpg"
+      "image": "images/characters/combiner-wars-computron.jpg"
     },
     {
       "name": "Menasor",
@@ -192,7 +192,7 @@
       "faction": "Decepticon",
       "alt_mode": "Combined form",
       "voice_actor": "Charlie Guzman",
-      "image": "/images/characters/combiner-wars-menasor.jpg"
+      "image": "images/characters/combiner-wars-menasor.jpg"
     },
     {
       "name": "Devastator",
@@ -200,7 +200,7 @@
       "faction": "Decepticon",
       "alt_mode": "Combined form",
       "voice_actor": "Patrick Seitz",
-      "image": "/images/characters/combiner-wars-devastator.jpg"
+      "image": "images/characters/combiner-wars-devastator.jpg"
     },
     {
       "name": "Victorion",
@@ -208,7 +208,7 @@
       "faction": "Autobot",
       "alt_mode": "Combined form",
       "voice_actor": "Anna Akana",
-      "image": "/images/characters/combiner-wars-victorion.jpg"
+      "image": "images/characters/combiner-wars-victorion.jpg"
     },
     {
       "name": "Maxima",

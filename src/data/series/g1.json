@@ -12,8 +12,8 @@
     "Science Fiction",
     "80s"
   ],
-  "poster": "/images/series/g1-poster.jpg",
-  "hero_image": "/images/series/g1-hero.jpg",
+  "poster": "images/series/g1-poster.jpg",
+  "hero_image": "images/series/g1-hero.jpg",
   "faction_accent": "red",
   "seasons": [
     {
@@ -1322,7 +1322,7 @@
       "faction": "Autobot",
       "voice_actor": "Peter Cullen",
       "alt_mode": "Freightliner FL86 cab-over semi truck",
-      "image": "/images/characters/g1-optimus-prime.jpg"
+      "image": "images/characters/g1-optimus-prime.jpg"
     },
     {
       "name": "Megatron",
@@ -1330,7 +1330,7 @@
       "faction": "Decepticon",
       "voice_actor": "Frank Welker",
       "alt_mode": "Walther P38 pistol",
-      "image": "/images/characters/g1-megatron.jpg"
+      "image": "images/characters/g1-megatron.jpg"
     },
     {
       "name": "Starscream",
@@ -1338,7 +1338,7 @@
       "faction": "Decepticon",
       "voice_actor": "Chris Latta",
       "alt_mode": "F-15 Eagle jet fighter",
-      "image": "/images/characters/g1-starscream.jpg"
+      "image": "images/characters/g1-starscream.jpg"
     },
     {
       "name": "Bumblebee",
@@ -1346,7 +1346,7 @@
       "faction": "Autobot",
       "voice_actor": "Dan Gilvezan",
       "alt_mode": "Volkswagen Beetle",
-      "image": "/images/characters/g1-bumblebee.jpg"
+      "image": "images/characters/g1-bumblebee.jpg"
     },
     {
       "name": "Soundwave",
@@ -1354,7 +1354,7 @@
       "faction": "Decepticon",
       "voice_actor": "Frank Welker",
       "alt_mode": "Micro-cassette recorder",
-      "image": "/images/characters/g1-soundwave.jpg"
+      "image": "images/characters/g1-soundwave.jpg"
     },
     {
       "name": "Jazz",
@@ -1362,7 +1362,7 @@
       "faction": "Autobot",
       "voice_actor": "Scatman Crothers",
       "alt_mode": "Porsche 935 Turbo",
-      "image": "/images/characters/g1-jazz.jpg"
+      "image": "images/characters/g1-jazz.jpg"
     },
     {
       "name": "Grimlock",
@@ -1370,7 +1370,7 @@
       "faction": "Autobot",
       "voice_actor": "Gregg Berger",
       "alt_mode": "Tyrannosaurus Rex",
-      "image": "/images/characters/g1-grimlock.jpg"
+      "image": "images/characters/g1-grimlock.jpg"
     },
     {
       "name": "Ironhide",
@@ -1378,7 +1378,7 @@
       "faction": "Autobot",
       "voice_actor": "Peter Cullen",
       "alt_mode": "Nissan Onebox Cherry Vanette",
-      "image": "/images/characters/g1-ironhide.jpg"
+      "image": "images/characters/g1-ironhide.jpg"
     },
     {
       "name": "Rodimus Prime",
@@ -1386,7 +1386,7 @@
       "faction": "Autobot",
       "voice_actor": "Dick Gautier",
       "alt_mode": "Futuristic sports car",
-      "image": "/images/characters/g1-rodimus-prime.jpg"
+      "image": "images/characters/g1-rodimus-prime.jpg"
     },
     {
       "name": "Galvatron",
@@ -1394,7 +1394,7 @@
       "faction": "Decepticon",
       "voice_actor": "Leonard Nimoy (movie) / Frank Welker (series)",
       "alt_mode": "Laser cannon",
-      "image": "/images/characters/g1-galvatron.jpg"
+      "image": "images/characters/g1-galvatron.jpg"
     },
     {
       "name": "Ultra Magnus",
@@ -1402,7 +1402,7 @@
       "faction": "Autobot",
       "voice_actor": "Robert Stack (movie) / Jack Angel (series)",
       "alt_mode": "Car carrier truck",
-      "image": "/images/characters/g1-ultra-magnus.jpg"
+      "image": "images/characters/g1-ultra-magnus.jpg"
     },
     {
       "name": "Shockwave",
@@ -1410,7 +1410,7 @@
       "faction": "Decepticon",
       "voice_actor": "Corey Burton",
       "alt_mode": "Cybertronian laser gun",
-      "image": "/images/characters/g1-shockwave.jpg"
+      "image": "images/characters/g1-shockwave.jpg"
     }
   ],
   "media": [

@@ -15,8 +15,8 @@
     "no humans",
     "Allspark"
   ],
-  "poster": "/images/series/cyberverse-poster.jpg",
-  "hero_image": "/images/series/cyberverse-hero.jpg",
+  "poster": "images/series/cyberverse-poster.jpg",
+  "hero_image": "images/series/cyberverse-hero.jpg",
   "faction_accent": "blue",
   "seasons": [
     {
@@ -789,7 +789,7 @@
       "faction": "Autobot",
       "alt_mode": "Muscle car",
       "voice_actor": "Jeremy Levy",
-      "image": "/images/characters/cyberverse-bumblebee.jpg"
+      "image": "images/characters/cyberverse-bumblebee.jpg"
     },
     {
       "name": "Windblade",
@@ -797,7 +797,7 @@
       "faction": "Autobot",
       "alt_mode": "VTOL jet",
       "voice_actor": "Jessica DiGiovanni",
-      "image": "/images/characters/cyberverse-windblade.jpg"
+      "image": "images/characters/cyberverse-windblade.jpg"
     },
     {
       "name": "Optimus Prime",
@@ -805,7 +805,7 @@
       "faction": "Autobot",
       "alt_mode": "Truck",
       "voice_actor": "Jake Foushee",
-      "image": "/images/characters/g1-optimus-prime.jpg"
+      "image": "images/characters/g1-optimus-prime.jpg"
     },
     {
       "name": "Hot Rod",
@@ -813,7 +813,7 @@
       "faction": "Autobot",
       "alt_mode": "Sports car",
       "voice_actor": "Travis Artz",
-      "image": "/images/characters/cyberverse-hot-rod.jpg"
+      "image": "images/characters/cyberverse-hot-rod.jpg"
     },
     {
       "name": "Grimlock",
@@ -821,7 +821,7 @@
       "faction": "Autobot",
       "alt_mode": "Tyrannosaurus Rex",
       "voice_actor": "Ryan Andes",
-      "image": "/images/characters/g1-grimlock.jpg"
+      "image": "images/characters/g1-grimlock.jpg"
     },
     {
       "name": "Cheetor",
@@ -829,7 +829,7 @@
       "faction": "Autobot",
       "alt_mode": "Cheetah",
       "voice_actor": "TJ Nelson",
-      "image": "/images/characters/beast-wars-cheetor.jpg"
+      "image": "images/characters/beast-wars-cheetor.jpg"
     },
     {
       "name": "Megatron",
@@ -837,7 +837,7 @@
       "faction": "Decepticon",
       "alt_mode": "Tank / jet",
       "voice_actor": "Marc Thompson",
-      "image": "/images/characters/cyberverse-megatron.jpg"
+      "image": "images/characters/cyberverse-megatron.jpg"
     },
     {
       "name": "Starscream",
@@ -845,7 +845,7 @@
       "faction": "Decepticon",
       "alt_mode": "Fighter jet",
       "voice_actor": "Billy Bob Thompson",
-      "image": "/images/characters/g1-starscream.jpg"
+      "image": "images/characters/g1-starscream.jpg"
     },
     {
       "name": "Shockwave",
@@ -853,7 +853,7 @@
       "faction": "Decepticon",
       "alt_mode": "Tank",
       "voice_actor": "Ryan Andes",
-      "image": "/images/characters/g1-shockwave.jpg"
+      "image": "images/characters/g1-shockwave.jpg"
     },
     {
       "name": "Soundwave",
@@ -861,7 +861,7 @@
       "faction": "Decepticon",
       "alt_mode": "Satellite",
       "voice_actor": "Marc Swint",
-      "image": "/images/characters/g1-soundwave.jpg"
+      "image": "images/characters/g1-soundwave.jpg"
     },
     {
       "name": "Shadow Striker",
@@ -869,7 +869,7 @@
       "faction": "Decepticon",
       "alt_mode": "Muscle car",
       "voice_actor": "Deanna McGovern",
-      "image": "/images/characters/cyberverse-shadow-striker.jpg"
+      "image": "images/characters/cyberverse-shadow-striker.jpg"
     },
     {
       "name": "Maccadam",
@@ -877,7 +877,7 @@
       "faction": "Neutral",
       "alt_mode": null,
       "voice_actor": "Dick Terhune",
-      "image": "/images/characters/cyberverse-maccadam.jpg"
+      "image": "images/characters/cyberverse-maccadam.jpg"
     }
   ],
   "media": [

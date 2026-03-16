@@ -4,7 +4,7 @@
   "year_start": 2017,
   "year_end": 2018,
   "era": "modern",
-  "synopsis": "Following the Combiner Wars, Cybertron attempts to rebuild, but the reawakening of the monstrous Titan Trypticon threatens to undo the fragile peace. Starscream's ghost possesses new bodies, the warlord Overlord returns seeking vengeance, and the race to resurrect Fortress Maximus becomes the planet's last hope. As the conflict escalates, the ancient being Megatronus \u2014 the Fallen, the first Decepticon \u2014 awakens and kills Optimus Prime, claiming the Matrix of Leadership and the Enigma of Combination for a dark purpose yet to be revealed.",
+  "synopsis": "Following the Combiner Wars, Cybertron attempts to rebuild, but the reawakening of the monstrous Titan Trypticon threatens to undo the fragile peace. Starscream's ghost possesses new bodies, the warlord Overlord returns seeking vengeance, and the race to resurrect Fortress Maximus becomes the planet's last hope. As the conflict escalates, the ancient being Megatronus — the Fallen, the first Decepticon — awakens and kills Optimus Prime, claiming the Matrix of Leadership and the Enigma of Combination for a dark purpose yet to be revealed.",
   "rating": "TV-Y7-FV",
   "tags": [
     "Web Series",
@@ -14,8 +14,8 @@
     "Prime Wars Trilogy",
     "Tatsunoko Production"
   ],
-  "poster": "/images/series/titans-return-poster.jpg",
-  "hero_image": "/images/series/titans-return-hero.jpg",
+  "poster": "images/series/titans-return-poster.jpg",
+  "hero_image": "images/series/titans-return-hero.jpg",
   "faction_accent": "red",
   "seasons": [
     {
@@ -162,7 +162,7 @@
       "faction": "Autobot",
       "alt_mode": "Truck",
       "voice_actor": "Peter Cullen",
-      "image": "/images/characters/g1-optimus-prime.jpg"
+      "image": "images/characters/g1-optimus-prime.jpg"
     },
     {
       "name": "Megatron",
@@ -170,7 +170,7 @@
       "faction": "Decepticon",
       "alt_mode": "Tank",
       "voice_actor": "Jason Marnocha",
-      "image": "/images/characters/g1-megatron.jpg"
+      "image": "images/characters/g1-megatron.jpg"
     },
     {
       "name": "Rodimus Prime / Hot Rod",
@@ -178,7 +178,7 @@
       "faction": "Autobot",
       "alt_mode": "Race car",
       "voice_actor": "Judd Nelson",
-      "image": "/images/characters/g1-rodimus-prime.jpg"
+      "image": "images/characters/g1-rodimus-prime.jpg"
     },
     {
       "name": "Windblade",
@@ -186,7 +186,7 @@
       "faction": "Autobot",
       "alt_mode": "VTOL jet",
       "voice_actor": "Abby Trott",
-      "image": "/images/characters/combiner-wars-windblade.jpg"
+      "image": "images/characters/combiner-wars-windblade.jpg"
     },
     {
       "name": "Perceptor",
@@ -194,7 +194,7 @@
       "faction": "Autobot",
       "alt_mode": "Microscope",
       "voice_actor": "Wil Wheaton",
-      "image": "/images/characters/titans-return-perceptor.jpg"
+      "image": "images/characters/titans-return-perceptor.jpg"
     },
     {
       "name": "Fortress Maximus",
@@ -202,7 +202,7 @@
       "faction": "Autobot",
       "alt_mode": "Battle station / City",
       "voice_actor": "Michael Dorn",
-      "image": "/images/characters/headmasters-fortress-maximus.jpg"
+      "image": "images/characters/headmasters-fortress-maximus.jpg"
     },
     {
       "name": "Overlord",
@@ -210,7 +210,7 @@
       "faction": "Decepticon",
       "alt_mode": "Jet / Tank",
       "voice_actor": "Patrick Seitz",
-      "image": "/images/characters/super-god-masterforce-overlord.jpg"
+      "image": "images/characters/super-god-masterforce-overlord.jpg"
     },
     {
       "name": "Starscream",
@@ -218,7 +218,7 @@
       "faction": "Decepticon",
       "alt_mode": "Jet (ghost form)",
       "voice_actor": "Frank Todaro",
-      "image": "/images/characters/g1-starscream.jpg"
+      "image": "images/characters/g1-starscream.jpg"
     },
     {
       "name": "Trypticon",
@@ -226,7 +226,7 @@
       "faction": "Decepticon",
       "alt_mode": "Dinosaur / City",
       "voice_actor": null,
-      "image": "/images/characters/titans-return-trypticon.jpg"
+      "image": "images/characters/titans-return-trypticon.jpg"
     },
     {
       "name": "Megatronus",
@@ -234,7 +234,7 @@
       "faction": "Neutral",
       "alt_mode": "None",
       "voice_actor": "Mark Hamill",
-      "image": "/images/characters/titans-return-megatronus.jpg"
+      "image": "images/characters/titans-return-megatronus.jpg"
     }
   ],
   "media": [

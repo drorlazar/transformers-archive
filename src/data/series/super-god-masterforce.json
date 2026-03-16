@@ -14,8 +14,8 @@
     "Pretenders",
     "Godmasters"
   ],
-  "poster": "/images/series/super-god-masterforce-poster.jpg",
-  "hero_image": "/images/series/super-god-masterforce-hero.jpg",
+  "poster": "images/series/super-god-masterforce-poster.jpg",
+  "hero_image": "images/series/super-god-masterforce-hero.jpg",
   "faction_accent": "red",
   "seasons": [
     {
@@ -578,7 +578,7 @@
       "faction": "Autobot",
       "voice_actor": "Hiroshi Takemura",
       "alt_mode": "Red tractor-trailer truck",
-      "image": "/images/characters/super-god-masterforce-ginrai.jpg"
+      "image": "images/characters/super-god-masterforce-ginrai.jpg"
     },
     {
       "name": "Metalhawk",
@@ -586,7 +586,7 @@
       "faction": "Autobot",
       "voice_actor": "Katsuji Mori",
       "alt_mode": "Jet",
-      "image": "/images/characters/super-god-masterforce-metalhawk.jpg"
+      "image": "images/characters/super-god-masterforce-metalhawk.jpg"
     },
     {
       "name": "Overlord",
@@ -594,7 +594,7 @@
       "faction": "Decepticon",
       "voice_actor": "Keiichi Noda",
       "alt_mode": "Tank and jet combination",
-      "image": "/images/characters/super-god-masterforce-overlord.jpg"
+      "image": "images/characters/super-god-masterforce-overlord.jpg"
     },
     {
       "name": "Devil Z",
@@ -602,7 +602,7 @@
       "faction": "Decepticon",
       "voice_actor": "Hidekatsu Shibata",
       "alt_mode": "Energy being (no alt mode)",
-      "image": "/images/characters/super-god-masterforce-devil-z.gif"
+      "image": "images/characters/super-god-masterforce-devil-z.gif"
     },
     {
       "name": "Sixknight",
@@ -610,7 +610,7 @@
       "faction": "Autobot",
       "voice_actor": "Kozo Shioya",
       "alt_mode": "Six modes: robot, jet, car, tank, wolf, gun",
-      "image": "/images/characters/super-god-masterforce-sixknight.jpg"
+      "image": "images/characters/super-god-masterforce-sixknight.jpg"
     },
     {
       "name": "Grand Maximus",
@@ -618,7 +618,7 @@
       "faction": "Autobot",
       "voice_actor": "Kazuo Oka",
       "alt_mode": "Battleship / City",
-      "image": "/images/characters/super-god-masterforce-grand-maximus.jpg"
+      "image": "images/characters/super-god-masterforce-grand-maximus.jpg"
     },
     {
       "name": "Lightfoot",
@@ -626,7 +626,7 @@
       "faction": "Autobot",
       "voice_actor": "Takeshi Kusao",
       "alt_mode": "Sports car",
-      "image": "/images/characters/super-god-masterforce-lightfoot.jpg"
+      "image": "images/characters/super-god-masterforce-lightfoot.jpg"
     },
     {
       "name": "Buster",
@@ -634,7 +634,7 @@
       "faction": "Decepticon",
       "voice_actor": "Toshio Kobayashi",
       "alt_mode": "Jet fighter",
-      "image": "/images/characters/super-god-masterforce-buster.jpg"
+      "image": "images/characters/super-god-masterforce-buster.jpg"
     },
     {
       "name": "Hydra",
@@ -642,7 +642,7 @@
       "faction": "Decepticon",
       "voice_actor": "Jin Horikawa",
       "alt_mode": "Jet fighter",
-      "image": "/images/characters/super-god-masterforce-hydra.jpg"
+      "image": "images/characters/super-god-masterforce-hydra.jpg"
     },
     {
       "name": "BlackZarak",
@@ -650,7 +650,7 @@
       "faction": "Decepticon",
       "voice_actor": "Hidekatsu Shibata",
       "alt_mode": "Scorpion / City",
-      "image": "/images/characters/super-god-masterforce-blackzarak.jpg"
+      "image": "images/characters/super-god-masterforce-blackzarak.jpg"
     }
   ],
   "media": [

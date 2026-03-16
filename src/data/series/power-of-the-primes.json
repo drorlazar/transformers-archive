@@ -14,8 +14,8 @@
     "Prime Wars Trilogy",
     "Tatsunoko Production"
   ],
-  "poster": "/images/series/power-of-the-primes-poster.jpg",
-  "hero_image": "/images/series/power-of-the-primes-hero.jpg",
+  "poster": "images/series/power-of-the-primes-poster.jpg",
+  "hero_image": "images/series/power-of-the-primes-hero.jpg",
   "faction_accent": "red",
   "seasons": [
     {
@@ -38,7 +38,7 @@
         {
           "number": 2,
           "title": "Volcanicus",
-          "synopsis": "The team confronts the Dinobot Combiner Volcanicus in the swamp. They must convince the Dinobots that Megatron is not the enemy this time \u2014 Megatronus is the true threat to all Transformers.",
+          "synopsis": "The team confronts the Dinobot Combiner Volcanicus in the swamp. They must convince the Dinobots that Megatron is not the enemy this time — Megatronus is the true threat to all Transformers.",
           "air_date": "2018-05-08",
           "duration": "11m",
           "thumbnail": null,
@@ -162,7 +162,7 @@
       "faction": "Neutral",
       "alt_mode": "None",
       "voice_actor": "Mark Hamill",
-      "image": "/images/characters/titans-return-megatronus.jpg"
+      "image": "images/characters/titans-return-megatronus.jpg"
     },
     {
       "name": "Optimus Prime",
@@ -170,7 +170,7 @@
       "faction": "Autobot",
       "alt_mode": "Truck",
       "voice_actor": "Peter Cullen",
-      "image": "/images/characters/g1-optimus-prime.jpg"
+      "image": "images/characters/g1-optimus-prime.jpg"
     },
     {
       "name": "Megatron",
@@ -178,7 +178,7 @@
       "faction": "Decepticon",
       "alt_mode": "Tank",
       "voice_actor": "Jason Marnocha",
-      "image": "/images/characters/g1-megatron.jpg"
+      "image": "images/characters/g1-megatron.jpg"
     },
     {
       "name": "Optimus Primal",
@@ -186,7 +186,7 @@
       "faction": "Maximal",
       "alt_mode": "Gorilla",
       "voice_actor": "Ron Perlman",
-      "image": "/images/characters/beast-wars-optimus-primal.jpg"
+      "image": "images/characters/beast-wars-optimus-primal.jpg"
     },
     {
       "name": "Windblade",
@@ -194,7 +194,7 @@
       "faction": "Autobot",
       "alt_mode": "VTOL jet",
       "voice_actor": "Abby Trott",
-      "image": "/images/characters/combiner-wars-windblade.jpg"
+      "image": "images/characters/combiner-wars-windblade.jpg"
     },
     {
       "name": "Rodimus / Hot Rod",
@@ -202,7 +202,7 @@
       "faction": "Autobot",
       "alt_mode": "Race car",
       "voice_actor": "Judd Nelson",
-      "image": "/images/characters/g1-rodimus-prime.jpg"
+      "image": "images/characters/g1-rodimus-prime.jpg"
     },
     {
       "name": "Perceptor",
@@ -210,7 +210,7 @@
       "faction": "Autobot",
       "alt_mode": "Microscope",
       "voice_actor": "Wil Wheaton",
-      "image": "/images/characters/titans-return-perceptor.jpg"
+      "image": "images/characters/titans-return-perceptor.jpg"
     },
     {
       "name": "Victorion",
@@ -218,7 +218,7 @@
       "faction": "Autobot",
       "alt_mode": "Combined form",
       "voice_actor": "Anna Akana",
-      "image": "/images/characters/power-of-the-primes-victorion.jpg"
+      "image": "images/characters/power-of-the-primes-victorion.jpg"
     },
     {
       "name": "Volcanicus",
@@ -226,7 +226,7 @@
       "faction": "Autobot",
       "alt_mode": "Combined form",
       "voice_actor": null,
-      "image": "/images/characters/power-of-the-primes-volcanicus.jpg"
+      "image": "images/characters/power-of-the-primes-volcanicus.jpg"
     },
     {
       "name": "Solus Prime",
@@ -234,7 +234,7 @@
       "faction": "Prime",
       "alt_mode": "None",
       "voice_actor": null,
-      "image": "/images/characters/power-of-the-primes-solus-prime.jpg"
+      "image": "images/characters/power-of-the-primes-solus-prime.jpg"
     },
     {
       "name": "Overlord",
@@ -242,7 +242,7 @@
       "faction": "Decepticon",
       "alt_mode": "Jet / Tank",
       "voice_actor": "Patrick Seitz",
-      "image": "/images/characters/super-god-masterforce-overlord.jpg"
+      "image": "images/characters/super-god-masterforce-overlord.jpg"
     }
   ],
   "media": [

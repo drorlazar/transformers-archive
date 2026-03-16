@@ -1,17 +1,18 @@
 import { Link } from 'react-router-dom';
 import { getEpisodeCount, getSeasonCount } from '../../hooks/useSeriesData';
+import { assetUrl } from '../../utils/assetUrl';
 import './HeroBillboard.css';
 
 export default function HeroBillboard({ series }) {
   if (!series) return null;
 
-  const bgImage = series.banner || series.poster || '';
+  const bgImage = series.banner || series.hero_image || series.poster || '';
 
   return (
     <section
       className="hero-billboard"
       style={{
-        backgroundImage: bgImage ? `url(${bgImage})` : undefined,
+        backgroundImage: bgImage ? `url(${assetUrl(bgImage)})` : undefined,
       }}
     >
       <div className="hero-billboard__vignette" />

@@ -13,8 +13,8 @@
     "Sci-Fi",
     "Adventure"
   ],
-  "poster": "/images/series/animated-poster.jpg",
-  "hero_image": "/images/series/animated-hero.jpg",
+  "poster": "images/series/animated-poster.jpg",
+  "hero_image": "images/series/animated-hero.jpg",
   "faction_accent": "red",
   "seasons": [
     {
@@ -547,7 +547,7 @@
       "faction": "Autobot",
       "alt_mode": "Fire Truck Cab",
       "voice_actor": "David Kaye",
-      "image": "/images/characters/animated-optimus-prime.jpg"
+      "image": "images/characters/animated-optimus-prime.jpg"
     },
     {
       "name": "Bumblebee",
@@ -555,7 +555,7 @@
       "faction": "Autobot",
       "alt_mode": "Compact Car",
       "voice_actor": "Bumper Robinson",
-      "image": "/images/characters/animated-bumblebee.jpg"
+      "image": "images/characters/animated-bumblebee.jpg"
     },
     {
       "name": "Bulkhead",
@@ -563,7 +563,7 @@
       "faction": "Autobot",
       "alt_mode": "Armored Tactical Vehicle",
       "voice_actor": "Bill Fagerbakke",
-      "image": "/images/characters/animated-bulkhead.jpg"
+      "image": "images/characters/animated-bulkhead.jpg"
     },
     {
       "name": "Prowl",
@@ -571,7 +571,7 @@
       "faction": "Autobot",
       "alt_mode": "Police Motorcycle",
       "voice_actor": "Jeff Bennett",
-      "image": "/images/characters/animated-prowl.jpg"
+      "image": "images/characters/animated-prowl.jpg"
     },
     {
       "name": "Ratchet",
@@ -579,7 +579,7 @@
       "faction": "Autobot",
       "alt_mode": "Ambulance",
       "voice_actor": "Corey Burton",
-      "image": "/images/characters/animated-ratchet.jpg"
+      "image": "images/characters/animated-ratchet.jpg"
     },
     {
       "name": "Sari Sumdac",
@@ -587,7 +587,7 @@
       "faction": "Autobot",
       "alt_mode": "None",
       "voice_actor": "Tara Strong",
-      "image": "/images/characters/animated-sari-sumdac.jpg"
+      "image": "images/characters/animated-sari-sumdac.jpg"
     },
     {
       "name": "Megatron",
@@ -595,7 +595,7 @@
       "faction": "Decepticon",
       "alt_mode": "Dual-Rotor Assault Helicopter",
       "voice_actor": "Corey Burton",
-      "image": "/images/characters/animated-megatron.jpg"
+      "image": "images/characters/animated-megatron.jpg"
     },
     {
       "name": "Starscream",
@@ -603,7 +603,7 @@
       "faction": "Decepticon",
       "alt_mode": "Forward-Swept Wing Fighter Jet",
       "voice_actor": "Tom Kenny",
-      "image": "/images/characters/animated-starscream.jpg"
+      "image": "images/characters/animated-starscream.jpg"
     },
     {
       "name": "Lugnut",
@@ -611,7 +611,7 @@
       "faction": "Decepticon",
       "alt_mode": "Bomber Aircraft",
       "voice_actor": "David Kaye",
-      "image": "/images/characters/animated-lugnut.jpg"
+      "image": "images/characters/animated-lugnut.jpg"
     },
     {
       "name": "Blitzwing",
@@ -619,7 +619,7 @@
       "faction": "Decepticon",
       "alt_mode": "Fighter Jet / Tank",
       "voice_actor": "Bumper Robinson",
-      "image": "/images/characters/animated-blitzwing.jpg"
+      "image": "images/characters/animated-blitzwing.jpg"
     },
     {
       "name": "Blackarachnia",
@@ -627,7 +627,7 @@
       "faction": "Decepticon",
       "alt_mode": "Mechanical Spider",
       "voice_actor": "Cree Summer",
-      "image": "/images/characters/animated-blackarachnia.jpg"
+      "image": "images/characters/animated-blackarachnia.jpg"
     }
   ],
   "media": [

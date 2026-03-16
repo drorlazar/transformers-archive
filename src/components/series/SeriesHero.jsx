@@ -1,15 +1,16 @@
+import { assetUrl } from '../../utils/assetUrl';
 import './SeriesHero.css';
 
 export default function SeriesHero({ series }) {
   if (!series) return null;
 
-  const bgImage = series.banner || series.poster || '';
+  const bgImage = series.banner || series.hero_image || series.poster || '';
 
   return (
     <section
       className="series-hero"
       style={{
-        backgroundImage: bgImage ? `url(${bgImage})` : undefined,
+        backgroundImage: bgImage ? `url(${assetUrl(bgImage)})` : undefined,
       }}
     >
       <div className="series-hero__vignette" />

@@ -11,8 +11,8 @@
     "Action",
     "Beast"
   ],
-  "poster": "/images/series/beast-wars-ii-poster.jpg",
-  "hero_image": "/images/series/beast-wars-ii-hero.jpg",
+  "poster": "images/series/beast-wars-ii-poster.jpg",
+  "hero_image": "images/series/beast-wars-ii-hero.jpg",
   "faction_accent": "red",
   "seasons": [
     {
@@ -588,7 +588,7 @@
       "faction": "Maximal",
       "beast_mode": "White Lion",
       "voice_actor": "Hozumi Goda",
-      "image": "/images/characters/beast-wars-ii-lio-convoy.jpg"
+      "image": "images/characters/beast-wars-ii-lio-convoy.jpg"
     },
     {
       "name": "Apache",
@@ -596,7 +596,7 @@
       "faction": "Maximal",
       "beast_mode": "Mandrill",
       "voice_actor": "Sanryo Odaka",
-      "image": "/images/characters/beast-wars-ii-apache.jpg"
+      "image": "images/characters/beast-wars-ii-apache.jpg"
     },
     {
       "name": "Bighorn",
@@ -604,7 +604,7 @@
       "faction": "Maximal",
       "beast_mode": "Buffalo",
       "voice_actor": "Masami Iwasaki",
-      "image": "/images/characters/beast-wars-ii-bighorn.jpg"
+      "image": "images/characters/beast-wars-ii-bighorn.jpg"
     },
     {
       "name": "Tasmania Kid",
@@ -612,7 +612,7 @@
       "faction": "Maximal",
       "beast_mode": "Tasmanian Devil",
       "voice_actor": "Katashi Ishizuka",
-      "image": "/images/characters/beast-wars-ii-tasmania-kid.jpg"
+      "image": "images/characters/beast-wars-ii-tasmania-kid.jpg"
     },
     {
       "name": "Diver",
@@ -620,7 +620,7 @@
       "faction": "Maximal",
       "beast_mode": "Frog",
       "voice_actor": "Kenji Nakano",
-      "image": "/images/characters/beast-wars-ii-diver.jpg"
+      "image": "images/characters/beast-wars-ii-diver.jpg"
     },
     {
       "name": "Scuba",
@@ -628,7 +628,7 @@
       "faction": "Maximal",
       "beast_mode": "Squid",
       "voice_actor": "Yuji Kishi",
-      "image": "/images/characters/beast-wars-ii-scuba.jpg"
+      "image": "images/characters/beast-wars-ii-scuba.jpg"
     },
     {
       "name": "Lio Junior",
@@ -636,7 +636,7 @@
       "faction": "Maximal",
       "beast_mode": "Lion Cub",
       "voice_actor": "Minami Takayama",
-      "image": "/images/characters/beast-wars-ii-lio-junior.jpg"
+      "image": "images/characters/beast-wars-ii-lio-junior.jpg"
     },
     {
       "name": "Galvatron",
@@ -644,7 +644,7 @@
       "faction": "Predacon",
       "beast_mode": "Dragon/Drill Tank",
       "voice_actor": "Tetsuo Komura",
-      "image": "/images/characters/g1-galvatron.jpg"
+      "image": "images/characters/g1-galvatron.jpg"
     },
     {
       "name": "Megastorm",
@@ -652,7 +652,7 @@
       "faction": "Predacon",
       "beast_mode": "Tank",
       "voice_actor": "Takashi Matsuyama",
-      "image": "/images/characters/beast-wars-ii-megastorm.jpg"
+      "image": "images/characters/beast-wars-ii-megastorm.jpg"
     },
     {
       "name": "Starscream",
@@ -660,7 +660,7 @@
       "faction": "Predacon",
       "beast_mode": "Fighter Jet",
       "voice_actor": "Hiroki Takahashi",
-      "image": "/images/characters/g1-starscream.jpg"
+      "image": "images/characters/g1-starscream.jpg"
     },
     {
       "name": "BB",
@@ -668,7 +668,7 @@
       "faction": "Predacon",
       "beast_mode": "Helicopter",
       "voice_actor": "Takeshi Watanabe",
-      "image": "/images/characters/beast-wars-ii-bb.jpg"
+      "image": "images/characters/beast-wars-ii-bb.jpg"
     },
     {
       "name": "Dirge",
@@ -676,7 +676,7 @@
       "faction": "Predacon",
       "beast_mode": "Beetle",
       "voice_actor": "Eiji Takemoto",
-      "image": "/images/characters/beast-wars-ii-dirge.jpg"
+      "image": "images/characters/beast-wars-ii-dirge.jpg"
     }
   ],
   "media": [

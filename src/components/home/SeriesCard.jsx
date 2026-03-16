@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { assetUrl } from '../../utils/assetUrl';
 import LiveBadge from './LiveBadge';
 import './SeriesCard.css';
 
@@ -9,7 +10,7 @@ export default function SeriesCard({ series }) {
     <Link to={`/series/${series.slug}`} className="series-card" title={series.title}>
       <div className="series-card__poster">
         {poster ? (
-          <img src={poster} alt={series.title} loading="lazy" />
+          <img src={assetUrl(poster)} alt={series.title} loading="lazy" />
         ) : (
           <div className="series-card__placeholder">
             <span>{series.title?.[0] || '?'}</span>

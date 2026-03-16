@@ -15,8 +15,8 @@
     "sequel to Prime",
     "Polygon Pictures"
   ],
-  "poster": "/images/series/robots-in-disguise-2015-poster.jpg",
-  "hero_image": "/images/series/robots-in-disguise-2015-hero.jpg",
+  "poster": "images/series/robots-in-disguise-2015-poster.jpg",
+  "hero_image": "images/series/robots-in-disguise-2015-hero.jpg",
   "faction_accent": "yellow",
   "seasons": [
     {
@@ -974,7 +974,7 @@
       "faction": "Autobot",
       "alt_mode": "Sports car",
       "voice_actor": "Will Friedle",
-      "image": "/images/characters/prime-bumblebee.jpg"
+      "image": "images/characters/prime-bumblebee.jpg"
     },
     {
       "name": "Strongarm",
@@ -982,7 +982,7 @@
       "faction": "Autobot",
       "alt_mode": "Police SUV",
       "voice_actor": "Constance Zimmer",
-      "image": "/images/characters/robots-in-disguise-2015-strongarm.jpg"
+      "image": "images/characters/robots-in-disguise-2015-strongarm.jpg"
     },
     {
       "name": "Sideswipe",
@@ -990,7 +990,7 @@
       "faction": "Autobot",
       "alt_mode": "Sports car",
       "voice_actor": "Darren Criss",
-      "image": "/images/characters/robots-in-disguise-2015-sideswipe.jpg"
+      "image": "images/characters/robots-in-disguise-2015-sideswipe.jpg"
     },
     {
       "name": "Grimlock",
@@ -998,7 +998,7 @@
       "faction": "Autobot",
       "alt_mode": "Tyrannosaurus Rex",
       "voice_actor": "Khary Payton",
-      "image": "/images/characters/robots-in-disguise-2015-grimlock.jpg"
+      "image": "images/characters/robots-in-disguise-2015-grimlock.jpg"
     },
     {
       "name": "Fixit",
@@ -1006,7 +1006,7 @@
       "faction": "Autobot",
       "alt_mode": "Toolbox",
       "voice_actor": "Mitchell Whitfield",
-      "image": "/images/characters/robots-in-disguise-2015-fixit.jpg"
+      "image": "images/characters/robots-in-disguise-2015-fixit.jpg"
     },
     {
       "name": "Drift",
@@ -1014,7 +1014,7 @@
       "faction": "Autobot",
       "alt_mode": "Sports car",
       "voice_actor": "Eric Bauza",
-      "image": "/images/characters/robots-in-disguise-2015-drift.jpg"
+      "image": "images/characters/robots-in-disguise-2015-drift.jpg"
     },
     {
       "name": "Windblade",
@@ -1022,7 +1022,7 @@
       "faction": "Autobot",
       "alt_mode": "VTOL jet",
       "voice_actor": "Kristy Wu",
-      "image": "/images/characters/cyberverse-windblade.jpg"
+      "image": "images/characters/cyberverse-windblade.jpg"
     },
     {
       "name": "Optimus Prime",
@@ -1030,7 +1030,7 @@
       "faction": "Autobot",
       "alt_mode": "Truck",
       "voice_actor": "Peter Cullen",
-      "image": "/images/characters/prime-optimus-prime.jpg"
+      "image": "images/characters/prime-optimus-prime.jpg"
     },
     {
       "name": "Steeljaw",
@@ -1038,7 +1038,7 @@
       "faction": "Decepticon",
       "alt_mode": "Wolf / SUV",
       "voice_actor": "Troy Baker",
-      "image": "/images/characters/robots-in-disguise-2015-steeljaw.jpg"
+      "image": "images/characters/robots-in-disguise-2015-steeljaw.jpg"
     },
     {
       "name": "Denny Clay",
@@ -1062,7 +1062,7 @@
       "faction": "Autobot",
       "alt_mode": "Sports car",
       "voice_actor": "Arif S. Kinchen",
-      "image": "/images/characters/g1-jazz.jpg"
+      "image": "images/characters/g1-jazz.jpg"
     }
   ],
   "media": [

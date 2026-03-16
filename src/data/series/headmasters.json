@@ -12,8 +12,8 @@
     "Japanese",
     "Headmasters"
   ],
-  "poster": "/images/series/headmasters-poster.jpg",
-  "hero_image": "/images/series/headmasters-hero.jpg",
+  "poster": "images/series/headmasters-poster.jpg",
+  "hero_image": "images/series/headmasters-hero.jpg",
   "faction_accent": "red",
   "seasons": [
     {
@@ -485,7 +485,7 @@
       "faction": "Autobot",
       "voice_actor": "Ikuya Sawaki",
       "alt_mode": "Battleship Maximus / City",
-      "image": "/images/characters/headmasters-fortress-maximus.jpg"
+      "image": "images/characters/headmasters-fortress-maximus.jpg"
     },
     {
       "name": "Chromedome",
@@ -493,7 +493,7 @@
       "faction": "Autobot",
       "voice_actor": "Hideyuki Hori",
       "alt_mode": "Car",
-      "image": "/images/characters/headmasters-chromedome.jpg"
+      "image": "images/characters/headmasters-chromedome.jpg"
     },
     {
       "name": "Hardhead",
@@ -501,7 +501,7 @@
       "faction": "Autobot",
       "voice_actor": "Masato Hirano",
       "alt_mode": "Tank",
-      "image": "/images/characters/headmasters-hardhead.jpg"
+      "image": "images/characters/headmasters-hardhead.jpg"
     },
     {
       "name": "Highbrow",
@@ -509,7 +509,7 @@
       "faction": "Autobot",
       "voice_actor": "Michitaka Kobayashi",
       "alt_mode": "Helicopter",
-      "image": "/images/characters/headmasters-highbrow.jpg"
+      "image": "images/characters/headmasters-highbrow.jpg"
     },
     {
       "name": "Brainstorm",
@@ -517,7 +517,7 @@
       "faction": "Autobot",
       "voice_actor": "Ryoichi Tanaka",
       "alt_mode": "Jet fighter",
-      "image": "/images/characters/headmasters-brainstorm.jpg"
+      "image": "images/characters/headmasters-brainstorm.jpg"
     },
     {
       "name": "Scorponok",
@@ -525,7 +525,7 @@
       "faction": "Decepticon",
       "voice_actor": "Banjo Ginga",
       "alt_mode": "Scorpion (MegaZarak Transtector)",
-      "image": "/images/characters/headmasters-scorponok.jpg"
+      "image": "images/characters/headmasters-scorponok.jpg"
     },
     {
       "name": "Sixshot",
@@ -533,7 +533,7 @@
       "faction": "Decepticon",
       "voice_actor": "Michihiro Ikemizu",
       "alt_mode": "Six modes: robot, jet, tank, car, wolf, gun",
-      "image": "/images/characters/headmasters-sixshot.jpg"
+      "image": "images/characters/headmasters-sixshot.jpg"
     },
     {
       "name": "Galvatron",
@@ -541,7 +541,7 @@
       "faction": "Decepticon",
       "voice_actor": "Seizou Katou",
       "alt_mode": "Laser cannon",
-      "image": "/images/characters/g1-galvatron.jpg"
+      "image": "images/characters/g1-galvatron.jpg"
     },
     {
       "name": "Hot Rod",
@@ -549,7 +549,7 @@
       "faction": "Autobot",
       "voice_actor": "Hiroya Ishimaru",
       "alt_mode": "Futuristic sports car",
-      "image": "/images/characters/g1-rodimus-prime.jpg"
+      "image": "images/characters/g1-rodimus-prime.jpg"
     },
     {
       "name": "Ultra Magnus",
@@ -557,7 +557,7 @@
       "faction": "Autobot",
       "voice_actor": "Banjo Ginga",
       "alt_mode": "Car carrier truck",
-      "image": "/images/characters/g1-ultra-magnus.jpg"
+      "image": "images/characters/g1-ultra-magnus.jpg"
     }
   ],
   "media": [

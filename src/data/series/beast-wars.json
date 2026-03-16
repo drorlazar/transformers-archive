@@ -11,8 +11,8 @@
     "Action",
     "Fan Favorite"
   ],
-  "poster": "/images/series/beast-wars-poster.jpg",
-  "hero_image": "/images/series/beast-wars-hero.jpg",
+  "poster": "images/series/beast-wars-poster.jpg",
+  "hero_image": "images/series/beast-wars-hero.jpg",
   "faction_accent": "red",
   "seasons": [
     {
@@ -717,7 +717,7 @@
       "faction": "Maximal",
       "beast_mode": "Gorilla",
       "voice_actor": "Gary Chalk",
-      "image": "/images/characters/beast-wars-optimus-primal.jpg"
+      "image": "images/characters/beast-wars-optimus-primal.jpg"
     },
     {
       "name": "Rhinox",
@@ -725,7 +725,7 @@
       "faction": "Maximal",
       "beast_mode": "Rhinoceros",
       "voice_actor": "Richard Newman",
-      "image": "/images/characters/beast-wars-rhinox.jpg"
+      "image": "images/characters/beast-wars-rhinox.jpg"
     },
     {
       "name": "Cheetor",
@@ -733,7 +733,7 @@
       "faction": "Maximal",
       "beast_mode": "Cheetah",
       "voice_actor": "Ian James Corlett",
-      "image": "/images/characters/beast-wars-cheetor.jpg"
+      "image": "images/characters/beast-wars-cheetor.jpg"
     },
     {
       "name": "Rattrap",
@@ -741,7 +741,7 @@
       "faction": "Maximal",
       "beast_mode": "Rat",
       "voice_actor": "Scott McNeil",
-      "image": "/images/characters/beast-wars-rattrap.jpg"
+      "image": "images/characters/beast-wars-rattrap.jpg"
     },
     {
       "name": "Dinobot",
@@ -749,7 +749,7 @@
       "faction": "Maximal",
       "beast_mode": "Velociraptor",
       "voice_actor": "Scott McNeil",
-      "image": "/images/characters/beast-wars-dinobot.jpg"
+      "image": "images/characters/beast-wars-dinobot.jpg"
     },
     {
       "name": "Tigatron",
@@ -757,7 +757,7 @@
       "faction": "Maximal",
       "beast_mode": "White Tiger",
       "voice_actor": "Blu Mankuma",
-      "image": "/images/characters/beast-wars-tigatron.jpg"
+      "image": "images/characters/beast-wars-tigatron.jpg"
     },
     {
       "name": "Airazor",
@@ -765,7 +765,7 @@
       "faction": "Maximal",
       "beast_mode": "Peregrine Falcon",
       "voice_actor": "Pauline Newstone",
-      "image": "/images/characters/beast-wars-airazor.jpg"
+      "image": "images/characters/beast-wars-airazor.jpg"
     },
     {
       "name": "Silverbolt",
@@ -773,7 +773,7 @@
       "faction": "Maximal",
       "beast_mode": "Eagle/Wolf Fuzor",
       "voice_actor": "Scott McNeil",
-      "image": "/images/characters/beast-wars-silverbolt.jpg"
+      "image": "images/characters/beast-wars-silverbolt.jpg"
     },
     {
       "name": "Depth Charge",
@@ -781,7 +781,7 @@
       "faction": "Maximal",
       "beast_mode": "Manta Ray",
       "voice_actor": "David Sobolov",
-      "image": "/images/characters/beast-wars-depth-charge.jpg"
+      "image": "images/characters/beast-wars-depth-charge.jpg"
     },
     {
       "name": "Megatron",
@@ -789,7 +789,7 @@
       "faction": "Predacon",
       "beast_mode": "Tyrannosaurus Rex",
       "voice_actor": "David Kaye",
-      "image": "/images/characters/beast-wars-megatron.jpg"
+      "image": "images/characters/beast-wars-megatron.jpg"
     },
     {
       "name": "Tarantulas",
@@ -797,7 +797,7 @@
       "faction": "Predacon",
       "beast_mode": "Tarantula",
       "voice_actor": "Alec Willows",
-      "image": "/images/characters/beast-wars-tarantulas.jpg"
+      "image": "images/characters/beast-wars-tarantulas.jpg"
     },
     {
       "name": "Blackarachnia",
@@ -805,7 +805,7 @@
       "faction": "Predacon",
       "beast_mode": "Black Widow Spider",
       "voice_actor": "Venus Terzo",
-      "image": "/images/characters/beast-wars-blackarachnia.jpg"
+      "image": "images/characters/beast-wars-blackarachnia.jpg"
     },
     {
       "name": "Waspinator",
@@ -813,7 +813,7 @@
       "faction": "Predacon",
       "beast_mode": "Wasp",
       "voice_actor": "Scott McNeil",
-      "image": "/images/characters/beast-wars-waspinator.jpg"
+      "image": "images/characters/beast-wars-waspinator.jpg"
     },
     {
       "name": "Inferno",
@@ -821,7 +821,7 @@
       "faction": "Predacon",
       "beast_mode": "Fire Ant",
       "voice_actor": "Jim Byrnes",
-      "image": "/images/characters/beast-wars-inferno.jpg"
+      "image": "images/characters/beast-wars-inferno.jpg"
     }
   ],
   "media": [

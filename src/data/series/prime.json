@@ -15,8 +15,8 @@
     "Aligned Continuity",
     "Polygon Pictures"
   ],
-  "poster": "/images/series/prime-poster.jpg",
-  "hero_image": "/images/series/prime-hero.jpg",
+  "poster": "images/series/prime-poster.jpg",
+  "hero_image": "images/series/prime-hero.jpg",
   "faction_accent": "red",
   "seasons": [
     {
@@ -825,7 +825,7 @@
       "faction": "Autobot",
       "alt_mode": "Peterbilt truck",
       "voice_actor": "Peter Cullen",
-      "image": "/images/characters/prime-optimus-prime.jpg"
+      "image": "images/characters/prime-optimus-prime.jpg"
     },
     {
       "name": "Bumblebee",
@@ -833,7 +833,7 @@
       "faction": "Autobot",
       "alt_mode": "Muscle car",
       "voice_actor": "Will Friedle",
-      "image": "/images/characters/prime-bumblebee.jpg"
+      "image": "images/characters/prime-bumblebee.jpg"
     },
     {
       "name": "Arcee",
@@ -841,7 +841,7 @@
       "faction": "Autobot",
       "alt_mode": "Motorcycle",
       "voice_actor": "Sumalee Montano",
-      "image": "/images/characters/prime-arcee.jpg"
+      "image": "images/characters/prime-arcee.jpg"
     },
     {
       "name": "Bulkhead",
@@ -849,7 +849,7 @@
       "faction": "Autobot",
       "alt_mode": "SUV",
       "voice_actor": "Kevin Michael Richardson",
-      "image": "/images/characters/prime-bulkhead.jpg"
+      "image": "images/characters/prime-bulkhead.jpg"
     },
     {
       "name": "Ratchet",
@@ -857,7 +857,7 @@
       "faction": "Autobot",
       "alt_mode": "Ambulance",
       "voice_actor": "Jeffrey Combs",
-      "image": "/images/characters/prime-ratchet.jpg"
+      "image": "images/characters/prime-ratchet.jpg"
     },
     {
       "name": "Smokescreen",
@@ -865,7 +865,7 @@
       "faction": "Autobot",
       "alt_mode": "Sports car",
       "voice_actor": "Nolan North",
-      "image": "/images/characters/prime-smokescreen.jpg"
+      "image": "images/characters/prime-smokescreen.jpg"
     },
     {
       "name": "Ultra Magnus",
@@ -873,7 +873,7 @@
       "faction": "Autobot",
       "alt_mode": "Missile launcher truck",
       "voice_actor": "Michael Ironside",
-      "image": "/images/characters/prime-ultra-magnus.jpg"
+      "image": "images/characters/prime-ultra-magnus.jpg"
     },
     {
       "name": "Wheeljack",
@@ -881,7 +881,7 @@
       "faction": "Autobot",
       "alt_mode": "Sports car",
       "voice_actor": "James Horan",
-      "image": "/images/characters/prime-wheeljack.jpg"
+      "image": "images/characters/prime-wheeljack.jpg"
     },
     {
       "name": "Megatron",
@@ -889,7 +889,7 @@
       "faction": "Decepticon",
       "alt_mode": "Cybertronian jet",
       "voice_actor": "Frank Welker",
-      "image": "/images/characters/prime-megatron.jpg"
+      "image": "images/characters/prime-megatron.jpg"
     },
     {
       "name": "Starscream",
@@ -897,7 +897,7 @@
       "faction": "Decepticon",
       "alt_mode": "Fighter jet",
       "voice_actor": "Steve Blum",
-      "image": "/images/characters/prime-starscream.jpg"
+      "image": "images/characters/prime-starscream.jpg"
     },
     {
       "name": "Soundwave",
@@ -905,7 +905,7 @@
       "faction": "Decepticon",
       "alt_mode": "Surveillance drone",
       "voice_actor": "Frank Welker",
-      "image": "/images/characters/prime-soundwave.jpg"
+      "image": "images/characters/prime-soundwave.jpg"
     },
     {
       "name": "Knock Out",
@@ -913,7 +913,7 @@
       "faction": "Decepticon",
       "alt_mode": "Sports car",
       "voice_actor": "Daran Norris",
-      "image": "/images/characters/prime-knock-out.jpg"
+      "image": "images/characters/prime-knock-out.jpg"
     }
   ],
   "media": [
