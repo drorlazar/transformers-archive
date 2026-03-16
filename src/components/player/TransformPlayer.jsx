@@ -44,42 +44,60 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
     const camZ = aspect < 1.2 ? 8 + (1.2 - aspect) * 8 : 8;
     camera.position.set(0, 0, camZ);
 
-    // Env map
+    // Env map — richer for sharper reflections
     const pmrem = new THREE.PMREMGenerator(renderer);
     const es = new THREE.Scene();
-    es.add(new THREE.HemisphereLight(0x6688cc, 0x332211, 3));
+    es.add(new THREE.HemisphereLight(0x7799dd, 0x443322, 4));
+    const envPoint1 = new THREE.PointLight(0xff4400, 2, 20);
+    envPoint1.position.set(5, 3, 5);
+    es.add(envPoint1);
+    const envPoint2 = new THREE.PointLight(0x0066ff, 1.5, 20);
+    envPoint2.position.set(-5, -2, 5);
+    es.add(envPoint2);
     scene.environment = pmrem.fromScene(es, 0.04).texture;
     pmrem.dispose();
 
-    // Lights
-    scene.add(new THREE.AmbientLight(0xaaaacc, 1.2));
-    const key = new THREE.DirectionalLight(0xffffff, 3);
-    key.position.set(3, 4, 6);
+    // Lights — cinematic 3-point + accent
+    scene.add(new THREE.AmbientLight(0x8888aa, 0.8));
+    const key = new THREE.DirectionalLight(0xffeedd, 3.5);
+    key.position.set(4, 5, 7);
     scene.add(key);
-    const fill = new THREE.DirectionalLight(0x4477ff, 1.2);
-    fill.position.set(-4, 2, 4);
+    const fill = new THREE.DirectionalLight(0x3366cc, 1.5);
+    fill.position.set(-5, 2, 4);
     scene.add(fill);
-    const rim = new THREE.PointLight(0xff4400, 1.5, 15);
-    rim.position.set(0, -3, 5);
+    const rim = new THREE.PointLight(0xff4400, 2.0, 15);
+    rim.position.set(0, -3, 6);
     scene.add(rim);
+    // Blue accent from below-left for dramatic edge lighting
+    const accent = new THREE.PointLight(0x0066ff, 1.2, 12);
+    accent.position.set(-3, -2, 5);
+    scene.add(accent);
+    // Warm top accent
+    const topAccent = new THREE.PointLight(0xff8844, 0.8, 10);
+    topAccent.position.set(2, 4, 4);
+    scene.add(topAccent);
 
-    // Materials
+    // Materials — richer, more contrast
     const redMetal = new THREE.MeshPhysicalMaterial({
-      color: 0xcc2222, metalness: 0.8, roughness: 0.2,
-      clearcoat: 0.5, clearcoatRoughness: 0.1,
+      color: 0xbb1111, metalness: 0.85, roughness: 0.15,
+      clearcoat: 0.7, clearcoatRoughness: 0.05,
+      reflectivity: 1.0,
     });
     const blueMetal = new THREE.MeshPhysicalMaterial({
-      color: 0x2838aa, metalness: 0.8, roughness: 0.2,
-      clearcoat: 0.3,
+      color: 0x2040bb, metalness: 0.85, roughness: 0.15,
+      clearcoat: 0.5, clearcoatRoughness: 0.08,
+      reflectivity: 0.9,
     });
     const darkMetal = new THREE.MeshPhysicalMaterial({
-      color: 0x1a1a2a, metalness: 0.9, roughness: 0.15,
+      color: 0x151525, metalness: 0.95, roughness: 0.1,
+      clearcoat: 0.3,
     });
     const boltMat = new THREE.MeshPhysicalMaterial({
-      color: 0x999aaa, metalness: 0.95, roughness: 0.1,
+      color: 0xaaaabb, metalness: 0.98, roughness: 0.05,
+      clearcoat: 0.8, clearcoatRoughness: 0.02,
     });
     const glowMat = new THREE.MeshBasicMaterial({
-      color: 0x0099ff, transparent: true, opacity: 0,
+      color: 0x22aaff, transparent: true, opacity: 0,
     });
 
     const allMats = [redMetal, blueMetal, darkMetal, boltMat, glowMat];
