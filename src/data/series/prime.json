@@ -28,103 +28,150 @@
           "title": "Darkness Rising, Part 1",
           "air_date": "2010-11-29",
           "duration": "22m",
-          "video_url": "https://www.youtube.com/watch?v=dGERPeMDFT0",
-          "synopsis": "Three years after the last sighting of the Decepticons, Arcee and Cliffjumper patrol for Energon when Cliffjumper is captured and killed by Starscream. The Autobots gain three unexpected human allies."
+          "synopsis": "Three years after the last sighting of the Decepticons, Arcee and Cliffjumper patrol for Energon when Cliffjumper is captured and killed by Starscream. The Autobots gain three unexpected human allies.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=dGERPeMDFT0",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 2,
           "title": "Darkness Rising, Part 2",
           "air_date": "2010-11-30",
           "duration": "22m",
-          "video_url": "https://www.youtube.com/watch?v=yDmZzhwbGkE",
-          "synopsis": "The Autobots bring Jack, Miko, and Raf to their base. Meanwhile, Megatron returns from a three-year absence with a supply of Dark Energon, which he uses to reanimate Cliffjumper's corpse."
+          "synopsis": "The Autobots bring Jack, Miko, and Raf to their base. Meanwhile, Megatron returns from a three-year absence with a supply of Dark Energon, which he uses to reanimate Cliffjumper's corpse.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=yDmZzhwbGkE",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 3,
           "title": "Darkness Rising, Part 3",
           "air_date": "2010-12-01",
           "duration": "22m",
-          "video_url": "https://www.youtube.com/watch?v=xQHfpybjX5U",
-          "synopsis": "Agent Fowler investigates the Autobot base. Megatron raises an army of undead Cybertronians using Dark Energon while Starscream sends Soundwave to track the Autobots."
+          "synopsis": "Agent Fowler investigates the Autobot base. Megatron raises an army of undead Cybertronians using Dark Energon while Starscream sends Soundwave to track the Autobots.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=xQHfpybjX5U",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 4,
           "title": "Darkness Rising, Part 4",
           "air_date": "2010-12-02",
           "duration": "22m",
-          "video_url": "https://www.youtube.com/watch?v=KVmPaETgE_M",
-          "synopsis": "The Autobots race to stop Megatron from using his Space Bridge to transport his undead army to Earth, while Fowler is captured aboard the Nemesis."
+          "synopsis": "The Autobots race to stop Megatron from using his Space Bridge to transport his undead army to Earth, while Fowler is captured aboard the Nemesis.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=KVmPaETgE_M",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 5,
           "title": "Darkness Rising, Part 5",
           "air_date": "2010-12-03",
           "duration": "22m",
-          "video_url": "https://www.youtube.com/watch?v=ytgXQuVYIdc",
-          "synopsis": "The Autobots launch a desperate assault to destroy the Space Bridge before Megatron's undead army can cross from Cybertron to Earth. Megatron is seemingly destroyed in the explosion."
+          "synopsis": "The Autobots launch a desperate assault to destroy the Space Bridge before Megatron's undead army can cross from Cybertron to Earth. Megatron is seemingly destroyed in the explosion.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=ytgXQuVYIdc",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 6,
           "title": "Masters & Students",
           "air_date": "2011-02-11",
           "duration": "22m",
-          "video_url": "https://www.youtube.com/watch?v=Ph1kmgfPcEw",
-          "synopsis": "Starscream assumes command of the Decepticons and attempts to raise his own undead army using Dark Energon, but his experiment goes awry when Skyquake is revived."
+          "synopsis": "Starscream assumes command of the Decepticons and attempts to raise his own undead army using Dark Energon, but his experiment goes awry when Skyquake is revived.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=Ph1kmgfPcEw",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 7,
           "title": "Scrapheap",
           "air_date": "2011-02-18",
           "duration": "22m",
-          "video_url": "https://www.youtube.com/watch?v=Odf6Si4u-Pw",
-          "synopsis": "A swarm of Scraplets infests the Autobot base, devouring metal and threatening to destroy the Ground Bridge. The humans must help exterminate the pests."
+          "synopsis": "A swarm of Scraplets infests the Autobot base, devouring metal and threatening to destroy the Ground Bridge. The humans must help exterminate the pests.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=Odf6Si4u-Pw",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 8,
           "title": "Con Job",
           "air_date": "2011-02-25",
           "duration": "22m",
-          "video_url": "https://www.youtube.com/watch?v=SZFHhUsmPZY",
-          "synopsis": "Bulkhead's old Wrecker buddy Wheeljack arrives on Earth, but the Decepticons capture him and send Makeshift disguised as Wheeljack to infiltrate the Autobot base."
+          "synopsis": "Bulkhead's old Wrecker buddy Wheeljack arrives on Earth, but the Decepticons capture him and send Makeshift disguised as Wheeljack to infiltrate the Autobot base.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=SZFHhUsmPZY",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 9,
           "title": "Convoy",
           "air_date": "2011-03-04",
           "duration": "22m",
-          "video_url": "https://www.youtube.com/watch?v=PBU_gmEY0Q8",
-          "synopsis": "Optimus Prime leads a convoy to transport a powerful nuclear device, but MECH intercepts and attempts to steal it, forcing an uneasy alliance scenario."
+          "synopsis": "Optimus Prime leads a convoy to transport a powerful nuclear device, but MECH intercepts and attempts to steal it, forcing an uneasy alliance scenario.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=PBU_gmEY0Q8",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 10,
           "title": "Deus ex Machina",
           "air_date": "2011-03-11",
           "duration": "22m",
-          "video_url": "https://www.youtube.com/watch?v=9BNoDmejVIc",
-          "synopsis": "Bulkhead and Miko discover an ancient Energon Harvester in a museum. The Decepticons also learn of it, leading to a race to claim the powerful relic."
+          "synopsis": "Bulkhead and Miko discover an ancient Energon Harvester in a museum. The Decepticons also learn of it, leading to a race to claim the powerful relic.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=9BNoDmejVIc",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 11,
           "title": "Speed Metal",
           "air_date": "2011-03-18",
           "duration": "22m",
-          "video_url": "https://www.youtube.com/watch?v=xdTp961BQOY",
-          "synopsis": "Jack enters an illegal street race with Bumblebee against bully Vince, but Knock Out and Breakdown crash the party looking for a rematch with the Autobots."
+          "synopsis": "Jack enters an illegal street race with Bumblebee against bully Vince, but Knock Out and Breakdown crash the party looking for a rematch with the Autobots.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=xdTp961BQOY",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 12,
           "title": "Predatory",
           "air_date": "2011-03-25",
           "duration": "22m",
-          "video_url": "https://www.youtube.com/watch?v=c4RTt7Y0xFU",
-          "synopsis": "Arcee and Jack are stranded in a forest where they encounter Airachnid, a Decepticon who hunts endangered species and was responsible for the death of Arcee's former partner Tailgate."
+          "synopsis": "Arcee and Jack are stranded in a forest where they encounter Airachnid, a Decepticon who hunts endangered species and was responsible for the death of Arcee's former partner Tailgate.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=c4RTt7Y0xFU",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 13,
           "title": "Sick Mind",
           "air_date": "2011-04-01",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Optimus is infected with Cybonic Plague. Bumblebee must enter the mind of the comatose Megatron to find the cure, discovering that Megatron is aware within his own subconscious."
         },
         {
@@ -132,7 +179,6 @@
           "title": "Out of His Head",
           "air_date": "2011-04-08",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Megatron's consciousness hitches a ride in Bumblebee's mind and manipulates him to steal a Dark Energon shard, allowing Megatron to revive his own body."
         },
         {
@@ -140,7 +186,6 @@
           "title": "Shadowzone",
           "air_date": "2011-04-15",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "A Ground Bridge malfunction traps Jack, Miko, and Raf in a shadow dimension alongside Skyquake's reanimated corpse and Starscream."
         },
         {
@@ -148,7 +193,6 @@
           "title": "Operation: Breakdown",
           "air_date": "2011-06-17",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "MECH captures Breakdown for experimentation. Bulkhead reluctantly mounts a rescue of his rival, leading to an uneasy temporary truce."
         },
         {
@@ -156,7 +200,6 @@
           "title": "Crisscross",
           "air_date": "2011-06-24",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Airachnid teams up with MECH to capture Arcee and Jack. Jack's mother June discovers the truth about the Transformers."
         },
         {
@@ -164,7 +207,6 @@
           "title": "Metal Attraction",
           "air_date": "2011-07-01",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Arcee and Bulkhead race against Breakdown and Airachnid to claim a powerful magnetic weapon, the Polarity Gauntlet."
         },
         {
@@ -172,7 +214,6 @@
           "title": "Rock Bottom",
           "air_date": "2011-07-08",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "An Energon mine collapses, trapping Arcee, Jack, Bulkhead, Miko, Megatron, and Starscream underground, forcing unlikely alliances to survive."
         },
         {
@@ -180,7 +221,6 @@
           "title": "Partners",
           "air_date": "2011-07-15",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Starscream approaches the Autobots claiming to want to defect. Arcee is skeptical given Starscream's role in Cliffjumper's death."
         },
         {
@@ -188,7 +228,6 @@
           "title": "T.M.I.",
           "air_date": "2011-08-26",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Bulkhead gains super-intelligence after exposure to a Cybertronian data cylinder, but the knowledge threatens to overwrite his personality."
         },
         {
@@ -196,7 +235,6 @@
           "title": "Stronger, Faster",
           "air_date": "2011-09-02",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Ratchet experiments with synthetic Energon and tests it on himself, gaining increased speed and strength but becoming dangerously aggressive."
         },
         {
@@ -204,7 +242,6 @@
           "title": "One Shall Fall",
           "air_date": "2011-09-09",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "An ancient Cybertronian prophecy appears to be coming true as Megatron harnesses Dark Energon's full power. Optimus confronts Megatron in an epic duel."
         },
         {
@@ -212,7 +249,6 @@
           "title": "One Shall Rise, Part 1",
           "air_date": "2011-09-16",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Natural disasters plague Earth as the blood of Unicron rises. The Autobots discover that Earth's core is actually the dormant Unicron."
         },
         {
@@ -220,7 +256,6 @@
           "title": "One Shall Rise, Part 2",
           "air_date": "2011-09-23",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Optimus Prime forms an unlikely alliance with Megatron to journey to Earth's core and neutralize Unicron before he fully awakens."
         },
         {
@@ -228,7 +263,6 @@
           "title": "One Shall Rise, Part 3",
           "air_date": "2011-09-30",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Optimus uses the Matrix of Leadership to send Unicron back into stasis, but loses his memories in the process, reverting to his pre-Prime identity as Orion Pax."
         }
       ]
@@ -242,7 +276,6 @@
           "title": "Orion Pax, Part 1",
           "air_date": "2012-02-18",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "With no memory of being a Prime, Optimus serves Megatron aboard the Nemesis as the data clerk Orion Pax, while the Autobots search desperately for their leader."
         },
         {
@@ -250,7 +283,6 @@
           "title": "Orion Pax, Part 2",
           "air_date": "2012-02-25",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "The Autobots locate Vector Sigma on Cybertron to restore Optimus's memories. Jack travels through the Space Bridge to Cybertron on this vital mission."
         },
         {
@@ -258,7 +290,6 @@
           "title": "Orion Pax, Part 3",
           "air_date": "2012-03-03",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Jack downloads the Key to Vector Sigma and returns to Earth. Optimus regains his memories and identity as a Prime, breaking free of Megatron's deception."
         },
         {
@@ -266,7 +297,6 @@
           "title": "Operation Bumblebee, Part 1",
           "air_date": "2012-03-10",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "MECH steals Bumblebee's T-Cog, rendering him unable to transform. Bumblebee struggles with being sidelined from combat."
         },
         {
@@ -274,7 +304,6 @@
           "title": "Operation Bumblebee, Part 2",
           "air_date": "2012-03-17",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Ratchet offers his own T-Cog to Bumblebee. Meanwhile, MECH uses the stolen T-Cog to build their own Transformer, Nemesis Prime."
         },
         {
@@ -282,7 +311,6 @@
           "title": "Loose Cannons",
           "air_date": "2012-03-24",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Wheeljack returns hunting Dreadwing, the twin brother of Skyquake. His reckless methods clash with Optimus's more measured approach."
         },
         {
@@ -290,7 +318,6 @@
           "title": "Crossfire",
           "air_date": "2012-03-31",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Airachnid attempts to take command of the Decepticons and unleashes an Insecticon against Megatron. Breakdown meets his end at the hands of Airachnid."
         },
         {
@@ -298,7 +325,6 @@
           "title": "Nemesis Prime",
           "air_date": "2012-04-07",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "MECH creates a remote-controlled Optimus Prime clone called Nemesis Prime, which attacks a military base and turns the government against the real Optimus."
         },
         {
@@ -306,7 +332,6 @@
           "title": "Grill",
           "air_date": "2012-04-14",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Agent Fowler is interrogated by his superiors about his dealings with the Autobots, as the events of Nemesis Prime's rampage are investigated."
         },
         {
@@ -314,7 +339,6 @@
           "title": "Armada",
           "air_date": "2012-04-21",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Airachnid takes control of an Insecticon hive and uses them to challenge Megatron for leadership. The Autobots are caught in the middle of the power struggle."
         },
         {
@@ -322,7 +346,6 @@
           "title": "Flying Mind",
           "air_date": "2012-05-05",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "The Nemesis gains sentience and takes control, incapacitating both Autobots and Decepticons. Only the human kids can save the day."
         },
         {
@@ -330,7 +353,6 @@
           "title": "Tunnel Vision",
           "air_date": "2012-05-12",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "The Autobots and Decepticons race through New York City's subway tunnels to find one of four Iacon relics hidden on Earth."
         },
         {
@@ -338,7 +360,6 @@
           "title": "Triangulation",
           "air_date": "2012-05-19",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Optimus Prime and Dreadwing pursue the same relic in the Antarctic, leading to a three-way confrontation with Starscream who has his own agenda."
         },
         {
@@ -346,7 +367,6 @@
           "title": "Triage",
           "air_date": "2012-06-09",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Ratchet teams up with Wheeljack to retrieve a relic, proving he can hold his own in the field despite being primarily a medic."
         },
         {
@@ -354,7 +374,6 @@
           "title": "Toxicity",
           "air_date": "2012-06-16",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Bulkhead retrieves the Tox-En but is severely poisoned by the substance. He must race to dispose of it while the toxin slowly kills him."
         },
         {
@@ -362,7 +381,6 @@
           "title": "Hurt",
           "air_date": "2012-06-30",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Bulkhead struggles to recover from his Tox-En poisoning. Miko goes after Hardshell, the Insecticon responsible, seeking revenge."
         },
         {
@@ -370,7 +388,6 @@
           "title": "Out of the Past",
           "air_date": "2012-07-07",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Arcee recounts her history as a prisoner of the Decepticons and her partnership with Shockwave's captive Cliffjumper, revealing the origins of the Decepticon Space Bridge project."
         },
         {
@@ -378,7 +395,6 @@
           "title": "New Recruit",
           "air_date": "2012-07-14",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "A new Autobot named Smokescreen arrives on Earth. His eagerness and recklessness remind Optimus of a young warrior, but his arrival raises suspicions."
         },
         {
@@ -386,7 +402,6 @@
           "title": "The Human Factor",
           "air_date": "2012-08-10",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Silas, the leader of MECH, is mortally wounded and his followers transplant his mind into Breakdown's corpse, creating a human-Cybertronian hybrid called C.Y.L.A.S."
         },
         {
@@ -394,7 +409,6 @@
           "title": "Legacy",
           "air_date": "2012-08-17",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Smokescreen reveals he was the last guardian of Alpha Trion and the Iacon relics. The Autobots decode the final coordinates from the Iacon database."
         },
         {
@@ -402,7 +416,6 @@
           "title": "Alpha/Omega",
           "air_date": "2012-09-07",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "The race for the final Omega Keys intensifies. The Autobots and Decepticons clash over the artifacts needed to restore Cybertron."
         },
         {
@@ -410,7 +423,6 @@
           "title": "Hard Knocks",
           "air_date": "2012-09-14",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Starscream hunts for the remaining Omega Keys. Smokescreen is captured by the Decepticons, who discover he carries a Key within him."
         },
         {
@@ -418,7 +430,6 @@
           "title": "Inside Job",
           "air_date": "2012-09-21",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Smokescreen escapes captivity aboard the Nemesis with help from an unlikely source, recovering the Omega Keys from Megatron's vault."
         },
         {
@@ -426,7 +437,6 @@
           "title": "Patch",
           "air_date": "2012-09-28",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Megatron uses a Cortical Psychic Patch to enter Starscream's mind and discover his treacheries, forcing Starscream to prove his loyalty."
         },
         {
@@ -434,7 +444,6 @@
           "title": "Regeneration",
           "air_date": "2012-10-05",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "The Autobots use the Omega Keys to activate the Omega Lock on Cybertron, but Megatron seizes control and threatens to use it to cyberform Earth."
         },
         {
@@ -442,7 +451,6 @@
           "title": "Darkest Hour",
           "air_date": "2012-10-06",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Optimus destroys the Omega Lock to save Earth, but Megatron retaliates by destroying the Autobot base. The team is scattered, and their darkest hour begins."
         }
       ]
@@ -456,7 +464,6 @@
           "title": "Darkmount, NV",
           "air_date": "2013-03-22",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "The scattered Autobots struggle to regroup after the destruction of their base. Megatron erects a fortress called Darkmount and declares victory over Earth."
         },
         {
@@ -464,7 +471,6 @@
           "title": "Scattered",
           "air_date": "2013-03-29",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "The separated Autobots each face their own challenges as they try to survive and reconnect. Ultra Magnus arrives on Earth to help rally the team."
         },
         {
@@ -472,7 +478,6 @@
           "title": "Prey",
           "air_date": "2013-04-05",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Optimus Prime gains a powerful new beast-hunting upgrade. Ultra Magnus assembles the scattered Autobots and prepares a counterattack against Darkmount."
         },
         {
@@ -480,7 +485,6 @@
           "title": "Rebellion",
           "air_date": "2013-04-12",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "The reunited Autobots, now joined by Ultra Magnus, launch a full assault on Darkmount. Optimus Prime's new form proves devastating against Megatron's forces."
         },
         {
@@ -488,7 +492,6 @@
           "title": "Project Predacon",
           "air_date": "2013-04-19",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Shockwave reveals Project Predacon, his plan to clone an army of ancient Predacon beasts using fossilized remains found on Earth."
         },
         {
@@ -496,7 +499,6 @@
           "title": "Chain of Command",
           "air_date": "2013-04-26",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Ultra Magnus clashes with Wheeljack over leadership styles as they hunt for Predacon bones. The lone Predacon proves to be a formidable threat."
         },
         {
@@ -504,7 +506,6 @@
           "title": "Plus One",
           "air_date": "2013-05-03",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Arcee and Wheeljack team up on a mission while Jack's mother June and Agent Fowler grow closer. Knock Out hunts for Predacon bones."
         },
         {
@@ -512,7 +513,6 @@
           "title": "Thirst",
           "air_date": "2013-05-10",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Knock Out and Starscream accidentally create Terrorcon vampires aboard the Nemesis using synthetic and Dark Energon, leading to a horror-movie scenario."
         },
         {
@@ -520,7 +520,6 @@
           "title": "Evolution",
           "air_date": "2013-05-17",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "The Predacon demonstrates unexpected intelligence and transforms into a robot mode, taking the name Predaking. This development alarms both Autobots and Decepticons."
         },
         {
@@ -528,7 +527,6 @@
           "title": "Minus One",
           "air_date": "2013-05-24",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "The Autobots capture Shockwave. Megatron decides to terminate Project Predacon, fearing the Predacons could overthrow the Decepticons."
         },
         {
@@ -536,7 +534,6 @@
           "title": "Persuasion",
           "air_date": "2013-05-31",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Megatron abducts Ratchet to complete the synthetic Energon formula, hoping to use it to rebuild the Omega Lock and cyberform Earth."
         },
         {
@@ -544,7 +541,6 @@
           "title": "Synthesis",
           "air_date": "2013-06-07",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Ratchet is forced to work on the synthetic Energon formula aboard the Nemesis. The Autobots plan a rescue while Megatron's rebuilt Omega Lock nears completion."
         },
         {
@@ -552,7 +548,6 @@
           "title": "Deadlock",
           "air_date": "2013-07-26",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "In the epic series finale, the Autobots storm the Nemesis for a final battle. Bumblebee kills Megatron and restores Cybertron using the Omega Lock. The Autobots bid farewell to their human friends and return home."
         }
       ]

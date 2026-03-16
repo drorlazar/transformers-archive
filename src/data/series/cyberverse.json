@@ -28,144 +28,216 @@
           "title": "Fractured",
           "air_date": "2018-09-01",
           "duration": "22m",
-          "video_url": "https://www.youtube.com/watch?v=uGhSbxMhiss",
-          "synopsis": "Bumblebee crash-lands on Earth with no memory. Windblade arrives to help him recover his lost past through fragmented flashbacks."
+          "synopsis": "Bumblebee crash-lands on Earth with no memory. Windblade arrives to help him recover his lost past through fragmented flashbacks.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=uGhSbxMhiss",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 2,
           "title": "Memory",
           "air_date": "2018-09-08",
           "duration": "22m",
-          "video_url": "https://www.youtube.com/watch?v=vgssOMyxASg",
-          "synopsis": "Windblade helps Bumblebee access another memory fragment, revealing his friendship with Hot Rod on Cybertron."
+          "synopsis": "Windblade helps Bumblebee access another memory fragment, revealing his friendship with Hot Rod on Cybertron.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=vgssOMyxASg",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 3,
           "title": "Allspark",
           "air_date": "2018-09-15",
           "duration": "22m",
-          "video_url": "https://www.youtube.com/watch?v=Rg6oUzxQNJ4",
-          "synopsis": "A recovered memory reveals the importance of the Allspark and why Bumblebee was sent to Earth."
+          "synopsis": "A recovered memory reveals the importance of the Allspark and why Bumblebee was sent to Earth.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=Rg6oUzxQNJ4",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 4,
           "title": "The Journey",
           "air_date": "2018-09-22",
           "duration": "22m",
-          "video_url": "https://www.youtube.com/watch?v=UArJLAjVbf8",
-          "synopsis": "Bumblebee remembers his journey from Cybertron to Earth and the dangers he faced along the way."
+          "synopsis": "Bumblebee remembers his journey from Cybertron to Earth and the dangers he faced along the way.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=UArJLAjVbf8",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 5,
           "title": "Whiteout",
           "air_date": "2018-09-29",
           "duration": "22m",
-          "video_url": "https://www.youtube.com/watch?v=jNhjRteBjNM",
-          "synopsis": "A blizzard traps Bumblebee and Windblade while Decepticon pursuers close in on their location."
+          "synopsis": "A blizzard traps Bumblebee and Windblade while Decepticon pursuers close in on their location.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=jNhjRteBjNM",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 6,
           "title": "Megatron Is My Hero",
           "air_date": "2018-10-06",
           "duration": "22m",
-          "video_url": "https://www.youtube.com/watch?v=vMGGFo2-9R0",
-          "synopsis": "A flashback reveals a time when a young Bumblebee admired Megatron before the war began."
+          "synopsis": "A flashback reveals a time when a young Bumblebee admired Megatron before the war began.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=vMGGFo2-9R0",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 7,
           "title": "Cube",
           "air_date": "2018-10-13",
           "duration": "22m",
-          "video_url": "https://www.youtube.com/watch?v=8oTJH9dnvmw",
-          "synopsis": "Bumblebee and Windblade discover a mysterious cube that contains vital information about the Allspark."
+          "synopsis": "Bumblebee and Windblade discover a mysterious cube that contains vital information about the Allspark.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=8oTJH9dnvmw",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 8,
           "title": "Terminal Velocity",
           "air_date": "2018-10-20",
           "duration": "22m",
-          "video_url": "https://www.youtube.com/watch?v=4iyP-4i-9Us",
-          "synopsis": "A high-speed chase pushes Bumblebee to his limits as Decepticons attempt to capture him."
+          "synopsis": "A high-speed chase pushes Bumblebee to his limits as Decepticons attempt to capture him.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=4iyP-4i-9Us",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 9,
           "title": "Shadowstriker",
           "air_date": "2018-10-27",
           "duration": "22m",
-          "video_url": "https://www.youtube.com/watch?v=RfJCA9V0so8",
-          "synopsis": "The Decepticon Shadow Striker arrives on Earth with a personal vendetta against Bumblebee."
+          "synopsis": "The Decepticon Shadow Striker arrives on Earth with a personal vendetta against Bumblebee.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=RfJCA9V0so8",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 10,
           "title": "Maccadam's",
           "air_date": "2018-11-03",
           "duration": "22m",
-          "video_url": "https://www.youtube.com/watch?v=KSZnRT35vWY",
-          "synopsis": "Bumblebee remembers Maccadam's, the legendary neutral bar on Cybertron where the war's early seeds were planted."
+          "synopsis": "Bumblebee remembers Maccadam's, the legendary neutral bar on Cybertron where the war's early seeds were planted.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=KSZnRT35vWY",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 11,
           "title": "Sabotage",
           "air_date": "2018-11-10",
           "duration": "22m",
-          "video_url": "https://www.youtube.com/watch?v=_tCwuXnLQqk",
-          "synopsis": "The Decepticons sabotage Bumblebee's memory recovery process, threatening to erase his identity forever."
+          "synopsis": "The Decepticons sabotage Bumblebee's memory recovery process, threatening to erase his identity forever.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=_tCwuXnLQqk",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 12,
           "title": "Teletraan-X",
           "air_date": "2018-11-17",
           "duration": "22m",
-          "video_url": "https://www.youtube.com/watch?v=wMUz9RDTQ7o",
-          "synopsis": "Bumblebee and Windblade locate Teletraan-X, an ancient Autobot computer that may hold the key to finding the Allspark."
+          "synopsis": "Bumblebee and Windblade locate Teletraan-X, an ancient Autobot computer that may hold the key to finding the Allspark.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=wMUz9RDTQ7o",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 13,
           "title": "Matrix of Leadership",
           "air_date": "2018-12-01",
           "duration": "22m",
-          "video_url": "https://www.youtube.com/watch?v=oKPyPpjmcRk",
-          "synopsis": "Bumblebee's memories reveal the moment Optimus Prime received the Matrix of Leadership."
+          "synopsis": "Bumblebee's memories reveal the moment Optimus Prime received the Matrix of Leadership.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=oKPyPpjmcRk",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 14,
           "title": "Siloed",
           "air_date": "2018-12-08",
           "duration": "22m",
-          "video_url": "https://www.youtube.com/watch?v=6UgXSkuFyeI",
-          "synopsis": "Trapped and separated, Bumblebee must rely on his recovered memories to escape."
+          "synopsis": "Trapped and separated, Bumblebee must rely on his recovered memories to escape.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=6UgXSkuFyeI",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 15,
           "title": "King of the Dinosaurs",
           "air_date": "2018-12-15",
           "duration": "22m",
-          "video_url": "https://www.youtube.com/watch?v=5wvFVXQ1aMM",
-          "synopsis": "Grimlock makes his appearance, showcasing the origin of the Dinobots."
+          "synopsis": "Grimlock makes his appearance, showcasing the origin of the Dinobots.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=5wvFVXQ1aMM",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 16,
           "title": "The Extinction Event",
           "air_date": "2018-12-22",
           "duration": "22m",
-          "video_url": "https://www.youtube.com/watch?v=yDbkoxMZe60",
-          "synopsis": "The Decepticons plan an extinction-level event that threatens both Earth and Cybertron."
+          "synopsis": "The Decepticons plan an extinction-level event that threatens both Earth and Cybertron.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=yDbkoxMZe60",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 17,
           "title": "Awaken Sleeping Giants",
           "air_date": "2018-12-29",
           "duration": "22m",
-          "video_url": "https://www.youtube.com/watch?v=6KHZ6sfUTmc",
-          "synopsis": "Ancient Cybertronian giants are awakened, and their allegiance will determine the outcome of the conflict."
+          "synopsis": "Ancient Cybertronian giants are awakened, and their allegiance will determine the outcome of the conflict.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=6KHZ6sfUTmc",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 18,
           "title": "Eruption",
           "air_date": "2019-01-05",
           "duration": "22m",
-          "video_url": "https://www.youtube.com/watch?v=YFCBKN6AaOI",
-          "synopsis": "The Season 1 finale erupts in a massive battle as Bumblebee fully recovers his memory and the Autobots rally to protect the Allspark."
+          "synopsis": "The Season 1 finale erupts in a massive battle as Bumblebee fully recovers his memory and the Autobots rally to protect the Allspark.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=YFCBKN6AaOI",
+            "dailymotion": null,
+            "other": null
+          }
         }
       ]
     },
@@ -178,7 +250,6 @@
           "title": "Sea of Tranquility",
           "air_date": "2019-09-07",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "The Autobots travel to the Sea of Tranquility on Cybertron, where they discover traces of the Allspark's power."
         },
         {
@@ -186,7 +257,6 @@
           "title": "Bad Moon Rising",
           "air_date": "2019-09-14",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "A Decepticon operation on one of Cybertron's moons threatens the entire planet."
         },
         {
@@ -194,7 +264,6 @@
           "title": "The Visitor",
           "air_date": "2019-09-21",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "A mysterious visitor arrives with information about the Allspark's true nature."
         },
         {
@@ -202,7 +271,6 @@
           "title": "Bring Me the Spark of Optimus Prime",
           "air_date": "2019-09-28",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Megatron sends his forces on a mission to capture Optimus Prime's spark."
         },
         {
@@ -210,7 +278,6 @@
           "title": "Trials",
           "air_date": "2019-10-05",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "The Autobots face a series of trials to prove their worthiness to access the Allspark."
         },
         {
@@ -218,7 +285,6 @@
           "title": "Dark Birth",
           "air_date": "2019-10-12",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "The origin of a dark new threat is revealed as Shockwave experiments with forbidden science."
         },
         {
@@ -226,7 +292,6 @@
           "title": "Parley",
           "air_date": "2019-10-19",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Optimus Prime and Megatron attempt negotiations, but neither side is willing to back down."
         },
         {
@@ -234,7 +299,6 @@
           "title": "Starscream's Children",
           "air_date": "2019-10-26",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Starscream creates his own army of Seeker clones to challenge both Megatron and the Autobots."
         },
         {
@@ -242,7 +306,6 @@
           "title": "Spotted",
           "air_date": "2019-11-02",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Cheetor makes his debut as the Autobots discover ancient beast-mode Transformers."
         },
         {
@@ -250,7 +313,6 @@
           "title": "Secret Science",
           "air_date": "2019-11-09",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Shockwave's secret experiments threaten to unleash something terrible upon Cybertron."
         },
         {
@@ -258,7 +320,6 @@
           "title": "Infinite Vendetta",
           "air_date": "2019-11-16",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "An ancient vendetta resurfaces, drawing the Autobots into a conflict older than the war itself."
         },
         {
@@ -266,7 +327,6 @@
           "title": "I Am the Allspark",
           "air_date": "2019-11-23",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "The true nature of the Allspark is revealed as it merges with an unexpected host."
         },
         {
@@ -274,7 +334,6 @@
           "title": "Escape from Earth",
           "air_date": "2019-11-30",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "The Autobots must escape Earth and return to Cybertron for the final battle."
         },
         {
@@ -282,7 +341,6 @@
           "title": "Party Down",
           "air_date": "2019-12-07",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "A lighthearted interlude as the Autobots try to boost morale before the coming fight."
         },
         {
@@ -290,7 +348,6 @@
           "title": "Wiped Out",
           "air_date": "2019-12-14",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "The Decepticons launch a devastating attack that wipes out Autobot defenses."
         },
         {
@@ -298,7 +355,6 @@
           "title": "Ghost Town",
           "air_date": "2019-12-21",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "The Autobots discover an abandoned city on Cybertron that holds dark secrets."
         },
         {
@@ -306,7 +362,6 @@
           "title": "Perfect Storm",
           "air_date": "2019-12-28",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Multiple crises converge into a perfect storm of challenges for the Autobots."
         },
         {
@@ -314,7 +369,6 @@
           "title": "The Crossroads",
           "air_date": "2020-01-04",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "The Season 2 finale brings the Autobots to a crossroads that will determine the future of Cybertron."
         }
       ]
@@ -328,7 +382,6 @@
           "title": "Battle for Cybertron I",
           "air_date": "2020-02-01",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "The epic battle for Cybertron begins as Autobots and Decepticons clash in a war for the planet's future."
         },
         {
@@ -336,7 +389,6 @@
           "title": "Battle for Cybertron II",
           "air_date": "2020-02-08",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "The battle intensifies as both sides suffer losses and the stakes grow higher."
         },
         {
@@ -344,7 +396,6 @@
           "title": "Battle for Cybertron III",
           "air_date": "2020-02-15",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "A turning point in the battle forces the Autobots to adopt a desperate new strategy."
         },
         {
@@ -352,7 +403,6 @@
           "title": "Battle for Cybertron IV",
           "air_date": "2020-02-22",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "The opening battle arc concludes with a dramatic shift in the war's balance of power."
         },
         {
@@ -360,7 +410,6 @@
           "title": "The Loop",
           "air_date": "2020-02-29",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "The Autobots are trapped in a time loop and must find a way to break free."
         },
         {
@@ -368,7 +417,6 @@
           "title": "The Dead End",
           "air_date": "2020-03-07",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "A journey through the Dead End reveals the war's toll on Cybertron's forgotten places."
         },
         {
@@ -376,7 +424,6 @@
           "title": "The Sleeper",
           "air_date": "2020-03-14",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "A dormant threat awakens beneath Cybertron's surface."
         },
         {
@@ -384,7 +431,6 @@
           "title": "The Citizen",
           "air_date": "2020-03-21",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "An ordinary Cybertronian citizen becomes caught up in the war between factions."
         },
         {
@@ -392,7 +438,6 @@
           "title": "The Trial",
           "air_date": "2020-03-28",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "A Transformer is put on trial by the Quintessons, the ancient judges of Cybertron."
         },
         {
@@ -400,7 +445,6 @@
           "title": "The Prisoner",
           "air_date": "2020-04-04",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "A captured Autobot must survive imprisonment and find a way to escape."
         },
         {
@@ -408,7 +452,6 @@
           "title": "The Scientist",
           "air_date": "2020-04-11",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Shockwave's ultimate experiment threatens to reshape Cybertron permanently."
         },
         {
@@ -416,7 +459,6 @@
           "title": "The Alliance",
           "air_date": "2020-04-18",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Autobots and Decepticons must form a temporary alliance against the Quintesson invasion."
         },
         {
@@ -424,7 +466,6 @@
           "title": "The Judge",
           "air_date": "2020-04-25",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "The Quintesson Judge reveals their true intentions for Cybertron."
         },
         {
@@ -432,7 +473,6 @@
           "title": "The End of the Universe I",
           "air_date": "2020-05-02",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "The Quintessons unleash a weapon that threatens to destroy the entire universe."
         },
         {
@@ -440,7 +480,6 @@
           "title": "The End of the Universe II",
           "air_date": "2020-05-09",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "The Autobots race to counter the Quintesson weapon before it reaches full power."
         },
         {
@@ -448,7 +487,6 @@
           "title": "The End of the Universe III",
           "air_date": "2020-05-16",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Sacrifices are made as the battle against the Quintessons reaches its climax."
         },
         {
@@ -456,7 +494,6 @@
           "title": "The End of the Universe IV",
           "air_date": "2020-05-23",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "The Quintessons are defeated and the universe is saved, but at great cost."
         },
         {
@@ -464,7 +501,6 @@
           "title": "Enemy Line",
           "air_date": "2020-05-30",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "A covert mission behind enemy lines sets the stage for the final adventures."
         },
         {
@@ -472,7 +508,6 @@
           "title": "Thunderhowl",
           "air_date": "2020-06-06",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "The medieval-themed Autobot Thunderhowl arrives with a knightly code of honor."
         },
         {
@@ -480,7 +515,6 @@
           "title": "Wild Wild Wheel",
           "air_date": "2020-06-13",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "A wild chase across Cybertron's wastelands puts the team in high-speed danger."
         },
         {
@@ -488,7 +522,6 @@
           "title": "Alien Hunt! with Meteorfire and Cosmos",
           "air_date": "2020-06-20",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Meteorfire and Cosmos investigate alien signals in a buddy-comedy style adventure."
         },
         {
@@ -496,7 +529,6 @@
           "title": "Journey to the Valley of Repugnus",
           "air_date": "2020-06-27",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "The team ventures to a dangerous valley ruled by the monstrous Repugnus."
         },
         {
@@ -504,7 +536,6 @@
           "title": "Rack 'n' Ruin 'n' Ratchet",
           "air_date": "2020-07-04",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "Ratchet teams up with the conjoined twins Rack'n'Ruin for an adventure."
         },
         {
@@ -512,7 +543,6 @@
           "title": "Dweller in the Depths",
           "air_date": "2020-07-11",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "A terrifying creature lurking in Cybertron's depths threatens everyone on the surface."
         },
         {
@@ -520,7 +550,6 @@
           "title": "Silent Strike",
           "air_date": "2020-07-18",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "A stealth mission requires absolute silence from the Autobot team."
         },
         {
@@ -528,7 +557,6 @@
           "title": "The Other One",
           "air_date": "2020-07-25",
           "duration": "22m",
-          "video_url": null,
           "synopsis": "The Season 3 finale introduces a universe-altering revelation about alternate timelines and other versions of familiar characters."
         }
       ]
@@ -688,7 +716,7 @@
       "facts": [
         "Cyberverse was animated by Boulder Media Studio and debuted on Cartoon Network's app and website on August 27, 2018, before its TV premiere on September 1, 2018.",
         "Each episode runs 11 minutes, with episodes paired into half-hour blocks. The show features a unique four-fingered character design style.",
-        "No humans appear in the series at all\u2014a conscious decision by the production staff to keep the focus entirely on Transformers characters."
+        "No humans appear in the series at all—a conscious decision by the production staff to keep the focus entirely on Transformers characters."
       ]
     },
     {
