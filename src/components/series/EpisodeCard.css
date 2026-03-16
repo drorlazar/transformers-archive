@@ -5,6 +5,9 @@
   border-bottom: 1px solid var(--border-subtle);
   transition: background var(--transition-fast);
   border-radius: var(--card-radius);
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
 }
 
 .episode-card:hover {

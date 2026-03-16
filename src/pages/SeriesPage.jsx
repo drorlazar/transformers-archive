@@ -5,14 +5,12 @@ import TabBar from '../components/series/TabBar';
 import EpisodesTab from '../components/series/EpisodesTab';
 import CharactersTab from '../components/series/CharactersTab';
 import MediaHubTab from '../components/series/MediaHubTab';
-import TriviaTab from '../components/series/TriviaTab';
 import NotFoundPage from './NotFoundPage';
 import './SeriesPage.css';
 
 function getActiveTab(pathname, slug) {
   if (pathname.endsWith('/characters')) return 'characters';
   if (pathname.endsWith('/media')) return 'media';
-  if (pathname.endsWith('/trivia')) return 'trivia';
   return 'episodes';
 }
 
@@ -43,7 +41,6 @@ export default function SeriesPage() {
         {activeTab === 'episodes' && <EpisodesTab series={series} />}
         {activeTab === 'characters' && <CharactersTab series={series} />}
         {activeTab === 'media' && <MediaHubTab series={series} />}
-        {activeTab === 'trivia' && <TriviaTab series={series} />}
       </div>
     </div>
   );

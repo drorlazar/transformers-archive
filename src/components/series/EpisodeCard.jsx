@@ -1,12 +1,32 @@
-import { Link } from 'react-router-dom';
 import './EpisodeCard.css';
 
-export default function EpisodeCard({ episode, seriesSlug, seasonNum }) {
-  const thumb = episode.thumbnail || '';
-  const epLink = `/series/${seriesSlug}/s/${seasonNum}/e/${episode.number}`;
+function extractYouTubeId(url) {
+  if (!url) return null;
+  const m = url.match(
+    /(?:youtube\.com\/(?:watch\?v=|embed\/)|youtu\.be\/)([\w-]{11})/
+  );
+  return m ? m[1] : null;
+}
+
+export default function EpisodeCard({ episode, onClick }) {
+  const youtubeId = extractYouTubeId(episode.video?.youtube);
+  const thumb =
+    episode.thumbnail ||
+    (youtubeId ? `https://img.youtube.com/vi/${youtubeId}/mqdefault.jpg` : '');
 
   return (
-    <Link to={epLink} className="episode-card">
+    <div
+      className="episode-card"
+      onClick={() => onClick && onClick(episode)}
+      role="button"
+      tabIndex={0}
+      onKeyDown={(e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          onClick && onClick(episode);
+        }
+      }}
+    >
       <div className="episode-card__thumb">
         {thumb ? (
           <img src={thumb} alt={episode.title} loading="lazy" />
@@ -34,6 +54,6 @@ export default function EpisodeCard({ episode, seriesSlug, seasonNum }) {
           <span className="episode-card__date">{episode.air_date}</span>
         )}
       </div>
-    </Link>
+    </div>
   );
 }

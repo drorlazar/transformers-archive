@@ -1,9 +1,12 @@
 import { useState } from 'react';
 import EpisodeCard from './EpisodeCard';
+import TransformPlayer from '../player/TransformPlayer';
 import './EpisodesTab.css';
 
 export default function EpisodesTab({ series }) {
   const [selectedSeason, setSelectedSeason] = useState(1);
+  const [playingEpisode, setPlayingEpisode] = useState(null);
+  const [playingSeasonNum, setPlayingSeasonNum] = useState(null);
 
   if (!series?.seasons || series.seasons.length === 0) {
     return (
@@ -14,6 +17,16 @@ export default function EpisodesTab({ series }) {
   }
 
   const season = series.seasons.find((s) => s.number === selectedSeason) || series.seasons[0];
+
+  function handleEpisodeClick(episode) {
+    setPlayingEpisode(episode);
+    setPlayingSeasonNum(season.number);
+  }
+
+  function handleClosePlayer() {
+    setPlayingEpisode(null);
+    setPlayingSeasonNum(null);
+  }
 
   return (
     <div className="episodes-tab">
@@ -42,14 +55,22 @@ export default function EpisodesTab({ series }) {
             <EpisodeCard
               key={ep.number}
               episode={ep}
-              seriesSlug={series.slug}
-              seasonNum={season.number}
+              onClick={handleEpisodeClick}
             />
           ))
         ) : (
           <p className="episodes-tab__empty">No episodes in this season.</p>
         )}
       </div>
+
+      {playingEpisode && (
+        <TransformPlayer
+          episode={playingEpisode}
+          seasonNum={playingSeasonNum}
+          seriesTitle={series.title}
+          onClose={handleClosePlayer}
+        />
+      )}
     </div>
   );
 }

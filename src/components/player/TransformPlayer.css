@@ -1,0 +1,311 @@
+/* ── TransformPlayer: Full-screen overlay with Transformers animation ── */
+
+.transform-player {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ── Flash burst ── */
+.tf-flash {
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at center, #ff8c00, #ff6b00);
+  z-index: 1010;
+  pointer-events: none;
+  opacity: 0;
+}
+
+/* ── Scanline overlay ── */
+.tf-scanlines {
+  position: fixed;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(255, 107, 0, 0.05) 2px,
+    rgba(255, 107, 0, 0.05) 4px
+  );
+  z-index: 1015;
+  pointer-events: none;
+  opacity: 0;
+}
+
+/* ── SVG Gears overlay ── */
+.tf-gears {
+  position: fixed;
+  inset: 0;
+  z-index: 1020;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.tf-gears svg {
+  position: absolute;
+}
+
+.tf-gear-large {
+  top: 50%;
+  left: 50%;
+  width: 260px;
+  height: 260px;
+  margin-top: -130px;
+  margin-left: -180px;
+}
+
+.tf-gear-small {
+  top: 50%;
+  left: 50%;
+  width: 160px;
+  height: 160px;
+  margin-top: -20px;
+  margin-left: 40px;
+}
+
+.tf-gear-large path,
+.tf-gear-small path {
+  fill: none;
+  stroke: #ff6b00;
+  stroke-width: 2;
+  opacity: 0.7;
+}
+
+/* ── Metal panels ── */
+.tf-panel {
+  position: fixed;
+  z-index: 1025;
+  background: linear-gradient(135deg, #2a2a2a 0%, #4a4a4a 40%, #333 60%, #1a1a1a 100%);
+  box-shadow: inset 0 0 1px #ff6b00, 0 0 8px #ff6b00;
+}
+
+.tf-panel--tl { top: 0;    left: 0;   width: 55%; height: 50%; }
+.tf-panel--tr { top: 0;    right: 0;  width: 55%; height: 50%; }
+.tf-panel--ml { top: 25%;  left: 0;   width: 30%; height: 50%; }
+.tf-panel--mr { top: 25%;  right: 0;  width: 30%; height: 50%; }
+.tf-panel--bl { bottom: 0; left: 0;   width: 55%; height: 50%; }
+.tf-panel--br { bottom: 0; right: 0;  width: 55%; height: 50%; }
+
+/* ── Iris overlay ── */
+.tf-iris {
+  position: fixed;
+  inset: 0;
+  background: #111;
+  z-index: 1030;
+  clip-path: polygon(
+    50% 50%, 50% 50%, 50% 50%,
+    50% 50%, 50% 50%, 50% 50%
+  );
+}
+
+/* ── Spark canvas ── */
+.tf-spark-canvas {
+  position: fixed;
+  inset: 0;
+  z-index: 1035;
+  pointer-events: none;
+}
+
+/* ── Player content layer ── */
+.tf-player-layer {
+  position: fixed;
+  inset: 0;
+  z-index: 1040;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+/* ── SVG border frame ── */
+.tf-border-svg {
+  position: absolute;
+  z-index: 1042;
+  pointer-events: none;
+}
+
+/* ── Player content wrapper ── */
+.tf-player-content {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  opacity: 0;
+}
+
+/* ── Close button ── */
+.tf-close-btn {
+  position: fixed;
+  top: 1rem;
+  right: 1.5rem;
+  z-index: 1050;
+  width: 44px;
+  height: 44px;
+  border: 2px solid rgba(255, 107, 0, 0.5);
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.7);
+  color: #ff6b00;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease, border-color 0.2s ease;
+  line-height: 1;
+  opacity: 0;
+}
+
+.tf-close-btn:hover {
+  background: rgba(255, 107, 0, 0.15);
+  border-color: #ff6b00;
+}
+
+/* ── Video iframe wrapper ── */
+.tf-video-wrap {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 */
+  background: #000;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow:
+    0 0 0 2px #ff6b00,
+    0 0 20px rgba(255, 107, 0, 0.5),
+    0 0 40px rgba(255, 107, 0, 0.2);
+  animation: energon-pulse 3s ease-in-out infinite;
+}
+
+.tf-video-wrap iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+@keyframes energon-pulse {
+  0%, 100% {
+    box-shadow:
+      0 0 0 2px #ff6b00,
+      0 0 20px rgba(255, 107, 0, 0.5),
+      0 0 40px rgba(255, 107, 0, 0.2);
+  }
+  50% {
+    box-shadow:
+      0 0 0 2px #ff6b00,
+      0 0 35px rgba(255, 107, 0, 0.7),
+      0 0 60px rgba(255, 107, 0, 0.4);
+  }
+}
+
+/* ── Video fallback (no YouTube) ── */
+.tf-video-fallback {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: linear-gradient(135deg, #1a1a1a, #0d0d0d);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow:
+    0 0 0 2px #ff6b00,
+    0 0 20px rgba(255, 107, 0, 0.5);
+}
+
+.tf-video-fallback__icon {
+  font-size: 3rem;
+  color: var(--text-tertiary);
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.tf-video-fallback p {
+  color: var(--text-secondary);
+  font-size: 0.9375rem;
+  margin-bottom: 0.75rem;
+}
+
+.tf-video-fallback a {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  background: var(--accent-red);
+  color: var(--text-primary);
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.15s ease;
+}
+
+.tf-video-fallback a:hover {
+  background: var(--accent-red-hover);
+}
+
+/* ── Episode info below player ── */
+.tf-episode-info {
+  width: 100%;
+  margin-top: 1rem;
+  color: var(--text-primary);
+}
+
+.tf-episode-info__title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.tf-episode-info__number {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.tf-episode-info__search {
+  font-size: 0.75rem;
+  color: var(--text-tertiary);
+  margin-top: 0.5rem;
+}
+
+.tf-episode-info__search a {
+  color: var(--accent-blue, #4fc3f7);
+  text-decoration: none;
+}
+
+.tf-episode-info__search a:hover {
+  text-decoration: underline;
+}
+
+/* ── Responsive ── */
+@media (max-width: 600px) {
+  .tf-player-layer {
+    padding: 1rem;
+    padding-top: 3.5rem;
+  }
+
+  .tf-close-btn {
+    top: 0.5rem;
+    right: 0.75rem;
+    width: 36px;
+    height: 36px;
+    font-size: 1.25rem;
+  }
+
+  .tf-gear-large {
+    width: 180px;
+    height: 180px;
+    margin-top: -90px;
+    margin-left: -120px;
+  }
+
+  .tf-gear-small {
+    width: 110px;
+    height: 110px;
+    margin-top: -10px;
+    margin-left: 30px;
+  }
+}

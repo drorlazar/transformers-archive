@@ -14,9 +14,6 @@ export default function TabBar({ slug }) {
         <NavLink to={`/series/${slug}/media`} className="tab-bar__tab">
           Media
         </NavLink>
-        <NavLink to={`/series/${slug}/trivia`} className="tab-bar__tab">
-          Trivia
-        </NavLink>
       </div>
     </nav>
   );
