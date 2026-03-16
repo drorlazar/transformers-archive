@@ -39,7 +39,10 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
     scene.background = new THREE.Color(0x08080f);
 
     const camera = new THREE.PerspectiveCamera(50, W / H, 0.1, 100);
-    camera.position.set(0, 0, 8);
+    // Push camera back on narrow/portrait screens so frame fits
+    const aspect = W / H;
+    const camZ = aspect < 1.2 ? 8 + (1.2 - aspect) * 8 : 8;
+    camera.position.set(0, 0, camZ);
 
     // Env map
     const pmrem = new THREE.PMREMGenerator(renderer);
@@ -289,8 +292,8 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
     const tl = gsap.timeline({ onComplete: () => setShowVideo(true) });
     threeRef.current.tl = tl;
 
-    // Camera pull back
-    tl.to(camera.position, { z: 10, duration: 1.1, ease: 'power2.out' }, 0);
+    // Camera pull back (further on narrow screens)
+    tl.to(camera.position, { z: camZ + 2, duration: 1.1, ease: 'power2.out' }, 0);
 
     // Pieces transform with ROTATION
     pieces.forEach(({ mesh, ePos, eRot, eScale }, i) => {
