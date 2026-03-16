@@ -162,42 +162,6 @@
     "has_live_streams": false
   },
   {
-    "slug": "robots-in-disguise-2001",
-    "title": "Transformers: Robots in Disguise",
-    "year_start": 2001,
-    "year_end": 2001,
-    "era": "unicron",
-    "poster": "/images/series/robots-in-disguise-2001-poster.jpg",
-    "faction_accent": "red",
-    "tags": [
-      "Action",
-      "Comedy",
-      "Japanese"
-    ],
-    "episode_count": 39,
-    "season_count": 1,
-    "synopsis": "Optimus Prime leads the Autobots against Megatron and the Predacons who seek to steal Earth's energy resources in this action-comedy series.",
-    "has_live_streams": false
-  },
-  {
-    "slug": "armada",
-    "title": "Transformers: Armada",
-    "year_start": 2002,
-    "year_end": 2003,
-    "era": "unicron",
-    "poster": "/images/series/armada-poster.jpg",
-    "faction_accent": "red",
-    "tags": [
-      "Action",
-      "Anime-style",
-      "Mini-Cons"
-    ],
-    "episode_count": 52,
-    "season_count": 1,
-    "synopsis": "The discovery of the Mini-Cons reignites the war between Autobots and Decepticons, as both sides race to find these powerful small Transformers.",
-    "has_live_streams": false
-  },
-  {
     "slug": "energon",
     "title": "Transformers: Energon",
     "year_start": 2004,
@@ -213,24 +177,6 @@
     "episode_count": 51,
     "season_count": 1,
     "synopsis": "Ten years after Armada, a new Energon-powered threat emerges as Alpha Quintesson and a revived Megatron threaten the fragile peace.",
-    "has_live_streams": false
-  },
-  {
-    "slug": "cybertron",
-    "title": "Transformers: Cybertron",
-    "year_start": 2005,
-    "year_end": 2007,
-    "era": "unicron",
-    "poster": "/images/series/cybertron-poster.jpg",
-    "faction_accent": "red",
-    "tags": [
-      "Space",
-      "Action",
-      "Epic"
-    ],
-    "episode_count": 52,
-    "season_count": 1,
-    "synopsis": "With Cybertron consumed by a black hole, the Autobots search the universe for the four Cyber Planet Keys that can save their homeworld.",
     "has_live_streams": false
   },
   {
@@ -266,7 +212,7 @@
     ],
     "episode_count": 65,
     "season_count": 3,
-    "synopsis": "Team Prime — Optimus, Arcee, Bulkhead, Bumblebee, and Ratchet — protect Earth and three human allies from Megatron's Decepticons in this Emmy-winning series.",
+    "synopsis": "Team Prime \u2014 Optimus, Arcee, Bulkhead, Bumblebee, and Ratchet \u2014 protect Earth and three human allies from Megatron's Decepticons in this Emmy-winning series.",
     "has_live_streams": false
   },
   {
@@ -360,24 +306,6 @@
     "has_live_streams": false
   },
   {
-    "slug": "rescue-bots-academy",
-    "title": "Transformers: Rescue Bots Academy",
-    "year_start": 2019,
-    "year_end": 2020,
-    "era": "modern",
-    "poster": "/images/series/rescue-bots-academy-poster.jpg",
-    "faction_accent": "red",
-    "tags": [
-      "Kids",
-      "Academy",
-      "Rescue"
-    ],
-    "episode_count": 52,
-    "season_count": 2,
-    "synopsis": "A new generation of young recruits trains at the Rescue Bot Training Center on Griffin Rock under the guidance of veteran rescue bots.",
-    "has_live_streams": false
-  },
-  {
     "slug": "cyberverse",
     "title": "Transformers: Cyberverse",
     "year_start": 2018,
@@ -393,60 +321,6 @@
     "episode_count": 62,
     "season_count": 3,
     "synopsis": "Bumblebee has lost his memory and must piece together his past with the help of Windblade while battling Decepticons on Earth.",
-    "has_live_streams": false
-  },
-  {
-    "slug": "war-for-cybertron",
-    "title": "War for Cybertron Trilogy",
-    "year_start": 2020,
-    "year_end": 2021,
-    "era": "modern",
-    "poster": "/images/series/war-for-cybertron-poster.jpg",
-    "faction_accent": "blue",
-    "tags": [
-      "Netflix",
-      "Mature",
-      "War"
-    ],
-    "episode_count": 18,
-    "season_count": 3,
-    "synopsis": "The final days of the war on Cybertron unfold across three chapters — Siege, Earthrise, and Kingdom — as Autobots and Decepticons fight for their world.",
-    "has_live_streams": false
-  },
-  {
-    "slug": "botbots",
-    "title": "Transformers: BotBots",
-    "year_start": 2022,
-    "year_end": 2022,
-    "era": "modern",
-    "poster": "/images/series/botbots-poster.jpg",
-    "faction_accent": "red",
-    "tags": [
-      "Comedy",
-      "Kids",
-      "Short-form"
-    ],
-    "episode_count": 52,
-    "season_count": 2,
-    "synopsis": "Everyday objects in a shopping mall come to life as tiny BotBots, having hilarious misadventures while trying not to be discovered by humans.",
-    "has_live_streams": false
-  },
-  {
-    "slug": "earthspark",
-    "title": "Transformers: EarthSpark",
-    "year_start": 2022,
-    "year_end": 2024,
-    "era": "modern",
-    "poster": "/images/series/earthspark-poster.jpg",
-    "faction_accent": "red",
-    "tags": [
-      "Action",
-      "Family",
-      "New Generation"
-    ],
-    "episode_count": 52,
-    "season_count": 2,
-    "synopsis": "The Malto family bonds with Terran-born Transformers — the first Transformers born on Earth — in a new chapter of the ongoing story.",
     "has_live_streams": false
   }
 ]
