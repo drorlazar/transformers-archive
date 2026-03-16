@@ -6,7 +6,15 @@
   "era": "aligned",
   "synopsis": "Set after the events of Transformers: Prime, Bumblebee is summoned back to Earth by a vision of Optimus Prime when the Decepticon prison ship Alchemor crash-lands on the planet. Leading a ragtag team of Autobots including a rebellious Sideswipe, a by-the-book cadet Strongarm, and a reformed Dinobot Grimlock, Bumblebee must recapture the escaped Decepticon fugitives while learning what it means to be a true leader.",
   "rating": "TV-Y7",
-  "tags": ["CGI", "action", "comedy", "Cartoon Network", "Aligned Continuity", "sequel to Prime", "Polygon Pictures"],
+  "tags": [
+    "CGI",
+    "action",
+    "comedy",
+    "Cartoon Network",
+    "Aligned Continuity",
+    "sequel to Prime",
+    "Polygon Pictures"
+  ],
   "poster": "/images/series/robots-in-disguise-2015-poster.jpg",
   "hero_image": "/images/series/robots-in-disguise-2015-hero.jpg",
   "faction_accent": "yellow",
@@ -15,113 +23,1056 @@
       "number": 1,
       "year": 2015,
       "episodes": [
-        { "number": 1, "title": "Pilot (Part 1)", "air_date": "2015-03-14", "duration": "22m", "video_url": null, "synopsis": "A vision of Optimus Prime leads Bumblebee back to Earth, where the prison ship Alchemor has crashed, releasing Decepticon prisoners." },
-        { "number": 2, "title": "Pilot (Part 2)", "air_date": "2015-03-14", "duration": "22m", "video_url": null, "synopsis": "Bumblebee assembles an unlikely team to recapture the fugitive Underbite before he devours an entire city." },
-        { "number": 3, "title": "Trust Exercises", "air_date": "2015-03-21", "duration": "22m", "video_url": null, "synopsis": "The team struggles with trust issues while pursuing a Decepticon fugitive." },
-        { "number": 4, "title": "More than Meets the Eye", "air_date": "2015-03-28", "duration": "22m", "video_url": null, "synopsis": "Bumblebee's team discovers that some fugitives are more dangerous than they appear." },
-        { "number": 5, "title": "W.W.O.D.?", "air_date": "2015-04-04", "duration": "22m", "video_url": null, "synopsis": "Bumblebee asks himself 'What Would Optimus Do?' as he faces a leadership challenge." },
-        { "number": 6, "title": "As the Kospego Commands!", "air_date": "2015-04-11", "duration": "22m", "video_url": null, "synopsis": "Thunderhoof attempts to build a criminal empire on Earth using his Decepticon powers." },
-        { "number": 7, "title": "Collect 'Em All", "air_date": "2015-04-18", "duration": "22m", "video_url": null, "synopsis": "A Decepticon collector captures Transformers and other creatures as living trophies." },
-        { "number": 8, "title": "True Colors", "air_date": "2015-04-25", "duration": "22m", "video_url": null, "synopsis": "The team faces a chameleon-like Decepticon that can disguise itself as anything." },
-        { "number": 9, "title": "Rumble in the Jungle", "air_date": "2015-05-02", "duration": "22m", "video_url": null, "synopsis": "A mission in a dense jungle pits the team against a powerful beast-mode Decepticon." },
-        { "number": 10, "title": "Can You Dig It?", "air_date": "2015-05-09", "duration": "22m", "video_url": null, "synopsis": "An underground Decepticon threatens to cause sinkholes across the region." },
-        { "number": 11, "title": "Adventures in Bumblebee-Sitting!", "air_date": "2015-05-16", "duration": "22m", "video_url": null, "synopsis": "Bumblebee is incapacitated and the team must operate without their leader." },
-        { "number": 12, "title": "Hunting Season", "air_date": "2015-05-23", "duration": "22m", "video_url": null, "synopsis": "Bounty hunter Drift arrives on Earth pursuing Decepticon fugitives with his own methods." },
-        { "number": 13, "title": "Out of Focus", "air_date": "2015-05-30", "duration": "22m", "video_url": null, "synopsis": "A Decepticon with hypnotic powers puts the team in a trance." },
-        { "number": 14, "title": "Sideways", "air_date": "2015-06-06", "duration": "22m", "video_url": null, "synopsis": "A Decepticon with dimensional-shifting abilities proves nearly impossible to catch." },
-        { "number": 15, "title": "Even Robots Have Nightmares", "air_date": "2015-06-13", "duration": "22m", "video_url": null, "synopsis": "A fear-inducing Decepticon traps the team in their worst nightmares." },
-        { "number": 16, "title": "Some Body, Any Body", "air_date": "2015-06-20", "duration": "22m", "video_url": null, "synopsis": "A body-swapping incident shuffles the team's minds into each other's bodies." },
-        { "number": 17, "title": "One of Our Mini-Cons Is Missing", "air_date": "2015-06-27", "duration": "22m", "video_url": null, "synopsis": "Fixit goes missing and the team must track down their Mini-Con companion." },
-        { "number": 18, "title": "Deep Trouble", "air_date": "2015-07-04", "duration": "22m", "video_url": null, "synopsis": "An underwater Decepticon threatens a coastal community from the ocean depths." },
-        { "number": 19, "title": "The Champ", "air_date": "2015-07-11", "duration": "22m", "video_url": null, "synopsis": "Grimlock enters a fighting competition that turns out to be a Decepticon trap." },
-        { "number": 20, "title": "The Trouble with Fixit", "air_date": "2015-07-18", "duration": "22m", "video_url": null, "synopsis": "Fixit's glitches worsen and the team must fix him before he causes a catastrophe." },
-        { "number": 21, "title": "Lockout", "air_date": "2015-07-25", "duration": "22m", "video_url": null, "synopsis": "The team is locked out of their own base and must find a way back in." },
-        { "number": 22, "title": "Similarly Different", "air_date": "2015-08-08", "duration": "22m", "video_url": null, "synopsis": "Two very different Decepticons team up, forcing the Autobots to find common ground." },
-        { "number": 23, "title": "The Buzz on Windblade", "air_date": "2015-08-15", "duration": "22m", "video_url": null, "synopsis": "The mysterious Autobot warrior Windblade arrives with urgent news from Cybertron." },
-        { "number": 24, "title": "Ghosts and Impostors", "air_date": "2015-08-22", "duration": "22m", "video_url": null, "synopsis": "A shapeshifting Decepticon impersonates team members, sowing distrust among the Autobots." },
-        { "number": 25, "title": "Battlegrounds, Part 1", "air_date": "2015-09-12", "duration": "22m", "video_url": null, "synopsis": "Megatronus the Fallen enacts his plan to destroy both Earth and Cybertron using the fugitives as pawns." },
-        { "number": 26, "title": "Battlegrounds, Part 2", "air_date": "2015-09-12", "duration": "22m", "video_url": null, "synopsis": "The Autobots make a final stand against Megatronus. Optimus Prime returns to help defeat the ancient threat." }
+        {
+          "number": 1,
+          "title": "Pilot (Part 1)",
+          "air_date": "2015-03-14",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A vision of Optimus Prime leads Bumblebee back to Earth, where the prison ship Alchemor has crashed, releasing Decepticon prisoners.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=8rnfS4mRP6c",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 2,
+          "title": "Pilot (Part 2)",
+          "air_date": "2015-03-14",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Bumblebee assembles an unlikely team to recapture the fugitive Underbite before he devours an entire city.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=9cHxE0lppWI",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 3,
+          "title": "Trust Exercises",
+          "air_date": "2015-03-21",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The team struggles with trust issues while pursuing a Decepticon fugitive.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=EcymYcPlsyg",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 4,
+          "title": "More than Meets the Eye",
+          "air_date": "2015-03-28",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Bumblebee's team discovers that some fugitives are more dangerous than they appear.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=aYz3ExGpG0I",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 5,
+          "title": "W.W.O.D.?",
+          "air_date": "2015-04-04",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Bumblebee asks himself 'What Would Optimus Do?' as he faces a leadership challenge.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=6efASSCZZrI",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 6,
+          "title": "As the Kospego Commands!",
+          "air_date": "2015-04-11",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Thunderhoof attempts to build a criminal empire on Earth using his Decepticon powers.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=3j4niw099Uc",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 7,
+          "title": "Collect 'Em All",
+          "air_date": "2015-04-18",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A Decepticon collector captures Transformers and other creatures as living trophies.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=Gm7Yv7IbbVY",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 8,
+          "title": "True Colors",
+          "air_date": "2015-04-25",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The team faces a chameleon-like Decepticon that can disguise itself as anything.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=FUuzDdfrPa0",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 9,
+          "title": "Rumble in the Jungle",
+          "air_date": "2015-05-02",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A mission in a dense jungle pits the team against a powerful beast-mode Decepticon.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=LHyNEOIgmy0",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 10,
+          "title": "Can You Dig It?",
+          "air_date": "2015-05-09",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "An underground Decepticon threatens to cause sinkholes across the region.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=qmbTbdIQbkg",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 11,
+          "title": "Adventures in Bumblebee-Sitting!",
+          "air_date": "2015-05-16",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Bumblebee is incapacitated and the team must operate without their leader.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=iJZAGgiDvg4",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 12,
+          "title": "Hunting Season",
+          "air_date": "2015-05-23",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Bounty hunter Drift arrives on Earth pursuing Decepticon fugitives with his own methods.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=xNo8Tzz_hJ8",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 13,
+          "title": "Out of Focus",
+          "air_date": "2015-05-30",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A Decepticon with hypnotic powers puts the team in a trance.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=9RGoWX5c0J8",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 14,
+          "title": "Sideways",
+          "air_date": "2015-06-06",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A Decepticon with dimensional-shifting abilities proves nearly impossible to catch.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=4LrQm6KrVOI",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 15,
+          "title": "Even Robots Have Nightmares",
+          "air_date": "2015-06-13",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A fear-inducing Decepticon traps the team in their worst nightmares.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=4iTv9pWi7sU",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 16,
+          "title": "Some Body, Any Body",
+          "air_date": "2015-06-20",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A body-swapping incident shuffles the team's minds into each other's bodies.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=JhiGonH4ZhE",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 17,
+          "title": "One of Our Mini-Cons Is Missing",
+          "air_date": "2015-06-27",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Fixit goes missing and the team must track down their Mini-Con companion.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=eyab8QFfkVE",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 18,
+          "title": "Deep Trouble",
+          "air_date": "2015-07-04",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "An underwater Decepticon threatens a coastal community from the ocean depths.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=lV-nI0c1yHI",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 19,
+          "title": "The Champ",
+          "air_date": "2015-07-11",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Grimlock enters a fighting competition that turns out to be a Decepticon trap.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=wwqmCejrWos",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 20,
+          "title": "The Trouble with Fixit",
+          "air_date": "2015-07-18",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Fixit's glitches worsen and the team must fix him before he causes a catastrophe.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=PEz0S0Ci144",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 21,
+          "title": "Lockout",
+          "air_date": "2015-07-25",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The team is locked out of their own base and must find a way back in.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=6-cvtfQlPM0",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 22,
+          "title": "Similarly Different",
+          "air_date": "2015-08-08",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Two very different Decepticons team up, forcing the Autobots to find common ground.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=51XrOzr6ioA",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 23,
+          "title": "The Buzz on Windblade",
+          "air_date": "2015-08-15",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The mysterious Autobot warrior Windblade arrives with urgent news from Cybertron.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=3XAW28volDw",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 24,
+          "title": "Ghosts and Impostors",
+          "air_date": "2015-08-22",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A shapeshifting Decepticon impersonates team members, sowing distrust among the Autobots.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=5g3B1yOoSNs",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 25,
+          "title": "Battlegrounds, Part 1",
+          "air_date": "2015-09-12",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Megatronus the Fallen enacts his plan to destroy both Earth and Cybertron using the fugitives as pawns.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=8VinBDVW9JY",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 26,
+          "title": "Battlegrounds, Part 2",
+          "air_date": "2015-09-12",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Autobots make a final stand against Megatronus. Optimus Prime returns to help defeat the ancient threat.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=Qx2YdfsLUsg",
+            "dailymotion": null,
+            "other": null
+          }
+        }
       ]
     },
     {
       "number": 2,
       "year": 2016,
       "episodes": [
-        { "number": 1, "title": "Overloaded, Part 1", "air_date": "2016-02-20", "duration": "22m", "video_url": null, "synopsis": "Optimus Prime merges with his Decepticon Hunter to gain a powerful new form as a new threat emerges." },
-        { "number": 2, "title": "Overloaded, Part 2", "air_date": "2016-02-20", "duration": "22m", "video_url": null, "synopsis": "The team must stop the Decepticon Overload while Optimus masters his enhanced abilities." },
-        { "number": 3, "title": "Metal Meltdown", "air_date": "2016-02-27", "duration": "22m", "video_url": null, "synopsis": "A heat-generating Decepticon threatens to melt everything in its path." },
-        { "number": 4, "title": "Suspended", "air_date": "2016-03-05", "duration": "22m", "video_url": null, "synopsis": "Strongarm is temporarily suspended from duty and must prove herself worthy of the team." },
-        { "number": 5, "title": "Cover Me", "air_date": "2016-03-12", "duration": "22m", "video_url": null, "synopsis": "An undercover mission requires the team to adopt new disguises." },
-        { "number": 6, "title": "Brainpower", "air_date": "2016-03-19", "duration": "22m", "video_url": null, "synopsis": "A super-intelligent Decepticon outwits the team at every turn." },
-        { "number": 7, "title": "Misdirection", "air_date": "2016-03-26", "duration": "22m", "video_url": null, "synopsis": "A magician-themed Decepticon uses illusions to evade capture." },
-        { "number": 8, "title": "Bumblebee's Night Off", "air_date": "2016-04-02", "duration": "22m", "video_url": null, "synopsis": "Bumblebee tries to take a night off but gets pulled into an unexpected adventure." },
-        { "number": 9, "title": "Impounded", "air_date": "2016-04-16", "duration": "22m", "video_url": null, "synopsis": "The Autobots' vehicle modes are impounded, leaving them stranded in robot mode." },
-        { "number": 10, "title": "Portals", "air_date": "2016-04-23", "duration": "22m", "video_url": null, "synopsis": "Interdimensional portals open across the scrapyard, scattering the team across locations." },
-        { "number": 11, "title": "Graduation Exercises", "air_date": "2016-05-14", "duration": "22m", "video_url": null, "synopsis": "Strongarm faces a final test to graduate from cadet to full officer." },
-        { "number": 12, "title": "Decepticon Island (Part 1)", "air_date": "2016-06-25", "duration": "22m", "video_url": null, "synopsis": "The team discovers an island fortress where Steeljaw has assembled an army of Decepticon fugitives." },
-        { "number": 13, "title": "Decepticon Island (Part 2)", "air_date": "2016-06-25", "duration": "22m", "video_url": null, "synopsis": "The Autobots launch a massive assault on Decepticon Island to end Steeljaw's rebellion once and for all." }
+        {
+          "number": 1,
+          "title": "Overloaded, Part 1",
+          "air_date": "2016-02-20",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Optimus Prime merges with his Decepticon Hunter to gain a powerful new form as a new threat emerges.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=KZqQvgQ2qds",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 2,
+          "title": "Overloaded, Part 2",
+          "air_date": "2016-02-20",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The team must stop the Decepticon Overload while Optimus masters his enhanced abilities.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=B7s37YlbHHE",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 3,
+          "title": "Metal Meltdown",
+          "air_date": "2016-02-27",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A heat-generating Decepticon threatens to melt everything in its path.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=saVwzelrlX0",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 4,
+          "title": "Suspended",
+          "air_date": "2016-03-05",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Strongarm is temporarily suspended from duty and must prove herself worthy of the team.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=gDR74xHl-OI",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 5,
+          "title": "Cover Me",
+          "air_date": "2016-03-12",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "An undercover mission requires the team to adopt new disguises.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=ENrAwsNfji0",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 6,
+          "title": "Brainpower",
+          "air_date": "2016-03-19",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A super-intelligent Decepticon outwits the team at every turn.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=eCcrebyKDDc",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 7,
+          "title": "Misdirection",
+          "air_date": "2016-03-26",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A magician-themed Decepticon uses illusions to evade capture.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=wzCZNHvuXi8",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 8,
+          "title": "Bumblebee's Night Off",
+          "air_date": "2016-04-02",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Bumblebee tries to take a night off but gets pulled into an unexpected adventure.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=_aYmKYa1y74",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 9,
+          "title": "Impounded",
+          "air_date": "2016-04-16",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Autobots' vehicle modes are impounded, leaving them stranded in robot mode.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=Pp9LK-m8TVo",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 10,
+          "title": "Portals",
+          "air_date": "2016-04-23",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Interdimensional portals open across the scrapyard, scattering the team across locations.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=kKZUQiLYMDU",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 11,
+          "title": "Graduation Exercises",
+          "air_date": "2016-05-14",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Strongarm faces a final test to graduate from cadet to full officer.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=hV7S_ofoFo4",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 12,
+          "title": "Decepticon Island (Part 1)",
+          "air_date": "2016-06-25",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The team discovers an island fortress where Steeljaw has assembled an army of Decepticon fugitives.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=Oz9QDz43fCI",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 13,
+          "title": "Decepticon Island (Part 2)",
+          "air_date": "2016-06-25",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Autobots launch a massive assault on Decepticon Island to end Steeljaw's rebellion once and for all.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=D3JtCq15hc0",
+            "dailymotion": null,
+            "other": null
+          }
+        }
       ]
     },
     {
       "number": 2.5,
       "year": 2017,
       "episodes": [
-        { "number": 1, "title": "History Lessons", "air_date": "2017-02-18", "duration": "22m", "video_url": null, "synopsis": "The team learns about ancient Cybertronian history that connects to current events on Earth." },
-        { "number": 2, "title": "Strongarm's Big Score", "air_date": "2017-02-18", "duration": "22m", "video_url": null, "synopsis": "Strongarm takes the lead on a mission to prove her capabilities as a full-fledged officer." },
-        { "number": 3, "title": "Pretzel Logic", "air_date": "2017-02-25", "duration": "22m", "video_url": null, "synopsis": "A convoluted Decepticon plan twists the team in circles." },
-        { "number": 4, "title": "Mighty Big Trouble", "air_date": "2017-03-04", "duration": "22m", "video_url": null, "synopsis": "Starscream arrives on Earth seeking powerful Mini-Con weapons in the first part of a three-part arc." },
-        { "number": 5, "title": "Mini-Con Madness", "air_date": "2017-03-11", "duration": "22m", "video_url": null, "synopsis": "The hunt for weaponized Mini-Cons intensifies as Starscream powers up." },
-        { "number": 6, "title": "Worthy", "air_date": "2017-03-18", "duration": "22m", "video_url": null, "synopsis": "The team must prove themselves worthy to defeat the powered-up Starscream and save Earth." }
+        {
+          "number": 1,
+          "title": "History Lessons",
+          "air_date": "2017-02-18",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The team learns about ancient Cybertronian history that connects to current events on Earth.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=ZJUsUTZnPLw",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 2,
+          "title": "Strongarm's Big Score",
+          "air_date": "2017-02-18",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Strongarm takes the lead on a mission to prove her capabilities as a full-fledged officer.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=SUy9lpurxUU",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 3,
+          "title": "Pretzel Logic",
+          "air_date": "2017-02-25",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A convoluted Decepticon plan twists the team in circles.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=WVBJmCu0u0w",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 4,
+          "title": "Mighty Big Trouble",
+          "air_date": "2017-03-04",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Starscream arrives on Earth seeking powerful Mini-Con weapons in the first part of a three-part arc.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=JTPNUn4zXUE",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 5,
+          "title": "Mini-Con Madness",
+          "air_date": "2017-03-11",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The hunt for weaponized Mini-Cons intensifies as Starscream powers up.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=fBT54SC7cWU",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 6,
+          "title": "Worthy",
+          "air_date": "2017-03-18",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The team must prove themselves worthy to defeat the powered-up Starscream and save Earth.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=wOedmKtCmpo",
+            "dailymotion": null,
+            "other": null
+          }
+        }
       ]
     },
     {
       "number": 3,
       "year": 2017,
       "episodes": [
-        { "number": 1, "title": "King of the Hill (Part 1)", "air_date": "2017-04-29", "duration": "22m", "video_url": null, "synopsis": "A new Decepticon threat emerges as Steeljaw escapes captivity and forms a dangerous alliance." },
-        { "number": 2, "title": "King of the Hill (Part 2)", "air_date": "2017-04-29", "duration": "22m", "video_url": null, "synopsis": "The team battles to reclaim their territory from the resurgent Decepticon forces." },
-        { "number": 3, "title": "Defrosted", "air_date": "2017-05-06", "duration": "22m", "video_url": null, "synopsis": "A frozen Decepticon thaws out and wreaks havoc with ice-based powers." },
-        { "number": 4, "title": "Blurred", "air_date": "2017-05-13", "duration": "22m", "video_url": null, "synopsis": "A speed-based Decepticon challenges Bumblebee to the ultimate race." },
-        { "number": 5, "title": "Sphere of Influence", "air_date": "2017-05-20", "duration": "22m", "video_url": null, "synopsis": "A mysterious sphere grants a Decepticon incredible gravitational powers." },
-        { "number": 6, "title": "Bee Cool", "air_date": "2017-05-27", "duration": "22m", "video_url": null, "synopsis": "Bumblebee tries to play it cool while dealing with a particularly annoying Decepticon." },
-        { "number": 7, "title": "The Great Divide", "air_date": "2017-06-03", "duration": "22m", "video_url": null, "synopsis": "A rift within the team threatens to divide the Autobots at the worst possible time." },
-        { "number": 8, "title": "Get a Clue", "air_date": "2017-06-10", "duration": "22m", "video_url": null, "synopsis": "The team must solve a mystery to track down a cunning Decepticon fugitive." },
-        { "number": 9, "title": "Out of the Shadows", "air_date": "2017-06-17", "duration": "22m", "video_url": null, "synopsis": "Shadow Raker, a shadowy Decepticon, attacks from the darkness using stealth tactics." },
-        { "number": 10, "title": "Disordered Personalities", "air_date": "2017-06-24", "duration": "22m", "video_url": null, "synopsis": "The team's personalities are scrambled by a Decepticon device, causing chaos." },
-        { "number": 11, "title": "Guilty As Charged", "air_date": "2017-07-01", "duration": "22m", "video_url": null, "synopsis": "One of the team members is framed for a crime they did not commit." },
-        { "number": 12, "title": "The Golden Knight", "air_date": "2017-07-08", "duration": "22m", "video_url": null, "synopsis": "An ancient Cybertronian knight emerges with a connection to Earth's medieval past." },
-        { "number": 13, "title": "The Fastest Bot Alive!", "air_date": "2017-07-15", "duration": "22m", "video_url": null, "synopsis": "A race determines who truly is the fastest Transformer on Earth." },
-        { "number": 14, "title": "Railroad Rage", "air_date": "2017-08-05", "duration": "22m", "video_url": null, "synopsis": "A Decepticon takes control of a freight train, endangering passengers and cargo." },
-        { "number": 15, "title": "Combine and Conquer", "air_date": "2017-08-12", "duration": "22m", "video_url": null, "synopsis": "The Stunticons combine into Menasor, and the Autobots must find a way to form their own combiner." },
-        { "number": 16, "title": "Moon Breaker", "air_date": "2017-08-19", "duration": "22m", "video_url": null, "synopsis": "A Decepticon scheme threatens to destabilize the Moon's orbit around Earth." },
-        { "number": 17, "title": "Exiles", "air_date": "2017-09-02", "duration": "22m", "video_url": null, "synopsis": "Autobot exiles from Cybertron arrive with warnings of a greater threat approaching." },
-        { "number": 18, "title": "Breathing Room", "air_date": "2017-09-09", "duration": "22m", "video_url": null, "synopsis": "The team is trapped in an enclosed space with a dwindling air supply." },
-        { "number": 19, "title": "Prepare for Departure", "air_date": "2017-09-16", "duration": "22m", "video_url": null, "synopsis": "The team prepares for what may be a one-way trip as the final battle approaches." },
-        { "number": 20, "title": "Prisoner Principles", "air_date": "2017-09-30", "duration": "22m", "video_url": null, "synopsis": "The ethical treatment of Decepticon prisoners raises difficult questions for the team." },
-        { "number": 21, "title": "Collateral Damage", "air_date": "2017-10-07", "duration": "22m", "video_url": null, "synopsis": "The consequences of battle catch up with the team as collateral damage mounts." },
-        { "number": 22, "title": "Something He Ate", "air_date": "2017-10-14", "duration": "22m", "video_url": null, "synopsis": "Grimlock ingests something dangerous that gives him unpredictable new abilities." },
-        { "number": 23, "title": "Sick as a Bot", "air_date": "2017-10-21", "duration": "22m", "video_url": null, "synopsis": "A Cybertronian virus spreads through the team, weakening them before a critical mission." },
-        { "number": 24, "title": "Five Fugitives", "air_date": "2017-10-28", "duration": "22m", "video_url": null, "synopsis": "Five remaining Decepticon fugitives unite for a coordinated attack on the Autobots." },
-        { "number": 25, "title": "Enemy of My Enemy", "air_date": "2017-11-04", "duration": "22m", "video_url": null, "synopsis": "Cyclonus arrives as the ultimate threat, forcing unlikely alliances in the penultimate episode." },
-        { "number": 26, "title": "Freedom Fighters", "air_date": "2017-11-11", "duration": "22m", "video_url": null, "synopsis": "In the series finale, Bumblebee's team faces Cyclonus in a final battle to protect Earth and prove themselves as true Autobot heroes." }
+        {
+          "number": 1,
+          "title": "King of the Hill (Part 1)",
+          "air_date": "2017-04-29",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A new Decepticon threat emerges as Steeljaw escapes captivity and forms a dangerous alliance.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=BnB0xSMT4zM",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 2,
+          "title": "King of the Hill (Part 2)",
+          "air_date": "2017-04-29",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The team battles to reclaim their territory from the resurgent Decepticon forces.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=lAmf7OShLoQ",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 3,
+          "title": "Defrosted",
+          "air_date": "2017-05-06",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A frozen Decepticon thaws out and wreaks havoc with ice-based powers.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=X9l-bNB2D-c",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 4,
+          "title": "Blurred",
+          "air_date": "2017-05-13",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A speed-based Decepticon challenges Bumblebee to the ultimate race.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=Pi0aTDLeYaM",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 5,
+          "title": "Sphere of Influence",
+          "air_date": "2017-05-20",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A mysterious sphere grants a Decepticon incredible gravitational powers.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=Kq0R8wRtNy4",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 6,
+          "title": "Bee Cool",
+          "air_date": "2017-05-27",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Bumblebee tries to play it cool while dealing with a particularly annoying Decepticon.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=JCnbaNXWGng",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 7,
+          "title": "The Great Divide",
+          "air_date": "2017-06-03",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A rift within the team threatens to divide the Autobots at the worst possible time.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=QMAFkpuk24M",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 8,
+          "title": "Get a Clue",
+          "air_date": "2017-06-10",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The team must solve a mystery to track down a cunning Decepticon fugitive.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=4diJ1VJL7HI",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 9,
+          "title": "Out of the Shadows",
+          "air_date": "2017-06-17",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Shadow Raker, a shadowy Decepticon, attacks from the darkness using stealth tactics.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=wZbCN1OcifA",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 10,
+          "title": "Disordered Personalities",
+          "air_date": "2017-06-24",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The team's personalities are scrambled by a Decepticon device, causing chaos.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=xdA3l5qhI8k",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 11,
+          "title": "Guilty As Charged",
+          "air_date": "2017-07-01",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "One of the team members is framed for a crime they did not commit.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=xrO3EILzPFE",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 12,
+          "title": "The Golden Knight",
+          "air_date": "2017-07-08",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "An ancient Cybertronian knight emerges with a connection to Earth's medieval past.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=UY4rmOS1p9I",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 13,
+          "title": "The Fastest Bot Alive!",
+          "air_date": "2017-07-15",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A race determines who truly is the fastest Transformer on Earth.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=N8yiUIQRKVI",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 14,
+          "title": "Railroad Rage",
+          "air_date": "2017-08-05",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A Decepticon takes control of a freight train, endangering passengers and cargo.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=U5Yl1pJadMA",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 15,
+          "title": "Combine and Conquer",
+          "air_date": "2017-08-12",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Stunticons combine into Menasor, and the Autobots must find a way to form their own combiner.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=xlAAe-mZs6g",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 16,
+          "title": "Moon Breaker",
+          "air_date": "2017-08-19",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A Decepticon scheme threatens to destabilize the Moon's orbit around Earth.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=kPx1Hi-FZ5I",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 17,
+          "title": "Exiles",
+          "air_date": "2017-09-02",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Autobot exiles from Cybertron arrive with warnings of a greater threat approaching.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=uRnELTaHE38",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 18,
+          "title": "Breathing Room",
+          "air_date": "2017-09-09",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The team is trapped in an enclosed space with a dwindling air supply.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=z5KwrrM9wlY",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 19,
+          "title": "Prepare for Departure",
+          "air_date": "2017-09-16",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The team prepares for what may be a one-way trip as the final battle approaches.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=ChKx9cmPC0g",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 20,
+          "title": "Prisoner Principles",
+          "air_date": "2017-09-30",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The ethical treatment of Decepticon prisoners raises difficult questions for the team.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=4DR9sqfDn3g",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 21,
+          "title": "Collateral Damage",
+          "air_date": "2017-10-07",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The consequences of battle catch up with the team as collateral damage mounts.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=9VeLHRmZmLc",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 22,
+          "title": "Something He Ate",
+          "air_date": "2017-10-14",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Grimlock ingests something dangerous that gives him unpredictable new abilities.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=Ah_sV-FfPe0",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 23,
+          "title": "Sick as a Bot",
+          "air_date": "2017-10-21",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A Cybertronian virus spreads through the team, weakening them before a critical mission.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=dvGUS7PwtfE",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 24,
+          "title": "Five Fugitives",
+          "air_date": "2017-10-28",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Five remaining Decepticon fugitives unite for a coordinated attack on the Autobots.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=m4mUpEvWmo0",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 25,
+          "title": "Enemy of My Enemy",
+          "air_date": "2017-11-04",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Cyclonus arrives as the ultimate threat, forcing unlikely alliances in the penultimate episode.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=nQy9b8o2Qz0",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 26,
+          "title": "Freedom Fighters",
+          "air_date": "2017-11-11",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "In the series finale, Bumblebee's team faces Cyclonus in a final battle to protect Earth and prove themselves as true Autobot heroes.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=cWNU-vecv4A",
+            "dailymotion": null,
+            "other": null
+          }
+        }
       ]
     }
   ],
   "characters": [
-    { "name": "Bumblebee", "role": "Team Leader", "faction": "Autobot", "alt_mode": "Sports car", "voice_actor": "Will Friedle", "image": null },
-    { "name": "Strongarm", "role": "Cadet / Officer", "faction": "Autobot", "alt_mode": "Police SUV", "voice_actor": "Constance Zimmer", "image": null },
-    { "name": "Sideswipe", "role": "Rebellious Warrior", "faction": "Autobot", "alt_mode": "Sports car", "voice_actor": "Darren Criss", "image": null },
-    { "name": "Grimlock", "role": "Dinobot Bruiser", "faction": "Autobot", "alt_mode": "Tyrannosaurus Rex", "voice_actor": "Khary Payton", "image": null },
-    { "name": "Fixit", "role": "Mini-Con Caretaker", "faction": "Autobot", "alt_mode": "Toolbox", "voice_actor": "Mitchell Whitfield", "image": null },
-    { "name": "Drift", "role": "Bounty Hunter", "faction": "Autobot", "alt_mode": "Sports car", "voice_actor": "Eric Bauza", "image": null },
-    { "name": "Windblade", "role": "Warrior", "faction": "Autobot", "alt_mode": "VTOL jet", "voice_actor": "Kristy Wu", "image": null },
-    { "name": "Optimus Prime", "role": "Autobot Leader", "faction": "Autobot", "alt_mode": "Truck", "voice_actor": "Peter Cullen", "image": null },
-    { "name": "Steeljaw", "role": "Primary Antagonist", "faction": "Decepticon", "alt_mode": "Wolf / SUV", "voice_actor": "Troy Baker", "image": null },
-    { "name": "Denny Clay", "role": "Human Ally", "faction": "Human", "alt_mode": null, "voice_actor": "Ted McGinley", "image": null },
-    { "name": "Russell Clay", "role": "Human Ally", "faction": "Human", "alt_mode": null, "voice_actor": "Stuart Allan", "image": null },
-    { "name": "Jazz", "role": "Autobot Warrior", "faction": "Autobot", "alt_mode": "Sports car", "voice_actor": "Arif S. Kinchen", "image": null }
+    {
+      "name": "Bumblebee",
+      "role": "Team Leader",
+      "faction": "Autobot",
+      "alt_mode": "Sports car",
+      "voice_actor": "Will Friedle",
+      "image": "/images/characters/prime-bumblebee.jpg"
+    },
+    {
+      "name": "Strongarm",
+      "role": "Cadet / Officer",
+      "faction": "Autobot",
+      "alt_mode": "Police SUV",
+      "voice_actor": "Constance Zimmer",
+      "image": "/images/characters/robots-in-disguise-2015-strongarm.jpg"
+    },
+    {
+      "name": "Sideswipe",
+      "role": "Rebellious Warrior",
+      "faction": "Autobot",
+      "alt_mode": "Sports car",
+      "voice_actor": "Darren Criss",
+      "image": "/images/characters/robots-in-disguise-2015-sideswipe.jpg"
+    },
+    {
+      "name": "Grimlock",
+      "role": "Dinobot Bruiser",
+      "faction": "Autobot",
+      "alt_mode": "Tyrannosaurus Rex",
+      "voice_actor": "Khary Payton",
+      "image": "/images/characters/robots-in-disguise-2015-grimlock.jpg"
+    },
+    {
+      "name": "Fixit",
+      "role": "Mini-Con Caretaker",
+      "faction": "Autobot",
+      "alt_mode": "Toolbox",
+      "voice_actor": "Mitchell Whitfield",
+      "image": "/images/characters/robots-in-disguise-2015-fixit.jpg"
+    },
+    {
+      "name": "Drift",
+      "role": "Bounty Hunter",
+      "faction": "Autobot",
+      "alt_mode": "Sports car",
+      "voice_actor": "Eric Bauza",
+      "image": "/images/characters/robots-in-disguise-2015-drift.jpg"
+    },
+    {
+      "name": "Windblade",
+      "role": "Warrior",
+      "faction": "Autobot",
+      "alt_mode": "VTOL jet",
+      "voice_actor": "Kristy Wu",
+      "image": "/images/characters/cyberverse-windblade.jpg"
+    },
+    {
+      "name": "Optimus Prime",
+      "role": "Autobot Leader",
+      "faction": "Autobot",
+      "alt_mode": "Truck",
+      "voice_actor": "Peter Cullen",
+      "image": "/images/characters/prime-optimus-prime.jpg"
+    },
+    {
+      "name": "Steeljaw",
+      "role": "Primary Antagonist",
+      "faction": "Decepticon",
+      "alt_mode": "Wolf / SUV",
+      "voice_actor": "Troy Baker",
+      "image": "/images/characters/robots-in-disguise-2015-steeljaw.jpg"
+    },
+    {
+      "name": "Denny Clay",
+      "role": "Human Ally",
+      "faction": "Human",
+      "alt_mode": null,
+      "voice_actor": "Ted McGinley",
+      "image": null
+    },
+    {
+      "name": "Russell Clay",
+      "role": "Human Ally",
+      "faction": "Human",
+      "alt_mode": null,
+      "voice_actor": "Stuart Allan",
+      "image": null
+    },
+    {
+      "name": "Jazz",
+      "role": "Autobot Warrior",
+      "faction": "Autobot",
+      "alt_mode": "Sports car",
+      "voice_actor": "Arif S. Kinchen",
+      "image": "/images/characters/g1-jazz.jpg"
+    }
   ],
-  "media": [],
+  "media": [
+    {
+      "title": "Transformers Video - Telegram",
+      "url": "https://t.me/TransformersVideo",
+      "source": "telegram",
+      "type": "community"
+    }
+  ],
   "trivia": [
     {
       "category": "Production",

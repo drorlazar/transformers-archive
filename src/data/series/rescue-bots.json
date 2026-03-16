@@ -814,7 +814,7 @@
       "faction": "Autobot",
       "alt_mode": "Fire truck",
       "voice_actor": "Steve Blum",
-      "image": null
+      "image": "/images/characters/rescue-bots-heatwave.jpg"
     },
     {
       "name": "Chase",
@@ -822,7 +822,7 @@
       "faction": "Autobot",
       "alt_mode": "Police car",
       "voice_actor": "D.C. Douglas",
-      "image": null
+      "image": "/images/characters/rescue-bots-chase.jpg"
     },
     {
       "name": "Boulder",
@@ -830,7 +830,7 @@
       "faction": "Autobot",
       "alt_mode": "Bulldozer",
       "voice_actor": "Imari Williams",
-      "image": null
+      "image": "/images/characters/rescue-bots-boulder.jpg"
     },
     {
       "name": "Blades",
@@ -838,7 +838,7 @@
       "faction": "Autobot",
       "alt_mode": "Helicopter",
       "voice_actor": "Parvesh Cheena",
-      "image": null
+      "image": "/images/characters/rescue-bots-blades.jpg"
     },
     {
       "name": "Cody Burns",
@@ -846,7 +846,7 @@
       "faction": "Human",
       "alt_mode": null,
       "voice_actor": "Elan Garfias",
-      "image": null
+      "image": "/images/characters/rescue-bots-cody-burns.jpg"
     },
     {
       "name": "Charlie Burns",
@@ -854,7 +854,7 @@
       "faction": "Human",
       "alt_mode": null,
       "voice_actor": "Maurice LaMarche",
-      "image": null
+      "image": "/images/characters/rescue-bots-charlie-burns.jpg"
     },
     {
       "name": "Kade Burns",
@@ -886,7 +886,7 @@
       "faction": "Autobot",
       "alt_mode": "Truck",
       "voice_actor": "Peter Cullen",
-      "image": null
+      "image": "/images/characters/g1-optimus-prime.jpg"
     },
     {
       "name": "Doc Greene",
@@ -929,6 +929,12 @@
       "url": "https://www.youtube.com/playlist?list=PLylZmVBtpZtyWakVGVadVGlAnUDp5Zlk0",
       "source": "youtube",
       "type": "playlist"
+    },
+    {
+      "title": "Transformers Video - Telegram",
+      "url": "https://t.me/TransformersVideo",
+      "source": "telegram",
+      "type": "community"
     }
   ],
   "trivia": [

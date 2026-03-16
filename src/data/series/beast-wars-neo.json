@@ -6,7 +6,11 @@
   "era": "beast",
   "synopsis": "Big Convoy, a powerful but solitary Maximal warrior, is assigned to train a team of young cadets while competing against the Predacon general Magmatron to collect Angolmois Capsules scattered across the galaxy. A mysterious third faction, the Blentrons, serves the cosmic devil Unicron.",
   "rating": "TV-Y7",
-  "tags": ["Japanese", "Action", "Beast"],
+  "tags": [
+    "Japanese",
+    "Action",
+    "Beast"
+  ],
   "poster": "/images/series/beast-wars-neo-poster.jpg",
   "hero_image": "/images/series/beast-wars-neo-hero.jpg",
   "faction_accent": "red",
@@ -22,7 +26,11 @@
           "air_date": "1999-02-03",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=92hlfdgvb3I",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 2,
@@ -31,7 +39,11 @@
           "air_date": "1999-02-10",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=4qjfx2erZ5M",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 3,
@@ -40,7 +52,11 @@
           "air_date": "1999-02-17",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=uT_G_uU1iMg",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 4,
@@ -49,7 +65,11 @@
           "air_date": "1999-02-24",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=zqoXlzUuzgU",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 5,
@@ -58,7 +78,11 @@
           "air_date": "1999-03-03",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=9gWOMBt6Fws",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 6,
@@ -67,7 +91,11 @@
           "air_date": "1999-03-10",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=559kAlOqmDs",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 7,
@@ -76,7 +104,11 @@
           "air_date": "1999-03-17",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=LvNARbpm9Bs",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 8,
@@ -85,7 +117,11 @@
           "air_date": "1999-03-24",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=3xHC1GNTXU4",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 9,
@@ -94,7 +130,11 @@
           "air_date": "1999-03-31",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=FdlfsESCtlM",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 10,
@@ -103,7 +143,11 @@
           "air_date": "1999-04-07",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=GPxmGjjGDys",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 11,
@@ -112,7 +156,11 @@
           "air_date": "1999-04-14",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=j9iQ3w0xUpA",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 12,
@@ -121,7 +169,11 @@
           "air_date": "1999-04-21",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=rXvnm4IaBJc",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 13,
@@ -130,7 +182,11 @@
           "air_date": "1999-04-28",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=ETmE7J-J8X0",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 14,
@@ -139,7 +195,11 @@
           "air_date": "1999-05-05",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=xUU4hVOnJQk",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 15,
@@ -148,7 +208,11 @@
           "air_date": "1999-05-12",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=DeOuL83ZnB4",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 16,
@@ -157,7 +221,11 @@
           "air_date": "1999-05-19",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=PkN_8YPhSHA",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 17,
@@ -166,7 +234,11 @@
           "air_date": "1999-05-26",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=zKADQFQH4P0",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 18,
@@ -175,7 +247,11 @@
           "air_date": "1999-06-02",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=t8mEi7UJbFk",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 19,
@@ -184,7 +260,11 @@
           "air_date": "1999-06-09",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=r0Uh9LBbeTs",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 20,
@@ -193,7 +273,11 @@
           "air_date": "1999-06-16",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=GG8ffeqmmZE",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 21,
@@ -202,7 +286,11 @@
           "air_date": "1999-06-23",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=aa7qisJ73xA",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 22,
@@ -211,7 +299,11 @@
           "air_date": "1999-06-30",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=70iMZmAwbLc",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 23,
@@ -220,7 +312,11 @@
           "air_date": "1999-07-07",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=Py7vZ2fX4EU",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 24,
@@ -229,7 +325,11 @@
           "air_date": "1999-07-14",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=6jC5GEwjLSY",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 25,
@@ -238,7 +338,11 @@
           "air_date": "1999-07-21",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=iVe1tpb01FY",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 26,
@@ -247,7 +351,11 @@
           "air_date": "1999-07-28",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=RMQtsujnwtU",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 27,
@@ -256,7 +364,11 @@
           "air_date": "1999-08-04",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=YEDuv9fpPoQ",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 28,
@@ -265,7 +377,11 @@
           "air_date": "1999-08-11",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=3bfEkDtre_k",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 29,
@@ -274,7 +390,11 @@
           "air_date": "1999-08-18",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=kygE1Weum7E",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 30,
@@ -283,7 +403,11 @@
           "air_date": "1999-08-25",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=SKUb8qoneF8",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 31,
@@ -292,7 +416,11 @@
           "air_date": "1999-09-01",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=00k2LLfYtyU",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 32,
@@ -301,7 +429,11 @@
           "air_date": "1999-09-08",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=lB1FvKYvpXM",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 33,
@@ -310,7 +442,11 @@
           "air_date": "1999-09-15",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=nPfacS6BJWE",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 34,
@@ -319,7 +455,11 @@
           "air_date": "1999-09-22",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=xF4oE-Dj_SY",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 35,
@@ -328,7 +468,11 @@
           "air_date": "1999-09-29",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=LVdnDa4L-jo",
+            "dailymotion": null,
+            "other": null
+          }
         }
       ]
     }
@@ -340,7 +484,7 @@
       "faction": "Maximal",
       "beast_mode": "Woolly Mammoth",
       "voice_actor": "Junichi Inoue",
-      "image": null
+      "image": "/images/characters/beast-wars-neo-big-convoy.jpg"
     },
     {
       "name": "Longrack",
@@ -348,7 +492,7 @@
       "faction": "Maximal",
       "beast_mode": "Giraffe",
       "voice_actor": "Jun Uemoto",
-      "image": null
+      "image": "/images/characters/beast-wars-neo-longrack.jpg"
     },
     {
       "name": "Colada",
@@ -356,7 +500,7 @@
       "faction": "Maximal",
       "beast_mode": "Cobra",
       "voice_actor": "Makoto Ueki",
-      "image": null
+      "image": "/images/characters/beast-wars-neo-colada.jpg"
     },
     {
       "name": "Stampy",
@@ -364,7 +508,7 @@
       "faction": "Maximal",
       "beast_mode": "Rabbit",
       "voice_actor": "Mika Ishibashi",
-      "image": null
+      "image": "/images/characters/beast-wars-neo-stampy.jpg"
     },
     {
       "name": "Break",
@@ -380,7 +524,7 @@
       "faction": "Maximal",
       "beast_mode": "Tanuki (Raccoon Dog)",
       "voice_actor": "Yoji Ietomi",
-      "image": null
+      "image": "/images/characters/beast-wars-neo-heinrad.jpg"
     },
     {
       "name": "Mach Kick",
@@ -388,7 +532,7 @@
       "faction": "Maximal",
       "beast_mode": "Horse",
       "voice_actor": "Teruaki Ogawa",
-      "image": null
+      "image": "/images/characters/beast-wars-neo-mach-kick.jpg"
     },
     {
       "name": "Magmatron",
@@ -396,7 +540,7 @@
       "faction": "Predacon",
       "beast_mode": "Giganotosaurus/Quetzalcoatlus/Elasmosaurus (Triple Combiner)",
       "voice_actor": "Show Ryuzanji",
-      "image": null
+      "image": "/images/characters/beast-wars-neo-magmatron.jpg"
     },
     {
       "name": "Guiledart",
@@ -404,7 +548,7 @@
       "faction": "Predacon",
       "beast_mode": "Triceratops",
       "voice_actor": "Holly Kaneko",
-      "image": null
+      "image": "/images/characters/beast-wars-neo-guiledart.jpg"
     },
     {
       "name": "Saberback",
@@ -412,7 +556,7 @@
       "faction": "Predacon",
       "beast_mode": "Stegosaurus",
       "voice_actor": "Kazuki Yao",
-      "image": null
+      "image": "/images/characters/beast-wars-neo-saberback.jpg"
     },
     {
       "name": "Sling",
@@ -420,7 +564,7 @@
       "faction": "Predacon",
       "beast_mode": "Dimetrodon",
       "voice_actor": "Monster Maezuka",
-      "image": null
+      "image": "/images/characters/beast-wars-neo-sling.jpg"
     },
     {
       "name": "Dead End",
@@ -428,10 +572,17 @@
       "faction": "Predacon",
       "beast_mode": "Ammonite",
       "voice_actor": "Seiji Mizutani",
-      "image": null
+      "image": "/images/characters/beast-wars-neo-dead-end.jpg"
     }
   ],
-  "media": [],
+  "media": [
+    {
+      "title": "Transformers Video - Telegram Channel",
+      "url": "https://t.me/TransformersVideo",
+      "source": "telegram",
+      "type": "community"
+    }
+  ],
   "trivia": [
     {
       "category": "Production",

@@ -6,7 +6,14 @@
   "era": "modern",
   "synopsis": "With Optimus Prime dead at the hands of Megatronus, the surviving Transformers must unite under Megatron's unlikely leadership to stop the Fallen from assembling a doomsday weapon. Megatronus seeks the Requiem Blaster to combine with the Matrix of Leadership and the Enigma of Combination, which would give him the power to destroy the Transformer race entirely. The quest leads through the Primal Swamp, the ancient Athenaeum Sanctorum, and a final confrontation where Optimus Primal, Solus Prime, and unexpected sacrifices from former enemies determine the fate of Cybertron and all Transformer life.",
   "rating": "TV-Y7-FV",
-  "tags": ["Web Series", "CGI", "Action", "Machinima", "Prime Wars Trilogy", "Tatsunoko Production"],
+  "tags": [
+    "Web Series",
+    "CGI",
+    "Action",
+    "Machinima",
+    "Prime Wars Trilogy",
+    "Tatsunoko Production"
+  ],
   "poster": "/images/series/power-of-the-primes-poster.jpg",
   "hero_image": "/images/series/power-of-the-primes-hero.jpg",
   "faction_accent": "red",
@@ -22,7 +29,11 @@
           "air_date": "2018-05-01",
           "duration": "11m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 2,
@@ -31,7 +42,11 @@
           "air_date": "2018-05-08",
           "duration": "11m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 3,
@@ -40,7 +55,11 @@
           "air_date": "2018-05-15",
           "duration": "11m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 4,
@@ -49,7 +68,11 @@
           "air_date": "2018-05-22",
           "duration": "11m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 5,
@@ -58,7 +81,11 @@
           "air_date": "2018-05-29",
           "duration": "11m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 6,
@@ -67,7 +94,11 @@
           "air_date": "2018-06-05",
           "duration": "11m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 7,
@@ -76,7 +107,11 @@
           "air_date": "2018-06-12",
           "duration": "11m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 8,
@@ -85,7 +120,11 @@
           "air_date": "2018-06-19",
           "duration": "11m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 9,
@@ -94,7 +133,11 @@
           "air_date": "2018-06-26",
           "duration": "11m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 10,
@@ -103,25 +146,119 @@
           "air_date": "2018-07-03",
           "duration": "11m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
         }
       ]
     }
   ],
   "characters": [
-    { "name": "Megatronus / The Fallen", "role": "Primary Antagonist", "faction": "Neutral", "alt_mode": "None", "voice_actor": "Mark Hamill", "image": null },
-    { "name": "Optimus Prime", "role": "Autobot Leader (deceased / restored)", "faction": "Autobot", "alt_mode": "Truck", "voice_actor": "Peter Cullen", "image": null },
-    { "name": "Megatron", "role": "Team Leader / Anti-Hero", "faction": "Decepticon", "alt_mode": "Tank", "voice_actor": "Jason Marnocha", "image": null },
-    { "name": "Optimus Primal", "role": "Maximal Leader", "faction": "Maximal", "alt_mode": "Gorilla", "voice_actor": "Ron Perlman", "image": null },
-    { "name": "Windblade", "role": "Camien Warrior", "faction": "Autobot", "alt_mode": "VTOL jet", "voice_actor": "Abby Trott", "image": null },
-    { "name": "Rodimus / Hot Rod", "role": "Autobot Warrior (corrupted)", "faction": "Autobot", "alt_mode": "Race car", "voice_actor": "Judd Nelson", "image": null },
-    { "name": "Perceptor", "role": "Autobot Scientist", "faction": "Autobot", "alt_mode": "Microscope", "voice_actor": "Wil Wheaton", "image": null },
-    { "name": "Victorion", "role": "Autobot Combiner", "faction": "Autobot", "alt_mode": "Combined form", "voice_actor": "Anna Akana", "image": null },
-    { "name": "Volcanicus", "role": "Dinobot Combiner", "faction": "Autobot", "alt_mode": "Combined form", "voice_actor": null, "image": null },
-    { "name": "Solus Prime", "role": "Ancient Prime", "faction": "Prime", "alt_mode": "None", "voice_actor": null, "image": null },
-    { "name": "Overlord", "role": "Decepticon Warlord", "faction": "Decepticon", "alt_mode": "Jet / Tank", "voice_actor": "Patrick Seitz", "image": null }
+    {
+      "name": "Megatronus / The Fallen",
+      "role": "Primary Antagonist",
+      "faction": "Neutral",
+      "alt_mode": "None",
+      "voice_actor": "Mark Hamill",
+      "image": "/images/characters/titans-return-megatronus.jpg"
+    },
+    {
+      "name": "Optimus Prime",
+      "role": "Autobot Leader (deceased / restored)",
+      "faction": "Autobot",
+      "alt_mode": "Truck",
+      "voice_actor": "Peter Cullen",
+      "image": "/images/characters/g1-optimus-prime.jpg"
+    },
+    {
+      "name": "Megatron",
+      "role": "Team Leader / Anti-Hero",
+      "faction": "Decepticon",
+      "alt_mode": "Tank",
+      "voice_actor": "Jason Marnocha",
+      "image": "/images/characters/g1-megatron.jpg"
+    },
+    {
+      "name": "Optimus Primal",
+      "role": "Maximal Leader",
+      "faction": "Maximal",
+      "alt_mode": "Gorilla",
+      "voice_actor": "Ron Perlman",
+      "image": "/images/characters/beast-wars-optimus-primal.jpg"
+    },
+    {
+      "name": "Windblade",
+      "role": "Camien Warrior",
+      "faction": "Autobot",
+      "alt_mode": "VTOL jet",
+      "voice_actor": "Abby Trott",
+      "image": "/images/characters/combiner-wars-windblade.jpg"
+    },
+    {
+      "name": "Rodimus / Hot Rod",
+      "role": "Autobot Warrior (corrupted)",
+      "faction": "Autobot",
+      "alt_mode": "Race car",
+      "voice_actor": "Judd Nelson",
+      "image": "/images/characters/g1-rodimus-prime.jpg"
+    },
+    {
+      "name": "Perceptor",
+      "role": "Autobot Scientist",
+      "faction": "Autobot",
+      "alt_mode": "Microscope",
+      "voice_actor": "Wil Wheaton",
+      "image": "/images/characters/titans-return-perceptor.jpg"
+    },
+    {
+      "name": "Victorion",
+      "role": "Autobot Combiner",
+      "faction": "Autobot",
+      "alt_mode": "Combined form",
+      "voice_actor": "Anna Akana",
+      "image": "/images/characters/power-of-the-primes-victorion.jpg"
+    },
+    {
+      "name": "Volcanicus",
+      "role": "Dinobot Combiner",
+      "faction": "Autobot",
+      "alt_mode": "Combined form",
+      "voice_actor": null,
+      "image": "/images/characters/power-of-the-primes-volcanicus.jpg"
+    },
+    {
+      "name": "Solus Prime",
+      "role": "Ancient Prime",
+      "faction": "Prime",
+      "alt_mode": "None",
+      "voice_actor": null,
+      "image": "/images/characters/power-of-the-primes-solus-prime.jpg"
+    },
+    {
+      "name": "Overlord",
+      "role": "Decepticon Warlord",
+      "faction": "Decepticon",
+      "alt_mode": "Jet / Tank",
+      "voice_actor": "Patrick Seitz",
+      "image": "/images/characters/super-god-masterforce-overlord.jpg"
+    }
   ],
-  "media": [],
+  "media": [
+    {
+      "title": "Transformers Video - Telegram",
+      "url": "https://t.me/TransformersVideo",
+      "source": "telegram",
+      "type": "community"
+    },
+    {
+      "title": "Transformers Power of Primes - Telegram",
+      "url": "https://t.me/Transformers_Power_Of_Primes",
+      "source": "telegram",
+      "type": "community"
+    }
+  ],
   "trivia": [
     {
       "category": "Production",

@@ -6,7 +6,12 @@
   "era": "g1",
   "synopsis": "The first Japanese-exclusive Transformers animated series continues the Generation 1 storyline after the events of 'The Return of Optimus Prime,' ignoring the American 'Rebirth' finale. On the planet Master, a group of small Cybertronians developed Headmaster technology, allowing them to transform into the heads of larger Transtector bodies. As Scorponok's Decepticon Headmasters wage war, Autobot Headmaster leader Fortress Maximus and his trusted warriors Chromedome, Hardhead, Brainstorm, and Highbrow must defend both Cybertron and Earth from destruction.",
   "rating": "TV-Y7",
-  "tags": ["Classic", "Action", "Japanese", "Headmasters"],
+  "tags": [
+    "Classic",
+    "Action",
+    "Japanese",
+    "Headmasters"
+  ],
   "poster": "/images/series/headmasters-poster.jpg",
   "hero_image": "/images/series/headmasters-hero.jpg",
   "faction_accent": "red",
@@ -22,7 +27,11 @@
           "air_date": "1987-07-03",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=lK_2oMWO-Gc",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 2,
@@ -31,7 +40,11 @@
           "air_date": "1987-07-10",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=R32WdimLD3s",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 3,
@@ -40,7 +53,11 @@
           "air_date": "1987-07-17",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=03zcckcTudQ",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 4,
@@ -49,7 +66,11 @@
           "air_date": "1987-07-24",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=cZ790p4hiXE",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 5,
@@ -58,7 +79,11 @@
           "air_date": "1987-07-31",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=M_nCQ1zzcdA",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 6,
@@ -67,7 +92,11 @@
           "air_date": "1987-08-07",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=_OlqNJH_vM0",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 7,
@@ -76,7 +105,11 @@
           "air_date": "1987-08-14",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=0jdkrXcwTpY",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 8,
@@ -85,7 +118,11 @@
           "air_date": "1987-08-21",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=zzd9VLrlmN8",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 9,
@@ -94,7 +131,11 @@
           "air_date": "1987-08-28",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=7Okw3eDx30o",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 10,
@@ -103,7 +144,11 @@
           "air_date": "1987-09-04",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=I4ejlFmancs",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 11,
@@ -112,7 +157,11 @@
           "air_date": "1987-09-18",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=BrlcfmBVibc",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 12,
@@ -121,7 +170,11 @@
           "air_date": "1987-09-25",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=hu6C_YPDC88",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 13,
@@ -130,7 +183,11 @@
           "air_date": "1987-10-02",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=9H3KmydlPlc",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 14,
@@ -139,7 +196,11 @@
           "air_date": "1987-10-09",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=nrB4jBb_lkk",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 15,
@@ -148,7 +209,11 @@
           "air_date": "1987-10-16",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=Hyc_eceUcJ0",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 16,
@@ -157,7 +222,11 @@
           "air_date": "1987-10-23",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=tdTyX_B8QVk",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 17,
@@ -166,7 +235,11 @@
           "air_date": "1987-10-30",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=EYNpA5sw9qk",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 18,
@@ -175,7 +248,11 @@
           "air_date": "1987-11-06",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=z6E7Y1ippBg",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 19,
@@ -184,7 +261,11 @@
           "air_date": "1987-11-13",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=WWg0SCZ-AmQ",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 20,
@@ -193,7 +274,11 @@
           "air_date": "1987-11-20",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=9IsyVgB3Br8",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 21,
@@ -202,7 +287,11 @@
           "air_date": "1987-11-27",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=WZbVSOQ8nOU",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 22,
@@ -211,7 +300,11 @@
           "air_date": "1987-12-04",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=K5zkgEBepCg",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 23,
@@ -220,7 +313,11 @@
           "air_date": "1987-12-11",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=z2uMhZKDh9M",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 24,
@@ -229,7 +326,11 @@
           "air_date": "1987-12-18",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=WlRTgwbwqm0",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 25,
@@ -238,7 +339,11 @@
           "air_date": "1987-12-25",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=2rZpqmctGmI",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 26,
@@ -247,7 +352,11 @@
           "air_date": "1988-01-08",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=Jta2_V3vRtI",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 27,
@@ -256,7 +365,11 @@
           "air_date": "1988-01-15",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=TYJixQD6_1w",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 28,
@@ -265,7 +378,11 @@
           "air_date": "1988-01-22",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=M-N-91ns9dE",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 29,
@@ -274,7 +391,11 @@
           "air_date": "1988-01-29",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=zrGRXn6cj7Y",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 30,
@@ -283,7 +404,11 @@
           "air_date": "1988-02-05",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=9I1ufSe0KYg",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 31,
@@ -292,7 +417,11 @@
           "air_date": "1988-02-12",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=WwWvhecmfmY",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 32,
@@ -301,7 +430,11 @@
           "air_date": "1988-02-19",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=_um_WmQJJRg",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 33,
@@ -310,7 +443,11 @@
           "air_date": "1988-02-26",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=tnJkmBW7I3k",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 34,
@@ -319,7 +456,11 @@
           "air_date": "1988-03-18",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=taCwkVdjW2s",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 35,
@@ -328,7 +469,11 @@
           "air_date": "1988-03-25",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=nAIrO9UkxRo",
+            "dailymotion": null,
+            "other": null
+          }
         }
       ]
     }
@@ -340,7 +485,7 @@
       "faction": "Autobot",
       "voice_actor": "Ikuya Sawaki",
       "alt_mode": "Battleship Maximus / City",
-      "image": null
+      "image": "/images/characters/headmasters-fortress-maximus.jpg"
     },
     {
       "name": "Chromedome",
@@ -348,7 +493,7 @@
       "faction": "Autobot",
       "voice_actor": "Hideyuki Hori",
       "alt_mode": "Car",
-      "image": null
+      "image": "/images/characters/headmasters-chromedome.jpg"
     },
     {
       "name": "Hardhead",
@@ -356,7 +501,7 @@
       "faction": "Autobot",
       "voice_actor": "Masato Hirano",
       "alt_mode": "Tank",
-      "image": null
+      "image": "/images/characters/headmasters-hardhead.jpg"
     },
     {
       "name": "Highbrow",
@@ -364,7 +509,7 @@
       "faction": "Autobot",
       "voice_actor": "Michitaka Kobayashi",
       "alt_mode": "Helicopter",
-      "image": null
+      "image": "/images/characters/headmasters-highbrow.jpg"
     },
     {
       "name": "Brainstorm",
@@ -372,7 +517,7 @@
       "faction": "Autobot",
       "voice_actor": "Ryoichi Tanaka",
       "alt_mode": "Jet fighter",
-      "image": null
+      "image": "/images/characters/headmasters-brainstorm.jpg"
     },
     {
       "name": "Scorponok",
@@ -380,7 +525,7 @@
       "faction": "Decepticon",
       "voice_actor": "Banjo Ginga",
       "alt_mode": "Scorpion (MegaZarak Transtector)",
-      "image": null
+      "image": "/images/characters/headmasters-scorponok.jpg"
     },
     {
       "name": "Sixshot",
@@ -388,7 +533,7 @@
       "faction": "Decepticon",
       "voice_actor": "Michihiro Ikemizu",
       "alt_mode": "Six modes: robot, jet, tank, car, wolf, gun",
-      "image": null
+      "image": "/images/characters/headmasters-sixshot.jpg"
     },
     {
       "name": "Galvatron",
@@ -396,7 +541,7 @@
       "faction": "Decepticon",
       "voice_actor": "Seizou Katou",
       "alt_mode": "Laser cannon",
-      "image": null
+      "image": "/images/characters/g1-galvatron.jpg"
     },
     {
       "name": "Hot Rod",
@@ -404,7 +549,7 @@
       "faction": "Autobot",
       "voice_actor": "Hiroya Ishimaru",
       "alt_mode": "Futuristic sports car",
-      "image": null
+      "image": "/images/characters/g1-rodimus-prime.jpg"
     },
     {
       "name": "Ultra Magnus",
@@ -412,10 +557,17 @@
       "faction": "Autobot",
       "voice_actor": "Banjo Ginga",
       "alt_mode": "Car carrier truck",
-      "image": null
+      "image": "/images/characters/g1-ultra-magnus.jpg"
     }
   ],
-  "media": [],
+  "media": [
+    {
+      "title": "Transformers Video - Telegram Channel",
+      "url": "https://t.me/TransformersVideo",
+      "source": "telegram",
+      "type": "community"
+    }
+  ],
   "trivia": [
     {
       "category": "Production",

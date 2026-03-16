@@ -250,126 +250,216 @@
           "title": "Sea of Tranquility",
           "air_date": "2019-09-07",
           "duration": "22m",
-          "synopsis": "The Autobots travel to the Sea of Tranquility on Cybertron, where they discover traces of the Allspark's power."
+          "synopsis": "The Autobots travel to the Sea of Tranquility on Cybertron, where they discover traces of the Allspark's power.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=YfvOqWGQFO0",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 2,
           "title": "Bad Moon Rising",
           "air_date": "2019-09-14",
           "duration": "22m",
-          "synopsis": "A Decepticon operation on one of Cybertron's moons threatens the entire planet."
+          "synopsis": "A Decepticon operation on one of Cybertron's moons threatens the entire planet.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=0V6gguKhRqk",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 3,
           "title": "The Visitor",
           "air_date": "2019-09-21",
           "duration": "22m",
-          "synopsis": "A mysterious visitor arrives with information about the Allspark's true nature."
+          "synopsis": "A mysterious visitor arrives with information about the Allspark's true nature.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=ogDjlONlqnQ",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 4,
           "title": "Bring Me the Spark of Optimus Prime",
           "air_date": "2019-09-28",
           "duration": "22m",
-          "synopsis": "Megatron sends his forces on a mission to capture Optimus Prime's spark."
+          "synopsis": "Megatron sends his forces on a mission to capture Optimus Prime's spark.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=9kw0KcvtMs4",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 5,
           "title": "Trials",
           "air_date": "2019-10-05",
           "duration": "22m",
-          "synopsis": "The Autobots face a series of trials to prove their worthiness to access the Allspark."
+          "synopsis": "The Autobots face a series of trials to prove their worthiness to access the Allspark.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=mfIMXDtxwAU",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 6,
           "title": "Dark Birth",
           "air_date": "2019-10-12",
           "duration": "22m",
-          "synopsis": "The origin of a dark new threat is revealed as Shockwave experiments with forbidden science."
+          "synopsis": "The origin of a dark new threat is revealed as Shockwave experiments with forbidden science.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=uw6mKRK-194",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 7,
           "title": "Parley",
           "air_date": "2019-10-19",
           "duration": "22m",
-          "synopsis": "Optimus Prime and Megatron attempt negotiations, but neither side is willing to back down."
+          "synopsis": "Optimus Prime and Megatron attempt negotiations, but neither side is willing to back down.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=IiOjHygtTZU",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 8,
           "title": "Starscream's Children",
           "air_date": "2019-10-26",
           "duration": "22m",
-          "synopsis": "Starscream creates his own army of Seeker clones to challenge both Megatron and the Autobots."
+          "synopsis": "Starscream creates his own army of Seeker clones to challenge both Megatron and the Autobots.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=GHW4qW0EFhU",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 9,
           "title": "Spotted",
           "air_date": "2019-11-02",
           "duration": "22m",
-          "synopsis": "Cheetor makes his debut as the Autobots discover ancient beast-mode Transformers."
+          "synopsis": "Cheetor makes his debut as the Autobots discover ancient beast-mode Transformers.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=eILy_Fc3Mlw",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 10,
           "title": "Secret Science",
           "air_date": "2019-11-09",
           "duration": "22m",
-          "synopsis": "Shockwave's secret experiments threaten to unleash something terrible upon Cybertron."
+          "synopsis": "Shockwave's secret experiments threaten to unleash something terrible upon Cybertron.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=98ZxwgHOuPY",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 11,
           "title": "Infinite Vendetta",
           "air_date": "2019-11-16",
           "duration": "22m",
-          "synopsis": "An ancient vendetta resurfaces, drawing the Autobots into a conflict older than the war itself."
+          "synopsis": "An ancient vendetta resurfaces, drawing the Autobots into a conflict older than the war itself.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=7W4PVGRYAEQ",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 12,
           "title": "I Am the Allspark",
           "air_date": "2019-11-23",
           "duration": "22m",
-          "synopsis": "The true nature of the Allspark is revealed as it merges with an unexpected host."
+          "synopsis": "The true nature of the Allspark is revealed as it merges with an unexpected host.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=VLdls11oSKs",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 13,
           "title": "Escape from Earth",
           "air_date": "2019-11-30",
           "duration": "22m",
-          "synopsis": "The Autobots must escape Earth and return to Cybertron for the final battle."
+          "synopsis": "The Autobots must escape Earth and return to Cybertron for the final battle.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=jxXIw4D_jGE",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 14,
           "title": "Party Down",
           "air_date": "2019-12-07",
           "duration": "22m",
-          "synopsis": "A lighthearted interlude as the Autobots try to boost morale before the coming fight."
+          "synopsis": "A lighthearted interlude as the Autobots try to boost morale before the coming fight.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=sW_FeWzt9io",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 15,
           "title": "Wiped Out",
           "air_date": "2019-12-14",
           "duration": "22m",
-          "synopsis": "The Decepticons launch a devastating attack that wipes out Autobot defenses."
+          "synopsis": "The Decepticons launch a devastating attack that wipes out Autobot defenses.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=oN46-X0Pq60",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 16,
           "title": "Ghost Town",
           "air_date": "2019-12-21",
           "duration": "22m",
-          "synopsis": "The Autobots discover an abandoned city on Cybertron that holds dark secrets."
+          "synopsis": "The Autobots discover an abandoned city on Cybertron that holds dark secrets.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=1N86mt1ywfk",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 17,
           "title": "Perfect Storm",
           "air_date": "2019-12-28",
           "duration": "22m",
-          "synopsis": "Multiple crises converge into a perfect storm of challenges for the Autobots."
+          "synopsis": "Multiple crises converge into a perfect storm of challenges for the Autobots.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=Aws0ZSKMHQ4",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 18,
           "title": "The Crossroads",
           "air_date": "2020-01-04",
           "duration": "22m",
-          "synopsis": "The Season 2 finale brings the Autobots to a crossroads that will determine the future of Cybertron."
+          "synopsis": "The Season 2 finale brings the Autobots to a crossroads that will determine the future of Cybertron.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=gzq_v1HlmwU",
+            "dailymotion": null,
+            "other": null
+          }
         }
       ]
     },
@@ -382,182 +472,312 @@
           "title": "Battle for Cybertron I",
           "air_date": "2020-02-01",
           "duration": "22m",
-          "synopsis": "The epic battle for Cybertron begins as Autobots and Decepticons clash in a war for the planet's future."
+          "synopsis": "The epic battle for Cybertron begins as Autobots and Decepticons clash in a war for the planet's future.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=6LI72Vbixbo",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 2,
           "title": "Battle for Cybertron II",
           "air_date": "2020-02-08",
           "duration": "22m",
-          "synopsis": "The battle intensifies as both sides suffer losses and the stakes grow higher."
+          "synopsis": "The battle intensifies as both sides suffer losses and the stakes grow higher.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=5NCbYwpjymQ",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 3,
           "title": "Battle for Cybertron III",
           "air_date": "2020-02-15",
           "duration": "22m",
-          "synopsis": "A turning point in the battle forces the Autobots to adopt a desperate new strategy."
+          "synopsis": "A turning point in the battle forces the Autobots to adopt a desperate new strategy.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=fap3PZqrGOI",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 4,
           "title": "Battle for Cybertron IV",
           "air_date": "2020-02-22",
           "duration": "22m",
-          "synopsis": "The opening battle arc concludes with a dramatic shift in the war's balance of power."
+          "synopsis": "The opening battle arc concludes with a dramatic shift in the war's balance of power.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=mgRttiCMUXw",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 5,
           "title": "The Loop",
           "air_date": "2020-02-29",
           "duration": "22m",
-          "synopsis": "The Autobots are trapped in a time loop and must find a way to break free."
+          "synopsis": "The Autobots are trapped in a time loop and must find a way to break free.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=R-ttKMjnxfk",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 6,
           "title": "The Dead End",
           "air_date": "2020-03-07",
           "duration": "22m",
-          "synopsis": "A journey through the Dead End reveals the war's toll on Cybertron's forgotten places."
+          "synopsis": "A journey through the Dead End reveals the war's toll on Cybertron's forgotten places.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=akNzQeU-KOc",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 7,
           "title": "The Sleeper",
           "air_date": "2020-03-14",
           "duration": "22m",
-          "synopsis": "A dormant threat awakens beneath Cybertron's surface."
+          "synopsis": "A dormant threat awakens beneath Cybertron's surface.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=-K4DgxZgrg8",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 8,
           "title": "The Citizen",
           "air_date": "2020-03-21",
           "duration": "22m",
-          "synopsis": "An ordinary Cybertronian citizen becomes caught up in the war between factions."
+          "synopsis": "An ordinary Cybertronian citizen becomes caught up in the war between factions.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=8uRS4ctX8-c",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 9,
           "title": "The Trial",
           "air_date": "2020-03-28",
           "duration": "22m",
-          "synopsis": "A Transformer is put on trial by the Quintessons, the ancient judges of Cybertron."
+          "synopsis": "A Transformer is put on trial by the Quintessons, the ancient judges of Cybertron.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=EGO6BxvmB8s",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 10,
           "title": "The Prisoner",
           "air_date": "2020-04-04",
           "duration": "22m",
-          "synopsis": "A captured Autobot must survive imprisonment and find a way to escape."
+          "synopsis": "A captured Autobot must survive imprisonment and find a way to escape.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=M_JHvXcq2Vw",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 11,
           "title": "The Scientist",
           "air_date": "2020-04-11",
           "duration": "22m",
-          "synopsis": "Shockwave's ultimate experiment threatens to reshape Cybertron permanently."
+          "synopsis": "Shockwave's ultimate experiment threatens to reshape Cybertron permanently.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=QoCHxcRnAz4",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 12,
           "title": "The Alliance",
           "air_date": "2020-04-18",
           "duration": "22m",
-          "synopsis": "Autobots and Decepticons must form a temporary alliance against the Quintesson invasion."
+          "synopsis": "Autobots and Decepticons must form a temporary alliance against the Quintesson invasion.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=jmR_2UXNwmQ",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 13,
           "title": "The Judge",
           "air_date": "2020-04-25",
           "duration": "22m",
-          "synopsis": "The Quintesson Judge reveals their true intentions for Cybertron."
+          "synopsis": "The Quintesson Judge reveals their true intentions for Cybertron.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=8XFhYZusTZ8",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 14,
           "title": "The End of the Universe I",
           "air_date": "2020-05-02",
           "duration": "22m",
-          "synopsis": "The Quintessons unleash a weapon that threatens to destroy the entire universe."
+          "synopsis": "The Quintessons unleash a weapon that threatens to destroy the entire universe.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=pxqsK1rOHhs",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 15,
           "title": "The End of the Universe II",
           "air_date": "2020-05-09",
           "duration": "22m",
-          "synopsis": "The Autobots race to counter the Quintesson weapon before it reaches full power."
+          "synopsis": "The Autobots race to counter the Quintesson weapon before it reaches full power.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=QomfkbA88c4",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 16,
           "title": "The End of the Universe III",
           "air_date": "2020-05-16",
           "duration": "22m",
-          "synopsis": "Sacrifices are made as the battle against the Quintessons reaches its climax."
+          "synopsis": "Sacrifices are made as the battle against the Quintessons reaches its climax.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=zyqS1pMbuRo",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 17,
           "title": "The End of the Universe IV",
           "air_date": "2020-05-23",
           "duration": "22m",
-          "synopsis": "The Quintessons are defeated and the universe is saved, but at great cost."
+          "synopsis": "The Quintessons are defeated and the universe is saved, but at great cost.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=s-jIILaAzJs",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 18,
           "title": "Enemy Line",
           "air_date": "2020-05-30",
           "duration": "22m",
-          "synopsis": "A covert mission behind enemy lines sets the stage for the final adventures."
+          "synopsis": "A covert mission behind enemy lines sets the stage for the final adventures.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=YAT86bH1ats",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 19,
           "title": "Thunderhowl",
           "air_date": "2020-06-06",
           "duration": "22m",
-          "synopsis": "The medieval-themed Autobot Thunderhowl arrives with a knightly code of honor."
+          "synopsis": "The medieval-themed Autobot Thunderhowl arrives with a knightly code of honor.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=9J-25gIgIrI",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 20,
           "title": "Wild Wild Wheel",
           "air_date": "2020-06-13",
           "duration": "22m",
-          "synopsis": "A wild chase across Cybertron's wastelands puts the team in high-speed danger."
+          "synopsis": "A wild chase across Cybertron's wastelands puts the team in high-speed danger.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=cj6dbObNwxU",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 21,
           "title": "Alien Hunt! with Meteorfire and Cosmos",
           "air_date": "2020-06-20",
           "duration": "22m",
-          "synopsis": "Meteorfire and Cosmos investigate alien signals in a buddy-comedy style adventure."
+          "synopsis": "Meteorfire and Cosmos investigate alien signals in a buddy-comedy style adventure.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=oqQHlxPVCsQ",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 22,
           "title": "Journey to the Valley of Repugnus",
           "air_date": "2020-06-27",
           "duration": "22m",
-          "synopsis": "The team ventures to a dangerous valley ruled by the monstrous Repugnus."
+          "synopsis": "The team ventures to a dangerous valley ruled by the monstrous Repugnus.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=JeFKrlsXaIU",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 23,
           "title": "Rack 'n' Ruin 'n' Ratchet",
           "air_date": "2020-07-04",
           "duration": "22m",
-          "synopsis": "Ratchet teams up with the conjoined twins Rack'n'Ruin for an adventure."
+          "synopsis": "Ratchet teams up with the conjoined twins Rack'n'Ruin for an adventure.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=j8SbKD-BNZQ",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 24,
           "title": "Dweller in the Depths",
           "air_date": "2020-07-11",
           "duration": "22m",
-          "synopsis": "A terrifying creature lurking in Cybertron's depths threatens everyone on the surface."
+          "synopsis": "A terrifying creature lurking in Cybertron's depths threatens everyone on the surface.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=NZ145NKwar4",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 25,
           "title": "Silent Strike",
           "air_date": "2020-07-18",
           "duration": "22m",
-          "synopsis": "A stealth mission requires absolute silence from the Autobot team."
+          "synopsis": "A stealth mission requires absolute silence from the Autobot team.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=D0vvN-ObCjA",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 26,
           "title": "The Other One",
           "air_date": "2020-07-25",
           "duration": "22m",
-          "synopsis": "The Season 3 finale introduces a universe-altering revelation about alternate timelines and other versions of familiar characters."
+          "synopsis": "The Season 3 finale introduces a universe-altering revelation about alternate timelines and other versions of familiar characters.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=55ImHo2i5JA",
+            "dailymotion": null,
+            "other": null
+          }
         }
       ]
     }
@@ -569,7 +789,7 @@
       "faction": "Autobot",
       "alt_mode": "Muscle car",
       "voice_actor": "Jeremy Levy",
-      "image": null
+      "image": "/images/characters/cyberverse-bumblebee.jpg"
     },
     {
       "name": "Windblade",
@@ -577,7 +797,7 @@
       "faction": "Autobot",
       "alt_mode": "VTOL jet",
       "voice_actor": "Jessica DiGiovanni",
-      "image": null
+      "image": "/images/characters/cyberverse-windblade.jpg"
     },
     {
       "name": "Optimus Prime",
@@ -585,7 +805,7 @@
       "faction": "Autobot",
       "alt_mode": "Truck",
       "voice_actor": "Jake Foushee",
-      "image": null
+      "image": "/images/characters/g1-optimus-prime.jpg"
     },
     {
       "name": "Hot Rod",
@@ -593,7 +813,7 @@
       "faction": "Autobot",
       "alt_mode": "Sports car",
       "voice_actor": "Travis Artz",
-      "image": null
+      "image": "/images/characters/cyberverse-hot-rod.jpg"
     },
     {
       "name": "Grimlock",
@@ -601,7 +821,7 @@
       "faction": "Autobot",
       "alt_mode": "Tyrannosaurus Rex",
       "voice_actor": "Ryan Andes",
-      "image": null
+      "image": "/images/characters/g1-grimlock.jpg"
     },
     {
       "name": "Cheetor",
@@ -609,7 +829,7 @@
       "faction": "Autobot",
       "alt_mode": "Cheetah",
       "voice_actor": "TJ Nelson",
-      "image": null
+      "image": "/images/characters/beast-wars-cheetor.jpg"
     },
     {
       "name": "Megatron",
@@ -617,7 +837,7 @@
       "faction": "Decepticon",
       "alt_mode": "Tank / jet",
       "voice_actor": "Marc Thompson",
-      "image": null
+      "image": "/images/characters/cyberverse-megatron.jpg"
     },
     {
       "name": "Starscream",
@@ -625,7 +845,7 @@
       "faction": "Decepticon",
       "alt_mode": "Fighter jet",
       "voice_actor": "Billy Bob Thompson",
-      "image": null
+      "image": "/images/characters/g1-starscream.jpg"
     },
     {
       "name": "Shockwave",
@@ -633,7 +853,7 @@
       "faction": "Decepticon",
       "alt_mode": "Tank",
       "voice_actor": "Ryan Andes",
-      "image": null
+      "image": "/images/characters/g1-shockwave.jpg"
     },
     {
       "name": "Soundwave",
@@ -641,7 +861,7 @@
       "faction": "Decepticon",
       "alt_mode": "Satellite",
       "voice_actor": "Marc Swint",
-      "image": null
+      "image": "/images/characters/g1-soundwave.jpg"
     },
     {
       "name": "Shadow Striker",
@@ -649,7 +869,7 @@
       "faction": "Decepticon",
       "alt_mode": "Muscle car",
       "voice_actor": "Deanna McGovern",
-      "image": null
+      "image": "/images/characters/cyberverse-shadow-striker.jpg"
     },
     {
       "name": "Maccadam",
@@ -657,7 +877,7 @@
       "faction": "Neutral",
       "alt_mode": null,
       "voice_actor": "Dick Terhune",
-      "image": null
+      "image": "/images/characters/cyberverse-maccadam.jpg"
     }
   ],
   "media": [
@@ -708,6 +928,12 @@
       "url": "https://www.dailymotion.com/playlist/x65aj5",
       "source": "dailymotion",
       "type": "playlist"
+    },
+    {
+      "title": "Transformers Video - Telegram",
+      "url": "https://t.me/TransformersVideo",
+      "source": "telegram",
+      "type": "community"
     }
   ],
   "trivia": [

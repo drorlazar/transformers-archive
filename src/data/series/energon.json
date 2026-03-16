@@ -438,7 +438,7 @@
       "faction": "Autobot",
       "alt_mode": "Semi-Truck / Fire Truck",
       "voice_actor": "Garry Chalk",
-      "image": null
+      "image": "/images/characters/armada-optimus-prime.jpg"
     },
     {
       "name": "Hot Shot",
@@ -446,7 +446,7 @@
       "faction": "Autobot",
       "alt_mode": "Sports Car",
       "voice_actor": "Brent Miller",
-      "image": null
+      "image": "/images/characters/armada-hot-shot.jpg"
     },
     {
       "name": "Ironhide",
@@ -454,7 +454,7 @@
       "faction": "Autobot",
       "alt_mode": "Pickup Truck",
       "voice_actor": "Matt Hill",
-      "image": null
+      "image": "/images/characters/energon-ironhide.jpg"
     },
     {
       "name": "Jetfire",
@@ -462,7 +462,7 @@
       "faction": "Autobot",
       "alt_mode": "Cargo Jet",
       "voice_actor": "Scott McNeil",
-      "image": null
+      "image": "/images/characters/armada-jetfire.jpg"
     },
     {
       "name": "Rodimus",
@@ -470,7 +470,7 @@
       "faction": "Autobot",
       "alt_mode": "Sports Car",
       "voice_actor": "Paul Dobson",
-      "image": null
+      "image": "/images/characters/energon-rodimus.jpg"
     },
     {
       "name": "Kicker Jones",
@@ -478,7 +478,7 @@
       "faction": "Autobot",
       "alt_mode": "None",
       "voice_actor": "Brad Swaile",
-      "image": null
+      "image": "/images/characters/energon-kicker-jones.jpg"
     },
     {
       "name": "Megatron / Galvatron",
@@ -486,7 +486,7 @@
       "faction": "Decepticon",
       "alt_mode": "Jet / Gunship",
       "voice_actor": "David Kaye",
-      "image": null
+      "image": "/images/characters/armada-megatron.jpg"
     },
     {
       "name": "Starscream",
@@ -494,7 +494,7 @@
       "faction": "Decepticon",
       "alt_mode": "Fighter Jet",
       "voice_actor": "Michael Dobson",
-      "image": null
+      "image": "/images/characters/armada-starscream.jpg"
     },
     {
       "name": "Scorponok",
@@ -502,7 +502,7 @@
       "faction": "Decepticon",
       "alt_mode": "Scorpion / Construction Vehicle",
       "voice_actor": "Colin Murdock",
-      "image": null
+      "image": "/images/characters/energon-scorponok.jpg"
     },
     {
       "name": "Alpha Q",
@@ -510,7 +510,7 @@
       "faction": "Neutral",
       "alt_mode": "None",
       "voice_actor": "Trevor Devall",
-      "image": null
+      "image": "/images/characters/energon-alpha-q.jpg"
     }
   ],
   "media": [
@@ -525,6 +525,12 @@
       "url": "https://www.dailymotion.com/playlist/x4dxr0",
       "source": "dailymotion",
       "type": "playlist"
+    },
+    {
+      "title": "Transformers Video - Telegram",
+      "url": "https://t.me/TransformersVideo",
+      "source": "telegram",
+      "type": "community"
     }
   ],
   "trivia": [

@@ -26,7 +26,7 @@
           "air_date": "2002-08-23",
           "duration": "22m",
           "synopsis": "Teenagers Rad, Carlos, and Alexis accidentally activate a dormant Mini-Con on Earth, sending a signal that draws both Autobots and Decepticons to the planet.",
-          "video_url": null
+          "video_url": "https://www.youtube.com/watch?v=Pj0lkdUXOps"
         },
         {
           "number": 2,
@@ -34,7 +34,7 @@
           "air_date": "2002-08-30",
           "duration": "22m",
           "synopsis": "The Autobots arrive on Earth and establish contact with the human kids, while Megatron's forces launch their first assault to claim the Mini-Cons.",
-          "video_url": null
+          "video_url": "https://www.youtube.com/watch?v=gZSywjy_fps"
         },
         {
           "number": 3,
@@ -42,7 +42,7 @@
           "air_date": "2002-09-06",
           "duration": "22m",
           "synopsis": "The Autobots set up their Earth headquarters and begin organizing their search for the scattered Mini-Con panels.",
-          "video_url": null
+          "video_url": "https://www.youtube.com/watch?v=fHxcGWp6Z4M"
         },
         {
           "number": 4,
@@ -50,7 +50,7 @@
           "air_date": "2002-09-13",
           "duration": "22m",
           "synopsis": "Hot Shot forms a bond with his Mini-Con partner Jolt as the Autobots and Decepticons clash over a newly discovered Mini-Con panel.",
-          "video_url": null
+          "video_url": "https://www.youtube.com/watch?v=BUC3dkaMGII"
         },
         {
           "number": 5,
@@ -58,7 +58,7 @@
           "air_date": "2002-09-20",
           "duration": "22m",
           "synopsis": "The search for Mini-Cons leads the Autobots into battle as Megatron demonstrates the power gained from Powerlinxing with his Mini-Con Leader-1.",
-          "video_url": null
+          "video_url": "https://www.youtube.com/watch?v=UpGn6TwJ8UU"
         },
         {
           "number": 6,
@@ -66,7 +66,7 @@
           "air_date": "2002-09-27",
           "duration": "22m",
           "synopsis": "A Mini-Con panel is detected deep in a jungle, leading to a treacherous race between the Autobots and Decepticons through dangerous terrain.",
-          "video_url": null
+          "video_url": "https://www.youtube.com/watch?v=8DvZVut_pgk"
         },
         {
           "number": 7,
@@ -74,7 +74,7 @@
           "air_date": "2002-10-04",
           "duration": "22m",
           "synopsis": "A Mini-Con signal is traced to an amusement park, creating a dangerous battle in a setting filled with innocent bystanders.",
-          "video_url": null
+          "video_url": "https://www.youtube.com/watch?v=Z8xOD5Jg5Yk"
         },
         {
           "number": 8,
@@ -82,7 +82,7 @@
           "air_date": "2002-10-11",
           "duration": "22m",
           "synopsis": "The hunt for a Mini-Con takes the combatants to an ancient palace, where the artifact's resting place holds unexpected surprises.",
-          "video_url": null
+          "video_url": "https://www.youtube.com/watch?v=EzaCZtcIcus"
         },
         {
           "number": 9,
@@ -90,7 +90,7 @@
           "air_date": "2002-10-18",
           "duration": "22m",
           "synopsis": "Tensions between the Autobots and Decepticons reach a boiling point as both sides deploy their full Mini-Con-enhanced power in a major clash.",
-          "video_url": null
+          "video_url": "https://www.youtube.com/watch?v=HjaG0KhZnDI"
         },
         {
           "number": 10,
@@ -98,7 +98,7 @@
           "air_date": "2002-10-25",
           "duration": "22m",
           "synopsis": "A Mini-Con panel is discovered in an underground cavern system, forcing both factions into a claustrophobic battle beneath the Earth's surface.",
-          "video_url": null
+          "video_url": "https://www.youtube.com/watch?v=15bUtMiMeRc"
         },
         {
           "number": 11,
@@ -106,7 +106,7 @@
           "air_date": "2002-11-01",
           "duration": "22m",
           "synopsis": "Ancient ruins hold a Mini-Con panel that could tip the balance of power, leading to a fierce confrontation among crumbling structures.",
-          "video_url": null
+          "video_url": "https://www.youtube.com/watch?v=fV7P-cVXmRY"
         },
         {
           "number": 12,
@@ -114,7 +114,7 @@
           "air_date": "2002-11-08",
           "duration": "22m",
           "synopsis": "A clip show that recaps the story so far while revealing new details about the ancient history of the Mini-Cons and their arrival on Earth.",
-          "video_url": null
+          "video_url": "https://www.youtube.com/watch?v=M-bFJgv_7Aw"
         },
         {
           "number": 13,
@@ -122,7 +122,7 @@
           "air_date": "2002-11-15",
           "duration": "22m",
           "synopsis": "A new Mini-Con discovery leads to an aerial battle as the Decepticons press their advantage in the skies.",
-          "video_url": null
+          "video_url": "https://www.youtube.com/watch?v=ribJjGY4S6Y"
         },
         {
           "number": 14,
@@ -130,7 +130,7 @@
           "air_date": "2002-11-22",
           "duration": "22m",
           "synopsis": "The Decepticons gain a temporary advantage with their growing Mini-Con army, forcing the Autobots into a defensive retreat.",
-          "video_url": null
+          "video_url": "https://www.youtube.com/watch?v=ZihyLNf8_Uw"
         },
         {
           "number": 15,
@@ -138,7 +138,7 @@
           "air_date": "2002-11-29",
           "duration": "22m",
           "synopsis": "Harsh weather conditions complicate a Mini-Con retrieval mission as both sides battle the elements and each other.",
-          "video_url": null
+          "video_url": "https://www.youtube.com/watch?v=tIm2WGD21hs"
         },
         {
           "number": 16,
@@ -446,7 +446,7 @@
       "faction": "Autobot",
       "alt_mode": "Semi-Truck",
       "voice_actor": "Garry Chalk",
-      "image": null
+      "image": "/images/characters/armada-optimus-prime.jpg"
     },
     {
       "name": "Hot Shot",
@@ -454,7 +454,7 @@
       "faction": "Autobot",
       "alt_mode": "Sports Car",
       "voice_actor": "Brent Miller",
-      "image": null
+      "image": "/images/characters/armada-hot-shot.jpg"
     },
     {
       "name": "Red Alert",
@@ -462,7 +462,7 @@
       "faction": "Autobot",
       "alt_mode": "Rescue SUV",
       "voice_actor": "Brian Dobson",
-      "image": null
+      "image": "/images/characters/armada-red-alert.jpg"
     },
     {
       "name": "Jetfire",
@@ -470,7 +470,7 @@
       "faction": "Autobot",
       "alt_mode": "Space Shuttle",
       "voice_actor": "Scott McNeil",
-      "image": null
+      "image": "/images/characters/armada-jetfire.jpg"
     },
     {
       "name": "Blurr",
@@ -478,7 +478,7 @@
       "faction": "Autobot",
       "alt_mode": "Race Car",
       "voice_actor": "Brian Drummond",
-      "image": null
+      "image": "/images/characters/armada-blurr.jpg"
     },
     {
       "name": "Megatron / Galvatron",
@@ -486,7 +486,7 @@
       "faction": "Decepticon",
       "alt_mode": "Tank",
       "voice_actor": "David Kaye",
-      "image": null
+      "image": "/images/characters/armada-megatron.jpg"
     },
     {
       "name": "Starscream",
@@ -494,7 +494,7 @@
       "faction": "Decepticon",
       "alt_mode": "Fighter Jet",
       "voice_actor": "Michael Dobson",
-      "image": null
+      "image": "/images/characters/armada-starscream.jpg"
     },
     {
       "name": "Demolishor",
@@ -502,7 +502,7 @@
       "faction": "Decepticon",
       "alt_mode": "Missile Tank",
       "voice_actor": "Alvin Sanders",
-      "image": null
+      "image": "/images/characters/armada-demolishor.jpg"
     },
     {
       "name": "Cyclonus",
@@ -510,7 +510,7 @@
       "faction": "Decepticon",
       "alt_mode": "Helicopter",
       "voice_actor": "Don Brown",
-      "image": null
+      "image": "/images/characters/armada-cyclonus.jpg"
     },
     {
       "name": "Thrust",
@@ -518,7 +518,7 @@
       "faction": "Decepticon",
       "alt_mode": "Fighter Jet",
       "voice_actor": "Colin Murdock",
-      "image": null
+      "image": "/images/characters/armada-thrust.jpg"
     },
     {
       "name": "Unicron",
@@ -526,7 +526,7 @@
       "faction": "Neutral",
       "alt_mode": "Planet",
       "voice_actor": "Mark Acheson",
-      "image": null
+      "image": "/images/characters/armada-unicron.jpg"
     }
   ],
   "media": [
@@ -547,6 +547,12 @@
       "url": "https://www.dailymotion.com/playlist/x6o052",
       "source": "dailymotion",
       "type": "playlist"
+    },
+    {
+      "title": "Transformers Video - Telegram",
+      "url": "https://t.me/TransformersVideo",
+      "source": "telegram",
+      "type": "community"
     }
   ],
   "trivia": [

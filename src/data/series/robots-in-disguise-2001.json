@@ -6,7 +6,12 @@
   "era": "unicron",
   "synopsis": "When Megatron and his Predacons target Earth to seize powerful Cybertronian artifacts, Optimus Prime's Autobots go undercover among human society as everyday vehicles. Allying with a boy named Koji whose scientist father has been kidnapped, the Autobots battle both the Predacons and the newly created Decepticons, culminating in a struggle over the colossal battle station Fortress Maximus.",
   "rating": "TV-Y7",
-  "tags": ["Action", "Anime", "Comedy", "Adventure"],
+  "tags": [
+    "Action",
+    "Anime",
+    "Comedy",
+    "Adventure"
+  ],
   "poster": "/images/series/robots-in-disguise-2001-poster.jpg",
   "hero_image": "/images/series/robots-in-disguise-2001-hero.jpg",
   "faction_accent": "blue",
@@ -337,7 +342,7 @@
       "faction": "Autobot",
       "alt_mode": "Fire Truck",
       "voice_actor": "Neil Kaplan",
-      "image": null
+      "image": "/images/characters/robots-in-disguise-2001-optimus-prime.jpg"
     },
     {
       "name": "Ultra Magnus",
@@ -345,7 +350,7 @@
       "faction": "Autobot",
       "alt_mode": "Car Carrier",
       "voice_actor": "Kim Strauss",
-      "image": null
+      "image": "/images/characters/robots-in-disguise-2001-ultra-magnus.jpg"
     },
     {
       "name": "Prowl",
@@ -353,7 +358,7 @@
       "faction": "Autobot",
       "alt_mode": "Lamborghini Diablo Police Car",
       "voice_actor": "Wayne C. Lewis",
-      "image": null
+      "image": "/images/characters/robots-in-disguise-2001-prowl.jpg"
     },
     {
       "name": "Side Burn",
@@ -361,7 +366,7 @@
       "faction": "Autobot",
       "alt_mode": "Dodge Viper",
       "voice_actor": "Wally Wingert",
-      "image": null
+      "image": "/images/characters/robots-in-disguise-2001-side-burn.jpg"
     },
     {
       "name": "X-Brawn",
@@ -369,7 +374,7 @@
       "faction": "Autobot",
       "alt_mode": "Mercedes-Benz ML320 SUV",
       "voice_actor": "Bob Joles",
-      "image": null
+      "image": "/images/characters/robots-in-disguise-2001-x-brawn.jpg"
     },
     {
       "name": "Megatron / Galvatron",
@@ -377,7 +382,7 @@
       "faction": "Predacon",
       "alt_mode": "Six-Changer (Dragon / Bat / Jet / Car / Hand)",
       "voice_actor": "Daniel Riordan",
-      "image": null
+      "image": "/images/characters/robots-in-disguise-2001-megatron.jpg"
     },
     {
       "name": "Sky-Byte",
@@ -385,7 +390,7 @@
       "faction": "Predacon",
       "alt_mode": "Shark",
       "voice_actor": "Peter Spellos",
-      "image": null
+      "image": "/images/characters/robots-in-disguise-2001-sky-byte.jpg"
     },
     {
       "name": "Scourge",
@@ -393,7 +398,7 @@
       "faction": "Decepticon",
       "alt_mode": "Tanker Truck",
       "voice_actor": "Barry Stigler",
-      "image": null
+      "image": "/images/characters/robots-in-disguise-2001-scourge.jpg"
     },
     {
       "name": "Koji Onishi",
@@ -401,10 +406,17 @@
       "faction": "Autobot",
       "alt_mode": "None",
       "voice_actor": "Jason Spisak",
-      "image": null
+      "image": "/images/characters/robots-in-disguise-2001-koji-onishi.jpg"
     }
   ],
-  "media": [],
+  "media": [
+    {
+      "title": "Transformers Video - Telegram",
+      "url": "https://t.me/TransformersVideo",
+      "source": "telegram",
+      "type": "community"
+    }
+  ],
   "trivia": [
     {
       "category": "Production",

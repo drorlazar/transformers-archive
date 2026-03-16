@@ -6,7 +6,13 @@
   "era": "g1",
   "synopsis": "The final animated entry in the Japanese Generation 1 continuity, Transformers: Zone is a single OVA episode in which the Decepticon entity Violen Jiger -- a composite being of fallen Decepticon spirits -- assembles the Nine Great Demon Generals to seize the powerful Zodiac energy source. After Victory Saber goes missing during the destruction of planet Feminia, the Powered Master Dai Atlas rises to become the new Autobot Supreme Commander, teaming with Sonic Bomber and the Micromasters to defeat the Decepticon menace and secure the Zodiac.",
   "rating": "TV-Y7",
-  "tags": ["Classic", "Action", "Japanese", "OVA", "Zone"],
+  "tags": [
+    "Classic",
+    "Action",
+    "Japanese",
+    "OVA",
+    "Zone"
+  ],
   "poster": "/images/series/zone-poster.jpg",
   "hero_image": "/images/series/zone-hero.jpg",
   "faction_accent": "red",
@@ -22,7 +28,11 @@
           "air_date": "1990-07-21",
           "duration": "25m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=U8hBgYCJzkI",
+            "dailymotion": null,
+            "other": null
+          }
         }
       ]
     }
@@ -34,7 +44,7 @@
       "faction": "Autobot",
       "voice_actor": "Yusaku Yara",
       "alt_mode": "Drill tank / Jet / Base (quad-changer)",
-      "image": null
+      "image": "/images/characters/zone-dai-atlas.jpg"
     },
     {
       "name": "Sonic Bomber",
@@ -42,7 +52,7 @@
       "faction": "Autobot",
       "voice_actor": "Kaneto Shiozawa",
       "alt_mode": "SR-71 Blackbird-style aircraft",
-      "image": null
+      "image": "/images/characters/zone-sonic-bomber.jpg"
     },
     {
       "name": "Roadfire",
@@ -50,7 +60,7 @@
       "faction": "Autobot",
       "voice_actor": "Unknown",
       "alt_mode": "Cybertronian tank",
-      "image": null
+      "image": "/images/characters/zone-roadfire.jpg"
     },
     {
       "name": "Victory Saber",
@@ -58,7 +68,7 @@
       "faction": "Autobot",
       "voice_actor": "Hideyuki Tanaka",
       "alt_mode": "Combined spacecraft (Star Saber + Victory Leo)",
-      "image": null
+      "image": "/images/characters/victory-star-saber.jpg"
     },
     {
       "name": "Violen Jiger",
@@ -66,7 +76,7 @@
       "faction": "Decepticon",
       "voice_actor": "Daisuke Gori",
       "alt_mode": "Three insectoid forms: Vion (stag beetle), Lenger (mole cricket), Iguarn (mantis)",
-      "image": null
+      "image": "/images/characters/zone-violen-jiger.jpg"
     },
     {
       "name": "Akira Serikawa",
@@ -77,7 +87,14 @@
       "image": null
     }
   ],
-  "media": [],
+  "media": [
+    {
+      "title": "Transformers Video - Telegram Channel",
+      "url": "https://t.me/TransformersVideo",
+      "source": "telegram",
+      "type": "community"
+    }
+  ],
   "trivia": [
     {
       "category": "Production",

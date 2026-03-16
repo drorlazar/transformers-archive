@@ -447,7 +447,7 @@
       "faction": "Autobot",
       "alt_mode": "Fire Truck",
       "voice_actor": "Garry Chalk",
-      "image": null
+      "image": "/images/characters/armada-optimus-prime.jpg"
     },
     {
       "name": "Hot Shot",
@@ -455,7 +455,7 @@
       "faction": "Autobot",
       "alt_mode": "Sports Car",
       "voice_actor": "Kirby Morrow",
-      "image": null
+      "image": "/images/characters/armada-hot-shot.jpg"
     },
     {
       "name": "Jetfire",
@@ -463,7 +463,7 @@
       "faction": "Autobot",
       "alt_mode": "Cargo Jet",
       "voice_actor": "Brian Drummond",
-      "image": null
+      "image": "/images/characters/armada-jetfire.jpg"
     },
     {
       "name": "Vector Prime",
@@ -471,7 +471,7 @@
       "faction": "Autobot",
       "alt_mode": "Cybertronian Spacecraft",
       "voice_actor": "Richard Newman",
-      "image": null
+      "image": "/images/characters/cybertron-vector-prime.jpg"
     },
     {
       "name": "Landmine",
@@ -479,7 +479,7 @@
       "faction": "Autobot",
       "alt_mode": "Front-End Loader",
       "voice_actor": "Paul Dobson",
-      "image": null
+      "image": "/images/characters/cybertron-landmine.jpg"
     },
     {
       "name": "Override",
@@ -487,7 +487,7 @@
       "faction": "Autobot",
       "alt_mode": "Race Car",
       "voice_actor": "Lisa Ann Beley",
-      "image": null
+      "image": "/images/characters/cybertron-override.jpg"
     },
     {
       "name": "Metroplex",
@@ -495,7 +495,7 @@
       "faction": "Autobot",
       "alt_mode": "Bucket Wheel Excavator",
       "voice_actor": "Ron Halder",
-      "image": null
+      "image": "/images/characters/cybertron-metroplex.jpg"
     },
     {
       "name": "Megatron / Galvatron",
@@ -503,7 +503,7 @@
       "faction": "Decepticon",
       "alt_mode": "Batmobile-style Race Car / Jet",
       "voice_actor": "David Kaye",
-      "image": null
+      "image": "/images/characters/armada-megatron.jpg"
     },
     {
       "name": "Starscream",
@@ -511,7 +511,7 @@
       "faction": "Decepticon",
       "alt_mode": "Fighter Jet",
       "voice_actor": "Michael Dobson",
-      "image": null
+      "image": "/images/characters/armada-starscream.jpg"
     },
     {
       "name": "Scourge",
@@ -519,7 +519,7 @@
       "faction": "Neutral",
       "alt_mode": "Dragon",
       "voice_actor": "Trevor Devall",
-      "image": null
+      "image": "/images/characters/cybertron-scourge.jpg"
     }
   ],
   "media": [
@@ -528,6 +528,12 @@
       "url": "https://www.dailymotion.com/playlist/x3i3ib",
       "source": "dailymotion",
       "type": "playlist"
+    },
+    {
+      "title": "Transformers Video - Telegram",
+      "url": "https://t.me/TransformersVideo",
+      "source": "telegram",
+      "type": "community"
     }
   ],
   "trivia": [

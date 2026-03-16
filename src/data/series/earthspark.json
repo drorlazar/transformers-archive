@@ -392,7 +392,7 @@
       "faction": "Terran",
       "alt_mode": "Drone helicopter",
       "voice_actor": "Kathreen Khavari",
-      "image": null
+      "image": "/images/characters/earthspark-twitch.jpg"
     },
     {
       "name": "Thrash",
@@ -400,7 +400,7 @@
       "faction": "Terran",
       "alt_mode": "Motorcycle",
       "voice_actor": "Zeno Robinson",
-      "image": null
+      "image": "/images/characters/earthspark-thrash.jpg"
     },
     {
       "name": "Bumblebee",
@@ -408,7 +408,7 @@
       "faction": "Autobot",
       "alt_mode": "Muscle car",
       "voice_actor": "Danny Pudi",
-      "image": null
+      "image": "/images/characters/earthspark-bumblebee.jpg"
     },
     {
       "name": "Optimus Prime",
@@ -416,7 +416,7 @@
       "faction": "Autobot",
       "alt_mode": "Truck",
       "voice_actor": "Alan Tudyk",
-      "image": null
+      "image": "/images/characters/earthspark-optimus-prime.jpg"
     },
     {
       "name": "Elita-1",
@@ -424,7 +424,7 @@
       "faction": "Autobot",
       "alt_mode": "Truck",
       "voice_actor": "Cissy Jones",
-      "image": null
+      "image": "/images/characters/earthspark-elita-1.jpg"
     },
     {
       "name": "Megatron",
@@ -432,7 +432,7 @@
       "faction": "Decepticon",
       "alt_mode": "Tank",
       "voice_actor": "Rory McCann",
-      "image": null
+      "image": "/images/characters/earthspark-megatron.jpg"
     },
     {
       "name": "Nightshade",
@@ -440,7 +440,7 @@
       "faction": "Terran",
       "alt_mode": "Owl",
       "voice_actor": "Z Infante",
-      "image": null
+      "image": "/images/characters/earthspark-nightshade.jpg"
     },
     {
       "name": "Hashtag",
@@ -448,7 +448,7 @@
       "faction": "Terran",
       "alt_mode": "SUV",
       "voice_actor": "Stephanie Lemelin",
-      "image": null
+      "image": "/images/characters/earthspark-hashtag.jpg"
     },
     {
       "name": "Jawbreaker",
@@ -456,7 +456,7 @@
       "faction": "Terran",
       "alt_mode": "Monster truck",
       "voice_actor": "Cyrus Arnold",
-      "image": null
+      "image": "/images/characters/earthspark-jawbreaker.jpg"
     },
     {
       "name": "Robby Malto",
@@ -480,7 +480,7 @@
       "faction": "Human",
       "alt_mode": null,
       "voice_actor": "Diedrich Bader",
-      "image": null
+      "image": "/images/characters/earthspark-mandroid.jpg"
     }
   ],
   "media": [
@@ -507,6 +507,12 @@
       "url": "https://www.dailymotion.com/video/x8ygk4s",
       "source": "dailymotion",
       "type": "compilation"
+    },
+    {
+      "title": "Transformers Video - Telegram",
+      "url": "https://t.me/TransformersVideo",
+      "source": "telegram",
+      "type": "community"
     }
   ],
   "trivia": [

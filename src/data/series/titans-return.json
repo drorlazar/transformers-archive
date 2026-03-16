@@ -6,7 +6,14 @@
   "era": "modern",
   "synopsis": "Following the Combiner Wars, Cybertron attempts to rebuild, but the reawakening of the monstrous Titan Trypticon threatens to undo the fragile peace. Starscream's ghost possesses new bodies, the warlord Overlord returns seeking vengeance, and the race to resurrect Fortress Maximus becomes the planet's last hope. As the conflict escalates, the ancient being Megatronus — the Fallen, the first Decepticon — awakens and kills Optimus Prime, claiming the Matrix of Leadership and the Enigma of Combination for a dark purpose yet to be revealed.",
   "rating": "TV-Y7-FV",
-  "tags": ["Web Series", "CGI", "Action", "Machinima", "Prime Wars Trilogy", "Tatsunoko Production"],
+  "tags": [
+    "Web Series",
+    "CGI",
+    "Action",
+    "Machinima",
+    "Prime Wars Trilogy",
+    "Tatsunoko Production"
+  ],
   "poster": "/images/series/titans-return-poster.jpg",
   "hero_image": "/images/series/titans-return-hero.jpg",
   "faction_accent": "red",
@@ -22,7 +29,11 @@
           "air_date": "2017-11-14",
           "duration": "11m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 2,
@@ -31,7 +42,11 @@
           "air_date": "2017-11-14",
           "duration": "11m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 3,
@@ -40,7 +55,11 @@
           "air_date": "2017-11-21",
           "duration": "11m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 4,
@@ -49,7 +68,11 @@
           "air_date": "2017-11-28",
           "duration": "11m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 5,
@@ -58,7 +81,11 @@
           "air_date": "2017-12-05",
           "duration": "11m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 6,
@@ -67,7 +94,11 @@
           "air_date": "2017-12-12",
           "duration": "11m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 7,
@@ -76,7 +107,11 @@
           "air_date": "2017-12-19",
           "duration": "11m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 8,
@@ -85,7 +120,11 @@
           "air_date": "2017-12-26",
           "duration": "11m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 9,
@@ -94,7 +133,11 @@
           "air_date": "2018-01-02",
           "duration": "11m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 10,
@@ -103,24 +146,105 @@
           "air_date": "2018-01-09",
           "duration": "11m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
         }
       ]
     }
   ],
   "characters": [
-    { "name": "Optimus Prime", "role": "Autobot Leader", "faction": "Autobot", "alt_mode": "Truck", "voice_actor": "Peter Cullen", "image": null },
-    { "name": "Megatron", "role": "Decepticon Leader", "faction": "Decepticon", "alt_mode": "Tank", "voice_actor": "Jason Marnocha", "image": null },
-    { "name": "Rodimus Prime / Hot Rod", "role": "Autobot Warrior", "faction": "Autobot", "alt_mode": "Race car", "voice_actor": "Judd Nelson", "image": null },
-    { "name": "Windblade", "role": "Camien Warrior", "faction": "Autobot", "alt_mode": "VTOL jet", "voice_actor": "Abby Trott", "image": null },
-    { "name": "Perceptor", "role": "Autobot Scientist", "faction": "Autobot", "alt_mode": "Microscope", "voice_actor": "Wil Wheaton", "image": null },
-    { "name": "Fortress Maximus", "role": "Autobot Titan", "faction": "Autobot", "alt_mode": "Battle station / City", "voice_actor": "Michael Dorn", "image": null },
-    { "name": "Overlord", "role": "Decepticon Warlord", "faction": "Decepticon", "alt_mode": "Jet / Tank", "voice_actor": "Patrick Seitz", "image": null },
-    { "name": "Starscream", "role": "Ghost / Antagonist", "faction": "Decepticon", "alt_mode": "Jet (ghost form)", "voice_actor": "Frank Todaro", "image": null },
-    { "name": "Trypticon", "role": "Titan / Antagonist", "faction": "Decepticon", "alt_mode": "Dinosaur / City", "voice_actor": null, "image": null },
-    { "name": "Megatronus", "role": "The Fallen", "faction": "Neutral", "alt_mode": "None", "voice_actor": "Mark Hamill", "image": null }
+    {
+      "name": "Optimus Prime",
+      "role": "Autobot Leader",
+      "faction": "Autobot",
+      "alt_mode": "Truck",
+      "voice_actor": "Peter Cullen",
+      "image": "/images/characters/g1-optimus-prime.jpg"
+    },
+    {
+      "name": "Megatron",
+      "role": "Decepticon Leader",
+      "faction": "Decepticon",
+      "alt_mode": "Tank",
+      "voice_actor": "Jason Marnocha",
+      "image": "/images/characters/g1-megatron.jpg"
+    },
+    {
+      "name": "Rodimus Prime / Hot Rod",
+      "role": "Autobot Warrior",
+      "faction": "Autobot",
+      "alt_mode": "Race car",
+      "voice_actor": "Judd Nelson",
+      "image": "/images/characters/g1-rodimus-prime.jpg"
+    },
+    {
+      "name": "Windblade",
+      "role": "Camien Warrior",
+      "faction": "Autobot",
+      "alt_mode": "VTOL jet",
+      "voice_actor": "Abby Trott",
+      "image": "/images/characters/combiner-wars-windblade.jpg"
+    },
+    {
+      "name": "Perceptor",
+      "role": "Autobot Scientist",
+      "faction": "Autobot",
+      "alt_mode": "Microscope",
+      "voice_actor": "Wil Wheaton",
+      "image": "/images/characters/titans-return-perceptor.jpg"
+    },
+    {
+      "name": "Fortress Maximus",
+      "role": "Autobot Titan",
+      "faction": "Autobot",
+      "alt_mode": "Battle station / City",
+      "voice_actor": "Michael Dorn",
+      "image": "/images/characters/headmasters-fortress-maximus.jpg"
+    },
+    {
+      "name": "Overlord",
+      "role": "Decepticon Warlord",
+      "faction": "Decepticon",
+      "alt_mode": "Jet / Tank",
+      "voice_actor": "Patrick Seitz",
+      "image": "/images/characters/super-god-masterforce-overlord.jpg"
+    },
+    {
+      "name": "Starscream",
+      "role": "Ghost / Antagonist",
+      "faction": "Decepticon",
+      "alt_mode": "Jet (ghost form)",
+      "voice_actor": "Frank Todaro",
+      "image": "/images/characters/g1-starscream.jpg"
+    },
+    {
+      "name": "Trypticon",
+      "role": "Titan / Antagonist",
+      "faction": "Decepticon",
+      "alt_mode": "Dinosaur / City",
+      "voice_actor": null,
+      "image": "/images/characters/titans-return-trypticon.jpg"
+    },
+    {
+      "name": "Megatronus",
+      "role": "The Fallen",
+      "faction": "Neutral",
+      "alt_mode": "None",
+      "voice_actor": "Mark Hamill",
+      "image": "/images/characters/titans-return-megatronus.jpg"
+    }
   ],
-  "media": [],
+  "media": [
+    {
+      "title": "Transformers Video - Telegram",
+      "url": "https://t.me/TransformersVideo",
+      "source": "telegram",
+      "type": "community"
+    }
+  ],
   "trivia": [
     {
       "category": "Production",

@@ -6,7 +6,14 @@
   "era": "g1",
   "synopsis": "In this bold departure from previous Transformers series, the ancient Pretenders have secretly lived among humans on Earth for thousands of years. When the Decepticon Pretenders resurface to threaten humanity, Autobot Pretender Metalhawk recruits human allies who can bond with Transtector bodies as Headmaster Juniors and Godmasters. The young truck driver Ginrai discovers he can merge with a Transtector resembling Optimus Prime, becoming the powerful Super Ginrai and eventually God Ginrai to battle the Decepticon Godmaster Overlord and the malevolent energy being Devil Z.",
   "rating": "TV-Y7",
-  "tags": ["Classic", "Action", "Japanese", "Masterforce", "Pretenders", "Godmasters"],
+  "tags": [
+    "Classic",
+    "Action",
+    "Japanese",
+    "Masterforce",
+    "Pretenders",
+    "Godmasters"
+  ],
   "poster": "/images/series/super-god-masterforce-poster.jpg",
   "hero_image": "/images/series/super-god-masterforce-hero.jpg",
   "faction_accent": "red",
@@ -22,7 +29,11 @@
           "air_date": "1988-04-12",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=P-fdxv9B7e4",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 2,
@@ -31,7 +42,11 @@
           "air_date": "1988-04-19",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=lUT48XKVPoE",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 3,
@@ -40,7 +55,11 @@
           "air_date": "1988-04-26",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=VgPmow9ZOME",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 4,
@@ -49,7 +68,11 @@
           "air_date": "1988-05-03",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=-W4DmWK-aXU",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 5,
@@ -58,7 +81,11 @@
           "air_date": "1988-05-10",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=NGb8pCB7_QM",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 6,
@@ -67,7 +94,11 @@
           "air_date": "1988-05-17",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=KkMJtp6gM3c",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 7,
@@ -76,7 +107,11 @@
           "air_date": "1988-05-24",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=8iDxHOGqmL8",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 8,
@@ -85,7 +120,11 @@
           "air_date": "1988-05-31",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=4KpKUH2uE-c",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 9,
@@ -94,7 +133,11 @@
           "air_date": "1988-06-07",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=shQYHpvAj8w",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 10,
@@ -103,7 +146,11 @@
           "air_date": "1988-06-14",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=RKWaNvnsmgk",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 11,
@@ -112,7 +159,11 @@
           "air_date": "1988-06-21",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=yrRiBRolWKM",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 12,
@@ -121,7 +172,11 @@
           "air_date": "1988-06-28",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=MAQ6WsRqY8k",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 13,
@@ -130,7 +185,11 @@
           "air_date": "1988-07-05",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=gw9SjFYohQs",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 14,
@@ -139,7 +198,11 @@
           "air_date": "1988-07-12",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=W0sCsdH0byw",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 15,
@@ -148,7 +211,11 @@
           "air_date": "1988-07-19",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=lNKJhC2ngX4",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 16,
@@ -157,7 +224,11 @@
           "air_date": "1988-07-26",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=uUBauNbmjOE",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 17,
@@ -166,7 +237,11 @@
           "air_date": "1988-08-02",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=IuTt_E07UkM",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 18,
@@ -175,7 +250,11 @@
           "air_date": "1988-08-09",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=jQlTDcbFsJg",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 19,
@@ -184,7 +263,11 @@
           "air_date": "1988-08-16",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=vrgYMrx0IdU",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 20,
@@ -193,7 +276,11 @@
           "air_date": "1988-08-23",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=L-l038qt8GE",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 21,
@@ -202,7 +289,11 @@
           "air_date": "1988-08-30",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=Fb7Kyvowi6M",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 22,
@@ -211,7 +302,11 @@
           "air_date": "1988-09-06",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=cDVrFo99jJ4",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 23,
@@ -220,7 +315,11 @@
           "air_date": "1988-09-13",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=kI9QuctKKuk",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 24,
@@ -229,7 +328,11 @@
           "air_date": "1988-09-20",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=6ZfC4V44ghw",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 25,
@@ -238,7 +341,11 @@
           "air_date": "1988-09-27",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=43uRF94pHww",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 26,
@@ -247,7 +354,11 @@
           "air_date": "1988-10-04",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=Omxyh19zQys",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 27,
@@ -256,7 +367,11 @@
           "air_date": "1988-10-11",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=AEuLx3bJEE8",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 28,
@@ -265,7 +380,11 @@
           "air_date": "1988-10-18",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=bNX4dmaBrls",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 29,
@@ -274,7 +393,11 @@
           "air_date": "1988-10-25",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=fNGjv_oFBrE",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 30,
@@ -283,7 +406,11 @@
           "air_date": "1988-11-01",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=qhojDV1IPUo",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 31,
@@ -292,7 +419,11 @@
           "air_date": "1988-11-08",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=zOIL3Z7evSk",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 32,
@@ -301,7 +432,11 @@
           "air_date": "1988-11-15",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=wkjR-EJt7co",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 33,
@@ -310,7 +445,11 @@
           "air_date": "1988-11-22",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=JKjHkCEow7c",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 34,
@@ -319,7 +458,11 @@
           "air_date": "1988-11-29",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=jUTc1CR0Ga8",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 35,
@@ -328,7 +471,11 @@
           "air_date": "1988-12-06",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=evEdlIKUMDY",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 36,
@@ -337,7 +484,11 @@
           "air_date": "1988-12-13",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=p8h67vjavRs",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 37,
@@ -346,7 +497,11 @@
           "air_date": "1988-12-20",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=I6eLaqRLfXQ",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 38,
@@ -355,7 +510,11 @@
           "air_date": "1988-12-27",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=-E43SuX6yz4",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 39,
@@ -364,7 +523,11 @@
           "air_date": "1989-01-10",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=wXzLrsQU060",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 40,
@@ -373,7 +536,11 @@
           "air_date": "1989-01-17",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=uwE26RXMg_0",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 41,
@@ -382,7 +549,11 @@
           "air_date": "1989-01-24",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=oSEI_sPLVoo",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 42,
@@ -391,7 +562,11 @@
           "air_date": "1989-01-31",
           "duration": "22m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=ZtPYzkf_gPA",
+            "dailymotion": null,
+            "other": null
+          }
         }
       ]
     }
@@ -403,7 +578,7 @@
       "faction": "Autobot",
       "voice_actor": "Hiroshi Takemura",
       "alt_mode": "Red tractor-trailer truck",
-      "image": null
+      "image": "/images/characters/super-god-masterforce-ginrai.jpg"
     },
     {
       "name": "Metalhawk",
@@ -411,7 +586,7 @@
       "faction": "Autobot",
       "voice_actor": "Katsuji Mori",
       "alt_mode": "Jet",
-      "image": null
+      "image": "/images/characters/super-god-masterforce-metalhawk.jpg"
     },
     {
       "name": "Overlord",
@@ -419,7 +594,7 @@
       "faction": "Decepticon",
       "voice_actor": "Keiichi Noda",
       "alt_mode": "Tank and jet combination",
-      "image": null
+      "image": "/images/characters/super-god-masterforce-overlord.jpg"
     },
     {
       "name": "Devil Z",
@@ -427,7 +602,7 @@
       "faction": "Decepticon",
       "voice_actor": "Hidekatsu Shibata",
       "alt_mode": "Energy being (no alt mode)",
-      "image": null
+      "image": "/images/characters/super-god-masterforce-devil-z.gif"
     },
     {
       "name": "Sixknight",
@@ -435,7 +610,7 @@
       "faction": "Autobot",
       "voice_actor": "Kozo Shioya",
       "alt_mode": "Six modes: robot, jet, car, tank, wolf, gun",
-      "image": null
+      "image": "/images/characters/super-god-masterforce-sixknight.jpg"
     },
     {
       "name": "Grand Maximus",
@@ -443,7 +618,7 @@
       "faction": "Autobot",
       "voice_actor": "Kazuo Oka",
       "alt_mode": "Battleship / City",
-      "image": null
+      "image": "/images/characters/super-god-masterforce-grand-maximus.jpg"
     },
     {
       "name": "Lightfoot",
@@ -451,7 +626,7 @@
       "faction": "Autobot",
       "voice_actor": "Takeshi Kusao",
       "alt_mode": "Sports car",
-      "image": null
+      "image": "/images/characters/super-god-masterforce-lightfoot.jpg"
     },
     {
       "name": "Buster",
@@ -459,7 +634,7 @@
       "faction": "Decepticon",
       "voice_actor": "Toshio Kobayashi",
       "alt_mode": "Jet fighter",
-      "image": null
+      "image": "/images/characters/super-god-masterforce-buster.jpg"
     },
     {
       "name": "Hydra",
@@ -467,7 +642,7 @@
       "faction": "Decepticon",
       "voice_actor": "Jin Horikawa",
       "alt_mode": "Jet fighter",
-      "image": null
+      "image": "/images/characters/super-god-masterforce-hydra.jpg"
     },
     {
       "name": "BlackZarak",
@@ -475,10 +650,17 @@
       "faction": "Decepticon",
       "voice_actor": "Hidekatsu Shibata",
       "alt_mode": "Scorpion / City",
-      "image": null
+      "image": "/images/characters/super-god-masterforce-blackzarak.jpg"
     }
   ],
-  "media": [],
+  "media": [
+    {
+      "title": "Transformers Video - Telegram Channel",
+      "url": "https://t.me/TransformersVideo",
+      "source": "telegram",
+      "type": "community"
+    }
+  ],
   "trivia": [
     {
       "category": "Production",

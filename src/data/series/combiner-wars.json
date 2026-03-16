@@ -6,7 +6,14 @@
   "era": "modern",
   "synopsis": "Set forty years after the Great War, the fragile peace on Cybertron is shattered when the Enigma of Combination creates powerful Combiner warriors. Windblade, a warrior from Caminus, travels to Cybertron to confront the Council — Starscream, Rodimus Prime, and the Mistress of Flame — who plan to weaponize the Enigma. As Combiners clash across the planet, Starscream reveals his true scheme: to absorb the Combiners and become the ultimate lifeform. Only an unlikely alliance between Optimus Prime, Megatron, and Windblade can stop him.",
   "rating": "TV-Y7-FV",
-  "tags": ["Web Series", "CGI", "Action", "Machinima", "Prime Wars Trilogy", "Tatsunoko Production"],
+  "tags": [
+    "Web Series",
+    "CGI",
+    "Action",
+    "Machinima",
+    "Prime Wars Trilogy",
+    "Tatsunoko Production"
+  ],
   "poster": "/images/series/combiner-wars-poster.jpg",
   "hero_image": "/images/series/combiner-wars-hero.jpg",
   "faction_accent": "red",
@@ -22,7 +29,11 @@
           "air_date": "2016-08-02",
           "duration": "5m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=gpK_tO6RQaM",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 2,
@@ -31,7 +42,11 @@
           "air_date": "2016-08-09",
           "duration": "5m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=2U8fewvkoLI",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 3,
@@ -40,7 +55,11 @@
           "air_date": "2016-08-16",
           "duration": "5m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=rZdW6mO_qZ8",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 4,
@@ -49,7 +68,11 @@
           "air_date": "2016-08-23",
           "duration": "5m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=KMEnLP9NmNI",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 5,
@@ -58,7 +81,11 @@
           "air_date": "2016-08-30",
           "duration": "5m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=n07o--ENGUo",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 6,
@@ -67,7 +94,11 @@
           "air_date": "2016-09-06",
           "duration": "5m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=St3SKrM7d58",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 7,
@@ -76,7 +107,11 @@
           "air_date": "2016-09-13",
           "duration": "5m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=KVUGsvPjUiE",
+            "dailymotion": null,
+            "other": null
+          }
         },
         {
           "number": 8,
@@ -85,25 +120,113 @@
           "air_date": "2016-09-20",
           "duration": "5m",
           "thumbnail": null,
-          "video": { "youtube": null, "dailymotion": null, "other": null }
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=Y5iV9BlgUDw",
+            "dailymotion": null,
+            "other": null
+          }
         }
       ]
     }
   ],
   "characters": [
-    { "name": "Windblade", "role": "Camien Warrior", "faction": "Autobot", "alt_mode": "VTOL jet", "voice_actor": "Abby Trott", "image": null },
-    { "name": "Optimus Prime", "role": "Autobot Leader", "faction": "Autobot", "alt_mode": "Truck", "voice_actor": "Jon Bailey", "image": null },
-    { "name": "Megatron", "role": "Decepticon Leader", "faction": "Decepticon", "alt_mode": "Tank", "voice_actor": "Jason Marnocha", "image": null },
-    { "name": "Starscream", "role": "Councilmember / Antagonist", "faction": "Decepticon", "alt_mode": "Jet", "voice_actor": "Frank Todaro", "image": null },
-    { "name": "Rodimus Prime", "role": "Councilmember", "faction": "Autobot", "alt_mode": "Race car", "voice_actor": "Ben Pronsky", "image": null },
-    { "name": "Mistress of Flame", "role": "Camien Councilmember", "faction": "Camien", "alt_mode": "None", "voice_actor": "Lana McKissack", "image": null },
-    { "name": "Computron", "role": "Autobot Combiner", "faction": "Autobot", "alt_mode": "Combined form", "voice_actor": "Ricky Hayberg", "image": null },
-    { "name": "Menasor", "role": "Decepticon Combiner", "faction": "Decepticon", "alt_mode": "Combined form", "voice_actor": "Charlie Guzman", "image": null },
-    { "name": "Devastator", "role": "Decepticon Combiner", "faction": "Decepticon", "alt_mode": "Combined form", "voice_actor": "Patrick Seitz", "image": null },
-    { "name": "Victorion", "role": "Autobot Combiner", "faction": "Autobot", "alt_mode": "Combined form", "voice_actor": "Anna Akana", "image": null },
-    { "name": "Maxima", "role": "Camien Warrior", "faction": "Autobot", "alt_mode": "Unknown", "voice_actor": "Jamie Marchi", "image": null }
+    {
+      "name": "Windblade",
+      "role": "Camien Warrior",
+      "faction": "Autobot",
+      "alt_mode": "VTOL jet",
+      "voice_actor": "Abby Trott",
+      "image": "/images/characters/combiner-wars-windblade.jpg"
+    },
+    {
+      "name": "Optimus Prime",
+      "role": "Autobot Leader",
+      "faction": "Autobot",
+      "alt_mode": "Truck",
+      "voice_actor": "Jon Bailey",
+      "image": "/images/characters/g1-optimus-prime.jpg"
+    },
+    {
+      "name": "Megatron",
+      "role": "Decepticon Leader",
+      "faction": "Decepticon",
+      "alt_mode": "Tank",
+      "voice_actor": "Jason Marnocha",
+      "image": "/images/characters/g1-megatron.jpg"
+    },
+    {
+      "name": "Starscream",
+      "role": "Councilmember / Antagonist",
+      "faction": "Decepticon",
+      "alt_mode": "Jet",
+      "voice_actor": "Frank Todaro",
+      "image": "/images/characters/g1-starscream.jpg"
+    },
+    {
+      "name": "Rodimus Prime",
+      "role": "Councilmember",
+      "faction": "Autobot",
+      "alt_mode": "Race car",
+      "voice_actor": "Ben Pronsky",
+      "image": "/images/characters/g1-rodimus-prime.jpg"
+    },
+    {
+      "name": "Mistress of Flame",
+      "role": "Camien Councilmember",
+      "faction": "Camien",
+      "alt_mode": "None",
+      "voice_actor": "Lana McKissack",
+      "image": "/images/characters/combiner-wars-mistress-of-flame.jpg"
+    },
+    {
+      "name": "Computron",
+      "role": "Autobot Combiner",
+      "faction": "Autobot",
+      "alt_mode": "Combined form",
+      "voice_actor": "Ricky Hayberg",
+      "image": "/images/characters/combiner-wars-computron.jpg"
+    },
+    {
+      "name": "Menasor",
+      "role": "Decepticon Combiner",
+      "faction": "Decepticon",
+      "alt_mode": "Combined form",
+      "voice_actor": "Charlie Guzman",
+      "image": "/images/characters/combiner-wars-menasor.jpg"
+    },
+    {
+      "name": "Devastator",
+      "role": "Decepticon Combiner",
+      "faction": "Decepticon",
+      "alt_mode": "Combined form",
+      "voice_actor": "Patrick Seitz",
+      "image": "/images/characters/combiner-wars-devastator.jpg"
+    },
+    {
+      "name": "Victorion",
+      "role": "Autobot Combiner",
+      "faction": "Autobot",
+      "alt_mode": "Combined form",
+      "voice_actor": "Anna Akana",
+      "image": "/images/characters/combiner-wars-victorion.jpg"
+    },
+    {
+      "name": "Maxima",
+      "role": "Camien Warrior",
+      "faction": "Autobot",
+      "alt_mode": "Unknown",
+      "voice_actor": "Jamie Marchi",
+      "image": null
+    }
   ],
-  "media": [],
+  "media": [
+    {
+      "title": "Transformers Video - Telegram",
+      "url": "https://t.me/TransformersVideo",
+      "source": "telegram",
+      "type": "community"
+    }
+  ],
   "trivia": [
     {
       "category": "Production",

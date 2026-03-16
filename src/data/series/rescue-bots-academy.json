@@ -6,7 +6,14 @@
   "era": "modern",
   "synopsis": "A new generation of young Autobot recruits—Hot Shot, Whirl, Hoist, Medix, and Wedge—enroll in the Rescue Bot Training Academy on Griffin Rock, where they are mentored by the veteran Rescue Bots. Through teamwork, trial and error, and plenty of misadventures, the recruits learn that being a hero means more than just strength—it takes heart, courage, and cooperation.",
   "rating": "TV-Y",
-  "tags": ["2D animation", "preschool", "rescue", "Discovery Family", "Boulder Media", "training academy"],
+  "tags": [
+    "2D animation",
+    "preschool",
+    "rescue",
+    "Discovery Family",
+    "Boulder Media",
+    "training academy"
+  ],
   "poster": "/images/series/rescue-bots-academy-poster.jpg",
   "hero_image": "/images/series/rescue-bots-academy-hero.jpg",
   "faction_accent": "green",
@@ -15,134 +22,953 @@
       "number": 1,
       "year": 2019,
       "episodes": [
-        { "number": 1, "title": "Recruits, Part 1", "air_date": "2019-01-05", "duration": "22m", "video_url": null, "synopsis": "Five new Autobot recruits arrive at the Rescue Bot Training Academy to begin their training." },
-        { "number": 2, "title": "Recruits, Part 2", "air_date": "2019-01-05", "duration": "22m", "video_url": null, "synopsis": "The recruits face their first real rescue challenge and must learn to work as a team." },
-        { "number": 3, "title": "Tough Luck Chuck", "air_date": "2019-01-12", "duration": "22m", "video_url": null, "synopsis": "A series of unlucky incidents tests the recruits' ability to adapt under pressure." },
-        { "number": 4, "title": "Whirl'd View", "air_date": "2019-01-12", "duration": "22m", "video_url": null, "synopsis": "Whirl's unique perspective helps solve a problem the others cannot figure out." },
-        { "number": 5, "title": "Plan Bee", "air_date": "2019-01-19", "duration": "22m", "video_url": null, "synopsis": "A swarm of bees leads to an unexpected rescue mission at the academy." },
-        { "number": 6, "title": "The Bot Who Cried Rescue", "air_date": "2019-01-19", "duration": "22m", "video_url": null, "synopsis": "One of the recruits raises too many false alarms, leading to trouble when a real emergency strikes." },
-        { "number": 7, "title": "If at First...", "air_date": "2019-01-26", "duration": "22m", "video_url": null, "synopsis": "A recruit learns the importance of persistence after failing at a training exercise." },
-        { "number": 8, "title": "Mount Botmore", "air_date": "2019-01-26", "duration": "22m", "video_url": null, "synopsis": "The recruits explore a mountain near Griffin Rock and discover hidden dangers." },
-        { "number": 9, "title": "Mission Inaudible", "air_date": "2019-02-02", "duration": "22m", "video_url": null, "synopsis": "Communication problems during a mission teach the recruits about clear teamwork." },
-        { "number": 10, "title": "Glitch", "air_date": "2019-02-02", "duration": "22m", "video_url": null, "synopsis": "A technological glitch at the academy creates unexpected training obstacles." },
-        { "number": 11, "title": "Five into Four", "air_date": "2019-02-09", "duration": "22m", "video_url": null, "synopsis": "The five recruits must split into teams of different sizes for a rescue exercise." },
-        { "number": 12, "title": "Rescue Promo", "air_date": "2019-02-09", "duration": "22m", "video_url": null, "synopsis": "The recruits make a promotional video about rescue operations that goes hilariously wrong." },
-        { "number": 13, "title": "Tyrannosaurus Wrecked", "air_date": "2019-02-16", "duration": "22m", "video_url": null, "synopsis": "A robotic dinosaur gets loose on Griffin Rock and the recruits must contain it." },
-        { "number": 14, "title": "Blame Game", "air_date": "2019-02-16", "duration": "22m", "video_url": null, "synopsis": "When something goes wrong, the recruits learn that blaming each other solves nothing." },
-        { "number": 15, "title": "The TX3000", "air_date": "2019-02-23", "duration": "22m", "video_url": null, "synopsis": "A new high-tech training robot challenges the recruits in unexpected ways." },
-        { "number": 16, "title": "Big Small Rescue", "air_date": "2019-02-23", "duration": "22m", "video_url": null, "synopsis": "The recruits learn that even small rescues can be just as important as big ones." },
-        { "number": 17, "title": "Go Team Go!", "air_date": "2019-03-02", "duration": "22m", "video_url": null, "synopsis": "A team spirit competition motivates the recruits to work together more effectively." },
-        { "number": 18, "title": "The Secret of Flight", "air_date": "2019-03-02", "duration": "22m", "video_url": null, "synopsis": "Whirl helps the team understand the fundamentals of aerial rescue operations." },
-        { "number": 19, "title": "Battle of the Bots", "air_date": "2019-03-09", "duration": "22m", "video_url": null, "synopsis": "A friendly competition between recruits gets out of hand during training." },
-        { "number": 20, "title": "Medix Surprise", "air_date": "2019-03-09", "duration": "22m", "video_url": null, "synopsis": "Medix discovers a hidden talent that proves invaluable during an emergency." },
-        { "number": 21, "title": "All at Sea", "air_date": "2019-03-16", "duration": "22m", "video_url": null, "synopsis": "A maritime emergency tests the recruits' water rescue skills." },
-        { "number": 22, "title": "All Washed Up", "air_date": "2019-03-16", "duration": "22m", "video_url": null, "synopsis": "A flood on Griffin Rock forces the recruits to put their training to the test." },
-        { "number": 23, "title": "Fright at the Museum", "air_date": "2019-03-23", "duration": "22m", "video_url": null, "synopsis": "A nighttime visit to a museum turns spooky when exhibits seem to come alive." },
-        { "number": 24, "title": "Lucky Ducky", "air_date": "2019-03-23", "duration": "22m", "video_url": null, "synopsis": "A lucky charm leads one recruit to take unnecessary risks." },
-        { "number": 25, "title": "Little Bot Peep", "air_date": "2019-03-30", "duration": "22m", "video_url": null, "synopsis": "The recruits must round up runaway robots across Griffin Rock." },
-        { "number": 26, "title": "Trick or Treat", "air_date": "2019-03-30", "duration": "22m", "video_url": null, "synopsis": "A Halloween-themed emergency tests the recruits' courage." },
-        { "number": 27, "title": "Space Case", "air_date": "2019-04-06", "duration": "22m", "video_url": null, "synopsis": "An object from space lands near Griffin Rock, sparking a mysterious adventure." },
-        { "number": 28, "title": "Balloon Up a Tree", "air_date": "2019-04-06", "duration": "22m", "video_url": null, "synopsis": "A seemingly simple rescue of a balloon turns into a much bigger operation." },
-        { "number": 29, "title": "The Mystery of Dragon Mountain", "air_date": "2019-04-13", "duration": "22m", "video_url": null, "synopsis": "The recruits investigate strange occurrences at Dragon Mountain." },
-        { "number": 30, "title": "Driving a Wedge", "air_date": "2019-04-13", "duration": "22m", "video_url": null, "synopsis": "Wedge's stubbornness creates a rift within the recruit team." },
-        { "number": 31, "title": "Dino Hard", "air_date": "2019-04-20", "duration": "22m", "video_url": null, "synopsis": "Dinobots cause chaos on Griffin Rock during a training exercise." },
-        { "number": 32, "title": "Hack Attack", "air_date": "2019-04-20", "duration": "22m", "video_url": null, "synopsis": "A hacker takes control of Griffin Rock's systems and the recruits must stop them." },
-        { "number": 33, "title": "Life of the Party", "air_date": "2019-04-27", "duration": "22m", "video_url": null, "synopsis": "A celebration goes wrong and the recruits must perform a rescue during the party." },
-        { "number": 34, "title": "Dog Stray Afternoon", "air_date": "2019-04-27", "duration": "22m", "video_url": null, "synopsis": "A lost dog leads the recruits on a chase across Griffin Rock." },
-        { "number": 35, "title": "Buddy Cop", "air_date": "2019-05-04", "duration": "22m", "video_url": null, "synopsis": "Chase partners with a recruit for a patrol that turns into an exciting adventure." },
-        { "number": 36, "title": "Escape from Penguin Island", "air_date": "2019-05-04", "duration": "22m", "video_url": null, "synopsis": "The recruits must rescue stranded penguins from a remote island." },
-        { "number": 37, "title": "All That Glitters", "air_date": "2019-05-11", "duration": "22m", "video_url": null, "synopsis": "A shiny discovery leads to greed and a lesson about what truly matters." },
-        { "number": 38, "title": "Dig Fest", "air_date": "2019-05-11", "duration": "22m", "video_url": null, "synopsis": "An archaeological dig on Griffin Rock uncovers something unexpected underground." },
-        { "number": 39, "title": "Monster Savings", "air_date": "2019-05-18", "duration": "22m", "video_url": null, "synopsis": "A 'monster' sighting on Griffin Rock turns out to be less scary than expected." },
-        { "number": 40, "title": "Tune Out", "air_date": "2019-05-18", "duration": "22m", "video_url": null, "synopsis": "The recruits learn the importance of listening when a mission goes awry." },
-        { "number": 41, "title": "About a Rock", "air_date": "2019-05-25", "duration": "22m", "video_url": null, "synopsis": "A mysterious rock becomes the center of attention and a rescue challenge." },
-        { "number": 42, "title": "Who's Teaching Who?", "air_date": "2019-05-25", "duration": "22m", "video_url": null, "synopsis": "The recruits end up teaching their instructors a thing or two about rescue work." },
-        { "number": 43, "title": "Metal Munchers", "air_date": "2019-06-01", "duration": "22m", "video_url": null, "synopsis": "Metal-eating creatures threaten the academy and the recruits must protect their home." },
-        { "number": 44, "title": "Bee Prepared", "air_date": "2019-06-01", "duration": "22m", "video_url": null, "synopsis": "Bumblebee visits the academy and helps the recruits prepare for a major challenge." },
-        { "number": 45, "title": "Screen Time", "air_date": "2019-06-08", "duration": "22m", "video_url": null, "synopsis": "Too much screen time causes the recruits to miss important real-world signals." },
-        { "number": 46, "title": "Whirl's Wise-Bot Quest", "air_date": "2019-06-08", "duration": "22m", "video_url": null, "synopsis": "Whirl goes on a quest to seek wisdom from experienced Rescue Bots." },
-        { "number": 47, "title": "Flying Hunk-a-Junk", "air_date": "2019-06-15", "duration": "22m", "video_url": null, "synopsis": "The recruits must deal with a piece of malfunctioning flying machinery." },
-        { "number": 48, "title": "Into the Depths", "air_date": "2019-06-15", "duration": "22m", "video_url": null, "synopsis": "An underwater mission takes the recruits to the depths around Griffin Rock." },
-        { "number": 49, "title": "Milford Goes to the Dogs", "air_date": "2019-06-22", "duration": "22m", "video_url": null, "synopsis": "Dogs run amok in the town of Milford, causing a series of hilarious rescues." },
-        { "number": 50, "title": "The Ice Wave", "air_date": "2019-06-22", "duration": "22m", "video_url": null, "synopsis": "A sudden ice wave threatens Griffin Rock and the recruits must act fast." },
-        { "number": 51, "title": "Best Bots Forever, Part 1", "air_date": "2019-06-29", "duration": "22m", "video_url": null, "synopsis": "The Season 1 finale begins as the recruits face their toughest test yet." },
-        { "number": 52, "title": "Best Bots Forever, Part 2", "air_date": "2019-06-29", "duration": "22m", "video_url": null, "synopsis": "The recruits prove they have what it takes to be Rescue Bots, earning recognition from their mentors." }
+        {
+          "number": 1,
+          "title": "Recruits, Part 1",
+          "air_date": "2019-01-05",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Five new Autobot recruits arrive at the Rescue Bot Training Academy to begin their training."
+        },
+        {
+          "number": 2,
+          "title": "Recruits, Part 2",
+          "air_date": "2019-01-05",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The recruits face their first real rescue challenge and must learn to work as a team."
+        },
+        {
+          "number": 3,
+          "title": "Tough Luck Chuck",
+          "air_date": "2019-01-12",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A series of unlucky incidents tests the recruits' ability to adapt under pressure."
+        },
+        {
+          "number": 4,
+          "title": "Whirl'd View",
+          "air_date": "2019-01-12",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Whirl's unique perspective helps solve a problem the others cannot figure out."
+        },
+        {
+          "number": 5,
+          "title": "Plan Bee",
+          "air_date": "2019-01-19",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A swarm of bees leads to an unexpected rescue mission at the academy."
+        },
+        {
+          "number": 6,
+          "title": "The Bot Who Cried Rescue",
+          "air_date": "2019-01-19",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "One of the recruits raises too many false alarms, leading to trouble when a real emergency strikes."
+        },
+        {
+          "number": 7,
+          "title": "If at First...",
+          "air_date": "2019-01-26",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A recruit learns the importance of persistence after failing at a training exercise."
+        },
+        {
+          "number": 8,
+          "title": "Mount Botmore",
+          "air_date": "2019-01-26",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The recruits explore a mountain near Griffin Rock and discover hidden dangers."
+        },
+        {
+          "number": 9,
+          "title": "Mission Inaudible",
+          "air_date": "2019-02-02",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Communication problems during a mission teach the recruits about clear teamwork."
+        },
+        {
+          "number": 10,
+          "title": "Glitch",
+          "air_date": "2019-02-02",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A technological glitch at the academy creates unexpected training obstacles."
+        },
+        {
+          "number": 11,
+          "title": "Five into Four",
+          "air_date": "2019-02-09",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The five recruits must split into teams of different sizes for a rescue exercise."
+        },
+        {
+          "number": 12,
+          "title": "Rescue Promo",
+          "air_date": "2019-02-09",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The recruits make a promotional video about rescue operations that goes hilariously wrong."
+        },
+        {
+          "number": 13,
+          "title": "Tyrannosaurus Wrecked",
+          "air_date": "2019-02-16",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A robotic dinosaur gets loose on Griffin Rock and the recruits must contain it."
+        },
+        {
+          "number": 14,
+          "title": "Blame Game",
+          "air_date": "2019-02-16",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "When something goes wrong, the recruits learn that blaming each other solves nothing."
+        },
+        {
+          "number": 15,
+          "title": "The TX3000",
+          "air_date": "2019-02-23",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A new high-tech training robot challenges the recruits in unexpected ways."
+        },
+        {
+          "number": 16,
+          "title": "Big Small Rescue",
+          "air_date": "2019-02-23",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The recruits learn that even small rescues can be just as important as big ones."
+        },
+        {
+          "number": 17,
+          "title": "Go Team Go!",
+          "air_date": "2019-03-02",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A team spirit competition motivates the recruits to work together more effectively."
+        },
+        {
+          "number": 18,
+          "title": "The Secret of Flight",
+          "air_date": "2019-03-02",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Whirl helps the team understand the fundamentals of aerial rescue operations."
+        },
+        {
+          "number": 19,
+          "title": "Battle of the Bots",
+          "air_date": "2019-03-09",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A friendly competition between recruits gets out of hand during training."
+        },
+        {
+          "number": 20,
+          "title": "Medix Surprise",
+          "air_date": "2019-03-09",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Medix discovers a hidden talent that proves invaluable during an emergency."
+        },
+        {
+          "number": 21,
+          "title": "All at Sea",
+          "air_date": "2019-03-16",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A maritime emergency tests the recruits' water rescue skills."
+        },
+        {
+          "number": 22,
+          "title": "All Washed Up",
+          "air_date": "2019-03-16",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A flood on Griffin Rock forces the recruits to put their training to the test."
+        },
+        {
+          "number": 23,
+          "title": "Fright at the Museum",
+          "air_date": "2019-03-23",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A nighttime visit to a museum turns spooky when exhibits seem to come alive."
+        },
+        {
+          "number": 24,
+          "title": "Lucky Ducky",
+          "air_date": "2019-03-23",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A lucky charm leads one recruit to take unnecessary risks."
+        },
+        {
+          "number": 25,
+          "title": "Little Bot Peep",
+          "air_date": "2019-03-30",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The recruits must round up runaway robots across Griffin Rock."
+        },
+        {
+          "number": 26,
+          "title": "Trick or Treat",
+          "air_date": "2019-03-30",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A Halloween-themed emergency tests the recruits' courage."
+        },
+        {
+          "number": 27,
+          "title": "Space Case",
+          "air_date": "2019-04-06",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "An object from space lands near Griffin Rock, sparking a mysterious adventure."
+        },
+        {
+          "number": 28,
+          "title": "Balloon Up a Tree",
+          "air_date": "2019-04-06",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A seemingly simple rescue of a balloon turns into a much bigger operation."
+        },
+        {
+          "number": 29,
+          "title": "The Mystery of Dragon Mountain",
+          "air_date": "2019-04-13",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The recruits investigate strange occurrences at Dragon Mountain."
+        },
+        {
+          "number": 30,
+          "title": "Driving a Wedge",
+          "air_date": "2019-04-13",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Wedge's stubbornness creates a rift within the recruit team."
+        },
+        {
+          "number": 31,
+          "title": "Dino Hard",
+          "air_date": "2019-04-20",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Dinobots cause chaos on Griffin Rock during a training exercise."
+        },
+        {
+          "number": 32,
+          "title": "Hack Attack",
+          "air_date": "2019-04-20",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A hacker takes control of Griffin Rock's systems and the recruits must stop them."
+        },
+        {
+          "number": 33,
+          "title": "Life of the Party",
+          "air_date": "2019-04-27",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A celebration goes wrong and the recruits must perform a rescue during the party."
+        },
+        {
+          "number": 34,
+          "title": "Dog Stray Afternoon",
+          "air_date": "2019-04-27",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A lost dog leads the recruits on a chase across Griffin Rock."
+        },
+        {
+          "number": 35,
+          "title": "Buddy Cop",
+          "air_date": "2019-05-04",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Chase partners with a recruit for a patrol that turns into an exciting adventure."
+        },
+        {
+          "number": 36,
+          "title": "Escape from Penguin Island",
+          "air_date": "2019-05-04",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The recruits must rescue stranded penguins from a remote island."
+        },
+        {
+          "number": 37,
+          "title": "All That Glitters",
+          "air_date": "2019-05-11",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A shiny discovery leads to greed and a lesson about what truly matters."
+        },
+        {
+          "number": 38,
+          "title": "Dig Fest",
+          "air_date": "2019-05-11",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "An archaeological dig on Griffin Rock uncovers something unexpected underground."
+        },
+        {
+          "number": 39,
+          "title": "Monster Savings",
+          "air_date": "2019-05-18",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A 'monster' sighting on Griffin Rock turns out to be less scary than expected."
+        },
+        {
+          "number": 40,
+          "title": "Tune Out",
+          "air_date": "2019-05-18",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The recruits learn the importance of listening when a mission goes awry."
+        },
+        {
+          "number": 41,
+          "title": "About a Rock",
+          "air_date": "2019-05-25",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A mysterious rock becomes the center of attention and a rescue challenge."
+        },
+        {
+          "number": 42,
+          "title": "Who's Teaching Who?",
+          "air_date": "2019-05-25",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The recruits end up teaching their instructors a thing or two about rescue work."
+        },
+        {
+          "number": 43,
+          "title": "Metal Munchers",
+          "air_date": "2019-06-01",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Metal-eating creatures threaten the academy and the recruits must protect their home."
+        },
+        {
+          "number": 44,
+          "title": "Bee Prepared",
+          "air_date": "2019-06-01",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Bumblebee visits the academy and helps the recruits prepare for a major challenge."
+        },
+        {
+          "number": 45,
+          "title": "Screen Time",
+          "air_date": "2019-06-08",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Too much screen time causes the recruits to miss important real-world signals."
+        },
+        {
+          "number": 46,
+          "title": "Whirl's Wise-Bot Quest",
+          "air_date": "2019-06-08",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Whirl goes on a quest to seek wisdom from experienced Rescue Bots."
+        },
+        {
+          "number": 47,
+          "title": "Flying Hunk-a-Junk",
+          "air_date": "2019-06-15",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The recruits must deal with a piece of malfunctioning flying machinery."
+        },
+        {
+          "number": 48,
+          "title": "Into the Depths",
+          "air_date": "2019-06-15",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "An underwater mission takes the recruits to the depths around Griffin Rock."
+        },
+        {
+          "number": 49,
+          "title": "Milford Goes to the Dogs",
+          "air_date": "2019-06-22",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Dogs run amok in the town of Milford, causing a series of hilarious rescues."
+        },
+        {
+          "number": 50,
+          "title": "The Ice Wave",
+          "air_date": "2019-06-22",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A sudden ice wave threatens Griffin Rock and the recruits must act fast."
+        },
+        {
+          "number": 51,
+          "title": "Best Bots Forever, Part 1",
+          "air_date": "2019-06-29",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The Season 1 finale begins as the recruits face their toughest test yet."
+        },
+        {
+          "number": 52,
+          "title": "Best Bots Forever, Part 2",
+          "air_date": "2019-06-29",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The recruits prove they have what it takes to be Rescue Bots, earning recognition from their mentors."
+        }
       ]
     },
     {
       "number": 2,
       "year": 2020,
       "episodes": [
-        { "number": 1, "title": "Back to School", "air_date": "2020-01-04", "duration": "22m", "video_url": null, "synopsis": "The recruits return for a new semester at the academy with harder challenges ahead." },
-        { "number": 2, "title": "Mission Dinobot", "air_date": "2020-01-04", "duration": "22m", "video_url": null, "synopsis": "A Dinobot-related mission tests the recruits' ability to handle large-scale threats." },
-        { "number": 3, "title": "Medix Steps Up to the Bat", "air_date": "2020-01-11", "duration": "22m", "video_url": null, "synopsis": "Medix takes the lead during a nighttime bat-related emergency." },
-        { "number": 4, "title": "Wild Ghost Chase", "air_date": "2020-01-11", "duration": "22m", "video_url": null, "synopsis": "The recruits investigate ghostly sightings that turn out to have a logical explanation." },
-        { "number": 5, "title": "Robo-Cody", "air_date": "2020-01-18", "duration": "22m", "video_url": null, "synopsis": "A robotic version of Cody Burns causes confusion at the academy." },
-        { "number": 6, "title": "Acting Out", "air_date": "2020-01-18", "duration": "22m", "video_url": null, "synopsis": "The recruits put on a play that mirrors their real-life rescue challenges." },
-        { "number": 7, "title": "Trouble Cubed", "air_date": "2020-01-25", "duration": "22m", "video_url": null, "synopsis": "A cube-shaped threat multiplies into a growing problem for the team." },
-        { "number": 8, "title": "My Favorite Rescue", "air_date": "2020-01-25", "duration": "22m", "video_url": null, "synopsis": "Each recruit recalls their favorite rescue mission in a series of flashbacks." },
-        { "number": 9, "title": "Little Plot of Horrors", "air_date": "2020-02-01", "duration": "22m", "video_url": null, "synopsis": "A garden experiment grows out of control, creating a plant-based emergency." },
-        { "number": 10, "title": "Critical Condition", "air_date": "2020-02-01", "duration": "22m", "video_url": null, "synopsis": "A critical equipment failure puts the entire academy at risk." },
-        { "number": 11, "title": "Fun Droids", "air_date": "2020-02-08", "duration": "22m", "video_url": null, "synopsis": "Entertainment robots malfunction and the recruits must wrangle them back under control." },
-        { "number": 12, "title": "Campfire Fright", "air_date": "2020-02-08", "duration": "22m", "video_url": null, "synopsis": "Scary stories around a campfire lead to real adventures when the recruits investigate." },
-        { "number": 13, "title": "Mystery Museum", "air_date": "2020-02-15", "duration": "22m", "video_url": null, "synopsis": "A museum mystery requires detective work as well as rescue skills." },
-        { "number": 14, "title": "Shall We Dance?", "air_date": "2020-02-15", "duration": "22m", "video_url": null, "synopsis": "A dance event is disrupted by an emergency that requires creative problem-solving." },
-        { "number": 15, "title": "In Training", "air_date": "2020-02-22", "duration": "22m", "video_url": null, "synopsis": "The recruits participate in an advanced training simulation." },
-        { "number": 16, "title": "Need to Know", "air_date": "2020-02-22", "duration": "22m", "video_url": null, "synopsis": "Important information must be relayed quickly during a fast-moving crisis." },
-        { "number": 17, "title": "The Great Energon Rush", "air_date": "2020-02-29", "duration": "22m", "video_url": null, "synopsis": "An Energon discovery on Griffin Rock leads to a competition among the recruits." },
-        { "number": 18, "title": "The Vault of the Primes", "air_date": "2020-02-29", "duration": "22m", "video_url": null, "synopsis": "The recruits discover a hidden vault containing ancient Prime artifacts." },
-        { "number": 19, "title": "Power Up and Energize", "air_date": "2020-03-07", "duration": "22m", "video_url": null, "synopsis": "The recruits gain temporary power boosts that they must learn to control." },
-        { "number": 20, "title": "Heatwave's Shiny Coat", "air_date": "2020-03-07", "duration": "22m", "video_url": null, "synopsis": "Heatwave deals with an embarrassing situation while still mentoring the recruits." },
-        { "number": 21, "title": "Mul-T-Change of Pace", "air_date": "2020-03-14", "duration": "22m", "video_url": null, "synopsis": "The recruits explore multi-change transformations to expand their rescue capabilities." },
-        { "number": 22, "title": "Partners", "air_date": "2020-03-14", "duration": "22m", "video_url": null, "synopsis": "The recruits are paired in new partnerships that challenge their comfort zones." },
-        { "number": 23, "title": "The Empty City", "air_date": "2020-03-21", "duration": "22m", "video_url": null, "synopsis": "The team investigates why a nearby city has been mysteriously evacuated." },
-        { "number": 24, "title": "First Responder", "air_date": "2020-03-21", "duration": "22m", "video_url": null, "synopsis": "A recruit earns the honor of being the first responder to an emergency." },
-        { "number": 25, "title": "Five Little Rescue Bots", "air_date": "2020-03-28", "duration": "22m", "video_url": null, "synopsis": "The five recruits are separated and must each handle their own individual rescue." },
-        { "number": 26, "title": "Good Advice", "air_date": "2020-03-28", "duration": "22m", "video_url": null, "synopsis": "Conflicting advice from different mentors confuses the recruits during a mission." },
-        { "number": 27, "title": "Small Cogs, Big Wheels", "air_date": "2020-04-04", "duration": "22m", "video_url": null, "synopsis": "The recruits learn that even small contributions can make a big difference." },
-        { "number": 28, "title": "How to Train Your Scraplet", "air_date": "2020-04-04", "duration": "22m", "video_url": null, "synopsis": "A Scraplet appears at the academy and the recruits attempt to tame it." },
-        { "number": 29, "title": "Helicopter Heroes", "air_date": "2020-04-11", "duration": "22m", "video_url": null, "synopsis": "Whirl leads an aerial rescue mission that showcases helicopter capabilities." },
-        { "number": 30, "title": "Brushfire", "air_date": "2020-04-11", "duration": "22m", "video_url": null, "synopsis": "A brushfire near Griffin Rock puts the recruits' firefighting skills to the test." },
-        { "number": 31, "title": "The Ties That Bind", "air_date": "2020-04-18", "duration": "22m", "video_url": null, "synopsis": "The bonds between the recruits are tested when they face a dividing challenge." },
-        { "number": 32, "title": "Bot Blog", "air_date": "2020-04-18", "duration": "22m", "video_url": null, "synopsis": "A recruit's blog about academy life gets unexpected attention." },
-        { "number": 33, "title": "The Icebot Cometh", "air_date": "2020-04-25", "duration": "22m", "video_url": null, "synopsis": "An ice-themed threat arrives on Griffin Rock in the middle of a heat wave." },
-        { "number": 34, "title": "More Than Meets the Eye", "air_date": "2020-04-25", "duration": "22m", "video_url": null, "synopsis": "The recruits discover hidden abilities within themselves." },
-        { "number": 35, "title": "Things That Go Bot in the Night", "air_date": "2020-05-02", "duration": "22m", "video_url": null, "synopsis": "Nighttime noises at the academy lead to a spooky investigation." },
-        { "number": 36, "title": "Medix Gets Schooled", "air_date": "2020-05-02", "duration": "22m", "video_url": null, "synopsis": "Medix learns a humbling lesson about the limits of textbook knowledge." },
-        { "number": 37, "title": "Rescue Teens", "air_date": "2020-05-09", "duration": "22m", "video_url": null, "synopsis": "The recruit bots go through a growth phase that makes them act like teenagers." },
-        { "number": 38, "title": "Enter the Flood", "air_date": "2020-05-09", "duration": "22m", "video_url": null, "synopsis": "A major flood hits Griffin Rock and all hands are needed for the rescue." },
-        { "number": 39, "title": "Wizard of Botz", "air_date": "2020-05-16", "duration": "22m", "video_url": null, "synopsis": "A fantasy-themed adventure teaches the recruits about inner strength." },
-        { "number": 40, "title": "The Tracker", "air_date": "2020-05-16", "duration": "22m", "video_url": null, "synopsis": "The team must track down a missing piece of technology before it falls into the wrong hands." },
-        { "number": 41, "title": "One of Our Dragons Is Missing", "air_date": "2020-05-23", "duration": "22m", "video_url": null, "synopsis": "A robotic dragon goes missing from Griffin Rock and the recruits must find it." },
-        { "number": 42, "title": "Dino-mite Duo", "air_date": "2020-05-23", "duration": "22m", "video_url": null, "synopsis": "Two Dinobots team up with the recruits for a special mission." },
-        { "number": 43, "title": "The Lonely Titan", "air_date": "2020-05-30", "duration": "22m", "video_url": null, "synopsis": "A giant lonely robot is discovered near Griffin Rock and needs help." },
-        { "number": 44, "title": "X Marks the Bot", "air_date": "2020-05-30", "duration": "22m", "video_url": null, "synopsis": "A treasure hunt leads the recruits to a surprising discovery." },
-        { "number": 45, "title": "Making Tracks", "air_date": "2020-06-06", "duration": "22m", "video_url": null, "synopsis": "The recruits follow mysterious tracks to solve a rescue puzzle." },
-        { "number": 46, "title": "Don't Be Alarmed", "air_date": "2020-06-06", "duration": "22m", "video_url": null, "synopsis": "False alarms test the team's readiness and patience." },
-        { "number": 47, "title": "Powerless", "air_date": "2020-06-13", "duration": "22m", "video_url": null, "synopsis": "A power outage forces the recruits to perform rescues without their usual technology." },
-        { "number": 48, "title": "Griffin Rock Rocks!", "air_date": "2020-06-13", "duration": "22m", "video_url": null, "synopsis": "A music festival on Griffin Rock creates both fun and emergencies." },
-        { "number": 49, "title": "Bot Battle", "air_date": "2020-06-20", "duration": "22m", "video_url": null, "synopsis": "A competition between bot teams escalates beyond friendly rivalry." },
-        { "number": 50, "title": "Space Party", "air_date": "2020-06-20", "duration": "22m", "video_url": null, "synopsis": "A space-themed event brings unexpected visitors to Griffin Rock." },
-        { "number": 51, "title": "Crash of the Titan", "air_date": "2020-06-27", "duration": "22m", "video_url": null, "synopsis": "In the series finale, the recruits face a titan-sized threat and prove they have graduated from recruits to true Rescue Bots, ready to protect and serve." },
-        { "number": 52, "title": "Legacy", "air_date": "2020-06-27", "duration": "22m", "video_url": null, "synopsis": "The recruits reflect on their journey and look forward to their future as full Rescue Bots." }
+        {
+          "number": 1,
+          "title": "Back to School",
+          "air_date": "2020-01-04",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The recruits return for a new semester at the academy with harder challenges ahead."
+        },
+        {
+          "number": 2,
+          "title": "Mission Dinobot",
+          "air_date": "2020-01-04",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A Dinobot-related mission tests the recruits' ability to handle large-scale threats."
+        },
+        {
+          "number": 3,
+          "title": "Medix Steps Up to the Bat",
+          "air_date": "2020-01-11",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Medix takes the lead during a nighttime bat-related emergency."
+        },
+        {
+          "number": 4,
+          "title": "Wild Ghost Chase",
+          "air_date": "2020-01-11",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The recruits investigate ghostly sightings that turn out to have a logical explanation."
+        },
+        {
+          "number": 5,
+          "title": "Robo-Cody",
+          "air_date": "2020-01-18",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A robotic version of Cody Burns causes confusion at the academy."
+        },
+        {
+          "number": 6,
+          "title": "Acting Out",
+          "air_date": "2020-01-18",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The recruits put on a play that mirrors their real-life rescue challenges."
+        },
+        {
+          "number": 7,
+          "title": "Trouble Cubed",
+          "air_date": "2020-01-25",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A cube-shaped threat multiplies into a growing problem for the team."
+        },
+        {
+          "number": 8,
+          "title": "My Favorite Rescue",
+          "air_date": "2020-01-25",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Each recruit recalls their favorite rescue mission in a series of flashbacks."
+        },
+        {
+          "number": 9,
+          "title": "Little Plot of Horrors",
+          "air_date": "2020-02-01",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A garden experiment grows out of control, creating a plant-based emergency."
+        },
+        {
+          "number": 10,
+          "title": "Critical Condition",
+          "air_date": "2020-02-01",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A critical equipment failure puts the entire academy at risk."
+        },
+        {
+          "number": 11,
+          "title": "Fun Droids",
+          "air_date": "2020-02-08",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Entertainment robots malfunction and the recruits must wrangle them back under control."
+        },
+        {
+          "number": 12,
+          "title": "Campfire Fright",
+          "air_date": "2020-02-08",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Scary stories around a campfire lead to real adventures when the recruits investigate."
+        },
+        {
+          "number": 13,
+          "title": "Mystery Museum",
+          "air_date": "2020-02-15",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A museum mystery requires detective work as well as rescue skills."
+        },
+        {
+          "number": 14,
+          "title": "Shall We Dance?",
+          "air_date": "2020-02-15",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A dance event is disrupted by an emergency that requires creative problem-solving."
+        },
+        {
+          "number": 15,
+          "title": "In Training",
+          "air_date": "2020-02-22",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The recruits participate in an advanced training simulation."
+        },
+        {
+          "number": 16,
+          "title": "Need to Know",
+          "air_date": "2020-02-22",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Important information must be relayed quickly during a fast-moving crisis."
+        },
+        {
+          "number": 17,
+          "title": "The Great Energon Rush",
+          "air_date": "2020-02-29",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "An Energon discovery on Griffin Rock leads to a competition among the recruits."
+        },
+        {
+          "number": 18,
+          "title": "The Vault of the Primes",
+          "air_date": "2020-02-29",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The recruits discover a hidden vault containing ancient Prime artifacts."
+        },
+        {
+          "number": 19,
+          "title": "Power Up and Energize",
+          "air_date": "2020-03-07",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The recruits gain temporary power boosts that they must learn to control."
+        },
+        {
+          "number": 20,
+          "title": "Heatwave's Shiny Coat",
+          "air_date": "2020-03-07",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Heatwave deals with an embarrassing situation while still mentoring the recruits."
+        },
+        {
+          "number": 21,
+          "title": "Mul-T-Change of Pace",
+          "air_date": "2020-03-14",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The recruits explore multi-change transformations to expand their rescue capabilities."
+        },
+        {
+          "number": 22,
+          "title": "Partners",
+          "air_date": "2020-03-14",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The recruits are paired in new partnerships that challenge their comfort zones."
+        },
+        {
+          "number": 23,
+          "title": "The Empty City",
+          "air_date": "2020-03-21",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The team investigates why a nearby city has been mysteriously evacuated."
+        },
+        {
+          "number": 24,
+          "title": "First Responder",
+          "air_date": "2020-03-21",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A recruit earns the honor of being the first responder to an emergency."
+        },
+        {
+          "number": 25,
+          "title": "Five Little Rescue Bots",
+          "air_date": "2020-03-28",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The five recruits are separated and must each handle their own individual rescue."
+        },
+        {
+          "number": 26,
+          "title": "Good Advice",
+          "air_date": "2020-03-28",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Conflicting advice from different mentors confuses the recruits during a mission."
+        },
+        {
+          "number": 27,
+          "title": "Small Cogs, Big Wheels",
+          "air_date": "2020-04-04",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The recruits learn that even small contributions can make a big difference."
+        },
+        {
+          "number": 28,
+          "title": "How to Train Your Scraplet",
+          "air_date": "2020-04-04",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A Scraplet appears at the academy and the recruits attempt to tame it."
+        },
+        {
+          "number": 29,
+          "title": "Helicopter Heroes",
+          "air_date": "2020-04-11",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Whirl leads an aerial rescue mission that showcases helicopter capabilities."
+        },
+        {
+          "number": 30,
+          "title": "Brushfire",
+          "air_date": "2020-04-11",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A brushfire near Griffin Rock puts the recruits' firefighting skills to the test."
+        },
+        {
+          "number": 31,
+          "title": "The Ties That Bind",
+          "air_date": "2020-04-18",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The bonds between the recruits are tested when they face a dividing challenge."
+        },
+        {
+          "number": 32,
+          "title": "Bot Blog",
+          "air_date": "2020-04-18",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A recruit's blog about academy life gets unexpected attention."
+        },
+        {
+          "number": 33,
+          "title": "The Icebot Cometh",
+          "air_date": "2020-04-25",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "An ice-themed threat arrives on Griffin Rock in the middle of a heat wave."
+        },
+        {
+          "number": 34,
+          "title": "More Than Meets the Eye",
+          "air_date": "2020-04-25",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The recruits discover hidden abilities within themselves."
+        },
+        {
+          "number": 35,
+          "title": "Things That Go Bot in the Night",
+          "air_date": "2020-05-02",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Nighttime noises at the academy lead to a spooky investigation."
+        },
+        {
+          "number": 36,
+          "title": "Medix Gets Schooled",
+          "air_date": "2020-05-02",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Medix learns a humbling lesson about the limits of textbook knowledge."
+        },
+        {
+          "number": 37,
+          "title": "Rescue Teens",
+          "air_date": "2020-05-09",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The recruit bots go through a growth phase that makes them act like teenagers."
+        },
+        {
+          "number": 38,
+          "title": "Enter the Flood",
+          "air_date": "2020-05-09",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A major flood hits Griffin Rock and all hands are needed for the rescue."
+        },
+        {
+          "number": 39,
+          "title": "Wizard of Botz",
+          "air_date": "2020-05-16",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A fantasy-themed adventure teaches the recruits about inner strength."
+        },
+        {
+          "number": 40,
+          "title": "The Tracker",
+          "air_date": "2020-05-16",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The team must track down a missing piece of technology before it falls into the wrong hands."
+        },
+        {
+          "number": 41,
+          "title": "One of Our Dragons Is Missing",
+          "air_date": "2020-05-23",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A robotic dragon goes missing from Griffin Rock and the recruits must find it."
+        },
+        {
+          "number": 42,
+          "title": "Dino-mite Duo",
+          "air_date": "2020-05-23",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "Two Dinobots team up with the recruits for a special mission."
+        },
+        {
+          "number": 43,
+          "title": "The Lonely Titan",
+          "air_date": "2020-05-30",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A giant lonely robot is discovered near Griffin Rock and needs help."
+        },
+        {
+          "number": 44,
+          "title": "X Marks the Bot",
+          "air_date": "2020-05-30",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A treasure hunt leads the recruits to a surprising discovery."
+        },
+        {
+          "number": 45,
+          "title": "Making Tracks",
+          "air_date": "2020-06-06",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The recruits follow mysterious tracks to solve a rescue puzzle."
+        },
+        {
+          "number": 46,
+          "title": "Don't Be Alarmed",
+          "air_date": "2020-06-06",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "False alarms test the team's readiness and patience."
+        },
+        {
+          "number": 47,
+          "title": "Powerless",
+          "air_date": "2020-06-13",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A power outage forces the recruits to perform rescues without their usual technology."
+        },
+        {
+          "number": 48,
+          "title": "Griffin Rock Rocks!",
+          "air_date": "2020-06-13",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A music festival on Griffin Rock creates both fun and emergencies."
+        },
+        {
+          "number": 49,
+          "title": "Bot Battle",
+          "air_date": "2020-06-20",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A competition between bot teams escalates beyond friendly rivalry."
+        },
+        {
+          "number": 50,
+          "title": "Space Party",
+          "air_date": "2020-06-20",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "A space-themed event brings unexpected visitors to Griffin Rock."
+        },
+        {
+          "number": 51,
+          "title": "Crash of the Titan",
+          "air_date": "2020-06-27",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "In the series finale, the recruits face a titan-sized threat and prove they have graduated from recruits to true Rescue Bots, ready to protect and serve."
+        },
+        {
+          "number": 52,
+          "title": "Legacy",
+          "air_date": "2020-06-27",
+          "duration": "22m",
+          "video_url": null,
+          "synopsis": "The recruits reflect on their journey and look forward to their future as full Rescue Bots."
+        }
       ]
     }
   ],
   "characters": [
-    { "name": "Hot Shot", "role": "Recruit Leader", "faction": "Autobot", "alt_mode": "Race car", "voice_actor": "Pierce Cravens", "image": null },
-    { "name": "Whirl", "role": "Recruit", "faction": "Autobot", "alt_mode": "Helicopter", "voice_actor": "Courtney Shaw", "image": null },
-    { "name": "Hoist", "role": "Recruit", "faction": "Autobot", "alt_mode": "Tow truck", "voice_actor": "Alan Trinca", "image": null },
-    { "name": "Medix", "role": "Recruit Medic", "faction": "Autobot", "alt_mode": "Ambulance", "voice_actor": "Adam Andrianopoulous", "image": null },
-    { "name": "Wedge", "role": "Recruit", "faction": "Autobot", "alt_mode": "Bulldozer", "voice_actor": "Mason Hensley", "image": null },
-    { "name": "Heatwave", "role": "Instructor", "faction": "Autobot", "alt_mode": "Fire truck", "voice_actor": "Paul Guyet", "image": null },
-    { "name": "Chase", "role": "Instructor", "faction": "Autobot", "alt_mode": "Police car", "voice_actor": "Frank Cwiklik", "image": null },
-    { "name": "Boulder", "role": "Instructor", "faction": "Autobot", "alt_mode": "Bulldozer", "voice_actor": "Keyon Williams", "image": null },
-    { "name": "Blades", "role": "Instructor", "faction": "Autobot", "alt_mode": "Helicopter", "voice_actor": "Michael Hansen", "image": null },
-    { "name": "Cody Burns", "role": "Human Ally", "faction": "Human", "alt_mode": null, "voice_actor": "Andy Zou", "image": null },
-    { "name": "Grimlock", "role": "Instructor", "faction": "Autobot", "alt_mode": "Tyrannosaurus Rex", "voice_actor": "Terrence Flint", "image": null },
-    { "name": "Bumblebee", "role": "Visiting Instructor", "faction": "Autobot", "alt_mode": "Sports car", "voice_actor": "Jeremy Levy", "image": null }
+    {
+      "name": "Hot Shot",
+      "role": "Recruit Leader",
+      "faction": "Autobot",
+      "alt_mode": "Race car",
+      "voice_actor": "Pierce Cravens",
+      "image": "/images/characters/armada-hot-shot.jpg"
+    },
+    {
+      "name": "Whirl",
+      "role": "Recruit",
+      "faction": "Autobot",
+      "alt_mode": "Helicopter",
+      "voice_actor": "Courtney Shaw",
+      "image": "/images/characters/rescue-bots-academy-whirl.jpg"
+    },
+    {
+      "name": "Hoist",
+      "role": "Recruit",
+      "faction": "Autobot",
+      "alt_mode": "Tow truck",
+      "voice_actor": "Alan Trinca",
+      "image": null
+    },
+    {
+      "name": "Medix",
+      "role": "Recruit Medic",
+      "faction": "Autobot",
+      "alt_mode": "Ambulance",
+      "voice_actor": "Adam Andrianopoulous",
+      "image": null
+    },
+    {
+      "name": "Wedge",
+      "role": "Recruit",
+      "faction": "Autobot",
+      "alt_mode": "Bulldozer",
+      "voice_actor": "Mason Hensley",
+      "image": "/images/characters/rescue-bots-academy-wedge.jpg"
+    },
+    {
+      "name": "Heatwave",
+      "role": "Instructor",
+      "faction": "Autobot",
+      "alt_mode": "Fire truck",
+      "voice_actor": "Paul Guyet",
+      "image": "/images/characters/rescue-bots-heatwave.jpg"
+    },
+    {
+      "name": "Chase",
+      "role": "Instructor",
+      "faction": "Autobot",
+      "alt_mode": "Police car",
+      "voice_actor": "Frank Cwiklik",
+      "image": "/images/characters/rescue-bots-chase.jpg"
+    },
+    {
+      "name": "Boulder",
+      "role": "Instructor",
+      "faction": "Autobot",
+      "alt_mode": "Bulldozer",
+      "voice_actor": "Keyon Williams",
+      "image": "/images/characters/rescue-bots-boulder.jpg"
+    },
+    {
+      "name": "Blades",
+      "role": "Instructor",
+      "faction": "Autobot",
+      "alt_mode": "Helicopter",
+      "voice_actor": "Michael Hansen",
+      "image": "/images/characters/rescue-bots-blades.jpg"
+    },
+    {
+      "name": "Cody Burns",
+      "role": "Human Ally",
+      "faction": "Human",
+      "alt_mode": null,
+      "voice_actor": "Andy Zou",
+      "image": "/images/characters/rescue-bots-cody-burns.jpg"
+    },
+    {
+      "name": "Grimlock",
+      "role": "Instructor",
+      "faction": "Autobot",
+      "alt_mode": "Tyrannosaurus Rex",
+      "voice_actor": "Terrence Flint",
+      "image": "/images/characters/g1-grimlock.jpg"
+    },
+    {
+      "name": "Bumblebee",
+      "role": "Visiting Instructor",
+      "faction": "Autobot",
+      "alt_mode": "Sports car",
+      "voice_actor": "Jeremy Levy",
+      "image": "/images/characters/g1-bumblebee.jpg"
+    }
   ],
-  "media": [],
+  "media": [
+    {
+      "title": "Transformers Video - Telegram",
+      "url": "https://t.me/TransformersVideo",
+      "source": "telegram",
+      "type": "community"
+    }
+  ],
   "trivia": [
     {
       "category": "Production",
