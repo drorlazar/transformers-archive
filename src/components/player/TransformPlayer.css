@@ -1,40 +1,21 @@
-/* ── TransformPlayer ── */
-
 .tfp-overlay {
   position: fixed;
   inset: 0;
   z-index: 1000;
-  background: rgba(5, 5, 12, 0.96);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  animation: tfp-fade-in 0.2s ease-out;
+  background: #0a0a14;
 }
 
 .tfp-overlay.tfp-closing {
-  animation: tfp-fade-out 0.5s ease-in forwards;
+  pointer-events: none;
 }
 
-@keyframes tfp-fade-in {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-
-@keyframes tfp-fade-out {
-  from { opacity: 1; }
-  to { opacity: 0; }
-}
-
-/* ── 3D Canvas (animation phase only) ── */
 .tfp-canvas {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
-  display: block;
 }
 
-/* ── Close button ── */
 .tfp-close {
   position: fixed;
   top: 1rem;
@@ -51,107 +32,27 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all 0.2s ease;
+  transition: all 0.2s;
   box-shadow: 0 0 12px rgba(255, 107, 0, 0.3);
-  backdrop-filter: blur(4px);
 }
 
 .tfp-close:hover {
   background: rgba(255, 107, 0, 0.15);
-  border-color: #ff8800;
   box-shadow: 0 0 20px rgba(255, 107, 0, 0.5);
 }
 
-/* ── Video Player (after animation completes) ── */
-.tfp-player {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
-  animation: tfp-player-in 0.5s ease-out;
-  max-width: 90vw;
-}
-
-.tfp-player.tfp-player-closing {
-  animation: tfp-player-out 0.4s ease-in forwards;
-}
-
-@keyframes tfp-player-in {
-  from {
-    opacity: 0;
-    transform: scale(0.92);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
-@keyframes tfp-player-out {
-  from {
-    opacity: 1;
-    transform: scale(1);
-  }
-  to {
-    opacity: 0;
-    transform: scale(0.85);
-  }
-}
-
-/* ── Frame wrapper — the reference image as frame ── */
-.tfp-frame-wrapper {
-  position: relative;
-  width: 65vw;
-  max-width: 900px;
-  /* The image defines the aspect ratio */
-}
-
-.tfp-frame-image {
-  width: 100%;
-  height: auto;
-  display: block;
-  pointer-events: none;
-  user-select: none;
-  /* Glow effect around the frame */
-  filter: drop-shadow(0 0 20px rgba(0, 100, 255, 0.25))
-          drop-shadow(0 0 40px rgba(255, 70, 0, 0.15));
-}
-
-/* ── Screen area — YouTube iframe positioned over the image's screen ──
-   The reference image has a screen area roughly:
-   - Left: 15.5% from left edge
-   - Top: 15% from top edge
-   - Width: 69% of image width
-   - Height: 56% of image height
-   These percentages match the screen cutout in player-frame.jpg
-*/
-.tfp-screen {
+.tfp-iframe-wrap {
   position: absolute;
-  top: 15%;
-  left: 15.5%;
-  width: 69%;
-  height: 56%;
   overflow: hidden;
   background: #000;
-  animation: tfp-screen-on 0.3s ease-out 0.2s both;
+  z-index: 5;
+  animation: tfp-screen-on 0.4s ease-out;
 }
 
 @keyframes tfp-screen-on {
-  0% {
-    clip-path: inset(49% 0 49% 0);
-    opacity: 0.8;
-    filter: brightness(3) saturate(0);
-  }
-  50% {
-    clip-path: inset(0 0 0 0);
-    opacity: 0.9;
-    filter: brightness(1.5) saturate(0.5);
-  }
-  100% {
-    clip-path: inset(0 0 0 0);
-    opacity: 1;
-    filter: brightness(1) saturate(1);
-  }
+  0% { clip-path: inset(48% 0 48% 0); filter: brightness(3); }
+  60% { clip-path: inset(0); filter: brightness(1.3); }
+  100% { clip-path: inset(0); filter: brightness(1); }
 }
 
 .tfp-iframe {
@@ -160,7 +61,6 @@
   border: none;
 }
 
-/* ── Fallback ── */
 .tfp-fallback {
   width: 100%;
   height: 100%;
@@ -168,88 +68,52 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  background: linear-gradient(135deg, #0a0a15, #0d0d1a);
-}
-
-.tfp-fallback-icon {
-  font-size: 2.5rem;
-  color: #444;
-  margin-bottom: 0.75rem;
-}
-
-.tfp-fallback p {
-  color: #888;
-  font-size: 0.875rem;
-  margin-bottom: 0.5rem;
+  gap: 0.5rem;
+  background: #0a0a14;
+  color: #666;
+  font-size: 2rem;
 }
 
 .tfp-fallback a {
-  display: inline-block;
-  padding: 0.5rem 1.25rem;
-  background: #e50914;
-  color: #fff;
   font-size: 0.875rem;
-  font-weight: 600;
+  color: #e50914;
+  padding: 0.4rem 1rem;
+  background: rgba(229, 9, 20, 0.1);
   border-radius: 4px;
-  text-decoration: none;
 }
 
-.tfp-fallback a:hover {
-  background: #b20710;
-}
-
-/* ── Episode info ── */
 .tfp-info {
+  position: fixed;
+  bottom: 4%;
+  left: 50%;
+  transform: translateX(-50%);
   text-align: center;
+  z-index: 10;
+  animation: tfp-fade 0.3s ease-out;
 }
 
-.tfp-title {
-  font-size: 1.1rem;
-  font-weight: 700;
+@keyframes tfp-fade {
+  from { opacity: 0; transform: translateX(-50%) translateY(10px); }
+  to { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+.tfp-info h2 {
+  font-size: 1rem;
   color: #fff;
-  margin-bottom: 0.15rem;
-  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+  margin-bottom: 0.1rem;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.8);
 }
 
-.tfp-meta {
-  font-size: 0.8rem;
+.tfp-info p {
+  font-size: 0.75rem;
   color: #888;
 }
 
-.tfp-search {
-  font-size: 0.7rem;
-  color: #555;
-  margin-top: 0.25rem;
-}
-
-.tfp-search a {
-  color: #4fc3f7;
-  text-decoration: none;
-}
-
-.tfp-search a:hover {
-  text-decoration: underline;
-}
-
-/* ── Responsive ── */
-@media (max-width: 1024px) {
-  .tfp-frame-wrapper {
-    width: 80vw;
-  }
-}
+.tfp-search { margin-top: 0.2rem; color: #555 !important; }
+.tfp-search a { color: #4fc3f7; text-decoration: none; }
+.tfp-search a:hover { text-decoration: underline; }
 
 @media (max-width: 600px) {
-  .tfp-frame-wrapper {
-    width: 95vw;
-  }
-  .tfp-close {
-    top: 0.5rem;
-    right: 0.75rem;
-    width: 36px;
-    height: 36px;
-    font-size: 1.1rem;
-  }
-  .tfp-title { font-size: 0.9rem; }
-  .tfp-meta { font-size: 0.75rem; }
+  .tfp-close { top: 0.5rem; right: 0.75rem; width: 36px; height: 36px; font-size: 1.1rem; }
+  .tfp-info h2 { font-size: 0.85rem; }
 }
