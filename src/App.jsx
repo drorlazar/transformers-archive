@@ -7,7 +7,7 @@ import NotFoundPage from './pages/NotFoundPage';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/transformers-archive">
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
