@@ -255,20 +255,112 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
       glows.push(mesh);
     });
 
+    // ── DECORATIVE 3D ELEMENTS — persist and animate after assembly ──
+    const gearMat = new THREE.MeshPhysicalMaterial({
+      color: 0x555566, metalness: 0.95, roughness: 0.1,
+    });
+    allMats.push(gearMat);
+
+    // 4 spinning gears at frame corners (outside the frame)
+    const gearGeo = new THREE.CylinderGeometry(0.18, 0.18, 0.12, 12);
+    allGeos.push(gearGeo);
+    const gearPositions = [
+      [-frameW / 2 - 0.15, frameH / 2 - 0.15],
+      [frameW / 2 + 0.15, frameH / 2 - 0.15],
+      [-frameW / 2 - 0.15, -frameH / 2 + 0.15],
+      [frameW / 2 + 0.15, -frameH / 2 + 0.15],
+    ];
+    const gears = gearPositions.map(([x, y], i) => {
+      const gear = new THREE.Mesh(gearGeo, gearMat);
+      gear.position.set(x, y, barD / 2);
+      gear.rotation.x = Math.PI / 2;
+      gear.scale.set(0, 0, 0); // start invisible, scale in during animation
+      scene.add(gear);
+      // Add gear teeth as small boxes around the cylinder
+      const teethGroup = new THREE.Group();
+      const toothGeo = new THREE.BoxGeometry(0.06, 0.04, 0.13);
+      allGeos.push(toothGeo);
+      for (let t = 0; t < 8; t++) {
+        const tooth = new THREE.Mesh(toothGeo, gearMat);
+        const angle = (t / 8) * Math.PI * 2;
+        tooth.position.set(Math.cos(angle) * 0.2, 0, Math.sin(angle) * 0.2);
+        tooth.rotation.y = angle;
+        teethGroup.add(tooth);
+      }
+      teethGroup.position.set(x, y, barD / 2);
+      teethGroup.scale.set(0, 0, 0);
+      scene.add(teethGroup);
+      return { gear, teeth: teethGroup, speed: (i % 2 === 0 ? 1 : -1) * (1.5 + i * 0.3) };
+    });
+
+    // 2 oscillating pistons on sides
+    const pistonGeo = new THREE.CylinderGeometry(0.04, 0.04, 0.6, 6);
+    allGeos.push(pistonGeo);
+    const pistonMat = new THREE.MeshPhysicalMaterial({
+      color: 0x888899, metalness: 0.9, roughness: 0.15,
+    });
+    allMats.push(pistonMat);
+    const pistons = [
+      { x: -frameW / 2 - 0.1, baseY: 0.8 },
+      { x: frameW / 2 + 0.1, baseY: -0.8 },
+    ].map(({ x, baseY }) => {
+      const piston = new THREE.Mesh(pistonGeo, pistonMat);
+      piston.position.set(x, baseY, barD / 2);
+      piston.scale.set(0, 0, 0);
+      scene.add(piston);
+      return { mesh: piston, baseY };
+    });
+
+    // Small rotating hexagonal details on top/bottom bars
+    const hexGeo = new THREE.CylinderGeometry(0.07, 0.07, 0.08, 6);
+    allGeos.push(hexGeo);
+    const hexDetails = [];
+    [-frameW * 0.25, 0, frameW * 0.25].forEach(x => {
+      [frameH / 2 - barW / 2, -frameH / 2 + barW / 2].forEach(y => {
+        const hex = new THREE.Mesh(hexGeo, boltMat);
+        hex.position.set(x, y, barD / 2 + 0.05);
+        hex.rotation.x = Math.PI / 2;
+        hex.scale.set(0, 0, 0);
+        scene.add(hex);
+        hexDetails.push(hex);
+      });
+    });
+
     // Store
     const screenW = frameW - barW * 2 - 0.15;
     const screenH = frameH - barW * 2 - 0.15;
     threeRef.current = {
       renderer, scene, camera, pieces, frontFace, frontMat, brackets, bolts, glows,
+      gears, pistons, hexDetails,
       allGeos, allMats, screenW, screenH, animId: null, tl: null,
     };
 
     // Render
     let running = true;
+    let time = 0;
     function animate() {
       if (!running) return;
       threeRef.current.animId = requestAnimationFrame(animate);
+      time += 0.016;
+
+      // Spin gears continuously
+      gears.forEach(({ gear, teeth, speed }) => {
+        gear.rotation.y += speed * 0.016;
+        teeth.rotation.y += speed * 0.016;
+      });
+
+      // Oscillate pistons
+      pistons.forEach(({ mesh, baseY }, i) => {
+        mesh.position.y = baseY + Math.sin(time * 2 + i * Math.PI) * 0.15;
+      });
+
+      // Slowly rotate hex details
+      hexDetails.forEach((hex, i) => {
+        hex.rotation.y += (i % 2 === 0 ? 0.01 : -0.01);
+      });
+
       renderer.render(scene, camera);
+
       // Keep iframe aligned
       if (iframeRef.current && showVideo) {
         const tlv = new THREE.Vector3(-screenW / 2, screenH / 2, 0).project(camera);
@@ -328,6 +420,24 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
       });
     }, [], 1.0);
 
+    // Decorative elements scale in
+    gears.forEach(({ gear, teeth }, i) => {
+      tl.to(gear.scale, { x: 1, y: 1, z: 1, duration: 0.3, ease: 'back.out(2)' }, 0.7 + i * 0.04);
+      tl.to(teeth.scale, { x: 1, y: 1, z: 1, duration: 0.3, ease: 'back.out(2)' }, 0.7 + i * 0.04);
+    });
+    pistons.forEach(({ mesh }, i) => {
+      tl.to(mesh.scale, { x: 1, y: 1, z: 1, duration: 0.25, ease: 'back.out(1.5)' }, 0.8 + i * 0.05);
+    });
+    hexDetails.forEach((hex, i) => {
+      tl.to(hex.scale, { x: 1, y: 1, z: 1, duration: 0.2, ease: 'power2.out' }, 0.75 + i * 0.03);
+    });
+
+    // After everything is assembled, move iframe to front
+    tl.call(() => {
+      if (canvasRef.current) canvasRef.current.style.zIndex = '1';
+      if (iframeRef.current) iframeRef.current.style.zIndex = '5';
+    }, [], 1.05);
+
     // Resize
     function onResize() {
       const w = window.innerWidth; const h = window.innerHeight;
@@ -382,6 +492,13 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
     // Brackets + bolts back
     three.brackets.forEach(({ mesh, sRotZ }) => closeTl.to(mesh.position, { x: 0, y: 0, z: 0.7, duration: 0.4, ease: 'power3.in' }, 0.1));
     three.bolts.forEach(({ mesh }) => closeTl.to(mesh.position, { x: 0, y: 0, z: 0.7, duration: 0.4, ease: 'power3.in' }, 0.1));
+    // Decorative elements shrink away
+    three.gears.forEach(({ gear, teeth }) => {
+      closeTl.to(gear.scale, { x: 0, y: 0, z: 0, duration: 0.2 }, 0.05);
+      closeTl.to(teeth.scale, { x: 0, y: 0, z: 0, duration: 0.2 }, 0.05);
+    });
+    three.pistons.forEach(({ mesh }) => closeTl.to(mesh.scale, { x: 0, y: 0, z: 0, duration: 0.2 }, 0.05));
+    three.hexDetails.forEach(hex => closeTl.to(hex.scale, { x: 0, y: 0, z: 0, duration: 0.15 }, 0.05));
     // Camera
     closeTl.to(three.camera.position, { z: 6, duration: 0.5, ease: 'power2.in' }, 0.1);
     closeTl.to(canvasRef.current, { opacity: 0, duration: 0.15 }, 0.5);
