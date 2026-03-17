@@ -417,7 +417,7 @@
     "slug": "cyberverse",
     "title": "Transformers: Cyberverse",
     "year_start": 2018,
-    "year_end": 2020,
+    "year_end": 2021,
     "era": "modern",
     "poster": "images/series/cyberverse-poster.jpg",
     "faction_accent": "red",
@@ -426,8 +426,8 @@
       "Stylized",
       "Adventure"
     ],
-    "episode_count": 62,
-    "season_count": 3,
+    "episode_count": 64,
+    "season_count": 4,
     "synopsis": "Bumblebee has lost his memory and must piece together his past with the help of Windblade while battling Decepticons on Earth.",
     "has_live_streams": false
   },
