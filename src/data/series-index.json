@@ -12,8 +12,8 @@
       "Action",
       "Sci-Fi"
     ],
-    "episode_count": 98,
-    "season_count": 4,
+    "episode_count": 100,
+    "season_count": 5,
     "synopsis": "The original series that started it all. The heroic Autobots, led by Optimus Prime, battle the evil Decepticons on Earth after crash-landing on the planet millions of years ago.",
     "has_live_streams": true
   },
@@ -251,6 +251,20 @@
     "episode_count": 65,
     "season_count": 3,
     "synopsis": "Team Prime \u2014 Optimus, Arcee, Bulkhead, Bumblebee, and Ratchet \u2014 protect Earth and three human allies from Megatron's Decepticons in this Emmy-winning series.",
+    "has_live_streams": false
+  },
+  {
+    "slug": "go",
+    "title": "Transformers: Go!",
+    "year_start": 2013,
+    "year_end": 2013,
+    "era": "aligned",
+    "poster": "images/series/go-poster.jpg",
+    "faction_accent": "red",
+    "tags": ["Japanese", "OVA", "Action"],
+    "episode_count": 10,
+    "season_count": 1,
+    "synopsis": "Japanese OVA featuring two teams of ancient Swordbots — Samurai and Shinobi — who awaken to battle Predacons seeking the legendary Legendiscs.",
     "has_live_streams": false
   },
   {

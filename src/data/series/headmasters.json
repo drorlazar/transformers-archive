@@ -566,6 +566,12 @@
       "url": "https://t.me/TransformersVideo",
       "source": "telegram",
       "type": "community"
+    },
+    {
+      "title": "Headmasters Omni Dub (HD60)",
+      "url": "https://www.youtube.com/playlist?list=PLlcmNU-jCJ6Oc_bUnU-2gb53lHqMJqrxu",
+      "source": "youtube",
+      "type": "playlist"
     }
   ],
   "trivia": [

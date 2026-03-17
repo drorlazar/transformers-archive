@@ -1,0 +1,297 @@
+{
+  "title": "Transformers: Go!",
+  "slug": "go",
+  "year_start": 2013,
+  "year_end": 2013,
+  "era": "aligned",
+  "synopsis": "In this Japanese OVA mini-series set in the Transformers: Prime continuity, two teams of ancient Autobot Swordbots awaken to battle the Predacons. When the villainous Dragotron and his four Predacon Oni generals resurface seeking the legendary Legendiscs — mystical artifacts of immense power — the Samurai team (Kenzan, Jinbu, Ganoh) and Shinobi team (Gekisoumaru, Hishoumaru, Sensuimaru) join forces with human allies and Optimus Prime to stop them. Each three-bot team can perform a Triple Combination to form a mighty combined warrior: DaiKenzan for the Samurai and DaiGekisou for the Shinobi.",
+  "rating": "TV-Y7",
+  "tags": ["Japanese", "OVA", "Action"],
+  "poster": "images/series/go-poster.jpg",
+  "hero_image": "images/series/go-hero.jpg",
+  "faction_accent": "red",
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2013,
+      "episodes": [
+        {
+          "number": 1,
+          "title": "Triple Combination! Swordbot — Samurai!",
+          "synopsis": "The Samurai Swordbots Kenzan, Jinbu, and Ganoh awaken to battle the Predacon threat and perform their first Triple Combination against the Oni generals.",
+          "air_date": "2013-08-01",
+          "duration": "12m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=-G4VDwGftTw",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 2,
+          "title": "Pursue! The Legendiscs!",
+          "synopsis": "The Samurai team pursues the Predacons who are racing to collect the powerful Legendiscs before they can be used for evil.",
+          "air_date": "2013-10-01",
+          "duration": "12m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=OmlsZSH39Ok",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 3,
+          "title": "The Invincible Swordsman — Ryouma Sakamoto!?",
+          "synopsis": "The Samurai team encounters a warrior channeling the spirit of the legendary swordsman Ryouma Sakamoto in their quest to protect the Legendiscs.",
+          "air_date": "2013-12-01",
+          "duration": "12m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=r08Vxa1HIOg",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 4,
+          "title": "Showdown! Musashibou Benkei!",
+          "synopsis": "A showdown inspired by the legendary warrior monk Musashibou Benkei tests the Samurai team's resolve and combat skills.",
+          "air_date": "2014-02-01",
+          "duration": "12m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=0aDLCsRklPo",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 5,
+          "title": "Depart! Optimus Exprime!",
+          "synopsis": "Optimus Prime arrives in a powerful new Exprime form to aid the Samurai Swordbots in their escalating battle against the Predacons.",
+          "air_date": "2014-04-01",
+          "duration": "12m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=FfZNmCfBEfQ",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 6,
+          "title": "Final Battle! Link-Up Triple Combination DaiKenzan!",
+          "synopsis": "The Samurai arc reaches its climax as the team performs the ultimate Link-Up Triple Combination to form DaiKenzan and defeat the Predacon threat.",
+          "air_date": "2014-05-01",
+          "duration": "12m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=Xypi02vNTS0",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 7,
+          "title": "Triple Combination! Swordbot — Ninja!",
+          "synopsis": "The Shinobi Swordbots Gekisoumaru, Hishoumaru, and Sensuimaru awaken and engage the Predacon Oni in a parallel battle for the Legendiscs.",
+          "air_date": "2013-09-01",
+          "duration": "12m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=3stmf12SWKI",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 8,
+          "title": "Discover! The Legendiscs!",
+          "synopsis": "The Shinobi team discovers hidden Legendiscs and must protect them from the Predacon forces hunting the artifacts.",
+          "air_date": "2013-11-01",
+          "duration": "12m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=Ajs5vzoVmVk",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 9,
+          "title": "Enter! The New Warrior!",
+          "synopsis": "A powerful new warrior joins the Shinobi team's fight, turning the tide against the relentless Predacon onslaught.",
+          "air_date": "2014-01-01",
+          "duration": "12m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=OHB60vJVmmc",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 10,
+          "title": "Final Battle! Link-Up Triple Combination DaiGekisou!",
+          "synopsis": "The Shinobi arc culminates as the team unleashes the Link-Up Triple Combination to form DaiGekisou and vanquish the Predacon menace once and for all.",
+          "air_date": "2014-04-01",
+          "duration": "12m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=-fHfWr3FTRs",
+            "dailymotion": null,
+            "other": null
+          }
+        }
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "name": "Kenzan",
+      "role": "Samurai Swordbot Leader",
+      "faction": "Autobot",
+      "voice_actor": "Kazuyuki Okitsu",
+      "alt_mode": "Shinkansen bullet train",
+      "image": null
+    },
+    {
+      "name": "Jinbu",
+      "role": "Samurai Swordbot Warrior",
+      "faction": "Autobot",
+      "voice_actor": "Kousuke Toriumi",
+      "alt_mode": "Helicopter",
+      "image": null
+    },
+    {
+      "name": "Ganoh",
+      "role": "Samurai Swordbot Warrior",
+      "faction": "Autobot",
+      "voice_actor": "Hiroki Yasumoto",
+      "alt_mode": "Fire truck",
+      "image": null
+    },
+    {
+      "name": "Gekisoumaru",
+      "role": "Shinobi Swordbot Leader",
+      "faction": "Autobot",
+      "voice_actor": "Toshihiko Seki",
+      "alt_mode": "Sports car",
+      "image": null
+    },
+    {
+      "name": "Hishoumaru",
+      "role": "Shinobi Swordbot Warrior",
+      "faction": "Autobot",
+      "voice_actor": "Daisuke Sakaguchi",
+      "alt_mode": "Jet",
+      "image": null
+    },
+    {
+      "name": "Sensuimaru",
+      "role": "Shinobi Swordbot Warrior",
+      "faction": "Autobot",
+      "voice_actor": "Junji Majima",
+      "alt_mode": "Submarine",
+      "image": null
+    },
+    {
+      "name": "Optimus Exprime",
+      "role": "Autobot Supreme Commander",
+      "faction": "Autobot",
+      "voice_actor": "Toshiyuki Morikawa",
+      "alt_mode": "Truck",
+      "image": null
+    },
+    {
+      "name": "Dragotron",
+      "role": "Predacon Overlord",
+      "faction": "Predacon",
+      "voice_actor": null,
+      "alt_mode": "Dragon",
+      "image": null
+    },
+    {
+      "name": "Gaidora",
+      "role": "Predacon Oni General",
+      "faction": "Predacon",
+      "voice_actor": null,
+      "alt_mode": "Oni beast",
+      "image": null
+    },
+    {
+      "name": "Budora",
+      "role": "Predacon Oni General",
+      "faction": "Predacon",
+      "voice_actor": null,
+      "alt_mode": "Oni beast",
+      "image": null
+    },
+    {
+      "name": "Bakudora",
+      "role": "Predacon Oni General",
+      "faction": "Predacon",
+      "voice_actor": null,
+      "alt_mode": "Oni beast",
+      "image": null
+    },
+    {
+      "name": "Judora",
+      "role": "Predacon Oni General",
+      "faction": "Predacon",
+      "voice_actor": null,
+      "alt_mode": "Oni beast",
+      "image": null
+    },
+    {
+      "name": "Isami Tatewaki",
+      "role": "Human Ally (Samurai arc)",
+      "faction": "Human",
+      "voice_actor": "Mikako Komatsu",
+      "alt_mode": null,
+      "image": null
+    },
+    {
+      "name": "Tobio Fuuma",
+      "role": "Human Ally (Shinobi arc)",
+      "faction": "Human",
+      "voice_actor": "Ayahi Takagaki",
+      "alt_mode": null,
+      "image": null
+    }
+  ],
+  "media": [
+    {
+      "title": "Transformers Video - Telegram",
+      "url": "https://t.me/TransformersVideo",
+      "source": "telegram",
+      "type": "community"
+    },
+    {
+      "title": "GO! Complete Series (4K Upscale)",
+      "url": "https://www.youtube.com/playlist?list=PLlcmNU-jCJ6MYKVoXtXcqBspOx_oeUH1k",
+      "source": "youtube",
+      "type": "playlist"
+    }
+  ],
+  "trivia": [
+    {
+      "category": "Production",
+      "facts": [
+        "Transformers: Go! was animated by Tatsunoko Production and distributed via DVDs packaged with Japanese children's magazines TV-Kun (Samurai arc) and TV Magazine (Shinobi arc) starting in 2013.",
+        "The series is set in the Transformers: Prime 'Aligned' continuity and features Optimus Prime in a unique 'Exprime' form exclusive to this show.",
+        "Opening theme 'TRANSFORMERS-Go!' and ending theme 'Sanjou Gattai! Hero!' were added from the third episode onward in both arcs."
+      ]
+    },
+    {
+      "category": "Story",
+      "facts": [
+        "The two arcs ran concurrently — Samurai and Shinobi — each following a different three-bot combiner team fighting the same Predacon threat from different perspectives.",
+        "The Swordbots' designs draw heavily from Japanese feudal warrior traditions: the Samurai team embodies bushido honor while the Shinobi team uses stealth and ninja tactics.",
+        "Dragotron and the four Oni generals are inspired by Japanese mythology, with 'Oni' being traditional demon figures from Japanese folklore."
+      ]
+    }
+  ]
+}
