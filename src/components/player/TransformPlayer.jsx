@@ -168,8 +168,8 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
     // Color maps — reduced tiling for less repetition
     const redTex = loadTex('textures/red-metal.jpg', 0.09, 0.25);
     redTex.offset.set(0, 0.26);
-    const blueTex = loadTex('textures/blue-metal.jpg', 4.5, 2.3);
-    const darkTex = loadTex('textures/dark-metal.jpg', 3.8, 1.0);
+    const blueTex = loadTex('textures/blue-metal.jpg', 0.56, 0.29);
+    const darkTex = loadTex('textures/dark-metal.jpg', 0.45, 0.55);
     const circuitTex = loadTex('textures/circuit-glow.jpg', 2, 0.5);
 
     // Normal maps (loaded if available)
@@ -177,8 +177,8 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
     try {
       redNorm = loadTex('textures/red-normal.jpg', 0.09, 0.25);
       redNorm.offset.set(0, 0.26);
-      blueNorm = loadTex('textures/blue-normal.jpg', 4.5, 2.3);
-      greebleNorm = loadTex('textures/greeble-normal.jpg', 3.8, 1.0);
+      blueNorm = loadTex('textures/blue-normal.jpg', 0.56, 0.29);
+      greebleNorm = loadTex('textures/greeble-normal.jpg', 0.45, 0.55);
     } catch {}
 
     // ── Materials ──
@@ -187,11 +187,11 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
       metalness: 0.34, roughness: 0.37, clearcoat: 0.19, clearcoatRoughness: 0.06,
     });
     const navy = new THREE.MeshPhysicalMaterial({
-      color: 0x2a3090, map: blueTex, normalMap: blueNorm || null, normalScale: new THREE.Vector2(2.0, 2.0),
+      color: 0x2a3090, map: blueTex, normalMap: blueNorm || null, normalScale: new THREE.Vector2(0.7, 0.7),
       metalness: 0.45, roughness: 0.31, clearcoat: 0.5, clearcoatRoughness: 0.08,
     });
     const gunmetal = new THREE.MeshPhysicalMaterial({
-      color: 0x2a2a38, map: darkTex, normalMap: greebleNorm || null, normalScale: new THREE.Vector2(0.5, 0.5),
+      color: 0x2a2a38, map: darkTex, normalMap: greebleNorm || null, normalScale: new THREE.Vector2(0.3, 0.3),
       metalness: 0.89, roughness: 0.29, clearcoat: 0.3,
     });
     const chrome = new THREE.MeshPhysicalMaterial({
@@ -361,31 +361,33 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
       return { mesh: m, baseY };
     });
 
-    // ── GLOW STRIPS ──
+    // ── GLOW STRIPS — pushed forward, start scaled to 0 ──
     const glows = [];
-    [[0, frameH / 2 - barW / 2, frameW * 0.8, 0.07],
-     [0, -frameH / 2 + barW / 2, frameW * 0.8, 0.07],
-     [-frameW / 2 + barW / 2, 0, 0.07, (frameH - barW * 2) * 0.8],
-     [frameW / 2 - barW / 2, 0, 0.07, (frameH - barW * 2) * 0.8],
+    [[0, frameH / 2 - barW / 2, frameW * 0.85, 0.1],
+     [0, -frameH / 2 + barW / 2, frameW * 0.85, 0.1],
+     [-frameW / 2 + barW / 2, 0, 0.1, (frameH - barW * 2) * 0.85],
+     [frameW / 2 - barW / 2, 0, 0.1, (frameH - barW * 2) * 0.85],
     ].forEach(([x, y, w, h]) => {
-      const g = new THREE.BoxGeometry(w, h, 0.01); allGeos.push(g);
+      const g = new THREE.BoxGeometry(w, h, 0.04); allGeos.push(g);
       const m = ledGlow.clone(); allMats.push(m);
       const mesh = new THREE.Mesh(g, m);
-      mesh.position.set(x, y, barD / 2 + 0.02);
+      mesh.position.set(x, y, barD / 2 + 0.06);
+      mesh.scale.set(0.01, 0.01, 0.01); // start invisible, animate in
       scene.add(mesh); glows.push(mesh);
     });
 
-    // Orange accents
+    // Orange accents — also start scaled to 0
     const orangeStrips = [];
-    [[-frameW / 2 + barW / 2, 0.8, 0.04, 0.45],
-     [-frameW / 2 + barW / 2, -0.8, 0.04, 0.45],
-     [frameW / 2 - barW / 2, 0.8, 0.04, 0.45],
-     [frameW / 2 - barW / 2, -0.8, 0.04, 0.45],
+    [[-frameW / 2 + barW / 2, 0.8, 0.06, 0.5],
+     [-frameW / 2 + barW / 2, -0.8, 0.06, 0.5],
+     [frameW / 2 - barW / 2, 0.8, 0.06, 0.5],
+     [frameW / 2 - barW / 2, -0.8, 0.06, 0.5],
     ].forEach(([x, y, w, h]) => {
-      const g = new THREE.BoxGeometry(w, h, 0.01); allGeos.push(g);
+      const g = new THREE.BoxGeometry(w, h, 0.04); allGeos.push(g);
       const m = orangeGlow.clone(); allMats.push(m);
       const mesh = new THREE.Mesh(g, m);
-      mesh.position.set(x, y, barD / 2 + 0.02);
+      mesh.position.set(x, y, barD / 2 + 0.06);
+      mesh.scale.set(0.01, 0.01, 0.01);
       scene.add(mesh); orangeStrips.push(mesh);
     });
 
@@ -483,12 +485,14 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
       tl.to(mesh.scale, { x: 1, y: 1, z: 1, duration: 0.25, ease: 'back.out(2)' }, 0.9 + i * 0.06);
     });
 
-    // 8. Glows power on (0.95-1.15s)
+    // 8. Glows scale in and power on (0.85-1.1s)
     glows.forEach((g, i) => {
-      tl.to(g.material, { opacity: 0.78, duration: 0.15, ease: 'power2.out' }, 0.95 + i * 0.04);
+      tl.to(g.scale, { x: 1, y: 1, z: 1, duration: 0.25, ease: 'back.out(2)' }, 0.85 + i * 0.04);
+      tl.to(g.material, { opacity: 0.78, duration: 0.2, ease: 'power2.out' }, 0.9 + i * 0.04);
     });
     orangeStrips.forEach((g, i) => {
-      tl.to(g.material, { opacity: 0.8, duration: 0.15, ease: 'power2.out' }, 1.0 + i * 0.03);
+      tl.to(g.scale, { x: 1, y: 1, z: 1, duration: 0.25, ease: 'back.out(2)' }, 0.9 + i * 0.03);
+      tl.to(g.material, { opacity: 0.8, duration: 0.2, ease: 'power2.out' }, 0.95 + i * 0.03);
     });
 
     // 9. Start glow pulse + flip iframe to front
@@ -543,8 +547,14 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
     if (canvasRef.current) canvasRef.current.style.zIndex = '3';
 
     const closeTl = gsap.timeline({ onComplete: onClose });
-    three.glows.forEach(g => closeTl.to(g.material, { opacity: 0, duration: 0.1 }, 0));
-    three.orangeStrips.forEach(g => closeTl.to(g.material, { opacity: 0, duration: 0.1 }, 0));
+    three.glows.forEach(g => {
+      closeTl.to(g.material, { opacity: 0, duration: 0.1 }, 0);
+      closeTl.to(g.scale, { x: 0.01, y: 0.01, z: 0.01, duration: 0.15 }, 0);
+    });
+    three.orangeStrips.forEach(g => {
+      closeTl.to(g.material, { opacity: 0, duration: 0.1 }, 0);
+      closeTl.to(g.scale, { x: 0.01, y: 0.01, z: 0.01, duration: 0.15 }, 0);
+    });
     three.gears.forEach(({ mesh }) => closeTl.to(mesh.scale, { x: 0, y: 0, z: 0, duration: 0.2 }, 0.05));
     three.pistons.forEach(({ mesh }) => closeTl.to(mesh.scale, { x: 0, y: 0, z: 0, duration: 0.2 }, 0.05));
     three.brackets.forEach(({ mesh }) => closeTl.to(mesh.position, { x: 0, y: 0, z: 0.5, duration: 0.3, ease: 'power3.in' }, 0.1));
