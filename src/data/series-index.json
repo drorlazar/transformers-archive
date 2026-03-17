@@ -12,10 +12,46 @@
       "Action",
       "Sci-Fi"
     ],
-    "episode_count": 100,
-    "season_count": 5,
+    "episode_count": 98,
+    "season_count": 4,
     "synopsis": "The original series that started it all. The heroic Autobots, led by Optimus Prime, battle the evil Decepticons on Earth after crash-landing on the planet millions of years ago.",
     "has_live_streams": true
+  },
+  {
+    "slug": "scramble-city",
+    "title": "Scramble City",
+    "year_start": 1986,
+    "year_end": 1986,
+    "era": "g1",
+    "poster": "images/series/g1-poster.jpg",
+    "faction_accent": "red",
+    "tags": [
+      "OVA",
+      "Japanese",
+      "Combiners"
+    ],
+    "episode_count": 1,
+    "season_count": 1,
+    "synopsis": "A standalone OVA depicting the construction of the Autobot mobile fortress Scramble City and the battle between combiner teams.",
+    "has_live_streams": false
+  },
+  {
+    "slug": "the-movie-1986",
+    "title": "Transformers: The Movie",
+    "year_start": 1986,
+    "year_end": 1986,
+    "era": "g1",
+    "poster": "images/series/g1-poster.jpg",
+    "faction_accent": "red",
+    "tags": [
+      "Movie",
+      "Classic",
+      "Iconic"
+    ],
+    "episode_count": 1,
+    "season_count": 1,
+    "synopsis": "The epic animated film. Unicron threatens Cybertron, Optimus Prime falls, and Hot Rod must become Rodimus Prime to save their world.",
+    "has_live_streams": false
   },
   {
     "slug": "headmasters",
@@ -169,7 +205,11 @@
     "era": "unicron",
     "poster": "images/series/robots-in-disguise-2001-poster.jpg",
     "faction_accent": "red",
-    "tags": ["Action", "Comedy", "Japanese"],
+    "tags": [
+      "Action",
+      "Comedy",
+      "Japanese"
+    ],
     "episode_count": 39,
     "season_count": 1,
     "synopsis": "Optimus Prime leads the Autobots against Megatron and the Predacons who seek to steal Earth's energy resources in this action-comedy series.",
@@ -183,7 +223,11 @@
     "era": "unicron",
     "poster": "images/series/armada-poster.jpg",
     "faction_accent": "red",
-    "tags": ["Action", "Anime-style", "Mini-Cons"],
+    "tags": [
+      "Action",
+      "Anime-style",
+      "Mini-Cons"
+    ],
     "episode_count": 52,
     "season_count": 1,
     "synopsis": "The discovery of the Mini-Cons reignites the war between Autobots and Decepticons, as both sides race to find these powerful small Transformers.",
@@ -197,7 +241,11 @@
     "era": "unicron",
     "poster": "images/series/energon-poster.jpg",
     "faction_accent": "red",
-    "tags": ["Sequel", "Action", "Anime-style"],
+    "tags": [
+      "Sequel",
+      "Action",
+      "Anime-style"
+    ],
     "episode_count": 51,
     "season_count": 1,
     "synopsis": "Ten years after Armada, a new Energon-powered threat emerges as Alpha Quintesson and a revived Megatron threaten the fragile peace.",
@@ -211,7 +259,11 @@
     "era": "unicron",
     "poster": "images/series/cybertron-poster.jpg",
     "faction_accent": "red",
-    "tags": ["Space", "Action", "Epic"],
+    "tags": [
+      "Space",
+      "Action",
+      "Epic"
+    ],
     "episode_count": 52,
     "season_count": 1,
     "synopsis": "With Cybertron consumed by a black hole, the Autobots search the universe for the four Cyber Planet Keys that can save their homeworld.",
@@ -250,7 +302,7 @@
     ],
     "episode_count": 65,
     "season_count": 3,
-    "synopsis": "Team Prime \u2014 Optimus, Arcee, Bulkhead, Bumblebee, and Ratchet \u2014 protect Earth and three human allies from Megatron's Decepticons in this Emmy-winning series.",
+    "synopsis": "Team Prime — Optimus, Arcee, Bulkhead, Bumblebee, and Ratchet — protect Earth and three human allies from Megatron's Decepticons in this Emmy-winning series.",
     "has_live_streams": false
   },
   {
@@ -261,7 +313,11 @@
     "era": "aligned",
     "poster": "images/series/go-poster.jpg",
     "faction_accent": "red",
-    "tags": ["Japanese", "OVA", "Action"],
+    "tags": [
+      "Japanese",
+      "OVA",
+      "Action"
+    ],
     "episode_count": 10,
     "season_count": 1,
     "synopsis": "Japanese OVA featuring two teams of ancient Swordbots — Samurai and Shinobi — who awaken to battle Predacons seeking the legendary Legendiscs.",

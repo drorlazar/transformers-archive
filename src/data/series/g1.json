@@ -1313,38 +1313,6 @@
           }
         }
       ]
-    },
-    {
-      "number": 5,
-      "year": 1986,
-      "episodes": [
-        {
-          "number": 1,
-          "title": "Transformers: The Movie (1986)",
-          "synopsis": "The epic animated film set between Seasons 2 and 3. The Autobots face their darkest hour as Unicron threatens Cybertron, Optimus Prime falls, and a new generation of heroes rises.",
-          "air_date": "1986-08-08",
-          "duration": "1h24m",
-          "thumbnail": null,
-          "video": {
-            "youtube": "https://www.youtube.com/watch?v=K3cYa8jJ0kU",
-            "dailymotion": null,
-            "other": null
-          }
-        },
-        {
-          "number": 2,
-          "title": "Scramble City (1986 OVA)",
-          "synopsis": "An OVA depicting the construction of Scramble City and the battle between Autobot and Decepticon combiners.",
-          "air_date": "1986-04-01",
-          "duration": "22m",
-          "thumbnail": null,
-          "video": {
-            "youtube": "https://www.youtube.com/watch?v=NUfODwN-ea4",
-            "dailymotion": null,
-            "other": null
-          }
-        }
-      ]
     }
   ],
   "characters": [
