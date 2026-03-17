@@ -1,0 +1,872 @@
+{
+  "title": "Transformers: Energon",
+  "slug": "energon",
+  "year_start": 2004,
+  "year_end": 2005,
+  "era": "unicron",
+  "synopsis": "Ten years after Unicron's defeat, the Autobots and humans mine energon across the galaxy to maintain peace. When the mysterious Alpha Q unleashes Terrorcon drones to harvest energon and resurrect Unicron, Optimus Prime must rally new and old allies — including the energon-sensing human Kicker Jones — against a resurrected Megatron, the scheming Shockblast, and the planet-eating chaos bringer himself. This anime-styled sequel to Armada forms the second chapter of the Unicron Trilogy.",
+  "rating": "TV-Y7",
+  "tags": ["Sequel", "Action", "Anime-style"],
+  "poster": "images/series/energon-poster.jpg",
+  "hero_image": "images/series/energon-hero.jpg",
+  "faction_accent": "red",
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2004,
+      "episodes": [
+        {
+          "number": 1,
+          "title": "Cybertron City",
+          "synopsis": "Ten years after Unicron's defeat, Alpha Q deploys energon-devouring Terrorcons across Earth. Young Kicker Jones discovers his ability to sense energon as the Autobots mobilize against this new threat.",
+          "air_date": "2004-01-31",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=nbfHkgcR0R4",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 2,
+          "title": "Energon Stars",
+          "synopsis": "The Autobots confront the Terrorcons, mysterious androids that convert energon into energon stars. Kicker defies orders and helps Ironhide defend the lunar mines before the Terrorcons retreat.",
+          "air_date": "2004-02-07",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=SYf32PwunYI",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 3,
+          "title": "Scorpinok",
+          "synopsis": "Scorponok and Tidal Wave attack Desert City seeking energon to revive Megatron. Ironhide earns a Combination Spark during the battle, becoming a full member of Optimus Prime's team.",
+          "air_date": "2004-02-14",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=FPBfaNB6R44",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 4,
+          "title": "Megatron's Sword",
+          "synopsis": "Alpha Q presents Scorponok with the Energon Sword forged from Megatron's remains. Ironhide and Jetfire achieve their first Powerlinx combination to defend Mars City from a Decepticon assault.",
+          "air_date": "2004-02-21",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=0PjhfJVx2Wk",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 5,
+          "title": "The New Cybertron City",
+          "synopsis": "An energon scout team on a frozen mountain is ambushed by Cyclonus and Tidal Wave. The Autobots deploy the massive Cybertron City from orbit to seal the energon point and overwhelm the enemy.",
+          "air_date": "2004-02-28",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=Sen4o0-I1Oc",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 6,
+          "title": "Megatron Resurrected",
+          "synopsis": "After a decade within Unicron, Megatron awakens with terrifying new power and seizes control of the Terrorcons. He defeats Hot Shot in a devastating display, leaving the Autobots reeling.",
+          "air_date": "2004-03-06",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=zjWsKjHUtP8",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 7,
+          "title": "Megatron Raid",
+          "synopsis": "Megatron assaults Ocean City seeking energon to revive Unicron. Demolishor is torn between loyalties but ultimately departs with the Decepticons despite his bonds with the Autobots.",
+          "air_date": "2004-03-13",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=G2kkfYPc9x4",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 8,
+          "title": "Starscream the Mysterious Mercenary",
+          "synopsis": "An incorporeal Starscream, resurrected by Alpha Q, hunts Optimus Prime across Earth and the Moon. Unable to be harmed due to his incomplete physical form, he pursues the Autobot leader in a lunar battle.",
+          "air_date": "2004-04-09",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=09p_JAVy7S0",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 9,
+          "title": "Battle of the Asteroid Belt",
+          "synopsis": "The Decepticons launch attacks on Asteroid City and Lunar City. The Autobots discover Unicron in the asteroid belt and learn of Alpha Q's plan to revive the chaos bringer.",
+          "air_date": "2004-04-09",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=zjFi9McmYWg",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 10,
+          "title": "Energon Tower",
+          "synopsis": "The Autobots and humans race to construct an energon tower defense system before Megatron discovers it. The completed tower repels a Decepticon assault on Ocean City with powerful energy pulses.",
+          "air_date": "2004-04-09",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=CQ9RLA6SOCE",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 11,
+          "title": "The Legend of Rodimus",
+          "synopsis": "A legendary Autobot named Rodimus returns from deep space as Kicker struggles with his childhood fears. Tales of Rodimus's historic call for peace and exploration are woven with Megatron's confrontation with Starscream.",
+          "air_date": "2004-04-09",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=P1Wl4SsMKKY",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 12,
+          "title": "Crisis in Jungle City",
+          "synopsis": "Terrorcons and Decepticons overwhelm the Autobots at Jungle City's energon tower. Optimus Prime makes the drastic decision to destroy the tower and surrounding area to deny the enemy its energon.",
+          "air_date": "2004-06-29",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=aXDdnjSJ0Vs",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 13,
+          "title": "Kicker Beware!",
+          "synopsis": "Megatron learns of Kicker's energon-sensing ability and pursues him relentlessly. A trap lures Kicker away using a fake Demolishor defection, but the activation of a lunar energon tower drives back the Decepticons.",
+          "air_date": "2004-06-30",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=7MZNB_JtSN4",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 14,
+          "title": "Energon Grid",
+          "synopsis": "Megatron launches three giant comets toward Earth. Rodimus arrives with a Terrorcon fleet to destroy one from within while the Autobots race to activate an energon grid defense across multiple cities.",
+          "air_date": "2004-07-01",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=VoLDzCD09XI",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 15,
+          "title": "Rodimus Friend or Foe?",
+          "synopsis": "Rodimus is revealed to be secretly working with Alpha Q, insisting Unicron must be rebuilt. When Hot Shot opposes this plan, Rodimus attacks him, while Megatron executes Scorponok for suspected betrayal.",
+          "air_date": "2004-07-02",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=3CD8ufcXYkc",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 16,
+          "title": "Go for Unicron!",
+          "synopsis": "The Autobots launch the starship Miranda II to destroy transmitters controlling Unicron. Rodimus rescues the injured Scorponok while Demolishor sacrifices himself when caught by the ship's energon shield.",
+          "air_date": "2004-07-03",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=fuiyBOXwmP0",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 17,
+          "title": "The Return of Demolishor",
+          "synopsis": "Stranded on a frozen planet, the Autobots encounter Demolishor in a new body while investigating an energon signal. Alpha Q unleashes Cruellock Terrorcons against the team.",
+          "air_date": "2004-07-03",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=ulS0VByKSw0",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 18,
+          "title": "A Tale of Two Heros",
+          "synopsis": "Ironhide follows Rodimus to Alpha Q's location within Unicron and is captured. Rodimus tries to convince Optimus that Unicron can create new life, while Megatron plans to use the awakening Unicron against them.",
+          "air_date": "2004-07-03",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=DAG3Dlo0UfA",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 19,
+          "title": "Battle Stations",
+          "synopsis": "The Autobots lure Unicron into the space bridge in a running battle. Using the Miranda II's energon grid, they draw the threat to Cybertron where the planet's energon towers force Megatron's retreat.",
+          "air_date": "2004-07-03",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=MZE-qkIrmxg",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 20,
+          "title": "Alpha Q: Identity",
+          "synopsis": "Alpha Q reveals his tragic past to Kicker — his home planet was destroyed by Unicron, and he has been collecting energon to restore it. On Cybertron, Decepticons attempt to free the imprisoned Shockblast.",
+          "air_date": "2004-07-03",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=aHGEEfCnoi8",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 21,
+          "title": "Shockblast: Rampage",
+          "synopsis": "Shockblast infiltrates Cybertron's energon core and disables the planet's energon grid, allowing a full Decepticon invasion. Kicker arrives with Unicron's head and tries to convince Optimus to hear Alpha Q's plan.",
+          "air_date": "2004-07-03",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=GcAzQ-EftcE",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 22,
+          "title": "Survival Instincts",
+          "synopsis": "Unicron's head and body attack their captors out of hunger for energon. The Autobots devise a plan to feed energon to Unicron's brain core, with new Omnicon Arcee helping lead the team through Unicron's interior.",
+          "air_date": "2004-09-04",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=gKqndjRNRQY",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 23,
+          "title": "Each One Fights...",
+          "synopsis": "Shockblast leads a Decepticon invasion of Cybertron targeting the planet's energon towers. Wing Dagger is killed during the tower destruction in a battle that sees heavy casualties on both sides.",
+          "air_date": "2004-09-04",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=_KopuMXeT68",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 24,
+          "title": "Unicron Unleashed",
+          "synopsis": "Unicron's body reactivates after the Decepticons gather sufficient energon. Megatron commands the giant to consume Cybertron, but Alpha Q rams Unicron's head into his body, creating an opening for the Autobots.",
+          "air_date": "2004-09-04",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=OR1nBg7g2RY",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 25,
+          "title": "Open fire!",
+          "synopsis": "The Autobots advance through Unicron's body as Shockblast betrays Megatron. Dr. Jones redirects Earth's energon supplies to Alpha Q, and an energon surge revives Optimus while unleashing chaos within Unicron.",
+          "air_date": "2004-09-04",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=Xwi1FTQyf0U",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 26,
+          "title": "Ripped Up Space",
+          "synopsis": "Megatron attempts to destroy Unicron with unstable energon, triggering a catastrophic rift in space. Optimus Prime and Rodimus pursue Megatron through the dimensional tear as it threatens the entire universe.",
+          "air_date": "2004-09-04",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=DKSh8MM_Myw",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 27,
+          "title": "Team Optimus Prime",
+          "synopsis": "A clip show recounting past events as Dr. Jones and his family wait for news of Kicker and the Autobots, who have entered a black hole pursuing Unicron. The Miranda II flies into the anomaly.",
+          "air_date": "2004-09-04",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=OJXWsekJ2pM",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 28,
+          "title": "Protection",
+          "synopsis": "Alpha Q celebrates his newly liberated planets, but Megatron destroys one and sends Terrorcons for its energon. Wing Saber confronts Shockblast while Megatron reformats Scorponok to ensure loyalty.",
+          "air_date": "2004-11-01",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=Vv1rx4x-phY",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 29,
+          "title": "Imprisoned Inferno",
+          "synopsis": "Inferno is ambushed and captured by Megatron on Iron Planet. The Autobots mount a rescue, but after extraction Inferno's Autobot symbol secretly morphs into a Decepticon one — a sinister transformation unnoticed by his comrades.",
+          "air_date": "2004-11-02",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=k5xKkwfiN3c",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 30,
+          "title": "Jungle Planet",
+          "synopsis": "The Decepticons assault Jungle Planet while Inferno battles Megatron's mental reprogramming from within. Autobot reinforcements arrive to defend the planet as Inferno struggles to maintain his true identity.",
+          "air_date": "2004-11-03",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=o7JBWqxnzII",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 31,
+          "title": "Bulkhead",
+          "synopsis": "The energon-depleted Iron Planet is destroyed, forcing the Autobots to defend Jungle Planet from the Decepticons. The team must protect a newly arriving energon tower from sabotage.",
+          "air_date": "2004-11-04",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=1jZDGXHyx9o",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 32,
+          "title": "Farewell Inferno",
+          "synopsis": "Inferno must choose between the Autobots and Decepticons as energon towers are deployed across three planets. In a dramatic climax, he enters the energon sun declaring his Autobot allegiance, and Jetfire recovers his spark.",
+          "air_date": "2004-11-05",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=BXUg6P4C7CQ",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 33,
+          "title": "Crash Course",
+          "synopsis": "The Autobots hold a racing competition to unwind, with Ironhide working on his driving skills. Meanwhile, Megatron brutally trains Shockblast underground, and Dr. Jones discovers an ancient temple.",
+          "air_date": "2004-11-08",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=kQtP5COnqEY",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 34,
+          "title": "Omega Supreme",
+          "synopsis": "The Autobots awaken the ancient guardian Omega Supreme to stop Megatron from reviving Unicron. Omega Supreme launches hundreds of energon towers at Unicron's body, but the chaos bringer proves resilient.",
+          "air_date": "2004-11-09",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=OUhmLkHhrxQ",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 35,
+          "title": "A Heroic Battle",
+          "synopsis": "Megatron activates Unicron's body to reclaim its head from Alpha Q. Optimus Prime enters Unicron to battle Megatron directly as the planet-sized entity becomes whole again.",
+          "air_date": "2004-11-10",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=rx_X9xUgMd8",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 36,
+          "title": "The Power of Unicron",
+          "synopsis": "Shockblast seizes control of Unicron's systems but is overwhelmed by the entity's power. The corrupted Shockblast rampages until Unicron crushes him, and Megatron declares allegiance to Unicron alone.",
+          "air_date": "2004-11-11",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=kpR7suVV2io",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 37,
+          "title": "Optimus Supreme",
+          "synopsis": "Optimus Prime and Omega Supreme combine to confront Unicron's planet-destroying rampage. Powered by Primus and reinforced energon from Cybertron, Optimus Supreme faces the chaos bringer in space.",
+          "air_date": "2004-11-26",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=etv403WyQI0",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 38,
+          "title": "Unicron Perishes",
+          "synopsis": "Optimus Supreme unleashes a devastating blast that destroys Unicron in a climactic battle. However, Megatron survives with Unicron's consciousness still within him, and mysterious energy spheres appear in space.",
+          "air_date": "2004-11-26",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=Ltsg-nr-Uco",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 39,
+          "title": "Ambition",
+          "synopsis": "Megatron returns and assaults Cybertron with Scorponok and Starscream. He discovers an ancient chamber containing three powerful guardian robots and a source of Super Energon deep beneath the planet.",
+          "air_date": "2005-01-19",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=3ZeodLaq3E8",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 40,
+          "title": "Wishes",
+          "synopsis": "Megatron absorbs Super Energon and transforms into the nearly invincible Galvatron, seizing control of Cybertron. Superion Maximus, a Super Energon guardian, joins the Autobots against this overwhelming new threat.",
+          "air_date": "2005-01-20",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=5SOVWwBf25Y",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 41,
+          "title": "Galvatron",
+          "synopsis": "The Decepticons use the energon grid to relocate Cybertron itself. The Autobots aboard the Miranda II attempt to intervene but their ship is heavily damaged and crashes to the planet's surface.",
+          "air_date": "2005-01-21",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=iYIspIzSlI8",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 42,
+          "title": "Break Through",
+          "synopsis": "Kicker and the Omnicons work to disable the Decepticons' energon gas grid on Cybertron. They attempt to create a passage for Optimus Prime's team to reach the surface while facing combiner units and Six Shot.",
+          "air_date": "2005-05-18",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=XpeKF0Z1BQw",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 43,
+          "title": "Distribution",
+          "synopsis": "A virtual training program features tournament-style battles between Autobot and Decepticon teams. Hot Shot and Rodimus prevail through the competition, facing a miniature Unicron as a final challenge.",
+          "air_date": "2005-05-19",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=hBSxxB-NB7M",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 44,
+          "title": "The Omega Train",
+          "synopsis": "The Autobots coordinate with resistance forces as Galvatron grows increasingly erratic under Unicron's influence. Omega Supreme transforms into a train to reach Central City while Cybertron passes through a warp gate.",
+          "air_date": "2005-05-20",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=8YFIA5NiRV4",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 45,
+          "title": "Decepticon Army",
+          "synopsis": "Kicker searches for his family in Cybertron's depths while a damaged Optimus Prime faces Galvatron on the surface. A mysterious creature emerges from the Super Energon pool as the crisis deepens.",
+          "air_date": "2005-05-23",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=td5yvH_dINg",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 46,
+          "title": "Ironhide Team",
+          "synopsis": "Ironhide faces the challenges of leadership when his troops are defeated by Scorponok. Primus awakens after receiving energon from Ironhide's team, enabling a powerful Autobot counterattack.",
+          "air_date": "2005-05-24",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=xZbZy5n5SVA",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 47,
+          "title": "Formidable",
+          "synopsis": "The Autobots must stop Galvatron from smashing Cybertron into Plains Planet. Optimus Supreme physically restrains the planet while his team destroys the energon towers propelling it, as Unicron's spark stirs within.",
+          "air_date": "2005-05-25",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=_QZXeP2NG0g",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 48,
+          "title": "Galvatron Terror",
+          "synopsis": "Six Shot and Galvatron race to obtain Super Energon. Galvatron reaches the chamber first, bathes in the Super Energon to become enormously enlarged, and eliminates Six Shot by stepping on him.",
+          "air_date": "2005-05-26",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=VdZ5enq4-eY",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 49,
+          "title": "Destructive Power",
+          "synopsis": "Galvatron transforms into a titanic Unicron-like form and begins towing Cybertron through space. The Autobots try to cut off his Super Energon supply while Ironhide confronts Scorponok about his loyalty.",
+          "air_date": "2005-05-27",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=kvzZznIljEc",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 50,
+          "title": "Spark",
+          "synopsis": "Optimus Prime and Galvatron, both empowered by Unicron's essence, grow to colossal sizes for a final confrontation. Optimus uses his Spark of Combination to overcome Galvatron's power and return them both to normal.",
+          "air_date": "2005-05-31",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=Ml62wrpwYYM",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 51,
+          "title": "The Sun",
+          "synopsis": "Primus plans to transform Unicron's essence into a sun to restore Alpha Q's destroyed planets. After a final battle, Galvatron merges with the Unicron-powered plasma sphere, creating the new energon sun that brings light to the restored worlds.",
+          "air_date": "2005-06-01",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=phAJPfHM8Z4",
+            "dailymotion": null,
+            "other": null
+          }
+        }
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "name": "Optimus Prime",
+      "role": "Autobot Leader",
+      "faction": "Autobot",
+      "alt_mode": "Fire Truck",
+      "voice_actor": "Garry Chalk",
+      "image": "images/characters/energon-optimus-prime.jpg"
+    },
+    {
+      "name": "Hot Shot",
+      "role": "Autobot Warrior",
+      "faction": "Autobot",
+      "alt_mode": "Sports Car",
+      "voice_actor": "Brent Miller",
+      "image": "images/characters/energon-hot-shot.jpg"
+    },
+    {
+      "name": "Ironhide",
+      "role": "Autobot Rookie",
+      "faction": "Autobot",
+      "alt_mode": "SUV",
+      "voice_actor": "Matt Hill",
+      "image": "images/characters/energon-ironhide.jpg"
+    },
+    {
+      "name": "Jetfire",
+      "role": "Autobot Sub-Commander",
+      "faction": "Autobot",
+      "alt_mode": "Shuttle",
+      "voice_actor": "Scott McNeil",
+      "image": "images/characters/energon-jetfire.jpg"
+    },
+    {
+      "name": "Inferno",
+      "role": "Autobot Soldier",
+      "faction": "Autobot",
+      "alt_mode": "Fire Engine",
+      "voice_actor": "Michael Daingerfield",
+      "image": "images/characters/energon-inferno.jpg"
+    },
+    {
+      "name": "Rodimus",
+      "role": "Autobot Commander",
+      "faction": "Autobot",
+      "alt_mode": "Truck",
+      "voice_actor": "Paul Dobson",
+      "image": "images/characters/energon-rodimus.jpg"
+    },
+    {
+      "name": "Wing Saber",
+      "role": "Autobot Aerial Warrior",
+      "faction": "Autobot",
+      "alt_mode": "Fighter Jet",
+      "voice_actor": "Colin Murdoch",
+      "image": "images/characters/energon-wing-saber.jpg"
+    },
+    {
+      "name": "Omega Supreme",
+      "role": "Autobot Guardian",
+      "faction": "Autobot",
+      "alt_mode": "Battleship / Train",
+      "voice_actor": "Scott McNeil",
+      "image": "images/characters/energon-omega-supreme.jpg"
+    },
+    {
+      "name": "Arcee",
+      "role": "Omnicon",
+      "faction": "Autobot",
+      "alt_mode": "Motorcycle",
+      "voice_actor": "Sharon Alexander",
+      "image": "images/characters/energon-arcee.jpg"
+    },
+    {
+      "name": "Kicker Jones",
+      "role": "Human Ally",
+      "faction": "Autobot",
+      "alt_mode": null,
+      "voice_actor": "Brad Swaile",
+      "image": "images/characters/energon-kicker.jpg"
+    },
+    {
+      "name": "Megatron / Galvatron",
+      "role": "Decepticon Leader",
+      "faction": "Decepticon",
+      "alt_mode": "Tank / Jet",
+      "voice_actor": "David Kaye",
+      "image": "images/characters/energon-megatron.jpg"
+    },
+    {
+      "name": "Starscream",
+      "role": "Decepticon Warrior",
+      "faction": "Decepticon",
+      "alt_mode": "Jet",
+      "voice_actor": "Michael Dobson",
+      "image": "images/characters/energon-starscream.jpg"
+    },
+    {
+      "name": "Scorponok",
+      "role": "Terrorcon Commander",
+      "faction": "Decepticon",
+      "alt_mode": "Scorpion",
+      "voice_actor": "Colin Murdoch",
+      "image": "images/characters/energon-scorponok.jpg"
+    },
+    {
+      "name": "Shockblast",
+      "role": "Decepticon Powerhouse",
+      "faction": "Decepticon",
+      "alt_mode": "Satellite Cannon",
+      "voice_actor": "Brian Drummond",
+      "image": "images/characters/energon-shockblast.jpg"
+    },
+    {
+      "name": "Demolishor",
+      "role": "Decepticon Soldier",
+      "faction": "Decepticon",
+      "alt_mode": "Dump Truck",
+      "voice_actor": "Alvin Sanders",
+      "image": "images/characters/energon-demolishor.jpg"
+    },
+    {
+      "name": "Cyclonus / Snow Cat",
+      "role": "Decepticon Warrior",
+      "faction": "Decepticon",
+      "alt_mode": "Helicopter / Snowmobile",
+      "voice_actor": "Don Brown",
+      "image": "images/characters/energon-cyclonus.jpg"
+    },
+    {
+      "name": "Tidal Wave / Mirage",
+      "role": "Decepticon Brute",
+      "faction": "Decepticon",
+      "alt_mode": "Warship / Race Car",
+      "voice_actor": "Doug Parker",
+      "image": "images/characters/energon-tidal-wave.jpg"
+    },
+    {
+      "name": "Six Shot",
+      "role": "Decepticon Mercenary",
+      "faction": "Decepticon",
+      "alt_mode": "Multi-changer",
+      "voice_actor": "Terry Klassen",
+      "image": "images/characters/energon-six-shot.jpg"
+    },
+    {
+      "name": "Alpha Q",
+      "role": "Ruler of Planet Q",
+      "faction": "Neutral",
+      "alt_mode": null,
+      "voice_actor": "Mark Acheson",
+      "image": "images/characters/energon-alpha-q.jpg"
+    }
+  ],
+  "media": [
+    {
+      "title": "Transformers Video - Telegram",
+      "url": "https://t.me/TransformersVideo",
+      "source": "telegram",
+      "type": "community"
+    },
+    {
+      "title": "Energon Complete Series (HD60 Upscale)",
+      "url": "https://www.youtube.com/playlist?list=PLtb-RXIhTLb-htNAr5YJWNTaX6L1VhxyQ",
+      "source": "youtube",
+      "type": "playlist"
+    }
+  ],
+  "trivia": [
+    {
+      "category": "Production",
+      "facts": [
+        "Known as Transformers: Super Link in Japan, the series was animated by Actas Inc. and Studio A-CAT using a distinctive hybrid of cel-shaded CGI and traditional 2D hand-drawn animation.",
+        "The English dub was produced by Vancouver-based Voicebox Productions. Dubbers worked with unfinished animation, leading to numerous mistranslations and inconsistencies in the script.",
+        "Character model sheets were finalized in December 2003, only one month before the show's January 2004 premiere, leaving no time to correct early-episode animation errors.",
+        "Several episode titles contained spelling errors due to rushed production — most notably 'Scorpinok' (missing the second 'o')."
+      ]
+    },
+    {
+      "category": "Legacy",
+      "facts": [
+        "Energon is the second installment of the Unicron Trilogy, bridging Armada and Cybertron, and is set ten years after the events of Armada.",
+        "The series introduced the Powerlinx combination gimmick, where two Autobots could physically merge into a combined form — mirroring the toy line's core play pattern.",
+        "Approximately halfway through the series, Unicron was destroyed, but with over 20 episodes remaining the storyline essentially repeated the threat with Galvatron and Super Energon.",
+        "The show aired on Cartoon Network in the United States, initially on Saturday mornings before shifting to a weekday strip format in summer 2004."
+      ]
+    }
+  ]
+}

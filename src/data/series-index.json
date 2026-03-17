@@ -162,6 +162,48 @@
     "has_live_streams": false
   },
   {
+    "slug": "armada",
+    "title": "Transformers: Armada",
+    "year_start": 2002,
+    "year_end": 2003,
+    "era": "unicron",
+    "poster": "images/series/armada-poster.jpg",
+    "faction_accent": "red",
+    "tags": ["Action", "Anime-style", "Mini-Cons"],
+    "episode_count": 52,
+    "season_count": 1,
+    "synopsis": "The discovery of the Mini-Cons reignites the war between Autobots and Decepticons, as both sides race to find these powerful small Transformers.",
+    "has_live_streams": false
+  },
+  {
+    "slug": "energon",
+    "title": "Transformers: Energon",
+    "year_start": 2004,
+    "year_end": 2005,
+    "era": "unicron",
+    "poster": "images/series/energon-poster.jpg",
+    "faction_accent": "red",
+    "tags": ["Sequel", "Action", "Anime-style"],
+    "episode_count": 51,
+    "season_count": 1,
+    "synopsis": "Ten years after Armada, a new Energon-powered threat emerges as Alpha Quintesson and a revived Megatron threaten the fragile peace.",
+    "has_live_streams": false
+  },
+  {
+    "slug": "cybertron",
+    "title": "Transformers: Cybertron",
+    "year_start": 2005,
+    "year_end": 2007,
+    "era": "unicron",
+    "poster": "images/series/cybertron-poster.jpg",
+    "faction_accent": "red",
+    "tags": ["Space", "Action", "Epic"],
+    "episode_count": 52,
+    "season_count": 1,
+    "synopsis": "With Cybertron consumed by a black hole, the Autobots search the universe for the four Cyber Planet Keys that can save their homeworld.",
+    "has_live_streams": false
+  },
+  {
     "slug": "animated",
     "title": "Transformers: Animated",
     "year_start": 2007,
