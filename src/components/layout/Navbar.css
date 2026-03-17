@@ -53,3 +53,67 @@
   color: var(--text-primary);
   font-weight: 700;
 }
+
+.navbar__search-btn {
+  background: none;
+  border: none;
+  color: var(--text-body);
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 4px 8px;
+  transition: color var(--transition-fast);
+}
+
+.navbar__search-btn:hover {
+  color: var(--text-primary);
+}
+
+.navbar__search-bar {
+  display: flex;
+  gap: 8px;
+  padding: 8px 4%;
+  background: rgba(20, 20, 20, 0.98);
+  border-bottom: 1px solid var(--border-subtle);
+  animation: searchSlide 0.15s ease-out;
+}
+
+@keyframes searchSlide {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.navbar__search-input {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+  padding: 8px 14px;
+  border-radius: var(--card-radius);
+  font-size: 0.875rem;
+  font-family: var(--font-family);
+  outline: none;
+}
+
+.navbar__search-input:focus {
+  border-color: var(--accent-red);
+}
+
+.navbar__search-input::placeholder {
+  color: var(--text-tertiary);
+}
+
+.navbar__search-submit {
+  background: var(--accent-red);
+  color: #fff;
+  border: none;
+  padding: 8px 18px;
+  border-radius: var(--card-radius);
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background var(--transition-fast);
+}
+
+.navbar__search-submit:hover {
+  background: var(--accent-red-hover);
+}

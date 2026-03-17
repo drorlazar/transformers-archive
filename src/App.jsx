@@ -3,6 +3,7 @@ import Navbar from './components/layout/Navbar';
 import HomePage from './pages/HomePage';
 import SeriesPage from './pages/SeriesPage';
 import AboutPage from './pages/AboutPage';
+import SearchPage from './pages/SearchPage';
 import NotFoundPage from './pages/NotFoundPage';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="/series/:slug/characters" element={<SeriesPage />} />
         <Route path="/series/:slug/media" element={<SeriesPage />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/search" element={<SearchPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </BrowserRouter>
