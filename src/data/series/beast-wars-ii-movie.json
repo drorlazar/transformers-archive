@@ -1,0 +1,74 @@
+{
+  "title": "Beast Wars II: Lio Convoy's Critical Moment",
+  "slug": "beast-wars-ii-movie",
+  "year_start": 1998,
+  "year_end": 1998,
+  "era": "movies",
+  "synopsis": "A standalone movie set outside the Beast Wars II TV series timeline. Lio Convoy and the Maximals face a desperate crisis on Planet Gaia as Galvatron launches his most dangerous assault yet.",
+  "rating": "TV-Y7",
+  "tags": [
+    "Movie",
+    "Japanese",
+    "Beast Era"
+  ],
+  "poster": "images/series/beast-wars-ii-poster.jpg",
+  "hero_image": "images/series/beast-wars-ii-hero.jpg",
+  "faction_accent": "red",
+  "seasons": [
+    {
+      "number": 1,
+      "year": 1998,
+      "episodes": [
+        {
+          "number": 1,
+          "title": "Lio Convoy's Critical Moment",
+          "synopsis": "Set outside the timeline of the Beast Wars II TV series. Lio Convoy and the Maximals face their most critical battle on Planet Gaia as Galvatron attacks with devastating force. Features characters from episodes 33 and beyond, with key differences including the absence of the artificial planet Nemesis.",
+          "air_date": "1998-12-19",
+          "duration": "30m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=_F7C1gKnKfo",
+            "dailymotion": null,
+            "other": null
+          }
+        }
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "name": "Lio Convoy",
+      "role": "Maximal Leader",
+      "faction": "Maximal",
+      "beast_mode": "Lion",
+      "voice_actor": "Hozumi Goda",
+      "image": null
+    },
+    {
+      "name": "Galvatron",
+      "role": "Predacon Leader",
+      "faction": "Predacon",
+      "beast_mode": "Dragon",
+      "voice_actor": "Jurota Kosugi",
+      "image": null
+    }
+  ],
+  "media": [
+    {
+      "title": "Transformers Video - Telegram",
+      "url": "https://t.me/TransformersVideo",
+      "source": "telegram",
+      "type": "community"
+    }
+  ],
+  "trivia": [
+    {
+      "category": "Production",
+      "facts": [
+        "Released theatrically in Japan on December 19, 1998 alongside a Brave Command Dagwon short.",
+        "The movie takes place outside the continuity of the Beast Wars II TV series, with several key differences from the show.",
+        "English fan-subbed by Karyuudo Fansubs."
+      ]
+    }
+  ]
+}

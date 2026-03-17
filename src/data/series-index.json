@@ -126,6 +126,24 @@
     "has_live_streams": false
   },
   {
+    "slug": "beast-wars-ii-movie",
+    "title": "Beast Wars II: Lio Convoy's Critical Moment",
+    "year_start": 1998,
+    "year_end": 1998,
+    "era": "movies",
+    "poster": "images/series/beast-wars-ii-poster.jpg",
+    "faction_accent": "red",
+    "tags": [
+      "Movie",
+      "Japanese",
+      "Beast Era"
+    ],
+    "episode_count": 1,
+    "season_count": 1,
+    "synopsis": "Standalone movie set outside the Beast Wars II timeline. Lio Convoy faces his most critical battle on Planet Gaia.",
+    "has_live_streams": false
+  },
+  {
     "slug": "beast-wars",
     "title": "Beast Wars: Transformers",
     "year_start": 1996,
