@@ -162,6 +162,20 @@
     "has_live_streams": false
   },
   {
+    "slug": "robots-in-disguise-2001",
+    "title": "Transformers: Robots in Disguise",
+    "year_start": 2001,
+    "year_end": 2001,
+    "era": "unicron",
+    "poster": "images/series/robots-in-disguise-2001-poster.jpg",
+    "faction_accent": "red",
+    "tags": ["Action", "Comedy", "Japanese"],
+    "episode_count": 39,
+    "season_count": 1,
+    "synopsis": "Optimus Prime leads the Autobots against Megatron and the Predacons who seek to steal Earth's energy resources in this action-comedy series.",
+    "has_live_streams": false
+  },
+  {
     "slug": "armada",
     "title": "Transformers: Armada",
     "year_start": 2002,

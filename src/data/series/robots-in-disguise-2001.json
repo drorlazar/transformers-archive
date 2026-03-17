@@ -1,0 +1,798 @@
+{
+  "title": "Transformers: Robots in Disguise",
+  "slug": "robots-in-disguise-2001",
+  "year_start": 2001,
+  "year_end": 2001,
+  "era": "unicron",
+  "synopsis": "When the Predacon criminal Megatron kidnaps renowned scientist Dr. Kenneth Onishi, his son Koji teams up with Optimus Prime and the Autobots to rescue him. As the conflict escalates, Megatron creates a team of Decepticons from stolen protoforms and races to find the ancient O-Parts that reveal the location of Fortress Maximus, a colossal Autobot battle station hidden beneath Earth's surface. With Sky-Byte's bumbling Predacons, the ruthless Decepticon Scourge, and the arrival of Optimus Prime's estranged brother Ultra Magnus, the battle for Earth becomes a chaotic, action-packed, and often hilarious war on multiple fronts.",
+  "rating": "TV-Y7",
+  "tags": [
+    "Action",
+    "Comedy",
+    "Japanese"
+  ],
+  "poster": "images/series/robots-in-disguise-2001-poster.jpg",
+  "hero_image": "images/series/robots-in-disguise-2001-hero.jpg",
+  "faction_accent": "red",
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2001,
+      "episodes": [
+        {
+          "number": 1,
+          "title": "Battle Protocol!",
+          "synopsis": "When the Predacons attack an International Scientific Symposium and kidnap Dr. Onishi, his son Koji is recruited by Optimus Prime to help rescue him. The Autobots use the Global Space Bridge to battle the Predacons in New York.",
+          "air_date": "2001-09-08",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=X7qgRNBeq_0",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 2,
+          "title": "An Explosive Situation",
+          "synopsis": "The Predacons steal an energy bomb hidden in a red sports car to power their base. The Autobots must recover the device before it detonates, ultimately launching it into space to save Metro City.",
+          "air_date": "2001-09-10",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=A3AC-TmRKrQ",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 3,
+          "title": "Bullet Train to the Rescue",
+          "synopsis": "The Predacons sabotage a high-speed train with a bomb, forcing the Autobots to call upon Team Bullet Train for assistance. The combined robot Rail Racer battles Megatron to save the passengers.",
+          "air_date": "2001-09-12",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=-_YIBZiZ3g4",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 4,
+          "title": "Spychangers to the Rescue",
+          "synopsis": "The Predacons steal a plutonium energy generator, but the newly deployed Spychangers pursue them across the city. Through a clever deception, the Spychangers replace the real generator with a decoy.",
+          "air_date": "2001-09-13",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=p2W9MuPH2Sw",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 5,
+          "title": "The Hunt for Black Pyramid",
+          "synopsis": "The Predacons attempt to harness energy from an undersea Black Pyramid while Megatron sends Sky-Byte to destroy a research vessel carrying Koji. Optimus Prime and the Autobot Brothers race to the rescue.",
+          "air_date": "2001-09-14",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=Tbg3JuNeNkI",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 6,
+          "title": "The Secret of the Ruins",
+          "synopsis": "Megatron stages a diversion attack on Metro City while Sky-Byte searches for ancient ruins containing a hidden microchip. Side Burn and the Autobots pursue him into the mysterious ruins.",
+          "air_date": "2001-10-11",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=QHde5D30m7U",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 7,
+          "title": "Sideburn's Obsession",
+          "synopsis": "Side Burn becomes infatuated with a red sports car that turns out to be Megatron in disguise, leading the Predacons to capture him as bait for Optimus Prime. The Autobots mount a rescue at a scrapyard.",
+          "air_date": "2001-09-15",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=3Qxe9oC28FI",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 8,
+          "title": "Secret Weapon: D-5",
+          "synopsis": "The Predacons steal a mysterious disk and become obsessed with obtaining a vintage steam locomotive called Grandpa. The Autobots must protect the antique train from the villains' relentless attack.",
+          "air_date": "2001-09-17",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=m-t6ZPXmL94",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 9,
+          "title": "Mirage's Betrayal",
+          "synopsis": "When the Predacons place a tracking device on Mirage, he pretends to defect to their side to infiltrate their plans. Using secret hand signals, Mirage coordinates with his teammates to destroy the Predacons' Mega-Laser Cannon.",
+          "air_date": "2001-09-18",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=063V5WH1Pgw",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 10,
+          "title": "Skid Z's Choice",
+          "synopsis": "Skid-Z accidentally absorbs the competitive spirit of a race car driver after scanning a Formula-1 vehicle, compelling him to enter every race he encounters. The Autobots enter the Grand Prix to help their teammate while battling the Predacons.",
+          "air_date": "2001-09-19",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=sbXtXrKgJe4",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 11,
+          "title": "Tow-Line Goes Haywire",
+          "synopsis": "After being brainwashed by the Predacons, Tow-Line becomes obsessed with towing away Autobots for various infractions. The other Autobots must stop the out-of-control truck before he delivers them all to the enemy.",
+          "air_date": "2001-09-20",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=xbQmGkFgCHo",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 12,
+          "title": "The Ultimate Robot Warrior",
+          "synopsis": "The Predacons mistake a movie prop — a giant transforming statue — for a real Transformer they can recruit. The Autobots stage an elaborate ruse to trick the villains while discovering a Cybertronian artifact hidden within the ruins.",
+          "air_date": "2001-09-21",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=T4VIezgHB_A",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 13,
+          "title": "Hope for the Future",
+          "synopsis": "The Autobots review past encounters with the Predacons and analyze recovered data to identify the location of the Predacon base. They deduce the base may be underwater and commit to racing to find the remaining O-Parts before Megatron.",
+          "air_date": "2001-10-26",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=Rh4v0uspnms",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 14,
+          "title": "The Decepticons",
+          "synopsis": "The Autobots discover a Cybertronian ship containing six protoforms, but Megatron steals them and converts them into Decepticons by infusing them with his spark energy. The newly created Decepticons, led by the powerful Scourge, become formidable enemies.",
+          "air_date": "2001-09-22",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=KnF-GiezEuY",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 15,
+          "title": "Commandos",
+          "synopsis": "The Decepticons target Sherman Dam to demonstrate their power to Megatron, while Sky-Byte's Predacons disguise themselves as Autobots to steal credit. A chaotic battle ensues involving competing factions and the formation of combined warriors.",
+          "air_date": "2001-09-24",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=ucMsuVzXIzg",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 16,
+          "title": "Volcano",
+          "synopsis": "Megatron sends Predacons to a Caribbean volcano to tap its energy, but they accidentally trigger an eruption threatening a resort. Optimus Prime and the Spychangers must stop the lava flow while battling the Decepticons.",
+          "air_date": "2001-09-25",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=GMD-XeaCqpo",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 17,
+          "title": "Attack from Outer Space",
+          "synopsis": "The Decepticon Movor tracks Autobot movements from orbit disguised as a space shuttle, but repeatedly leads his team to destroy the wrong locations. The Autobots trick Side Burn into luring the Decepticons into an ambush.",
+          "air_date": "2002-07-27",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=uO-Pn3jZXGg",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 18,
+          "title": "The Test",
+          "synopsis": "Optimus Prime believes the Decepticons genuinely want to defect and subjects them to a loyalty test. When the ruse is exposed during a confrontation with Sky-Byte, Optimus channels his Matrix power to force them to retreat.",
+          "air_date": "2001-09-26",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=JbhJdzg7rVo",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 19,
+          "title": "The Fish Test",
+          "synopsis": "Sky-Byte takes an online personality test that identifies him as a jellyfish, then attempts to sabotage Scourge's power plant raids to prove his worth to Megatron. His schemes repeatedly backfire in humiliating fashion.",
+          "air_date": "2001-09-27",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=A68umeJChYw",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 20,
+          "title": "Wedge's Short Fuse",
+          "synopsis": "The inexperienced Build Team seizes an opportunity to prove themselves in combat when the Autobots need to reach Antarctica. Their first mission becomes complicated when the Predacons use it as bait for a scheme.",
+          "air_date": "2001-09-28",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=tsKKCUIHOVo",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 21,
+          "title": "Landfill",
+          "synopsis": "The Decepticons sabotage the Global Space Bridge's computer systems, causing the Autobots to be misdirected to random locations. The Build Team combines into Landfill to defeat Megatron and Scourge.",
+          "air_date": "2002-07-28",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=lRcASxO-Zbc",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 22,
+          "title": "Sky-Byte Saves the Day",
+          "synopsis": "Sky-Byte accidentally becomes a hero when he and the Predacons are forced to hold up a collapsing tower to save hostages. Through a comedic misunderstanding, he bluffs his way into demanding O-Parts from Optimus Prime.",
+          "air_date": "2002-07-28",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=rlCodB8otOc",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 23,
+          "title": "A Test of Metal",
+          "synopsis": "The Commandos attack construction sites to lure out the Build Team, who defy Optimus Prime's orders and sabotage the Space Bridge to engage in battle. Landfill and Ruination clash underground in an oil-filled cavern.",
+          "air_date": "2001-09-29",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=yrrd44FzS44",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 24,
+          "title": "Ultra Magnus",
+          "synopsis": "A mysterious new Autobot arrives and clashes with both the Decepticons and Optimus Prime's team, revealing himself to be Ultra Magnus, who harbors resentment toward Optimus over leadership of the Autobots.",
+          "air_date": "2001-10-06",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=spXPnnOo-Vs",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 25,
+          "title": "Ultra Magnus: Forced Fusion!",
+          "synopsis": "Ultra Magnus demands the Matrix of Leadership from Optimus Prime, and when the Autobot Brothers attempt a rescue, they discover that Optimus and Magnus can combine into the powerful Omega Prime to defeat Megatron.",
+          "air_date": "2001-10-13",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=SSunbn31wQA",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 26,
+          "title": "Lessons of the Past",
+          "synopsis": "Optimus Prime reviews past battles with T-AI and Koji to predict Decepticon strategy, focusing on incidents involving the Build Team and Scourge's sabotage of the Space Bridge. A clip show recap episode.",
+          "air_date": "2001-12-14",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=-6NUf1eVGcQ",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 27,
+          "title": "The Two Faces of Ultra Magnus",
+          "synopsis": "Megatron and Sky-Byte attempt to recruit Ultra Magnus by exploiting his friction with Optimus Prime. Magnus infiltrates their operation and ultimately combines with Prime into Omega Prime, forcing the Decepticons to retreat.",
+          "air_date": "2001-10-20",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=laDRW1BX9Fs",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 28,
+          "title": "Power to Burn!",
+          "synopsis": "Scourge attempts to recruit Ultra Magnus to join the Decepticons against Optimus Prime, but Magnus refuses and battles ensue. Optimus and Magnus combine into Omega Prime to defeat the Decepticon and Predacon forces.",
+          "air_date": "2001-10-19",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=MEgYMmWSzEA",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 29,
+          "title": "Fortress Maximus",
+          "synopsis": "Dr. Onishi's excavation uncovers underground ruins suspected to contain Cybertronian technology, prompting both Autobots and Decepticons to investigate. A vast metal fortress adorned with an Autobot symbol rises from beneath the earth.",
+          "air_date": "2001-10-27",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=4M7HKQULzn8",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 30,
+          "title": "Koji Gets His Wish",
+          "synopsis": "Koji wishes upon a shooting star for his kidnapped father's safe return. Through a series of misunderstandings during battles, Sky-Byte inadvertently reunites father and son.",
+          "air_date": "2001-11-03",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=TCmmrpbl9ug",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 31,
+          "title": "A Friendly Contest",
+          "synopsis": "The Autobot Brothers and Build Team compete to locate O-Parts using detectors, while Sky-Byte's scheme involving fake O-Parts repeatedly backfires. Omega Prime defeats the Decepticons in the ensuing chaos.",
+          "air_date": "2001-11-10",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=PkjNysl_DB0",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 32,
+          "title": "Peril from the Past",
+          "synopsis": "The Autobots search for the Orb of Sigma in the Sahara Desert after T-AI merges with the O-Parts to locate it. During an intense battle over the artifact, Megatron is transformed by the orb's power into the mighty Galvatron.",
+          "air_date": "2001-11-17",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=fEz8JmoKCwg",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 33,
+          "title": "Maximus Emerges",
+          "synopsis": "The Decepticons locate and steal Cerebros, the control unit for the powerful Fortress Maximus. The Autobots battle to regain control and discover that Koji may hold the key to commanding the massive Transformer.",
+          "air_date": "2002-02-16",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=MNscZfZ5nOQ",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 34,
+          "title": "The Human Element",
+          "synopsis": "Scourge discovers that Fortress Maximus will only obey humans and captures the giant after amplifying bio-energy scanned from Koji. The Autobots defeat Scourge's control by bringing a thousand children whose combined energy overwhelms his command.",
+          "air_date": "2002-02-23",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=diEJA0nDaPY",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 35,
+          "title": "Mystery of the Ultra Magnus",
+          "synopsis": "Megatron and his forces review footage of Ultra Magnus's past encounters to understand why he consistently defeats them. After analysis, Megatron concludes that obtaining the Matrix of Leadership is key to victory.",
+          "air_date": "2002-03-30",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=zyA4TIBpX8Y",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 36,
+          "title": "Mistaken Identity",
+          "synopsis": "The Decepticons mistakenly kidnap Carl instead of Koji, believing either boy can control Fortress Maximus. Carl discovers he can command the giant robot and uses it against the villains.",
+          "air_date": "2002-03-02",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=zJF-cZeCYpU",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 37,
+          "title": "Surprise Attack!",
+          "synopsis": "Galvatron reprograms the Decepticons into loyal servants while Sky-Byte discovers the Autobot base by following Koji. The Autobots spring a trap and activate Fortress Maximus to defeat Galvatron's hydrofoil form.",
+          "air_date": "2002-03-09",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=wB8pPpwSBvs",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 38,
+          "title": "Galvatron's Revenge",
+          "synopsis": "Galvatron survives his apparent defeat and begins draining energy from Fortress Maximus while unleashing cyber-bats that control Earth's children. The Autobots retreat through the Space Bridge as Galvatron floods the tunnel with lava.",
+          "air_date": "2002-03-16",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=lJvw181jYXc",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 39,
+          "title": "The Final Battle",
+          "synopsis": "Galvatron, empowered by Fortress Maximus, defeats the Autobots and forces them to retreat. Optimus Prime and Ultra Magnus merge into Omega Prime for a final confrontation at Earth's core, where the combined power of children worldwide re-energizes them to victory.",
+          "air_date": "2002-03-23",
+          "duration": "22m",
+          "thumbnail": null,
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=bJbMGfFi5e0",
+            "dailymotion": null,
+            "other": null
+          }
+        }
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "name": "Optimus Prime",
+      "role": "Autobot Leader",
+      "faction": "Autobot",
+      "alt_mode": "Fire truck",
+      "voice_actor": "Neil Kaplan",
+      "image": null
+    },
+    {
+      "name": "Ultra Magnus",
+      "role": "Autobot Warrior / Optimus's Brother",
+      "faction": "Autobot",
+      "alt_mode": "Car carrier",
+      "voice_actor": "Kim Strauss",
+      "image": null
+    },
+    {
+      "name": "Prowl",
+      "role": "Autobot Tactician",
+      "faction": "Autobot",
+      "alt_mode": "Police car",
+      "voice_actor": "Wally Wingert",
+      "image": null
+    },
+    {
+      "name": "Side Burn",
+      "role": "Autobot Warrior",
+      "faction": "Autobot",
+      "alt_mode": "Sports car",
+      "voice_actor": "Wally Wingert",
+      "image": null
+    },
+    {
+      "name": "X-Brawn",
+      "role": "Autobot Warrior",
+      "faction": "Autobot",
+      "alt_mode": "SUV",
+      "voice_actor": "Bob Joles",
+      "image": null
+    },
+    {
+      "name": "Railspike",
+      "role": "Team Bullet Train Leader",
+      "faction": "Autobot",
+      "alt_mode": "Bullet train",
+      "voice_actor": "Michael McConnohie",
+      "image": null
+    },
+    {
+      "name": "Rapid Run",
+      "role": "Team Bullet Train Member",
+      "faction": "Autobot",
+      "alt_mode": "Bullet train",
+      "voice_actor": "Michael Reisz",
+      "image": null
+    },
+    {
+      "name": "Midnight Express",
+      "role": "Team Bullet Train Member",
+      "faction": "Autobot",
+      "alt_mode": "Bullet train",
+      "voice_actor": "David Lodge",
+      "image": null
+    },
+    {
+      "name": "Wedge",
+      "role": "Build Team Leader",
+      "faction": "Autobot",
+      "alt_mode": "Bulldozer",
+      "voice_actor": "Lex Lang",
+      "image": null
+    },
+    {
+      "name": "Grimlock",
+      "role": "Build Team Member",
+      "faction": "Autobot",
+      "alt_mode": "Excavator",
+      "voice_actor": "Tom Wyner",
+      "image": null
+    },
+    {
+      "name": "Hightower",
+      "role": "Build Team Member",
+      "faction": "Autobot",
+      "alt_mode": "Crane",
+      "voice_actor": "Bob Joles",
+      "image": null
+    },
+    {
+      "name": "Heavy Load",
+      "role": "Build Team Member",
+      "faction": "Autobot",
+      "alt_mode": "Dump truck",
+      "voice_actor": "Kim Strauss",
+      "image": null
+    },
+    {
+      "name": "T-AI",
+      "role": "Autobot Tactical AI",
+      "faction": "Autobot",
+      "alt_mode": "None (holographic AI)",
+      "voice_actor": "Sandy Fox",
+      "image": null
+    },
+    {
+      "name": "Fortress Maximus",
+      "role": "Ancient Autobot Battle Station",
+      "faction": "Autobot",
+      "alt_mode": "Fortress / Battleship",
+      "voice_actor": "Steve Blum",
+      "image": null
+    },
+    {
+      "name": "Megatron / Galvatron",
+      "role": "Predacon Leader",
+      "faction": "Predacon",
+      "alt_mode": "Six-changer (bat, car, jet, dragon, hand, griffin)",
+      "voice_actor": "Daniel Riordan",
+      "image": null
+    },
+    {
+      "name": "Sky-Byte",
+      "role": "Predacon Sub-Commander",
+      "faction": "Predacon",
+      "alt_mode": "Shark",
+      "voice_actor": "Peter Spellos",
+      "image": null
+    },
+    {
+      "name": "Slapper",
+      "role": "Predacon Soldier",
+      "faction": "Predacon",
+      "alt_mode": "Frog",
+      "voice_actor": "Peter Spellos",
+      "image": null
+    },
+    {
+      "name": "Gas Skunk",
+      "role": "Predacon Soldier",
+      "faction": "Predacon",
+      "alt_mode": "Skunk",
+      "voice_actor": "Jerry DeCapua",
+      "image": null
+    },
+    {
+      "name": "Dark Scream",
+      "role": "Predacon Soldier",
+      "faction": "Predacon",
+      "alt_mode": "Bat",
+      "voice_actor": "Steve Blum",
+      "image": null
+    },
+    {
+      "name": "Scourge",
+      "role": "Decepticon Leader",
+      "faction": "Decepticon",
+      "alt_mode": "Tanker truck",
+      "voice_actor": "Barry Stigler",
+      "image": null
+    },
+    {
+      "name": "Mega-Octane",
+      "role": "Decepticon Commando Leader",
+      "faction": "Decepticon",
+      "alt_mode": "Missile truck",
+      "voice_actor": "Bob Papenbrook",
+      "image": null
+    },
+    {
+      "name": "Ro-Tor",
+      "role": "Decepticon Commando",
+      "faction": "Decepticon",
+      "alt_mode": "Helicopter",
+      "voice_actor": "Neil Kaplan",
+      "image": null
+    },
+    {
+      "name": "Movor",
+      "role": "Decepticon Commando",
+      "faction": "Decepticon",
+      "alt_mode": "Space shuttle",
+      "voice_actor": "Michael Lindsay",
+      "image": null
+    },
+    {
+      "name": "Armorhide",
+      "role": "Decepticon Commando",
+      "faction": "Decepticon",
+      "alt_mode": "Tank",
+      "voice_actor": "Steven Jay Blum",
+      "image": null
+    },
+    {
+      "name": "Rollbar",
+      "role": "Decepticon Commando",
+      "faction": "Decepticon",
+      "alt_mode": "Military jeep",
+      "voice_actor": "Kim Strauss",
+      "image": null
+    },
+    {
+      "name": "Koji Onishi",
+      "role": "Human Ally",
+      "faction": "Human",
+      "alt_mode": null,
+      "voice_actor": "Jason Spisak",
+      "image": null
+    },
+    {
+      "name": "Dr. Kenneth Onishi",
+      "role": "Scientist / Koji's Father",
+      "faction": "Human",
+      "alt_mode": null,
+      "voice_actor": "Kirk Thornton",
+      "image": null
+    },
+    {
+      "name": "Kelly",
+      "role": "Recurring Human",
+      "faction": "Human",
+      "alt_mode": null,
+      "voice_actor": "Philece Sampler",
+      "image": null
+    }
+  ],
+  "media": [
+    {
+      "title": "Transformers Video - Telegram",
+      "url": "https://t.me/TransformersVideo",
+      "source": "telegram",
+      "type": "community"
+    },
+    {
+      "title": "RiD 2001 Complete Series (4K Upscale)",
+      "url": "https://www.youtube.com/playlist?list=PLlcmNU-jCJ6O9V5oAqboIhpUYobts1ZUl",
+      "source": "youtube",
+      "type": "playlist"
+    }
+  ],
+  "trivia": [
+    {
+      "category": "Production",
+      "facts": [
+        "Robots in Disguise was originally produced in Japan in 2000 as 'Transformers: Car Robots' before being dubbed into English by Saban Entertainment for Fox Kids in 2001.",
+        "The September 11, 2001 attacks forced the removal of three episodes from the initial US broadcast rotation due to scenes depicting attacks on buildings and landmarks.",
+        "The series was the first Japanese Transformers anime to be officially dubbed and broadcast for Western audiences, paving the way for the Unicron Trilogy that followed."
+      ]
+    },
+    {
+      "category": "Legacy",
+      "facts": [
+        "Sky-Byte became one of the most beloved Transformers characters of all time, winning the 2023 Transformers Hall of Fame fan vote due to his comedic personality and memorable haiku poetry.",
+        "Robots in Disguise remains the only American-broadcast Transformers cartoon that was never released on DVD in the United States.",
+        "Disney acquired ownership of the series when they purchased Saban Entertainment's Fox Family Worldwide in late 2001, creating a complicated rights situation for future releases."
+      ]
+    },
+    {
+      "category": "Continuity",
+      "facts": [
+        "Despite sharing the 'Robots in Disguise' name with a 2015 Transformers series, the two shows are completely unrelated in story and continuity.",
+        "The series exists in its own standalone continuity separate from both the original G1 timeline and the subsequent Unicron Trilogy, though it is grouped with the Unicron era chronologically.",
+        "Megatron's six alternate modes — bat, car, jet, dragon, hand, and griffin — made him one of the most versatile Transformers villains ever depicted in animation."
+      ]
+    }
+  ]
+}
