@@ -1,0 +1,464 @@
+{
+  "title": "Transformers: Cyberworld",
+  "slug": "cyberworld-2025",
+  "year_start": 2025,
+  "year_end": null,
+  "era": "modern",
+  "synopsis": "Autobots and Decepticons are pulled into a mysterious virtual realm called Cyberworld where they must compete in extreme games and challenges. Each warrior receives a firmware update that overlays a gaming-like HUD on their vision. Victory brings power and energon, failure drains it. As alliances form and fracture, some seek escape while others chase power, glory, and new empires.",
+  "rating": "TV-Y7",
+  "tags": [
+    "CG",
+    "Web Series",
+    "YouTube Original",
+    "Omens Studios",
+    "action",
+    "video-game themed"
+  ],
+  "poster": "images/series/cyberworld-2025-poster.jpg",
+  "hero_image": "images/series/cyberworld-2025-hero.jpg",
+  "faction_accent": "red",
+  "seasons": [
+    {
+      "number": 1,
+      "year": 2025,
+      "episodes": [
+        {
+          "number": 1,
+          "title": "Commence Program",
+          "air_date": "2025-07-12",
+          "duration": "5m",
+          "synopsis": "Optimus Prime crash-lands on a mysterious planet and receives a strange firmware update with a gaming-like HUD. After fleeing Scorponok and clashing with Grimlock, he spots an escape pod—but Bumblebee finds Megatron instead.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=BLVhRz_FO1c",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 2,
+          "title": "Prime Target",
+          "air_date": "2025-07-12",
+          "duration": "5m",
+          "synopsis": "Bumblebee and Megatron form an uneasy truce to survive a Target Blaster challenge. Bumblebee wins by actually using the blaster, but Megatron retaliates—until Optimus Prime arrives to rescue his wounded friend.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=BLVhRz_FO1c",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 3,
+          "title": "Crate Point, Well Fought",
+          "air_date": "2025-07-26",
+          "duration": "5m",
+          "synopsis": "Optimus and Bumblebee compete against Grimlock and Snarl for a weapon crate drop in the jungle. After a fierce battle, the Autobots claim an energon ax and wrist blaster, driving the Dinobots back.",
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 4,
+          "title": "River Race Ruckus",
+          "air_date": "2025-08-02",
+          "duration": "5m",
+          "synopsis": "Elita-1 races through a jungle river pursued by Sky-Byte. When Optimus and Bumblebee accidentally interfere, Elita is disqualified. She agrees to help them reach the Autobot shuttle—if they help her take down Sky-Byte.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=1JhfiXrz4u4",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 5,
+          "title": "Smoke & Mirrors",
+          "air_date": "2025-08-16",
+          "duration": "5m",
+          "synopsis": "The Autobots encounter Mirage, a trickster who uses holographic projections and illusions to survive the challenges of Cyberworld.",
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 6,
+          "title": "Screamer City Arena",
+          "air_date": "2025-08-23",
+          "duration": "5m",
+          "synopsis": "Starscream has carved out his own territory in Cyberworld, running an arena where combatants fight for energon under his rules—and his insignia has been painted over with his own face.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=f5Ep8tQPx9A",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 7,
+          "title": "Hunter vs Hunted",
+          "air_date": "2025-08-30",
+          "duration": "5m",
+          "synopsis": "A deadly game of cat and mouse unfolds in the jungle as the Autobots become both hunters and prey in Cyberworld's latest challenge.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=9ARTYo9stcI",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 8,
+          "title": "What Goes Up",
+          "air_date": "2025-09-27",
+          "duration": "5m",
+          "synopsis": "A vertical challenge pushes the team to new heights as they climb a treacherous structure while competitors try to knock them down.",
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 9,
+          "title": "Storm the Desert",
+          "air_date": "2025-09-27",
+          "duration": "5m",
+          "synopsis": "After a devastating loss and with time running out, Optimus Prime and his team launch a grueling boss battle against Scorponok in the desert.",
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 10,
+          "title": "A Bug's Lie",
+          "air_date": "2025-10-11",
+          "duration": "5m",
+          "synopsis": "Chop Shop deceives the Autobots with false information, leading them into a trap as Cyberworld's insect-themed Decepticon reveals his true allegiance.",
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 11,
+          "title": "Game-a-Tron",
+          "air_date": "2025-10-11",
+          "duration": "5m",
+          "synopsis": "The Autobots push to boost their energon levels through an intense challenge gauntlet, fighting to level up before their enemies can catch them.",
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 12,
+          "title": "Oh Scrap!",
+          "air_date": "2025-10-18",
+          "duration": "5m",
+          "synopsis": "The Autobots' hard-earned energon is drained by Galvatron, who appears and strips them of all their collected power—sending the team back to square one.",
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 13,
+          "title": "Carousel Chaos",
+          "air_date": "2025-10-25",
+          "duration": "5m",
+          "synopsis": "A spinning arena challenge tests the team's balance and combat skills as they fight on a massive rotating platform against Decepticon opponents.",
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 14,
+          "title": "Shoot 'N' Loot",
+          "air_date": "2025-11-08",
+          "duration": "5m",
+          "synopsis": "A loot-based shooting challenge pits Autobots against Decepticons in a race to collect the most energon drops while dodging enemy fire.",
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 15,
+          "title": "Heading to New Heist",
+          "air_date": "2025-11-15",
+          "duration": "5m",
+          "synopsis": "The team plans a daring operation to steal vital resources from a heavily guarded Cyberworld stronghold, but nothing goes according to plan.",
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 16,
+          "title": "That's Gotta Sting Part 1",
+          "air_date": "2025-11-22",
+          "duration": "5m",
+          "synopsis": "Scorponok powers up to overwhelming levels, forcing the Autobots into a desperate two-part confrontation. Optimus leads the charge against the overpowered Decepticon.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=cdd3tTD1SDU",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 17,
+          "title": "That's Gotta Sting Part 2",
+          "air_date": "2025-11-22",
+          "duration": "5m",
+          "synopsis": "The battle against an overpowered Scorponok reaches its climax as the Autobots combine their skills and weapons to bring down the Decepticon boss.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=cdd3tTD1SDU",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 18,
+          "title": "Escape Velocity",
+          "air_date": "2025-12-06",
+          "duration": "5m",
+          "synopsis": "The mission to reach Scorponok's guarded spaceship ends in failure when the ship crashes into an invisible force field surrounding Cyberworld. Wheeljack resurfaces to warn Elita that escape is impossible by ship.",
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 19,
+          "title": "Torn Apart",
+          "air_date": "2025-12-20",
+          "duration": "5m",
+          "synopsis": "Wheeljack's survival is revealed as old wounds resurface and loyalties are tested. His prosthetic arm bears mysterious Cybertronian script as the team fractures under pressure.",
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 20,
+          "title": "Over the Sea",
+          "air_date": "2026-01-17",
+          "duration": "5m",
+          "synopsis": "A platforming challenge over a vast ocean forces the Autobots to navigate puzzles and obstacles. Elita, having completed the module before, guides Optimus and Bumblebee through.",
+          "video": {
+            "youtube": "https://www.youtube.com/watch?v=Zv-mzjM1qhM",
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 21,
+          "title": "Beyond Repair",
+          "air_date": "2026-02-15",
+          "duration": "5m",
+          "synopsis": "Starscream destroys all the machines Wheeljack has repaired after being told he has 'no patience to repair, just things to destroy.' The team faces setbacks as Wheeljack's hard work is undone.",
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 22,
+          "title": "Drone Alone",
+          "air_date": "2026-02-15",
+          "duration": "5m",
+          "synopsis": "A solo mission goes wrong when a drone-based challenge separates one Autobot from the group, forcing them to survive Cyberworld's dangers alone.",
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 23,
+          "title": "Hider & Seeker",
+          "air_date": "2026-03-14",
+          "duration": "5m",
+          "synopsis": "A stealth-based challenge pits the Autobots in a deadly game of hide and seek against Cyberworld's most dangerous hunters.",
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        },
+        {
+          "number": 24,
+          "title": "Oh Crate, This Again",
+          "air_date": "2026-03-14",
+          "duration": "5m",
+          "synopsis": "History repeats itself as another crate drop triggers a fierce free-for-all. The stakes are higher than ever as alliances and rivalries come to a head.",
+          "video": {
+            "youtube": null,
+            "dailymotion": null,
+            "other": null
+          }
+        }
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "name": "Optimus Prime",
+      "role": "Autobot Leader",
+      "faction": "Autobot",
+      "alt_mode": "Truck",
+      "voice_actor": "Kyle Kaczmarczyk",
+      "image": null
+    },
+    {
+      "name": "Bumblebee",
+      "role": "Autobot Scout",
+      "faction": "Autobot",
+      "alt_mode": "Compact car",
+      "voice_actor": "Kyle Kaczmarczyk",
+      "image": null
+    },
+    {
+      "name": "Elita-1",
+      "role": "Autobot Warrior",
+      "faction": "Autobot",
+      "alt_mode": "SUV",
+      "voice_actor": "Jessica Carroll",
+      "image": null
+    },
+    {
+      "name": "Grimlock",
+      "role": "Dinobot Leader",
+      "faction": "Autobot",
+      "alt_mode": "Tyrannosaurus Rex",
+      "voice_actor": "James Alexander",
+      "image": null
+    },
+    {
+      "name": "Snarl",
+      "role": "Dinobot",
+      "faction": "Autobot",
+      "alt_mode": "Stegosaurus",
+      "voice_actor": "James Alexander",
+      "image": null
+    },
+    {
+      "name": "Mirage",
+      "role": "Autobot Spy",
+      "faction": "Autobot",
+      "alt_mode": "Race car",
+      "voice_actor": "Jack Ayres",
+      "image": null
+    },
+    {
+      "name": "Wheeljack",
+      "role": "Autobot Engineer",
+      "faction": "Autobot",
+      "alt_mode": "Sports car",
+      "voice_actor": "Jack Ayres",
+      "image": null
+    },
+    {
+      "name": "Megatron",
+      "role": "Decepticon Leader",
+      "faction": "Decepticon",
+      "alt_mode": "Tank",
+      "voice_actor": "James Alexander",
+      "image": null
+    },
+    {
+      "name": "Scorponok",
+      "role": "Decepticon Boss",
+      "faction": "Decepticon",
+      "alt_mode": "Scorpion",
+      "voice_actor": "Jack Ayres",
+      "image": null
+    },
+    {
+      "name": "Sky-Byte",
+      "role": "Decepticon Hunter",
+      "faction": "Decepticon",
+      "alt_mode": "Shark",
+      "voice_actor": "Jack Ayres",
+      "image": null
+    },
+    {
+      "name": "Chop Shop",
+      "role": "Decepticon Scavenger",
+      "faction": "Decepticon",
+      "alt_mode": "Beetle",
+      "voice_actor": "James Alexander",
+      "image": null
+    },
+    {
+      "name": "Galvatron",
+      "role": "Decepticon Warlord",
+      "faction": "Decepticon",
+      "alt_mode": "Tank",
+      "voice_actor": "James Alexander",
+      "image": null
+    },
+    {
+      "name": "Starscream",
+      "role": "Self-Proclaimed Ruler",
+      "faction": "Decepticon",
+      "alt_mode": "Fighter jet",
+      "voice_actor": "Shogo Miyakita",
+      "image": null
+    }
+  ],
+  "media": [
+    {
+      "title": "Transformers: Cyberworld - Official YouTube Channel",
+      "url": "https://www.youtube.com/@TransformersOfficial",
+      "source": "youtube",
+      "type": "channel"
+    },
+    {
+      "title": "Transformers Video - Telegram",
+      "url": "https://t.me/TransformersVideo",
+      "source": "telegram",
+      "type": "community"
+    }
+  ],
+  "trivia": [
+    {
+      "category": "Production",
+      "facts": [
+        "Cyberworld is animated by Omens Studios and produced by Hasbro Entertainment. It debuted on July 12, 2025 on the official Transformers YouTube channel.",
+        "The series is planned for 36 episodes of approximately 5 minutes each, with new episodes releasing regularly through Summer 2026.",
+        "Episodes finish production shortly before they go live, making it one of the tightest production schedules in Transformers history.",
+        "Showrunner Ali Lightfoot oversees the series, which targets kids ages 6-11."
+      ]
+    },
+    {
+      "category": "Cast",
+      "facts": [
+        "This is the first Transformers series to use a predominantly European voice cast.",
+        "Kyle Kaczmarczyk pulls double duty voicing both Optimus Prime and Bumblebee.",
+        "James Alexander voices four characters across both factions: Grimlock, Snarl, Megatron, Chop Shop, and Galvatron.",
+        "Starscream is voiced by Shogo Miyakita, making him the only character with a Japanese voice actor in the otherwise European cast."
+      ]
+    },
+    {
+      "category": "Design",
+      "facts": [
+        "YouTube episode titles are deliberately descriptive for SEO purposes and change multiple times; official episode titles were provided via social media before being integrated into end credits starting with episode 11.",
+        "Starscream has painted over his Decepticon insignia with his own face, reflecting his self-serving nature in Cyberworld where old faction loyalties have shifted.",
+        "The virtual world concept allows for varied game-like environments including jungles, deserts, arenas, oceans, and platforming courses."
+      ]
+    }
+  ]
+}

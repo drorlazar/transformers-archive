@@ -412,5 +412,23 @@
     "season_count": 3,
     "synopsis": "Bumblebee has lost his memory and must piece together his past with the help of Windblade while battling Decepticons on Earth.",
     "has_live_streams": false
+  },
+  {
+    "slug": "cyberworld-2025",
+    "title": "Transformers: Cyberworld",
+    "year_start": 2025,
+    "year_end": null,
+    "era": "modern",
+    "poster": "images/series/cyberworld-2025-poster.jpg",
+    "faction_accent": "red",
+    "tags": [
+      "CG",
+      "Web Series",
+      "YouTube Original"
+    ],
+    "episode_count": 24,
+    "season_count": 1,
+    "synopsis": "Autobots and Decepticons are pulled into a mysterious virtual realm called Cyberworld where they must compete in extreme games and challenges. Victory brings power, failure drains energon.",
+    "has_live_streams": false
   }
 ]

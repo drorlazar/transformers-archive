@@ -523,7 +523,7 @@
       "name": "Scorponok",
       "role": "Decepticon Headmaster Leader",
       "faction": "Decepticon",
-      "voice_actor": "Banjo Ginga",
+      "voice_actor": "Banjō Ginga",
       "alt_mode": "Scorpion (MegaZarak Transtector)",
       "image": "images/characters/headmasters-scorponok.jpg"
     },
@@ -539,7 +539,7 @@
       "name": "Galvatron",
       "role": "Decepticon Emperor of Destruction",
       "faction": "Decepticon",
-      "voice_actor": "Seizou Katou",
+      "voice_actor": "Seizō Katō",
       "alt_mode": "Laser cannon",
       "image": "images/characters/g1-galvatron.jpg"
     },
@@ -555,7 +555,7 @@
       "name": "Ultra Magnus",
       "role": "Autobot City Commander",
       "faction": "Autobot",
-      "voice_actor": "Banjo Ginga",
+      "voice_actor": "Banjō Ginga",
       "alt_mode": "Car carrier truck",
       "image": "images/characters/g1-ultra-magnus.jpg"
     }
