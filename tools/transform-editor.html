@@ -4,747 +4,1173 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>TransformPlayer 3D Editor</title>
-<style>
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body { background: #1a1a2e; color: #e0e0e0; font-family: -apple-system, system-ui, sans-serif; font-size: 13px; display: flex; height: 100vh; overflow: hidden; }
-
-/* Left panel */
-.panel { width: 340px; min-width: 340px; background: #12121e; overflow-y: auto; border-right: 1px solid #2a2a3e; display: flex; flex-direction: column; }
-.panel-header { padding: 12px 16px; background: #0e0e1a; border-bottom: 1px solid #2a2a3e; font-size: 15px; font-weight: 700; color: #ff6b00; display: flex; align-items: center; gap: 8px; }
-.panel-header span { font-size: 11px; color: #666; font-weight: 400; }
-
-/* Sections */
-.section { border-bottom: 1px solid #1e1e30; }
-.section-title { padding: 10px 16px; background: #16162a; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; color: #888; cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none; }
-.section-title:hover { background: #1a1a32; }
-.section-title::after { content: '▼'; font-size: 9px; transition: transform 0.2s; }
-.section.collapsed .section-title::after { transform: rotate(-90deg); }
-.section.collapsed .section-body { display: none; }
-.section-body { padding: 8px 16px 12px; }
-
-/* Controls */
-.row { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
-.row label { min-width: 80px; font-size: 11px; color: #999; }
-.row input[type="range"] { flex: 1; height: 4px; -webkit-appearance: none; background: #2a2a3e; border-radius: 2px; outline: none; }
-.row input[type="range"]::-webkit-slider-thumb { -webkit-appearance: none; width: 14px; height: 14px; border-radius: 50%; background: #ff6b00; cursor: pointer; }
-.row input[type="color"] { width: 28px; height: 22px; border: 1px solid #333; border-radius: 3px; background: none; cursor: pointer; padding: 0; }
-.row .val { min-width: 36px; text-align: right; font-family: monospace; font-size: 11px; color: #aaa; }
-.row input[type="number"] { width: 55px; background: #1e1e30; border: 1px solid #333; color: #ddd; padding: 3px 6px; border-radius: 3px; font-size: 11px; font-family: monospace; }
-
-/* Buttons */
-.btn-row { display: flex; gap: 6px; margin: 6px 0; flex-wrap: wrap; }
-.btn { padding: 5px 10px; background: #2a2a3e; border: 1px solid #3a3a4e; color: #ccc; border-radius: 4px; cursor: pointer; font-size: 11px; transition: all 0.15s; }
-.btn:hover { background: #3a3a4e; color: #fff; }
-.btn.active { background: #ff6b00; color: #000; border-color: #ff8800; }
-.btn-play { background: #22aa44; border-color: #33bb55; color: #fff; }
-.btn-play:hover { background: #33bb55; }
-
-/* Right side */
-.main { flex: 1; display: flex; flex-direction: column; }
-.viewport { flex: 1; position: relative; background: #060610; }
-.viewport canvas { width: 100% !important; height: 100% !important; display: block; }
-
-/* Bottom prompt */
-.prompt-bar { background: #0e0e1a; border-top: 1px solid #2a2a3e; padding: 10px 16px; max-height: 200px; overflow-y: auto; }
-.prompt-label { font-size: 10px; color: #666; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px; display: flex; justify-content: space-between; }
-.prompt-text { font-family: monospace; font-size: 11px; color: #aaa; line-height: 1.5; white-space: pre-wrap; word-break: break-word; }
-.copy-btn { padding: 3px 10px; background: #2a2a3e; border: 1px solid #3a3a4e; color: #ccc; border-radius: 3px; cursor: pointer; font-size: 10px; }
-.copy-btn:hover { background: #ff6b00; color: #000; }
-
-/* Keyframe editor */
-.timeline { margin: 8px 0; position: relative; height: 120px; background: #0e0e1a; border-radius: 4px; border: 1px solid #2a2a3e; overflow: hidden; }
-.tl-track { position: absolute; left: 0; right: 0; height: 16px; border-bottom: 1px solid #1e1e30; display: flex; align-items: center; padding: 0 4px; font-size: 9px; color: #666; }
-.tl-bar { position: absolute; height: 12px; border-radius: 2px; cursor: ew-resize; font-size: 8px; display: flex; align-items: center; padding: 0 4px; color: #000; font-weight: 600; }
-.tl-playhead { position: absolute; top: 0; bottom: 0; width: 2px; background: #ff6b00; z-index: 10; pointer-events: none; }
-.tl-ruler { position: absolute; top: 0; left: 0; right: 0; height: 14px; background: #0a0a14; border-bottom: 1px solid #2a2a3e; display: flex; }
-.tl-tick { flex: 1; text-align: center; font-size: 8px; color: #555; line-height: 14px; border-right: 1px solid #1e1e30; }
-</style>
-</head>
-<body>
-
-<div class="panel">
-  <div class="panel-header">🔧 Transform Editor <span>handcraft every detail</span></div>
-
-  <!-- Presets -->
-  <div class="section">
-    <div class="section-title" onclick="toggleSection(this)">Presets</div>
-    <div class="section-body">
-      <div class="btn-row">
-        <button class="btn" onclick="applyPreset('industrial')">Industrial</button>
-        <button class="btn" onclick="applyPreset('cybertronian')">Cybertronian</button>
-        <button class="btn" onclick="applyPreset('battleworn')">Battle-worn</button>
-        <button class="btn" onclick="applyPreset('chrome')">Clean Chrome</button>
-        <button class="btn" onclick="applyPreset('energon')">Energon</button>
-      </div>
-      <div class="btn-row">
-        <button class="btn btn-play" onclick="replayAnimation()">▶ Replay Animation</button>
-        <button class="btn" onclick="resetToDefaults()">Reset All</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- Materials: Crimson -->
-  <div class="section">
-    <div class="section-title" onclick="toggleSection(this)">Material: Top/Bottom Bars</div>
-    <div class="section-body">
-      <div class="row"><label>Color</label><input type="color" id="crimson-color" value="#cc3030" oninput="updateMat('crimson')"><span class="val" id="crimson-color-v">#cc3030</span></div>
-      <div class="row"><label>Metalness</label><input type="range" id="crimson-metal" min="0" max="100" value="85" oninput="updateMat('crimson')"><span class="val" id="crimson-metal-v">0.85</span></div>
-      <div class="row"><label>Roughness</label><input type="range" id="crimson-rough" min="0" max="100" value="18" oninput="updateMat('crimson')"><span class="val" id="crimson-rough-v">0.18</span></div>
-      <div class="row"><label>Clearcoat</label><input type="range" id="crimson-coat" min="0" max="100" value="60" oninput="updateMat('crimson')"><span class="val" id="crimson-coat-v">0.60</span></div>
-      <div class="row"><label>Normal Str</label><input type="range" id="crimson-norm" min="0" max="200" value="80" oninput="updateMat('crimson')"><span class="val" id="crimson-norm-v">0.80</span></div>
-    </div>
-  </div>
-
-  <!-- Materials: Navy -->
-  <div class="section">
-    <div class="section-title" onclick="toggleSection(this)">Material: Side Bars</div>
-    <div class="section-body">
-      <div class="row"><label>Color</label><input type="color" id="navy-color" value="#2a3090" oninput="updateMat('navy')"><span class="val" id="navy-color-v">#2a3090</span></div>
-      <div class="row"><label>Metalness</label><input type="range" id="navy-metal" min="0" max="100" value="85" oninput="updateMat('navy')"><span class="val" id="navy-metal-v">0.85</span></div>
-      <div class="row"><label>Roughness</label><input type="range" id="navy-rough" min="0" max="100" value="18" oninput="updateMat('navy')"><span class="val" id="navy-rough-v">0.18</span></div>
-      <div class="row"><label>Clearcoat</label><input type="range" id="navy-coat" min="0" max="100" value="50" oninput="updateMat('navy')"><span class="val" id="navy-coat-v">0.50</span></div>
-      <div class="row"><label>Normal Str</label><input type="range" id="navy-norm" min="0" max="200" value="70" oninput="updateMat('navy')"><span class="val" id="navy-norm-v">0.70</span></div>
-    </div>
-  </div>
-
-  <!-- Materials: Gunmetal -->
-  <div class="section collapsed">
-    <div class="section-title" onclick="toggleSection(this)">Material: Back Panel</div>
-    <div class="section-body">
-      <div class="row"><label>Color</label><input type="color" id="gun-color" value="#2a2a38" oninput="updateMat('gun')"><span class="val" id="gun-color-v">#2a2a38</span></div>
-      <div class="row"><label>Metalness</label><input type="range" id="gun-metal" min="0" max="100" value="95" oninput="updateMat('gun')"><span class="val" id="gun-metal-v">0.95</span></div>
-      <div class="row"><label>Roughness</label><input type="range" id="gun-rough" min="0" max="100" value="8" oninput="updateMat('gun')"><span class="val" id="gun-rough-v">0.08</span></div>
-    </div>
-  </div>
-
-  <!-- Glow -->
-  <div class="section">
-    <div class="section-title" onclick="toggleSection(this)">Glow Effects</div>
-    <div class="section-body">
-      <div class="row"><label>LED Color</label><input type="color" id="led-color" value="#22aaff" oninput="updateGlow()"><span class="val" id="led-color-v">#22aaff</span></div>
-      <div class="row"><label>LED Opacity</label><input type="range" id="led-opacity" min="0" max="100" value="90" oninput="updateGlow()"><span class="val" id="led-opacity-v">0.90</span></div>
-      <div class="row"><label>Orange Color</label><input type="color" id="orange-color" value="#ff6600" oninput="updateGlow()"><span class="val" id="orange-color-v">#ff6600</span></div>
-      <div class="row"><label>Orange Opacity</label><input type="range" id="orange-opacity" min="0" max="100" value="70" oninput="updateGlow()"><span class="val" id="orange-opacity-v">0.70</span></div>
-    </div>
-  </div>
-
-  <!-- Lighting -->
-  <div class="section">
-    <div class="section-title" onclick="toggleSection(this)">Lighting</div>
-    <div class="section-body">
-      <div class="row"><label>Ambient</label><input type="range" id="light-ambient" min="0" max="100" value="50" oninput="updateLights()"><span class="val" id="light-ambient-v">0.50</span></div>
-      <div class="row"><label>Key Intens.</label><input type="range" id="light-key" min="0" max="100" value="35" oninput="updateLights()"><span class="val" id="light-key-v">3.50</span></div>
-      <div class="row"><label>Key Color</label><input type="color" id="light-key-c" value="#ffeedd" oninput="updateLights()"></div>
-      <div class="row"><label>Fill Intens.</label><input type="range" id="light-fill" min="0" max="100" value="18" oninput="updateLights()"><span class="val" id="light-fill-v">1.80</span></div>
-      <div class="row"><label>Fill Color</label><input type="color" id="light-fill-c" value="#3355aa" oninput="updateLights()"></div>
-      <div class="row"><label>Rim Intens.</label><input type="range" id="light-rim" min="0" max="100" value="12" oninput="updateLights()"><span class="val" id="light-rim-v">1.20</span></div>
-      <div class="row"><label>Rim Color</label><input type="color" id="light-rim-c" value="#ff6633" oninput="updateLights()"></div>
-      <div class="row"><label>Exposure</label><input type="range" id="light-exposure" min="50" max="500" value="220" oninput="updateLights()"><span class="val" id="light-exposure-v">2.20</span></div>
-      <div class="row"><label>Orb Speed</label><input type="range" id="light-orb-speed" min="1" max="50" value="15" oninput="updateLights()"><span class="val" id="light-orb-speed-v">0.15</span></div>
-      <div class="row"><label>Orb Radius</label><input type="range" id="light-orb-radius" min="2" max="25" value="12" oninput="updateLights()"><span class="val" id="light-orb-radius-v">12</span></div>
-    </div>
-  </div>
-
-  <!-- Camera -->
-  <div class="section collapsed">
-    <div class="section-title" onclick="toggleSection(this)">Camera</div>
-    <div class="section-body">
-      <div class="row"><label>Distance</label><input type="range" id="cam-z" min="4" max="20" value="9" step="0.1" oninput="updateCamera()"><span class="val" id="cam-z-v">9.0</span></div>
-      <div class="row"><label>End Dist</label><input type="range" id="cam-z-end" min="6" max="25" value="11.5" step="0.1" oninput="updateCamera()"><span class="val" id="cam-z-end-v">11.5</span></div>
-      <div class="row"><label>FOV</label><input type="range" id="cam-fov" min="20" max="80" value="45" oninput="updateCamera()"><span class="val" id="cam-fov-v">45</span></div>
-    </div>
-  </div>
-
-  <!-- Geometry -->
-  <div class="section collapsed">
-    <div class="section-title" onclick="toggleSection(this)">Geometry</div>
-    <div class="section-body">
-      <div class="row"><label>Cube Size</label><input type="range" id="geo-cube" min="30" max="150" value="80" oninput="updatePromptOnly()"><span class="val" id="geo-cube-v">0.80</span></div>
-      <div class="row"><label>Bar Width</label><input type="range" id="geo-barw" min="20" max="80" value="40" oninput="updatePromptOnly()"><span class="val" id="geo-barw-v">0.40</span></div>
-      <div class="row"><label>Bar Depth</label><input type="range" id="geo-bard" min="15" max="80" value="45" oninput="updatePromptOnly()"><span class="val" id="geo-bard-v">0.45</span></div>
-      <div class="row"><label>Bevel Size</label><input type="range" id="geo-bevel" min="1" max="15" value="7" oninput="updatePromptOnly()"><span class="val" id="geo-bevel-v">0.07</span></div>
-    </div>
-  </div>
-
-  <!-- Animation Timing -->
-  <div class="section">
-    <div class="section-title" onclick="toggleSection(this)">Animation Timing</div>
-    <div class="section-body">
-      <div class="row"><label>Dissolve Start</label><input type="range" id="anim-dissolve" min="0" max="100" value="20" oninput="updatePromptOnly()"><span class="val" id="anim-dissolve-v">0.20s</span></div>
-      <div class="row"><label>Detach Start</label><input type="range" id="anim-detach" min="0" max="100" value="30" oninput="updatePromptOnly()"><span class="val" id="anim-detach-v">0.30s</span></div>
-      <div class="row"><label>Detach Dur</label><input type="range" id="anim-detach-dur" min="10" max="100" value="40" oninput="updatePromptOnly()"><span class="val" id="anim-detach-dur-v">0.40s</span></div>
-      <div class="row"><label>Stretch Start</label><input type="range" id="anim-stretch" min="20" max="150" value="60" oninput="updatePromptOnly()"><span class="val" id="anim-stretch-v">0.60s</span></div>
-      <div class="row"><label>Stretch Dur</label><input type="range" id="anim-stretch-dur" min="20" max="100" value="50" oninput="updatePromptOnly()"><span class="val" id="anim-stretch-dur-v">0.50s</span></div>
-      <div class="row"><label>Gears At</label><input type="range" id="anim-gears" min="30" max="150" value="70" oninput="updatePromptOnly()"><span class="val" id="anim-gears-v">0.70s</span></div>
-      <div class="row"><label>Brackets At</label><input type="range" id="anim-brackets" min="30" max="150" value="75" oninput="updatePromptOnly()"><span class="val" id="anim-brackets-v">0.75s</span></div>
-      <div class="row"><label>Bolts At</label><input type="range" id="anim-bolts" min="40" max="150" value="80" oninput="updatePromptOnly()"><span class="val" id="anim-bolts-v">0.80s</span></div>
-      <div class="row"><label>Glows At</label><input type="range" id="anim-glows" min="50" max="180" value="95" oninput="updatePromptOnly()"><span class="val" id="anim-glows-v">0.95s</span></div>
-      <div class="row"><label>Piece Stagger</label><input type="range" id="anim-stagger" min="0" max="20" value="5" oninput="updatePromptOnly()"><span class="val" id="anim-stagger-v">0.05s</span></div>
-    </div>
-  </div>
-
-  <!-- Background -->
-  <div class="section collapsed">
-    <div class="section-title" onclick="toggleSection(this)">Background</div>
-    <div class="section-body">
-      <div class="row"><label>BG Color</label><input type="color" id="bg-color" value="#060610" oninput="updateBg()"><span class="val" id="bg-color-v">#060610</span></div>
-    </div>
-  </div>
-</div>
-
-<div class="main">
-  <div class="viewport" id="viewport"></div>
-  <div class="prompt-bar">
-    <div class="prompt-label">
-      <span>Generated Code Changes</span>
-      <button class="copy-btn" onclick="copyPrompt()">Copy</button>
-    </div>
-    <div class="prompt-text" id="prompt-output">Adjust controls to see changes...</div>
-  </div>
-</div>
-
+<script src="https://unpkg.com/gsap@3.12.5/dist/gsap.min.js"></script>
 <script type="importmap">
 {
   "imports": {
-    "three": "https://unpkg.com/three@0.169.0/build/three.module.js"
+    "three": "https://unpkg.com/three@0.169.0/build/three.module.js",
+    "three/addons/": "https://unpkg.com/three@0.169.0/examples/jsm/"
   }
 }
 </script>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+html, body { height:100%; overflow:hidden; font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background:#111; color:#ccc; font-size:12px; }
+
+/* Layout */
+#app { display:flex; height:100vh; flex-direction:column; }
+#main { display:flex; flex:1; min-height:0; }
+#panel { width:380px; min-width:380px; background:#1a1a22; overflow-y:auto; border-right:1px solid #333; display:flex; flex-direction:column; }
+#viewport { flex:1; position:relative; background:#060610; }
+#viewport canvas { width:100%; height:100%; display:block; }
+#fps { position:absolute; top:8px; right:8px; background:rgba(0,0,0,0.7); color:#0f0; padding:3px 8px; border-radius:4px; font:12px monospace; z-index:10; }
+#bottom-bar { background:#141420; border-top:1px solid #333; padding:8px 12px; display:flex; align-items:flex-start; gap:10px; max-height:180px; }
+#prompt-output { flex:1; font:11px/1.5 'Fira Code', 'Consolas', monospace; color:#8f8; background:#0a0a14; border:1px solid #333; border-radius:4px; padding:8px; overflow-y:auto; max-height:160px; white-space:pre-wrap; }
+#copy-btn { background:#2a6; color:#fff; border:none; padding:6px 16px; border-radius:4px; cursor:pointer; font-weight:600; white-space:nowrap; }
+#copy-btn:hover { background:#3b7; }
+
+/* Panel styles */
+.panel-header { padding:10px 14px; background:#0d0d18; border-bottom:1px solid #333; display:flex; align-items:center; justify-content:space-between; }
+.panel-header h1 { font-size:14px; color:#eee; font-weight:700; letter-spacing:0.5px; }
+.section { border-bottom:1px solid #282830; }
+.section-head { display:flex; align-items:center; justify-content:space-between; padding:8px 14px; cursor:pointer; user-select:none; background:#16161e; }
+.section-head:hover { background:#1e1e28; }
+.section-head h2 { font-size:12px; font-weight:600; color:#aab; text-transform:uppercase; letter-spacing:0.8px; }
+.section-head .arrow { color:#667; font-size:10px; transition:transform 0.2s; }
+.section-head.collapsed .arrow { transform:rotate(-90deg); }
+.section-body { padding:8px 14px 12px; }
+.section-body.hidden { display:none; }
+
+/* Controls */
+.ctrl-row { display:flex; align-items:center; gap:6px; margin-bottom:5px; min-height:24px; }
+.ctrl-row label { width:90px; font-size:11px; color:#889; flex-shrink:0; text-align:right; padding-right:6px; }
+.ctrl-row input[type=range] { flex:1; height:3px; accent-color:#4af; cursor:pointer; }
+.ctrl-row input[type=color] { width:32px; height:22px; border:1px solid #444; border-radius:3px; padding:0; cursor:pointer; background:#222; }
+.ctrl-row input[type=number] { width:58px; background:#111; border:1px solid #444; color:#ccc; border-radius:3px; padding:2px 4px; font-size:11px; }
+.ctrl-row .val { width:42px; text-align:right; font:11px monospace; color:#8af; flex-shrink:0; }
+.ctrl-row select { background:#111; border:1px solid #444; color:#ccc; border-radius:3px; padding:2px 4px; font-size:11px; flex:1; }
+.ctrl-row input[type=checkbox] { accent-color:#4af; }
+
+.light-group { background:#12121a; border:1px solid #282830; border-radius:4px; margin-bottom:8px; padding:8px 10px; }
+.light-group h3 { font-size:11px; font-weight:600; color:#9af; margin-bottom:6px; display:flex; align-items:center; justify-content:space-between; }
+.light-group h3 button { background:#335; color:#8af; border:1px solid #446; border-radius:3px; padding:2px 8px; cursor:pointer; font-size:10px; }
+.light-group h3 button:hover { background:#446; }
+
+.btn-row { display:flex; gap:6px; margin-top:6px; }
+.btn { background:#335; color:#aaf; border:1px solid #446; border-radius:4px; padding:5px 12px; cursor:pointer; font-size:11px; font-weight:600; }
+.btn:hover { background:#446; }
+.btn.play { background:#253; color:#6f8; border-color:#364; }
+.btn.play:hover { background:#364; }
+.btn.stop { background:#422; color:#f88; border-color:#644; }
+.btn.stop:hover { background:#533; }
+
+.mat-group { background:#12121a; border:1px solid #282830; border-radius:4px; margin-bottom:8px; padding:8px 10px; }
+.mat-group h3 { font-size:11px; font-weight:600; margin-bottom:6px; }
+.mat-group.crimson h3 { color:#ca2f47; }
+.mat-group.navy h3 { color:#5566cc; }
+.mat-group.gunmetal h3 { color:#8888aa; }
+</style>
+</head>
+<body>
+<div id="app">
+  <div id="main">
+    <!-- LEFT PANEL -->
+    <div id="panel">
+      <div class="panel-header">
+        <h1>TransformPlayer Editor</h1>
+      </div>
+
+      <!-- DEBUG -->
+      <div class="section">
+        <div class="section-head" data-section="debug">
+          <h2>Debug / Helpers</h2><span class="arrow">&#9660;</span>
+        </div>
+        <div class="section-body" id="sec-debug">
+          <div class="ctrl-row"><label>Light Helpers</label><input type="checkbox" id="chk-helpers"><span class="val" id="val-helpers">off</span></div>
+          <div class="ctrl-row"><label>Grid</label><input type="checkbox" id="chk-grid" checked><span class="val" id="val-grid">on</span></div>
+          <div class="ctrl-row"><label>Axes</label><input type="checkbox" id="chk-axes" checked><span class="val" id="val-axes">on</span></div>
+        </div>
+      </div>
+
+      <!-- CAMERA & SCENE -->
+      <div class="section">
+        <div class="section-head" data-section="camera">
+          <h2>Camera &amp; Scene</h2><span class="arrow">&#9660;</span>
+        </div>
+        <div class="section-body" id="sec-camera">
+          <div class="ctrl-row"><label>FOV</label><input type="range" id="sl-fov" min="15" max="120" step="1" value="45"><span class="val" id="val-fov">45</span></div>
+          <div class="ctrl-row"><label>Exposure</label><input type="range" id="sl-exposure" min="0.1" max="5" step="0.01" value="1.84"><span class="val" id="val-exposure">1.84</span></div>
+          <div class="ctrl-row"><label>Background</label><input type="color" id="col-bg" value="#060610"></div>
+        </div>
+      </div>
+
+      <!-- LIGHTS -->
+      <div class="section">
+        <div class="section-head" data-section="lights">
+          <h2>Lights</h2><span class="arrow">&#9660;</span>
+        </div>
+        <div class="section-body" id="sec-lights">
+        </div>
+      </div>
+
+      <!-- MATERIALS -->
+      <div class="section">
+        <div class="section-head" data-section="materials">
+          <h2>Materials</h2><span class="arrow">&#9660;</span>
+        </div>
+        <div class="section-body" id="sec-materials">
+        </div>
+      </div>
+
+      <!-- GLOW -->
+      <div class="section">
+        <div class="section-head" data-section="glow">
+          <h2>Glow Controls</h2><span class="arrow">&#9660;</span>
+        </div>
+        <div class="section-body" id="sec-glow">
+        </div>
+      </div>
+
+      <!-- ANIMATION -->
+      <div class="section">
+        <div class="section-head" data-section="anim">
+          <h2>Animation</h2><span class="arrow">&#9660;</span>
+        </div>
+        <div class="section-body" id="sec-anim">
+          <div class="btn-row">
+            <button class="btn play" id="btn-play">&#9654; Play</button>
+            <button class="btn stop" id="btn-reset">&#9632; Reset</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- GEOMETRY (prompt-only) -->
+      <div class="section">
+        <div class="section-head" data-section="geo">
+          <h2>Geometry (Prompt Only)</h2><span class="arrow">&#9660;</span>
+        </div>
+        <div class="section-body" id="sec-geo">
+          <div class="ctrl-row"><label>Cube Size</label><input type="number" id="num-cs" step="0.01" value="0.68"><span class="val">cs</span></div>
+          <div class="ctrl-row"><label>Frame W</label><input type="number" id="num-fw" step="0.1" value="7.5"><span class="val">fw</span></div>
+          <div class="ctrl-row"><label>Frame H</label><input type="number" id="num-fh" step="0.1" value="4.6"><span class="val">fh</span></div>
+          <div class="ctrl-row"><label>Bar W</label><input type="number" id="num-bw" step="0.01" value="0.4"><span class="val">bw</span></div>
+          <div class="ctrl-row"><label>Bar D</label><input type="number" id="num-bd" step="0.01" value="0.45"><span class="val">bd</span></div>
+          <div class="ctrl-row"><label>Bevel</label><input type="number" id="num-bevel" step="0.01" value="0.08"><span class="val">bv</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- VIEWPORT -->
+    <div id="viewport">
+      <canvas id="three-canvas"></canvas>
+      <div id="fps">-- FPS</div>
+    </div>
+  </div>
+
+  <!-- BOTTOM BAR -->
+  <div id="bottom-bar">
+    <pre id="prompt-output">Adjust values to see prompt output here...</pre>
+    <button id="copy-btn">Copy</button>
+  </div>
+</div>
+
 <script type="module">
 import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { TransformControls } from 'three/addons/controls/TransformControls.js';
 
-const viewport = document.getElementById('viewport');
-const W = viewport.clientWidth, H = viewport.clientHeight;
+// ============================
+// DEFAULTS — match TransformPlayer.jsx exactly
+// ============================
+const DEFAULTS = {
+  fov: 45,
+  exposure: 1.84,
+  background: '#060610',
+  lights: {
+    key:  { type:'Directional', color:'#ffeedd', intensity:2.6, x:5, y:6, z:8, angle:0.52, penumbra:0.5 },
+    fill: { type:'Directional', color:'#3355aa', intensity:5.9, x:-6, y:3, z:5, angle:0.52, penumbra:0.5 },
+    rim:  { type:'Directional', color:'#ff6633', intensity:1.9, x:0, y:-5, z:6, angle:0.52, penumbra:0.5 },
+    orb1: { type:'Point', color:'#ff3300', intensity:1.0, x:11, y:4, z:8, angle:0.52, penumbra:0.5 },
+    orb2: { type:'Point', color:'#0044ff', intensity:0.8, x:-11, y:-4, z:8, angle:0.52, penumbra:0.5 },
+  },
+  materials: {
+    crimson:  { color:'#ca2f47', metalness:0.96, roughness:0.32, clearcoat:0.67, normalStrength:0.8, tilingX:0.8, tilingY:0.8 },
+    navy:     { color:'#2a3090', metalness:0.62, roughness:0.31, clearcoat:0.50, normalStrength:0.7, tilingX:0.7, tilingY:1.0 },
+    gunmetal: { color:'#2a2a38', metalness:0.95, roughness:0.08, clearcoat:0.30, normalStrength:0.5, tilingX:1.0, tilingY:1.0 },
+  },
+  glow: {
+    ledColor:'#22aaff', ledOpacity:1.0,
+    orangeColor:'#ff6600', orangeOpacity:0.7,
+    pulseSpeed:1.8, pulseMin:0.3, pulseMax:1.0,
+  },
+  geometry: { cs:0.68, fw:7.5, fh:4.6, bw:0.4, bd:0.45, bevel:0.08 },
+};
 
-// ── Renderer ──
-const renderer = new THREE.WebGLRenderer({ antialias: true });
+const state = JSON.parse(JSON.stringify(DEFAULTS));
+
+// ============================
+// THREE.JS SETUP
+// ============================
+const canvas = document.getElementById('three-canvas');
+const viewportEl = document.getElementById('viewport');
+let W = viewportEl.clientWidth, H = viewportEl.clientHeight;
+
+const renderer = new THREE.WebGLRenderer({ canvas, antialias: true });
 renderer.setSize(W, H);
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 renderer.toneMapping = THREE.ACESFilmicToneMapping;
-renderer.toneMappingExposure = 2.2;
-viewport.appendChild(renderer.domElement);
+renderer.toneMappingExposure = state.exposure;
 
-// ── Scene ──
 const scene = new THREE.Scene();
-scene.background = new THREE.Color(0x060610);
+scene.background = new THREE.Color(state.background);
 
-// ── Camera ──
-const camera = new THREE.PerspectiveCamera(45, W / H, 0.1, 100);
-camera.position.set(0, 0, 11.5); // End position (frame assembled)
+const camera = new THREE.PerspectiveCamera(state.fov, W / H, 0.1, 100);
+camera.position.set(0, 0, 9);
 
-// ── Env map ──
+const orbitControls = new OrbitControls(camera, renderer.domElement);
+orbitControls.enableDamping = true;
+orbitControls.dampingFactor = 0.08;
+
+const transformControls = new TransformControls(camera, renderer.domElement);
+transformControls.addEventListener('dragging-changed', (e) => {
+  orbitControls.enabled = !e.value;
+});
+transformControls.addEventListener('objectChange', () => {
+  const obj = transformControls.object;
+  if (obj && obj.userData.lightKey) {
+    const k = obj.userData.lightKey;
+    state.lights[k].x = +obj.position.x.toFixed(2);
+    state.lights[k].y = +obj.position.y.toFixed(2);
+    state.lights[k].z = +obj.position.z.toFixed(2);
+    updateLightUI(k);
+    updateHelpers();
+    updatePrompt();
+  }
+});
+scene.add(transformControls);
+
+// ============================
+// ENVIRONMENT MAP
+// ============================
 const pmrem = new THREE.PMREMGenerator(renderer);
-const envS = new THREE.Scene();
-envS.add(new THREE.HemisphereLight(0x7799cc, 0x443322, 3.5));
-const ep1 = new THREE.PointLight(0xff4400, 2, 30); ep1.position.set(8, 5, 8); envS.add(ep1);
-const ep2 = new THREE.PointLight(0x0044cc, 1.5, 30); ep2.position.set(-8, -3, 8); envS.add(ep2);
-scene.environment = pmrem.fromScene(envS, 0.04).texture;
+const envScene = new THREE.Scene();
+envScene.add(new THREE.HemisphereLight(0x7799cc, 0x443322, 3.5));
+const ep1 = new THREE.PointLight(0xff4400, 2, 30); ep1.position.set(8, 5, 8); envScene.add(ep1);
+const ep2 = new THREE.PointLight(0x0044cc, 1.5, 30); ep2.position.set(-8, -3, 8); envScene.add(ep2);
+scene.environment = pmrem.fromScene(envScene, 0.04).texture;
 pmrem.dispose();
 
-// ── Lights ──
-const ambientLight = new THREE.AmbientLight(0x555566, 0.5);
-scene.add(ambientLight);
+// ============================
+// HELPERS
+// ============================
+const gridHelper = new THREE.GridHelper(20, 20, 0x333340, 0x222230);
+gridHelper.rotation.x = Math.PI / 2;
+scene.add(gridHelper);
 
-const keyLight = new THREE.DirectionalLight(0xffeedd, 3.5);
-keyLight.position.set(5, 6, 8);
-scene.add(keyLight);
+const axesHelper = new THREE.AxesHelper(3);
+scene.add(axesHelper);
 
-const fillLight = new THREE.DirectionalLight(0x3355aa, 1.8);
-fillLight.position.set(-6, 3, 5);
-scene.add(fillLight);
-
-const rimLight = new THREE.DirectionalLight(0xff6633, 1.2);
-rimLight.position.set(0, -5, 6);
-scene.add(rimLight);
-
-const orb1 = new THREE.PointLight(0xff3300, 1.0, 30);
-orb1.position.set(8, 4, 8);
-scene.add(orb1);
-const orb2 = new THREE.PointLight(0x0044ff, 0.8, 30);
-orb2.position.set(-8, -4, 8);
-scene.add(orb2);
-
-// ── Beveled box ──
-function bevelBox(w, h, d, bevel = 0.07) {
-  const shape = new THREE.Shape();
-  const hw = w/2 - bevel, hh = h/2 - bevel;
-  shape.moveTo(-hw, -h/2); shape.lineTo(hw, -h/2); shape.lineTo(w/2, -hh);
-  shape.lineTo(w/2, hh); shape.lineTo(hw, h/2); shape.lineTo(-hw, h/2);
-  shape.lineTo(-w/2, hh); shape.lineTo(-w/2, -hh); shape.closePath();
-  const geo = new THREE.ExtrudeGeometry(shape, {
-    depth: d, bevelEnabled: true, bevelThickness: bevel*0.8, bevelSize: bevel*0.8, bevelSegments: 3
-  });
-  geo.computeBoundingBox();
-  const bb = geo.boundingBox;
-  geo.translate(-(bb.max.x+bb.min.x)/2, -(bb.max.y+bb.min.y)/2, -(bb.max.z+bb.min.z)/2);
-  return geo;
+// ============================
+// TEXTURES
+// ============================
+const loader = new THREE.TextureLoader();
+function loadTex(path, rx = 1, ry = 1) {
+  const tex = loader.load(path, undefined, undefined, () => {});
+  tex.wrapS = tex.wrapT = THREE.RepeatWrapping;
+  tex.colorSpace = THREE.SRGBColorSpace;
+  tex.repeat.set(rx, ry);
+  return tex;
 }
 
-// Gear
+const basePath = '../public/textures/';
+const redTex = loadTex(basePath + 'red-metal.jpg', 0.8, 0.8);
+const blueTex = loadTex(basePath + 'blue-metal.jpg', 0.7, 1.0);
+const darkTex = loadTex(basePath + 'dark-metal.jpg', 1.0, 1.0);
+let redNorm = null, blueNorm = null, greebleNorm = null;
+try {
+  redNorm = loadTex(basePath + 'red-normal.jpg', 0.8, 0.8);
+  blueNorm = loadTex(basePath + 'blue-normal.jpg', 0.7, 1.0);
+  greebleNorm = loadTex(basePath + 'greeble-normal.jpg', 1.5, 1.5);
+} catch(e) {}
+
+// ============================
+// MATERIALS
+// ============================
+const crimson = new THREE.MeshPhysicalMaterial({
+  color: 0xca2f47, map: redTex, normalMap: redNorm, normalScale: new THREE.Vector2(0.8, 0.8),
+  metalness: 0.96, roughness: 0.32, clearcoat: 0.67, clearcoatRoughness: 0.06,
+});
+const navy = new THREE.MeshPhysicalMaterial({
+  color: 0x2a3090, map: blueTex, normalMap: blueNorm, normalScale: new THREE.Vector2(0.7, 0.7),
+  metalness: 0.62, roughness: 0.31, clearcoat: 0.5, clearcoatRoughness: 0.08,
+});
+const gunmetal = new THREE.MeshPhysicalMaterial({
+  color: 0x2a2a38, map: darkTex, normalMap: greebleNorm, normalScale: new THREE.Vector2(0.5, 0.5),
+  metalness: 0.95, roughness: 0.08, clearcoat: 0.3,
+});
+const chrome = new THREE.MeshPhysicalMaterial({
+  color: 0xbbbbcc, metalness: 1.0, roughness: 0.03, clearcoat: 1.0, clearcoatRoughness: 0.01,
+});
+const steel = new THREE.MeshPhysicalMaterial({
+  color: 0x607080, metalness: 0.95, roughness: 0.1, clearcoat: 0.4,
+});
+const greebMat = new THREE.MeshPhysicalMaterial({
+  color: 0x444455, metalness: 0.9, roughness: 0.15, clearcoat: 0.3,
+});
+const ledGlow = new THREE.MeshBasicMaterial({ color: 0x22aaff, transparent: true, opacity: 1.0 });
+const orangeGlow = new THREE.MeshBasicMaterial({ color: 0xff6600, transparent: true, opacity: 0.7 });
+
+const matMap = { crimson, navy, gunmetal };
+const texMap = {
+  crimson: { color: redTex, normal: redNorm },
+  navy: { color: blueTex, normal: blueNorm },
+  gunmetal: { color: darkTex, normal: greebleNorm },
+};
+
+// ============================
+// GEOMETRY HELPERS
+// ============================
+function bevelBox(w, h, d, bevel = 0.07) {
+  const shape = new THREE.Shape();
+  const hw = w / 2 - bevel, hh = h / 2 - bevel;
+  shape.moveTo(-hw, -h / 2);
+  shape.lineTo(hw, -h / 2);
+  shape.lineTo(w / 2, -hh);
+  shape.lineTo(w / 2, hh);
+  shape.lineTo(hw, h / 2);
+  shape.lineTo(-hw, h / 2);
+  shape.lineTo(-w / 2, hh);
+  shape.lineTo(-w / 2, -hh);
+  shape.closePath();
+  return new THREE.ExtrudeGeometry(shape, {
+    depth: d, bevelEnabled: true,
+    bevelThickness: bevel * 0.8, bevelSize: bevel * 0.8, bevelSegments: 3,
+  });
+}
+
 function makeGearGeo(outerR, innerR, teeth, thickness) {
   const shape = new THREE.Shape();
   const steps = teeth * 2;
   for (let i = 0; i < steps; i++) {
-    const a = (i/steps)*Math.PI*2, r = i%2===0 ? outerR : innerR;
-    if (i===0) shape.moveTo(Math.cos(a)*r, Math.sin(a)*r);
-    else shape.lineTo(Math.cos(a)*r, Math.sin(a)*r);
+    const a = (i / steps) * Math.PI * 2;
+    const r = i % 2 === 0 ? outerR : innerR;
+    if (i === 0) shape.moveTo(Math.cos(a) * r, Math.sin(a) * r);
+    else shape.lineTo(Math.cos(a) * r, Math.sin(a) * r);
   }
   shape.closePath();
   const hole = new THREE.Path();
-  for (let i=0;i<16;i++){const a=(i/16)*Math.PI*2;if(i===0)hole.moveTo(Math.cos(a)*innerR*0.35,Math.sin(a)*innerR*0.35);else hole.lineTo(Math.cos(a)*innerR*0.35,Math.sin(a)*innerR*0.35);}
+  for (let i = 0; i < 16; i++) {
+    const a = (i / 16) * Math.PI * 2;
+    if (i === 0) hole.moveTo(Math.cos(a) * innerR * 0.35, Math.sin(a) * innerR * 0.35);
+    else hole.lineTo(Math.cos(a) * innerR * 0.35, Math.sin(a) * innerR * 0.35);
+  }
   shape.holes.push(hole);
-  const geo = new THREE.ExtrudeGeometry(shape, { depth: thickness, bevelEnabled: true, bevelThickness: 0.012, bevelSize: 0.012, bevelSegments: 2 });
-  geo.computeBoundingBox();
-  const bb = geo.boundingBox;
-  geo.translate(-(bb.max.x+bb.min.x)/2, -(bb.max.y+bb.min.y)/2, -(bb.max.z+bb.min.z)/2);
-  return geo;
+  return new THREE.ExtrudeGeometry(shape, {
+    depth: thickness, bevelEnabled: true,
+    bevelThickness: 0.012, bevelSize: 0.012, bevelSegments: 2,
+  });
 }
 
-// ── Materials ──
-const crimsonMat = new THREE.MeshPhysicalMaterial({ color: 0xcc3030, metalness: 0.85, roughness: 0.18, clearcoat: 0.6, clearcoatRoughness: 0.06 });
-const navyMat = new THREE.MeshPhysicalMaterial({ color: 0x2a3090, metalness: 0.85, roughness: 0.18, clearcoat: 0.5, clearcoatRoughness: 0.08 });
-const gunmetalMat = new THREE.MeshPhysicalMaterial({ color: 0x2a2a38, metalness: 0.95, roughness: 0.08, clearcoat: 0.3 });
-const chromeMat = new THREE.MeshPhysicalMaterial({ color: 0xbbbbcc, metalness: 1.0, roughness: 0.03, clearcoat: 1.0 });
-const steelMat = new THREE.MeshPhysicalMaterial({ color: 0x607080, metalness: 0.95, roughness: 0.1, clearcoat: 0.4 });
-const ledMat = new THREE.MeshBasicMaterial({ color: 0x22aaff, transparent: true, opacity: 0.9 });
-const orangeMat = new THREE.MeshBasicMaterial({ color: 0xff6600, transparent: true, opacity: 0.7 });
+function addGreebleStrip(parent, x, y, z, length, vertical, mat) {
+  const count = Math.floor(length / 0.25);
+  for (let i = 0; i < count; i++) {
+    const type = Math.random();
+    let geo;
+    if (type < 0.3) geo = new THREE.CylinderGeometry(0.035, 0.035, 0.05, 6);
+    else if (type < 0.6) geo = new THREE.BoxGeometry(0.12, 0.04, 0.04);
+    else if (type < 0.8) geo = new THREE.CylinderGeometry(0.02, 0.02, 0.15, 6);
+    else geo = new THREE.SphereGeometry(0.025, 6, 4);
+    const mesh = new THREE.Mesh(geo, mat);
+    const offset = -length / 2 + (i + 0.5) * (length / count);
+    if (vertical) {
+      mesh.position.set(x, y + offset, z);
+      if (type >= 0.6 && type < 0.8) mesh.rotation.z = Math.PI / 2;
+    } else {
+      mesh.position.set(x + offset, y, z);
+    }
+    if (type < 0.3) mesh.rotation.x = Math.PI / 2;
+    parent.add(mesh);
+  }
+}
 
-// ── Build frame (in final assembled state for the editor) ──
-const FW = 7.5, FH = 4.6, BW = 0.4, BD = 0.45;
+// ============================
+// BUILD SCENE — ASSEMBLED STATE
+// ============================
+const frameW = 7.5, frameH = 4.6, barW = 0.4, barD = 0.45;
+const cs = 0.68;
 
-// Frame bars
-const topBar = new THREE.Mesh(bevelBox(FW, BW, BD, 0.08), crimsonMat);
-topBar.position.set(0, FH/2 - BW/2, 0);
-scene.add(topBar);
+const pieces = [];
+function addPiece(geo, mat, sPos, sRot, sScale, midPos, midRot, midScale, ePos, eRot, eScale) {
+  geo.computeBoundingBox();
+  const bb = geo.boundingBox;
+  geo.translate(-(bb.max.x + bb.min.x) / 2, -(bb.max.y + bb.min.y) / 2, -(bb.max.z + bb.min.z) / 2);
+  const mesh = new THREE.Mesh(geo, mat);
+  mesh.position.set(ePos[0], ePos[1], ePos[2]);
+  mesh.rotation.set(eRot[0], eRot[1], eRot[2]);
+  mesh.scale.set(eScale[0], eScale[1], eScale[2]);
+  scene.add(mesh);
+  pieces.push({
+    mesh,
+    start: { p: [...sPos], r: [...sRot], s: [...sScale] },
+    mid: { p: midPos, r: midRot, s: midScale },
+    end: { p: ePos, r: eRot, s: eScale },
+  });
+  return mesh;
+}
 
-const botBar = new THREE.Mesh(bevelBox(FW, BW, BD, 0.08), crimsonMat);
-botBar.position.set(0, -FH/2 + BW/2, 0);
-scene.add(botBar);
+// Top bar
+addPiece(bevelBox(frameW, barW, barD, 0.08), crimson,
+  [0, cs * 0.4, 0], [0, 0, 0], [cs / frameW, 0.8, cs / barD * 0.5],
+  [0, cs * 1.2, 0.3], [0.15, 0, 0], [cs / frameW * 2, 1, cs / barD * 0.7],
+  [0, frameH / 2 - barW / 2, 0], [0, 0, 0], [1, 1, 1]);
 
-const leftBar = new THREE.Mesh(bevelBox(BW, FH - BW*2, BD, 0.08), navyMat);
-leftBar.position.set(-FW/2 + BW/2, 0, 0);
-scene.add(leftBar);
+// Bottom bar
+addPiece(bevelBox(frameW, barW, barD, 0.08), crimson,
+  [0, -cs * 0.4, 0], [0, 0, 0], [cs / frameW, 0.8, cs / barD * 0.5],
+  [0, -cs * 1.2, 0.3], [-0.15, 0, 0], [cs / frameW * 2, 1, cs / barD * 0.7],
+  [0, -frameH / 2 + barW / 2, 0], [0, 0, 0], [1, 1, 1]);
 
-const rightBar = new THREE.Mesh(bevelBox(BW, FH - BW*2, BD, 0.08), navyMat);
-rightBar.position.set(FW/2 - BW/2, 0, 0);
-scene.add(rightBar);
+// Left bar
+addPiece(bevelBox(barW, frameH - barW * 2, barD, 0.08), navy,
+  [-cs * 0.4, 0, 0], [0, 0, Math.PI / 2], [0.8, cs / (frameH - barW * 2), cs / barD * 0.5],
+  [-cs * 1.5, 0, 0.2], [0, 0.2, Math.PI / 4], [0.9, cs / (frameH - barW * 2) * 1.5, cs / barD * 0.7],
+  [-frameW / 2 + barW / 2, 0, 0], [0, 0, 0], [1, 1, 1]);
+
+// Right bar
+addPiece(bevelBox(barW, frameH - barW * 2, barD, 0.08), navy,
+  [cs * 0.4, 0, 0], [0, 0, -Math.PI / 2], [0.8, cs / (frameH - barW * 2), cs / barD * 0.5],
+  [cs * 1.5, 0, 0.2], [0, -0.2, -Math.PI / 4], [0.9, cs / (frameH - barW * 2) * 1.5, cs / barD * 0.7],
+  [frameW / 2 - barW / 2, 0, 0], [0, 0, 0], [1, 1, 1]);
 
 // Back panel
-const backPanel = new THREE.Mesh(bevelBox(FW - BW*2, FH - BW*2, 0.1, 0.04), gunmetalMat);
-backPanel.position.set(0, 0, -BD*0.5);
-scene.add(backPanel);
+addPiece(bevelBox(frameW - barW * 2, frameH - barW * 2, 0.1, 0.04), gunmetal,
+  [0, 0, cs * 0.4], [0, Math.PI, 0], [cs / (frameW - barW * 2), cs / (frameH - barW * 2), 0.8],
+  [0, 0, 0], [0, Math.PI / 2, 0], [cs / (frameW - barW * 2) * 1.5, cs / (frameH - barW * 2) * 1.5, 1],
+  [0, 0, -barD * 0.5], [0, 0, 0], [1, 1, 1]);
+
+// Front face (hidden in assembled state)
+const frontGeo = bevelBox(cs, cs, 0.06, 0.04);
+const frontMat = gunmetal.clone(); frontMat.transparent = true; frontMat.opacity = 0;
+const frontFace = new THREE.Mesh(frontGeo, frontMat);
+frontFace.position.set(0, 0, cs * 0.4);
+frontFace.visible = false;
+scene.add(frontFace);
+
+// Greeble strips
+addGreebleStrip(scene, 0, frameH / 2 - barW / 2, barD / 2 + 0.03, frameW * 0.6, false, greebMat);
+addGreebleStrip(scene, 0, -frameH / 2 + barW / 2, barD / 2 + 0.03, frameW * 0.6, false, greebMat);
+addGreebleStrip(scene, -frameW / 2 + barW / 2, 0, barD / 2 + 0.03, (frameH - barW * 2) * 0.6, true, greebMat);
+addGreebleStrip(scene, frameW / 2 - barW / 2, 0, barD / 2 + 0.03, (frameH - barW * 2) * 0.6, true, greebMat);
 
 // Corner brackets
 const brkSize = 0.6;
-[[-FW/2+brkSize/2, FH/2-brkSize/2], [FW/2-brkSize/2, FH/2-brkSize/2],
- [-FW/2+brkSize/2, -FH/2+brkSize/2], [FW/2-brkSize/2, -FH/2+brkSize/2]].forEach(([x,y]) => {
+const brackets = [];
+[
+  { ex: -frameW / 2 + brkSize / 2, ey: frameH / 2 - brkSize / 2, sx: -cs * 0.3, sy: cs * 0.3, sRz: Math.PI * 0.6 },
+  { ex: frameW / 2 - brkSize / 2, ey: frameH / 2 - brkSize / 2, sx: cs * 0.3, sy: cs * 0.3, sRz: -Math.PI * 0.6 },
+  { ex: -frameW / 2 + brkSize / 2, ey: -frameH / 2 + brkSize / 2, sx: -cs * 0.3, sy: -cs * 0.3, sRz: -Math.PI * 0.6 },
+  { ex: frameW / 2 - brkSize / 2, ey: -frameH / 2 + brkSize / 2, sx: cs * 0.3, sy: -cs * 0.3, sRz: Math.PI * 0.6 },
+].forEach(({ ex, ey, sx, sy, sRz }) => {
   const grp = new THREE.Group();
-  const h = new THREE.Mesh(bevelBox(brkSize, 0.18, BD*0.85, 0.05), crimsonMat);
-  h.position.y = brkSize/2 - 0.09;
-  grp.add(h);
-  const v = new THREE.Mesh(bevelBox(0.18, brkSize, BD*0.85, 0.05), crimsonMat);
-  v.position.x = -brkSize/2 + 0.09;
-  grp.add(v);
-  grp.position.set(x, y, BD/2);
+  const hGeo = bevelBox(brkSize, 0.18, barD * 0.85, 0.05);
+  grp.add(new THREE.Mesh(hGeo, crimson));
+  grp.children[0].position.y = brkSize / 2 - 0.09;
+  const vGeo = bevelBox(0.18, brkSize, barD * 0.85, 0.05);
+  const vM = new THREE.Mesh(vGeo, crimson);
+  vM.position.x = -brkSize / 2 + 0.09;
+  grp.add(vM);
+  grp.position.set(ex, ey, barD / 2);
+  grp.rotation.z = 0;
   scene.add(grp);
+  brackets.push({ mesh: grp, ex, ey, sx, sy, sRz });
 });
 
 // Bolts
 const boltGeo = new THREE.CylinderGeometry(0.07, 0.07, 0.22, 8);
-[[-FW*0.35, FH/2-BW/2], [FW*0.35, FH/2-BW/2], [-FW*0.35, -FH/2+BW/2], [FW*0.35, -FH/2+BW/2],
- [0, FH/2-BW/2], [0, -FH/2+BW/2], [-FW/2+BW/2, 0], [FW/2-BW/2, 0]].forEach(([x,y]) => {
-  const b = new THREE.Mesh(boltGeo, chromeMat);
-  b.position.set(x, y, BD/2+0.12);
-  b.rotation.x = Math.PI/2;
-  scene.add(b);
+const boltStarts = [
+  [-cs * 0.25, cs * 0.25], [cs * 0.25, cs * 0.25],
+  [-cs * 0.25, -cs * 0.25], [cs * 0.25, -cs * 0.25],
+  [0, cs * 0.25], [0, -cs * 0.25],
+  [-cs * 0.25, 0], [cs * 0.25, 0],
+];
+const boltEnds = [
+  [-frameW * 0.35, frameH / 2 - barW / 2], [frameW * 0.35, frameH / 2 - barW / 2],
+  [-frameW * 0.35, -frameH / 2 + barW / 2], [frameW * 0.35, -frameH / 2 + barW / 2],
+  [0, frameH / 2 - barW / 2], [0, -frameH / 2 + barW / 2],
+  [-frameW / 2 + barW / 2, 0], [frameW / 2 - barW / 2, 0],
+];
+const bolts = boltStarts.map(([sx, sy], i) => {
+  const bolt = new THREE.Mesh(boltGeo, chrome);
+  bolt.position.set(boltEnds[i][0], boltEnds[i][1], barD / 2 + 0.12);
+  bolt.rotation.x = Math.PI / 2;
+  bolt.rotation.z = Math.PI * 5;
+  scene.add(bolt);
+  return { mesh: bolt, sx, sy, ex: boltEnds[i][0], ey: boltEnds[i][1] };
 });
 
 // Gears
-const gearData = [
-  { x: -FW/2+0.1, y: FH/2-0.1, r: 0.25, t: 12, spd: 1.2 },
-  { x: FW/2-0.1, y: FH/2-0.1, r: 0.2, t: 10, spd: -1.8 },
-  { x: -FW/2+0.1, y: -FH/2+0.1, r: 0.2, t: 10, spd: -1.5 },
-  { x: FW/2-0.1, y: -FH/2+0.1, r: 0.25, t: 12, spd: 1.3 },
+const gearPositions = [
+  { x: -frameW / 2 + 0.1, y: frameH / 2 - 0.1, r: 0.25, t: 12, spd: 1.2 },
+  { x: frameW / 2 - 0.1, y: frameH / 2 - 0.1, r: 0.2, t: 10, spd: -1.8 },
+  { x: -frameW / 2 + 0.1, y: -frameH / 2 + 0.1, r: 0.2, t: 10, spd: -1.5 },
+  { x: frameW / 2 - 0.1, y: -frameH / 2 + 0.1, r: 0.25, t: 12, spd: 1.3 },
 ];
-const gearMeshes = gearData.map(({x,y,r,t}) => {
-  const mesh = new THREE.Mesh(makeGearGeo(r, r*0.72, t, 0.12), steelMat);
-  mesh.position.set(x, y, BD/2+0.07);
+const gears = gearPositions.map(({ x, y, r, t, spd }) => {
+  const geo = makeGearGeo(r, r * 0.72, t, 0.12);
+  const mesh = new THREE.Mesh(geo, steel);
+  mesh.position.set(x, y, barD / 2 + 0.07);
   scene.add(mesh);
-  return mesh;
+  return { mesh, speed: spd };
 });
 
 // Pistons
 const pistonGeo = new THREE.CylinderGeometry(0.04, 0.04, 0.6, 8);
-const pistonData = [
-  { x: -FW/2+BW+0.1, baseY: 0.7 },
-  { x: FW/2-BW-0.1, baseY: -0.7 },
-];
-const pistonMeshes = pistonData.map(({x, baseY}) => {
-  const m = new THREE.Mesh(pistonGeo, chromeMat);
-  m.position.set(x, baseY, BD/2+0.04);
+const pistons = [
+  { x: -frameW / 2 + barW + 0.1, baseY: 0.7 },
+  { x: frameW / 2 - barW - 0.1, baseY: -0.7 },
+].map(({ x, baseY }) => {
+  const m = new THREE.Mesh(pistonGeo, chrome);
+  m.position.set(x, baseY, barD / 2 + 0.04);
   scene.add(m);
   return { mesh: m, baseY };
 });
 
 // Glow strips
-const glowMeshes = [];
-[[0, FH/2-BW/2, FW*0.8, 0.07], [0, -FH/2+BW/2, FW*0.8, 0.07],
- [-FW/2+BW/2, 0, 0.07, (FH-BW*2)*0.8], [FW/2-BW/2, 0, 0.07, (FH-BW*2)*0.8]].forEach(([x,y,w,h]) => {
-  const m = new THREE.Mesh(new THREE.BoxGeometry(w, h, 0.01), ledMat.clone());
-  m.position.set(x, y, BD/2+0.02);
-  scene.add(m);
-  glowMeshes.push(m);
+const glows = [];
+[[0, frameH / 2 - barW / 2, frameW * 0.8, 0.07],
+ [0, -frameH / 2 + barW / 2, frameW * 0.8, 0.07],
+ [-frameW / 2 + barW / 2, 0, 0.07, (frameH - barW * 2) * 0.8],
+ [frameW / 2 - barW / 2, 0, 0.07, (frameH - barW * 2) * 0.8],
+].forEach(([x, y, w, h]) => {
+  const g = new THREE.BoxGeometry(w, h, 0.01);
+  const m = ledGlow.clone();
+  const mesh = new THREE.Mesh(g, m);
+  mesh.position.set(x, y, barD / 2 + 0.02);
+  scene.add(mesh); glows.push(mesh);
 });
 
 // Orange accents
-const orangeMeshes = [];
-[[-FW/2+BW/2, 0.8, 0.04, 0.45], [-FW/2+BW/2, -0.8, 0.04, 0.45],
- [FW/2-BW/2, 0.8, 0.04, 0.45], [FW/2-BW/2, -0.8, 0.04, 0.45]].forEach(([x,y,w,h]) => {
-  const m = new THREE.Mesh(new THREE.BoxGeometry(w, h, 0.01), orangeMat.clone());
-  m.position.set(x, y, BD/2+0.02);
-  scene.add(m);
-  orangeMeshes.push(m);
+const orangeStrips = [];
+[[-frameW / 2 + barW / 2, 0.8, 0.04, 0.45],
+ [-frameW / 2 + barW / 2, -0.8, 0.04, 0.45],
+ [frameW / 2 - barW / 2, 0.8, 0.04, 0.45],
+ [frameW / 2 - barW / 2, -0.8, 0.04, 0.45],
+].forEach(([x, y, w, h]) => {
+  const g = new THREE.BoxGeometry(w, h, 0.01);
+  const m = orangeGlow.clone();
+  const mesh = new THREE.Mesh(g, m);
+  mesh.position.set(x, y, barD / 2 + 0.02);
+  scene.add(mesh); orangeStrips.push(mesh);
 });
 
-// Greeble dots
-const greebMat = new THREE.MeshPhysicalMaterial({ color: 0x444455, metalness: 0.9, roughness: 0.15 });
-for (let i = 0; i < 30; i++) {
-  const type = Math.random();
-  let geo;
-  if (type < 0.3) geo = new THREE.CylinderGeometry(0.035, 0.035, 0.05, 6);
-  else if (type < 0.6) geo = new THREE.BoxGeometry(0.12, 0.04, 0.04);
-  else geo = new THREE.SphereGeometry(0.025, 6, 4);
-  const m = new THREE.Mesh(geo, greebMat);
-  // Scatter along frame bars
-  const side = Math.floor(Math.random() * 4);
-  if (side === 0) m.position.set(-FW*0.4 + Math.random()*FW*0.8, FH/2-BW/2, BD/2+0.03);
-  else if (side === 1) m.position.set(-FW*0.4 + Math.random()*FW*0.8, -FH/2+BW/2, BD/2+0.03);
-  else if (side === 2) m.position.set(-FW/2+BW/2, -FH*0.3 + Math.random()*FH*0.6, BD/2+0.03);
-  else m.position.set(FW/2-BW/2, -FH*0.3 + Math.random()*FH*0.6, BD/2+0.03);
-  if (type < 0.3) m.rotation.x = Math.PI/2;
-  scene.add(m);
+// ============================
+// SCENE LIGHTS
+// ============================
+const ambientLight = new THREE.AmbientLight(0x555566, 0.01);
+scene.add(ambientLight);
+
+const sceneLights = {};
+const lightHelpers = {};
+
+function createLight(key, cfg) {
+  if (sceneLights[key]) {
+    scene.remove(sceneLights[key]);
+    if (sceneLights[key].target) scene.remove(sceneLights[key].target);
+  }
+  if (lightHelpers[key]) {
+    scene.remove(lightHelpers[key]);
+    if (lightHelpers[key].dispose) lightHelpers[key].dispose();
+    lightHelpers[key] = null;
+  }
+
+  const color = new THREE.Color(cfg.color);
+  let light, helper;
+
+  if (cfg.type === 'Directional') {
+    light = new THREE.DirectionalLight(color, cfg.intensity);
+    helper = new THREE.DirectionalLightHelper(light, 0.5);
+  } else if (cfg.type === 'Point') {
+    light = new THREE.PointLight(color, cfg.intensity, 30);
+    helper = new THREE.PointLightHelper(light, 0.3);
+  } else if (cfg.type === 'Spot') {
+    light = new THREE.SpotLight(color, cfg.intensity, 30, cfg.angle || 0.52, cfg.penumbra || 0.5);
+    helper = new THREE.SpotLightHelper(light);
+  }
+
+  light.position.set(cfg.x, cfg.y, cfg.z);
+  light.userData.lightKey = key;
+  scene.add(light);
+
+  const showHelpers = document.getElementById('chk-helpers')?.checked;
+  if (helper) {
+    helper.visible = !!showHelpers;
+    scene.add(helper);
+  }
+
+  sceneLights[key] = light;
+  lightHelpers[key] = helper;
+  return light;
 }
 
-// Expose to window for controls
-window._three = { renderer, scene, camera, ambientLight, keyLight, fillLight, rimLight, orb1, orb2,
-  crimsonMat, navyMat, gunmetalMat, chromeMat, steelMat, ledMat, orangeMat,
-  gearMeshes, gearData, pistonMeshes, glowMeshes, orangeMeshes, topBar, botBar, leftBar, rightBar, backPanel };
-
-// Orbit speed/radius state
-window._orbSpeed = 0.15;
-window._orbRadius = 12;
-
-// ── Animate ──
-let time = 0;
-function animate() {
-  requestAnimationFrame(animate);
-  time += 0.016;
-  gearMeshes.forEach((m, i) => { m.rotation.z += gearData[i].spd * 0.016; });
-  pistonMeshes.forEach(({mesh, baseY}, i) => { mesh.position.y = baseY + Math.sin(time*1.8 + i*Math.PI)*0.15; });
-  orb1.position.x = Math.cos(time * window._orbSpeed) * window._orbRadius;
-  orb1.position.y = Math.sin(time * window._orbSpeed) * (window._orbRadius * 0.5);
-  orb2.position.x = Math.cos(time * (window._orbSpeed * 0.8) + 3) * window._orbRadius;
-  orb2.position.y = Math.sin(time * (window._orbSpeed * 0.8) + 3) * (window._orbRadius * 0.5);
-  renderer.render(scene, camera);
+for (const [k, v] of Object.entries(state.lights)) {
+  createLight(k, v);
 }
-animate();
 
-// Resize
-window.addEventListener('resize', () => {
-  const w = viewport.clientWidth, h = viewport.clientHeight;
-  camera.aspect = w / h;
+// ============================
+// UI — LIGHTS
+// ============================
+const lightNames = { key: 'Key Light', fill: 'Fill Light', rim: 'Rim Light', orb1: 'Orb 1', orb2: 'Orb 2' };
+
+function buildLightUI() {
+  const container = document.getElementById('sec-lights');
+  container.innerHTML = '';
+  for (const [k, cfg] of Object.entries(state.lights)) {
+    const div = document.createElement('div');
+    div.className = 'light-group';
+    div.id = `lg-${k}`;
+    div.innerHTML = `
+      <h3>${lightNames[k]} <button id="btn-select-${k}">Select</button></h3>
+      <div class="ctrl-row"><label>Type</label><select id="lt-${k}-type"><option>Directional</option><option>Point</option><option>Spot</option></select></div>
+      <div class="ctrl-row"><label>Color</label><input type="color" id="lt-${k}-color" value="${cfg.color}"></div>
+      <div class="ctrl-row"><label>Intensity</label><input type="range" id="lt-${k}-int" min="0" max="15" step="0.1" value="${cfg.intensity}"><span class="val" id="val-${k}-int">${cfg.intensity.toFixed(1)}</span></div>
+      <div class="ctrl-row"><label>X</label><input type="range" id="lt-${k}-x" min="-15" max="15" step="0.1" value="${cfg.x}"><span class="val" id="val-${k}-x">${cfg.x.toFixed(1)}</span></div>
+      <div class="ctrl-row"><label>Y</label><input type="range" id="lt-${k}-y" min="-15" max="15" step="0.1" value="${cfg.y}"><span class="val" id="val-${k}-y">${cfg.y.toFixed(1)}</span></div>
+      <div class="ctrl-row"><label>Z</label><input type="range" id="lt-${k}-z" min="-15" max="15" step="0.1" value="${cfg.z}"><span class="val" id="val-${k}-z">${cfg.z.toFixed(1)}</span></div>
+      <div class="ctrl-row" id="row-${k}-angle" style="display:${cfg.type === 'Spot' ? 'flex' : 'none'}"><label>Angle</label><input type="range" id="lt-${k}-angle" min="0.05" max="1.57" step="0.01" value="${cfg.angle || 0.52}"><span class="val" id="val-${k}-angle">${(cfg.angle || 0.52).toFixed(2)}</span></div>
+      <div class="ctrl-row" id="row-${k}-penumbra" style="display:${cfg.type === 'Spot' ? 'flex' : 'none'}"><label>Penumbra</label><input type="range" id="lt-${k}-penumbra" min="0" max="1" step="0.01" value="${cfg.penumbra || 0.5}"><span class="val" id="val-${k}-penumbra">${(cfg.penumbra || 0.5).toFixed(2)}</span></div>
+    `;
+    container.appendChild(div);
+
+    const sel = div.querySelector(`#lt-${k}-type`);
+    sel.value = cfg.type;
+
+    sel.addEventListener('change', () => {
+      state.lights[k].type = sel.value;
+      createLight(k, state.lights[k]);
+      const isSpot = sel.value === 'Spot';
+      document.getElementById(`row-${k}-angle`).style.display = isSpot ? 'flex' : 'none';
+      document.getElementById(`row-${k}-penumbra`).style.display = isSpot ? 'flex' : 'none';
+      updatePrompt();
+    });
+
+    div.querySelector(`#lt-${k}-color`).addEventListener('input', (e) => {
+      state.lights[k].color = e.target.value;
+      sceneLights[k].color.set(e.target.value);
+      updateHelpers();
+      updatePrompt();
+    });
+
+    for (const prop of ['int', 'x', 'y', 'z', 'angle', 'penumbra']) {
+      const slider = div.querySelector(`#lt-${k}-${prop}`);
+      if (!slider) continue;
+      slider.addEventListener('input', () => {
+        const v = parseFloat(slider.value);
+        const valEl = document.getElementById(`val-${k}-${prop}`);
+        if (prop === 'int') {
+          state.lights[k].intensity = v;
+          sceneLights[k].intensity = v;
+          if (valEl) valEl.textContent = v.toFixed(1);
+        } else if (prop === 'x') {
+          state.lights[k].x = v;
+          sceneLights[k].position.x = v;
+          if (valEl) valEl.textContent = v.toFixed(1);
+        } else if (prop === 'y') {
+          state.lights[k].y = v;
+          sceneLights[k].position.y = v;
+          if (valEl) valEl.textContent = v.toFixed(1);
+        } else if (prop === 'z') {
+          state.lights[k].z = v;
+          sceneLights[k].position.z = v;
+          if (valEl) valEl.textContent = v.toFixed(1);
+        } else if (prop === 'angle' && sceneLights[k].angle !== undefined) {
+          state.lights[k].angle = v;
+          sceneLights[k].angle = v;
+          if (valEl) valEl.textContent = v.toFixed(2);
+        } else if (prop === 'penumbra' && sceneLights[k].penumbra !== undefined) {
+          state.lights[k].penumbra = v;
+          sceneLights[k].penumbra = v;
+          if (valEl) valEl.textContent = v.toFixed(2);
+        }
+        updateHelpers();
+        updatePrompt();
+      });
+    }
+
+    div.querySelector(`#btn-select-${k}`).addEventListener('click', () => {
+      // Ensure helpers are visible when selecting
+      document.getElementById('chk-helpers').checked = true;
+      document.getElementById('val-helpers').textContent = 'on';
+      for (const h of Object.values(lightHelpers)) { if (h) h.visible = true; }
+      transformControls.attach(sceneLights[k]);
+    });
+  }
+}
+
+function updateLightUI(k) {
+  const cfg = state.lights[k];
+  const xsl = document.getElementById(`lt-${k}-x`);
+  const ysl = document.getElementById(`lt-${k}-y`);
+  const zsl = document.getElementById(`lt-${k}-z`);
+  if (xsl) { xsl.value = cfg.x; document.getElementById(`val-${k}-x`).textContent = cfg.x.toFixed(1); }
+  if (ysl) { ysl.value = cfg.y; document.getElementById(`val-${k}-y`).textContent = cfg.y.toFixed(1); }
+  if (zsl) { zsl.value = cfg.z; document.getElementById(`val-${k}-z`).textContent = cfg.z.toFixed(1); }
+}
+
+function updateHelpers() {
+  for (const h of Object.values(lightHelpers)) {
+    if (h && h.update) h.update();
+  }
+}
+
+buildLightUI();
+
+// ============================
+// UI — MATERIALS
+// ============================
+function buildMaterialUI() {
+  const container = document.getElementById('sec-materials');
+  container.innerHTML = '';
+  for (const [name, cfg] of Object.entries(state.materials)) {
+    const div = document.createElement('div');
+    div.className = `mat-group ${name}`;
+    div.innerHTML = `
+      <h3>${name.charAt(0).toUpperCase() + name.slice(1)}</h3>
+      <div class="ctrl-row"><label>Color</label><input type="color" id="mat-${name}-color" value="${cfg.color}"></div>
+      <div class="ctrl-row"><label>Metalness</label><input type="range" id="mat-${name}-metal" min="0" max="1" step="0.01" value="${cfg.metalness}"><span class="val" id="val-${name}-metal">${cfg.metalness.toFixed(2)}</span></div>
+      <div class="ctrl-row"><label>Roughness</label><input type="range" id="mat-${name}-rough" min="0" max="1" step="0.01" value="${cfg.roughness}"><span class="val" id="val-${name}-rough">${cfg.roughness.toFixed(2)}</span></div>
+      <div class="ctrl-row"><label>Clearcoat</label><input type="range" id="mat-${name}-clear" min="0" max="1" step="0.01" value="${cfg.clearcoat}"><span class="val" id="val-${name}-clear">${cfg.clearcoat.toFixed(2)}</span></div>
+      <div class="ctrl-row"><label>Normal Str</label><input type="range" id="mat-${name}-norm" min="0" max="2" step="0.01" value="${cfg.normalStrength}"><span class="val" id="val-${name}-norm">${cfg.normalStrength.toFixed(2)}</span></div>
+      <div class="ctrl-row"><label>Tiling X</label><input type="range" id="mat-${name}-tx" min="0.1" max="5" step="0.01" value="${cfg.tilingX}"><span class="val" id="val-${name}-tx">${cfg.tilingX.toFixed(2)}</span></div>
+      <div class="ctrl-row"><label>Tiling Y</label><input type="range" id="mat-${name}-ty" min="0.1" max="5" step="0.01" value="${cfg.tilingY}"><span class="val" id="val-${name}-ty">${cfg.tilingY.toFixed(2)}</span></div>
+    `;
+    container.appendChild(div);
+
+    const mat = matMap[name];
+    const tex = texMap[name];
+
+    div.querySelector(`#mat-${name}-color`).addEventListener('input', (e) => {
+      state.materials[name].color = e.target.value;
+      mat.color.set(e.target.value);
+      updatePrompt();
+    });
+
+    for (const [prop, threeProp] of [['metal','metalness'],['rough','roughness'],['clear','clearcoat']]) {
+      div.querySelector(`#mat-${name}-${prop}`).addEventListener('input', (e) => {
+        const v = parseFloat(e.target.value);
+        state.materials[name][threeProp] = v;
+        mat[threeProp] = v;
+        document.getElementById(`val-${name}-${prop}`).textContent = v.toFixed(2);
+        updatePrompt();
+      });
+    }
+
+    div.querySelector(`#mat-${name}-norm`).addEventListener('input', (e) => {
+      const v = parseFloat(e.target.value);
+      state.materials[name].normalStrength = v;
+      if (mat.normalScale) mat.normalScale.set(v, v);
+      document.getElementById(`val-${name}-norm`).textContent = v.toFixed(2);
+      updatePrompt();
+    });
+
+    for (const axis of ['tx', 'ty']) {
+      div.querySelector(`#mat-${name}-${axis}`).addEventListener('input', (e) => {
+        const v = parseFloat(e.target.value);
+        state.materials[name][axis === 'tx' ? 'tilingX' : 'tilingY'] = v;
+        if (tex.color) tex.color.repeat.set(state.materials[name].tilingX, state.materials[name].tilingY);
+        if (tex.normal) tex.normal.repeat.set(state.materials[name].tilingX, state.materials[name].tilingY);
+        document.getElementById(`val-${name}-${axis}`).textContent = v.toFixed(2);
+        updatePrompt();
+      });
+    }
+  }
+}
+buildMaterialUI();
+
+// ============================
+// UI — GLOW
+// ============================
+function buildGlowUI() {
+  const container = document.getElementById('sec-glow');
+  container.innerHTML = `
+    <div class="ctrl-row"><label>LED Color</label><input type="color" id="glow-led-color" value="${state.glow.ledColor}"></div>
+    <div class="ctrl-row"><label>LED Opacity</label><input type="range" id="glow-led-op" min="0" max="1" step="0.01" value="${state.glow.ledOpacity}"><span class="val" id="val-led-op">${state.glow.ledOpacity.toFixed(2)}</span></div>
+    <div class="ctrl-row"><label>Orange Color</label><input type="color" id="glow-orange-color" value="${state.glow.orangeColor}"></div>
+    <div class="ctrl-row"><label>Orange Opacity</label><input type="range" id="glow-orange-op" min="0" max="1" step="0.01" value="${state.glow.orangeOpacity}"><span class="val" id="val-orange-op">${state.glow.orangeOpacity.toFixed(2)}</span></div>
+    <div class="ctrl-row"><label>Pulse Speed</label><input type="range" id="glow-pulse-speed" min="0.1" max="5" step="0.1" value="${state.glow.pulseSpeed}"><span class="val" id="val-pulse-speed">${state.glow.pulseSpeed.toFixed(1)}</span></div>
+    <div class="ctrl-row"><label>Pulse Min</label><input type="range" id="glow-pulse-min" min="0" max="1" step="0.01" value="${state.glow.pulseMin}"><span class="val" id="val-pulse-min">${state.glow.pulseMin.toFixed(2)}</span></div>
+    <div class="ctrl-row"><label>Pulse Max</label><input type="range" id="glow-pulse-max" min="0" max="1" step="0.01" value="${state.glow.pulseMax}"><span class="val" id="val-pulse-max">${state.glow.pulseMax.toFixed(2)}</span></div>
+  `;
+
+  container.querySelector('#glow-led-color').addEventListener('input', (e) => {
+    state.glow.ledColor = e.target.value;
+    glows.forEach(g => g.material.color.set(e.target.value));
+    updatePrompt();
+  });
+  container.querySelector('#glow-led-op').addEventListener('input', (e) => {
+    const v = parseFloat(e.target.value);
+    state.glow.ledOpacity = v;
+    glows.forEach(g => { g.material.opacity = v; });
+    document.getElementById('val-led-op').textContent = v.toFixed(2);
+    updatePrompt();
+  });
+  container.querySelector('#glow-orange-color').addEventListener('input', (e) => {
+    state.glow.orangeColor = e.target.value;
+    orangeStrips.forEach(g => g.material.color.set(e.target.value));
+    updatePrompt();
+  });
+  container.querySelector('#glow-orange-op').addEventListener('input', (e) => {
+    const v = parseFloat(e.target.value);
+    state.glow.orangeOpacity = v;
+    orangeStrips.forEach(g => { g.material.opacity = v; });
+    document.getElementById('val-orange-op').textContent = v.toFixed(2);
+    updatePrompt();
+  });
+  for (const [id, key, valId] of [
+    ['glow-pulse-speed', 'pulseSpeed', 'val-pulse-speed'],
+    ['glow-pulse-min', 'pulseMin', 'val-pulse-min'],
+    ['glow-pulse-max', 'pulseMax', 'val-pulse-max'],
+  ]) {
+    container.querySelector(`#${id}`).addEventListener('input', (e) => {
+      const v = parseFloat(e.target.value);
+      state.glow[key] = v;
+      document.getElementById(valId).textContent = key === 'pulseSpeed' ? v.toFixed(1) : v.toFixed(2);
+      updatePrompt();
+    });
+  }
+}
+buildGlowUI();
+
+// ============================
+// CAMERA & SCENE CONTROLS
+// ============================
+document.getElementById('sl-fov').addEventListener('input', (e) => {
+  const v = parseInt(e.target.value);
+  state.fov = v;
+  camera.fov = v;
   camera.updateProjectionMatrix();
-  renderer.setSize(w, h);
+  document.getElementById('val-fov').textContent = v;
+  updatePrompt();
 });
-</script>
-
-<script>
-// ── Control handlers ──
-function toggleSection(el) { el.parentElement.classList.toggle('collapsed'); }
-
-function val(id) { return document.getElementById(id).value; }
-function setVal(id, v) { const el = document.getElementById(id); if (el) el.value = v; }
-
-function updateMat(name) {
-  const t = window._three;
-  if (!t) return;
-  const mat = name === 'crimson' ? t.crimsonMat : name === 'navy' ? t.navyMat : t.gunmetalMat;
-  const prefix = name === 'gun' ? 'gun' : name;
-
-  const colorHex = val(prefix + '-color');
-  mat.color.set(colorHex);
-  document.getElementById(prefix + '-color-v').textContent = colorHex;
-
-  const metal = parseInt(val(prefix + '-metal')) / 100;
-  mat.metalness = metal;
-  document.getElementById(prefix + '-metal-v').textContent = metal.toFixed(2);
-
-  const rough = parseInt(val(prefix + '-rough')) / 100;
-  mat.roughness = rough;
-  document.getElementById(prefix + '-rough-v').textContent = rough.toFixed(2);
-
-  if (document.getElementById(prefix + '-coat')) {
-    const coat = parseInt(val(prefix + '-coat')) / 100;
-    mat.clearcoat = coat;
-    document.getElementById(prefix + '-coat-v').textContent = coat.toFixed(2);
-  }
-  if (document.getElementById(prefix + '-norm')) {
-    const norm = parseInt(val(prefix + '-norm')) / 100;
-    document.getElementById(prefix + '-norm-v').textContent = norm.toFixed(2);
-  }
+document.getElementById('sl-exposure').addEventListener('input', (e) => {
+  const v = parseFloat(e.target.value);
+  state.exposure = v;
+  renderer.toneMappingExposure = v;
+  document.getElementById('val-exposure').textContent = v.toFixed(2);
   updatePrompt();
-}
-
-function updateGlow() {
-  const t = window._three;
-  if (!t) return;
-  const ledColor = val('led-color');
-  const ledOp = parseInt(val('led-opacity')) / 100;
-  document.getElementById('led-color-v').textContent = ledColor;
-  document.getElementById('led-opacity-v').textContent = ledOp.toFixed(2);
-  t.glowMeshes.forEach(m => { m.material.color.set(ledColor); m.material.opacity = ledOp; });
-
-  const orangeColor = val('orange-color');
-  const orangeOp = parseInt(val('orange-opacity')) / 100;
-  document.getElementById('orange-color-v').textContent = orangeColor;
-  document.getElementById('orange-opacity-v').textContent = orangeOp.toFixed(2);
-  t.orangeMeshes.forEach(m => { m.material.color.set(orangeColor); m.material.opacity = orangeOp; });
+});
+document.getElementById('col-bg').addEventListener('input', (e) => {
+  state.background = e.target.value;
+  scene.background = new THREE.Color(e.target.value);
   updatePrompt();
-}
+});
 
-function updateLights() {
-  const t = window._three;
-  if (!t) return;
-  const amb = parseInt(val('light-ambient')) / 100;
-  t.ambientLight.intensity = amb;
-  document.getElementById('light-ambient-v').textContent = amb.toFixed(2);
+// ============================
+// DEBUG TOGGLES
+// ============================
+document.getElementById('chk-helpers').addEventListener('change', (e) => {
+  const show = e.target.checked;
+  document.getElementById('val-helpers').textContent = show ? 'on' : 'off';
+  for (const h of Object.values(lightHelpers)) { if (h) h.visible = show; }
+  if (!show) transformControls.detach();
+});
+document.getElementById('chk-grid').addEventListener('change', (e) => {
+  gridHelper.visible = e.target.checked;
+  document.getElementById('val-grid').textContent = e.target.checked ? 'on' : 'off';
+});
+document.getElementById('chk-axes').addEventListener('change', (e) => {
+  axesHelper.visible = e.target.checked;
+  document.getElementById('val-axes').textContent = e.target.checked ? 'on' : 'off';
+});
 
-  const keyI = parseInt(val('light-key')) / 10;
-  t.keyLight.intensity = keyI;
-  t.keyLight.color.set(val('light-key-c'));
-  document.getElementById('light-key-v').textContent = keyI.toFixed(2);
-
-  const fillI = parseInt(val('light-fill')) / 10;
-  t.fillLight.intensity = fillI;
-  t.fillLight.color.set(val('light-fill-c'));
-  document.getElementById('light-fill-v').textContent = fillI.toFixed(2);
-
-  const rimI = parseInt(val('light-rim')) / 10;
-  t.rimLight.intensity = rimI;
-  t.rimLight.color.set(val('light-rim-c'));
-  document.getElementById('light-rim-v').textContent = rimI.toFixed(2);
-
-  const exp = parseInt(val('light-exposure')) / 100;
-  t.renderer.toneMappingExposure = exp;
-  document.getElementById('light-exposure-v').textContent = exp.toFixed(2);
-
-  window._orbSpeed = parseInt(val('light-orb-speed')) / 100;
-  document.getElementById('light-orb-speed-v').textContent = window._orbSpeed.toFixed(2);
-
-  window._orbRadius = parseInt(val('light-orb-radius'));
-  document.getElementById('light-orb-radius-v').textContent = window._orbRadius;
-
-  updatePrompt();
-}
-
-function updateCamera() {
-  const t = window._three;
-  if (!t) return;
-  const z = parseFloat(val('cam-z-end'));
-  t.camera.position.z = z;
-  document.getElementById('cam-z-end-v').textContent = z.toFixed(1);
-  document.getElementById('cam-z-v').textContent = parseFloat(val('cam-z')).toFixed(1);
-
-  const fov = parseInt(val('cam-fov'));
-  t.camera.fov = fov;
-  t.camera.updateProjectionMatrix();
-  document.getElementById('cam-fov-v').textContent = fov;
-  updatePrompt();
-}
-
-function updateBg() {
-  const t = window._three;
-  if (!t) return;
-  const c = val('bg-color');
-  t.scene.background.set(c);
-  document.getElementById('bg-color-v').textContent = c;
-  updatePrompt();
-}
-
-function updatePromptOnly() {
-  // Update display values
-  ['geo-cube', 'geo-barw', 'geo-bard', 'geo-bevel'].forEach(id => {
-    const v = parseInt(val(id)) / 100;
-    document.getElementById(id + '-v').textContent = v.toFixed(2);
+// ============================
+// COLLAPSIBLE SECTIONS
+// ============================
+document.querySelectorAll('.section-head').forEach(head => {
+  head.addEventListener('click', () => {
+    const body = head.nextElementSibling;
+    body.classList.toggle('hidden');
+    head.classList.toggle('collapsed');
   });
-  ['anim-dissolve', 'anim-detach', 'anim-detach-dur', 'anim-stretch', 'anim-stretch-dur',
-   'anim-gears', 'anim-brackets', 'anim-bolts', 'anim-glows', 'anim-stagger'].forEach(id => {
-    const v = parseInt(val(id)) / 100;
-    document.getElementById(id + '-v').textContent = v.toFixed(2) + 's';
+});
+
+// ============================
+// ANIMATION
+// ============================
+let activeTl = null;
+let isAnimating = false;
+let glowPulseTweens = [];
+
+function setAssembledState() {
+  pieces.forEach(({ mesh, end }) => {
+    mesh.position.set(end.p[0], end.p[1], end.p[2]);
+    mesh.rotation.set(end.r[0], end.r[1], end.r[2]);
+    mesh.scale.set(end.s[0], end.s[1], end.s[2]);
   });
-  updatePrompt();
+  frontFace.visible = false;
+  frontMat.opacity = 0;
+  brackets.forEach(({ mesh, ex, ey }) => {
+    mesh.position.set(ex, ey, barD / 2);
+    mesh.rotation.z = 0;
+  });
+  bolts.forEach(({ mesh, ex, ey }) => {
+    mesh.position.set(ex, ey, barD / 2 + 0.12);
+    mesh.rotation.z = Math.PI * 5;
+  });
+  gears.forEach(({ mesh }) => mesh.scale.set(1, 1, 1));
+  pistons.forEach(({ mesh }) => mesh.scale.set(1, 1, 1));
+  glows.forEach(g => { g.material.opacity = state.glow.ledOpacity; });
+  orangeStrips.forEach(g => { g.material.opacity = state.glow.orangeOpacity; });
+}
+
+function setCubeState() {
+  pieces.forEach(({ mesh, start }) => {
+    mesh.position.set(start.p[0], start.p[1], start.p[2]);
+    mesh.rotation.set(start.r[0], start.r[1], start.r[2]);
+    mesh.scale.set(start.s[0], start.s[1], start.s[2]);
+  });
+  frontFace.visible = true;
+  frontMat.opacity = 1;
+  brackets.forEach(({ mesh, sx, sy, sRz }) => {
+    mesh.position.set(sx, sy, cs * 0.4 + 0.05);
+    mesh.rotation.z = sRz;
+  });
+  bolts.forEach(({ mesh, sx, sy }) => {
+    mesh.position.set(sx, sy, cs * 0.4 + 0.12);
+    mesh.rotation.z = 0;
+  });
+  gears.forEach(({ mesh }) => mesh.scale.set(0, 0, 0));
+  pistons.forEach(({ mesh }) => mesh.scale.set(0, 0, 0));
+  glows.forEach(g => { g.material.opacity = 0; });
+  orangeStrips.forEach(g => { g.material.opacity = 0; });
+}
+
+function killAnimation() {
+  if (activeTl) { activeTl.kill(); activeTl = null; }
+  glowPulseTweens.forEach(t => t.kill());
+  glowPulseTweens = [];
+  glows.forEach(g => gsap.killTweensOf(g.material));
+  orangeStrips.forEach(g => gsap.killTweensOf(g.material));
+  isAnimating = false;
+}
+
+function playAnimation() {
+  killAnimation();
+  isAnimating = true;
+  setCubeState();
+  camera.position.set(0, 0, 9);
+
+  const camZ = 9;
+  const tl = gsap.timeline({
+    onComplete: () => {
+      glows.forEach(g => {
+        const t = gsap.to(g.material, { opacity: state.glow.pulseMin, duration: state.glow.pulseSpeed, yoyo: true, repeat: -1, ease: 'sine.inOut' });
+        glowPulseTweens.push(t);
+      });
+      orangeStrips.forEach(g => {
+        const t = gsap.to(g.material, { opacity: 0.2, duration: 2.2, yoyo: true, repeat: -1, ease: 'sine.inOut' });
+        glowPulseTweens.push(t);
+      });
+      isAnimating = false;
+    }
+  });
+  activeTl = tl;
+
+  // Front face dissolves
+  tl.to(frontMat, { opacity: 0, duration: 0.3, ease: 'power2.in', onComplete: () => { frontFace.visible = false; } }, 0.2);
+
+  // Pieces detach to mid
+  pieces.forEach(({ mesh, mid }, i) => {
+    const d = 0.3 + i * 0.05;
+    tl.to(mesh.position, { x: mid.p[0], y: mid.p[1], z: mid.p[2], duration: 0.4, ease: 'power2.out' }, d);
+    tl.to(mesh.rotation, { x: mid.r[0], y: mid.r[1], z: mid.r[2], duration: 0.4, ease: 'power2.out' }, d);
+    tl.to(mesh.scale, { x: mid.s[0], y: mid.s[1], z: mid.s[2], duration: 0.4, ease: 'power2.out' }, d);
+  });
+
+  // Pieces to final
+  pieces.forEach(({ mesh, end }, i) => {
+    const d = 0.6 + i * 0.05;
+    tl.to(mesh.position, { x: end.p[0], y: end.p[1], z: end.p[2], duration: 0.5, ease: 'power3.inOut' }, d);
+    tl.to(mesh.rotation, { x: end.r[0], y: end.r[1], z: end.r[2], duration: 0.5, ease: 'power3.inOut' }, d);
+    tl.to(mesh.scale, { x: end.s[0], y: end.s[1], z: end.s[2], duration: 0.5, ease: 'power3.inOut' }, d);
+  });
+
+  // Camera pulls back
+  tl.to(camera.position, { z: camZ + 2.5, duration: 1.3, ease: 'power2.out' }, 0.2);
+
+  // Gears appear
+  gears.forEach(({ mesh }, i) => {
+    tl.to(mesh.scale, { x: 1, y: 1, z: 1, duration: 0.3, ease: 'back.out(2.5)' }, 0.7 + i * 0.05);
+  });
+
+  // Brackets snap
+  brackets.forEach(({ mesh, ex, ey }, i) => {
+    tl.to(mesh.position, { x: ex, y: ey, z: barD / 2, duration: 0.4, ease: 'back.out(1.5)' }, 0.75 + i * 0.04);
+    tl.to(mesh.rotation, { z: 0, duration: 0.4, ease: 'power3.out' }, 0.75 + i * 0.04);
+  });
+
+  // Bolts spin
+  bolts.forEach(({ mesh, ex, ey }, i) => {
+    tl.to(mesh.position, { x: ex, y: ey, z: barD / 2 + 0.12, duration: 0.4, ease: 'back.out(1.3)' }, 0.8 + i * 0.02);
+    tl.to(mesh.rotation, { z: Math.PI * 5, duration: 0.4, ease: 'power2.out' }, 0.8 + i * 0.02);
+  });
+
+  // Pistons pop
+  pistons.forEach(({ mesh }, i) => {
+    tl.to(mesh.scale, { x: 1, y: 1, z: 1, duration: 0.25, ease: 'back.out(2)' }, 0.9 + i * 0.06);
+  });
+
+  // Glows
+  glows.forEach((g, i) => {
+    tl.to(g.material, { opacity: state.glow.ledOpacity, duration: 0.15, ease: 'power2.out' }, 0.95 + i * 0.04);
+  });
+  orangeStrips.forEach((g, i) => {
+    tl.to(g.material, { opacity: state.glow.orangeOpacity, duration: 0.15, ease: 'power2.out' }, 1.0 + i * 0.03);
+  });
+}
+
+document.getElementById('btn-play').addEventListener('click', playAnimation);
+document.getElementById('btn-reset').addEventListener('click', () => {
+  killAnimation();
+  setAssembledState();
+  camera.position.set(0, 0, 9);
+});
+
+// ============================
+// GEOMETRY (prompt-only)
+// ============================
+for (const [id, key] of [['num-cs','cs'],['num-fw','fw'],['num-fh','fh'],['num-bw','bw'],['num-bd','bd'],['num-bevel','bevel']]) {
+  document.getElementById(id).addEventListener('input', (e) => {
+    state.geometry[key] = parseFloat(e.target.value) || 0;
+    updatePrompt();
+  });
+}
+
+// ============================
+// PROMPT OUTPUT
+// ============================
+function hex6(c) {
+  return '0x' + new THREE.Color(c).getHexString();
 }
 
 function updatePrompt() {
-  const parts = [];
+  const lines = ['Update TransformPlayer.jsx with these values:\n'];
+  const D = DEFAULTS;
 
-  // Materials
-  const cColor = val('crimson-color');
-  if (cColor !== '#cc3030') parts.push(`crimson.color = 0x${cColor.slice(1)}`);
-  const cMetal = parseInt(val('crimson-metal')) / 100;
-  if (Math.abs(cMetal - 0.85) > 0.01) parts.push(`crimson.metalness = ${cMetal.toFixed(2)}`);
-  const cRough = parseInt(val('crimson-rough')) / 100;
-  if (Math.abs(cRough - 0.18) > 0.01) parts.push(`crimson.roughness = ${cRough.toFixed(2)}`);
-  const cCoat = parseInt(val('crimson-coat')) / 100;
-  if (Math.abs(cCoat - 0.60) > 0.01) parts.push(`crimson.clearcoat = ${cCoat.toFixed(2)}`);
-
-  const nColor = val('navy-color');
-  if (nColor !== '#2a3090') parts.push(`navy.color = 0x${nColor.slice(1)}`);
-  const nMetal = parseInt(val('navy-metal')) / 100;
-  if (Math.abs(nMetal - 0.85) > 0.01) parts.push(`navy.metalness = ${nMetal.toFixed(2)}`);
-  const nRough = parseInt(val('navy-rough')) / 100;
-  if (Math.abs(nRough - 0.18) > 0.01) parts.push(`navy.roughness = ${nRough.toFixed(2)}`);
-
-  // Glows
-  const ledC = val('led-color');
-  if (ledC !== '#22aaff') parts.push(`ledGlow.color = 0x${ledC.slice(1)}`);
-  const ledO = parseInt(val('led-opacity')) / 100;
-  if (Math.abs(ledO - 0.90) > 0.01) parts.push(`ledGlow final opacity = ${ledO.toFixed(2)}`);
-  const oC = val('orange-color');
-  if (oC !== '#ff6600') parts.push(`orangeGlow.color = 0x${oC.slice(1)}`);
-
-  // Lighting
-  const exp = parseInt(val('light-exposure')) / 100;
-  if (Math.abs(exp - 2.20) > 0.05) parts.push(`renderer.toneMappingExposure = ${exp.toFixed(2)}`);
-  const amb = parseInt(val('light-ambient')) / 100;
-  if (Math.abs(amb - 0.50) > 0.02) parts.push(`ambientLight.intensity = ${amb.toFixed(2)}`);
-  const keyI = parseInt(val('light-key')) / 10;
-  if (Math.abs(keyI - 3.50) > 0.05) parts.push(`keyDir.intensity = ${keyI.toFixed(1)}`);
-  const keyC = val('light-key-c');
-  if (keyC !== '#ffeedd') parts.push(`keyDir.color = 0x${keyC.slice(1)}`);
-  const fillI = parseInt(val('light-fill')) / 10;
-  if (Math.abs(fillI - 1.80) > 0.05) parts.push(`fillDir.intensity = ${fillI.toFixed(1)}`);
-  const fillC = val('light-fill-c');
-  if (fillC !== '#3355aa') parts.push(`fillDir.color = 0x${fillC.slice(1)}`);
-  const rimI = parseInt(val('light-rim')) / 10;
-  if (Math.abs(rimI - 1.20) > 0.05) parts.push(`rimDir.intensity = ${rimI.toFixed(1)}`);
-  const rimC = val('light-rim-c');
-  if (rimC !== '#ff6633') parts.push(`rimDir.color = 0x${rimC.slice(1)}`);
-
-  const orbSpd = parseInt(val('light-orb-speed')) / 100;
-  if (Math.abs(orbSpd - 0.15) > 0.01) parts.push(`orbiting light speed = ${orbSpd.toFixed(2)}`);
-  const orbR = parseInt(val('light-orb-radius'));
-  if (orbR !== 12) parts.push(`orbiting light radius = ${orbR}`);
-
-  // Camera
-  const camStart = parseFloat(val('cam-z'));
-  if (Math.abs(camStart - 9) > 0.1) parts.push(`camera start z = ${camStart}`);
-  const camEnd = parseFloat(val('cam-z-end'));
-  if (Math.abs(camEnd - 11.5) > 0.1) parts.push(`camera end z = ${camEnd}`);
-  const fov = parseInt(val('cam-fov'));
-  if (fov !== 45) parts.push(`camera FOV = ${fov}`);
-
-  // BG
-  const bg = val('bg-color');
-  if (bg !== '#060610') parts.push(`scene.background = 0x${bg.slice(1)}`);
-
-  // Geometry
-  const cubeSize = parseInt(val('geo-cube')) / 100;
-  if (Math.abs(cubeSize - 0.80) > 0.02) parts.push(`cubeSize = ${cubeSize.toFixed(2)}`);
-  const barW = parseInt(val('geo-barw')) / 100;
-  if (Math.abs(barW - 0.40) > 0.02) parts.push(`barW = ${barW.toFixed(2)}`);
-  const barD = parseInt(val('geo-bard')) / 100;
-  if (Math.abs(barD - 0.45) > 0.02) parts.push(`barD = ${barD.toFixed(2)}`);
-  const bevel = parseInt(val('geo-bevel')) / 100;
-  if (Math.abs(bevel - 0.07) > 0.005) parts.push(`bevel = ${bevel.toFixed(3)}`);
-
-  // Animation timing
-  const animKeys = [
-    ['anim-dissolve', 'dissolve start', 0.20],
-    ['anim-detach', 'detach start', 0.30],
-    ['anim-detach-dur', 'detach duration', 0.40],
-    ['anim-stretch', 'stretch start', 0.60],
-    ['anim-stretch-dur', 'stretch duration', 0.50],
-    ['anim-gears', 'gears appear at', 0.70],
-    ['anim-brackets', 'brackets snap at', 0.75],
-    ['anim-bolts', 'bolts fly at', 0.80],
-    ['anim-glows', 'glows power on at', 0.95],
-    ['anim-stagger', 'piece stagger', 0.05],
-  ];
-  animKeys.forEach(([id, label, def]) => {
-    const v = parseInt(val(id)) / 100;
-    if (Math.abs(v - def) > 0.02) parts.push(`${label} = ${v.toFixed(2)}s`);
-  });
-
-  const output = document.getElementById('prompt-output');
-  if (parts.length === 0) {
-    output.textContent = 'All values at defaults. Adjust controls to generate changes.';
-  } else {
-    output.textContent = `Update TransformPlayer.jsx with these values:\n\n${parts.join('\n')}`;
+  for (const [name, cfg] of Object.entries(state.materials)) {
+    const d = D.materials[name];
+    if (cfg.color !== d.color) lines.push(`${name}.color = ${hex6(cfg.color)}`);
+    if (cfg.metalness !== d.metalness) lines.push(`${name}.metalness = ${cfg.metalness.toFixed(2)}`);
+    if (cfg.roughness !== d.roughness) lines.push(`${name}.roughness = ${cfg.roughness.toFixed(2)}`);
+    if (cfg.clearcoat !== d.clearcoat) lines.push(`${name}.clearcoat = ${cfg.clearcoat.toFixed(2)}`);
+    if (cfg.normalStrength !== d.normalStrength) lines.push(`${name}.normalScale = new THREE.Vector2(${cfg.normalStrength.toFixed(1)}, ${cfg.normalStrength.toFixed(1)})`);
+    if (cfg.tilingX !== d.tilingX || cfg.tilingY !== d.tilingY) lines.push(`${name} texture tiling = (${cfg.tilingX.toFixed(1)}, ${cfg.tilingY.toFixed(1)})`);
   }
+
+  const lightJSNames = { key: 'keyDir', fill: 'fillDir', rim: 'rimDir', orb1: 'orb1', orb2: 'orb2' };
+  for (const [k, cfg] of Object.entries(state.lights)) {
+    const d = D.lights[k];
+    const n = lightJSNames[k];
+    if (cfg.type !== d.type) lines.push(`${n}: change to ${cfg.type}Light`);
+    if (cfg.color !== d.color) lines.push(`${n}.color = ${hex6(cfg.color)}`);
+    if (cfg.intensity !== d.intensity) lines.push(`${n}.intensity = ${cfg.intensity.toFixed(1)}`);
+    if (cfg.x !== d.x || cfg.y !== d.y || cfg.z !== d.z) lines.push(`${n}.position.set(${cfg.x.toFixed(1)}, ${cfg.y.toFixed(1)}, ${cfg.z.toFixed(1)})`);
+    if (cfg.type === 'Spot') {
+      if ((cfg.angle || 0) !== (d.angle || 0)) lines.push(`${n}.angle = ${(cfg.angle || 0).toFixed(2)}`);
+      if ((cfg.penumbra || 0) !== (d.penumbra || 0)) lines.push(`${n}.penumbra = ${(cfg.penumbra || 0).toFixed(2)}`);
+    }
+  }
+
+  if (state.exposure !== D.exposure) lines.push(`renderer.toneMappingExposure = ${state.exposure.toFixed(2)}`);
+  if (state.background !== D.background) lines.push(`scene.background = new THREE.Color(${hex6(state.background)})`);
+  if (state.fov !== D.fov) lines.push(`camera FOV = ${state.fov}`);
+
+  if (state.glow.ledColor !== D.glow.ledColor) lines.push(`ledGlow.color = ${hex6(state.glow.ledColor)}`);
+  if (state.glow.ledOpacity !== D.glow.ledOpacity) lines.push(`ledGlow final opacity = ${state.glow.ledOpacity.toFixed(1)}`);
+  if (state.glow.orangeColor !== D.glow.orangeColor) lines.push(`orangeGlow.color = ${hex6(state.glow.orangeColor)}`);
+  if (state.glow.orangeOpacity !== D.glow.orangeOpacity) lines.push(`orangeGlow final opacity = ${state.glow.orangeOpacity.toFixed(1)}`);
+  if (state.glow.pulseSpeed !== D.glow.pulseSpeed) lines.push(`glow pulse speed = ${state.glow.pulseSpeed.toFixed(1)}`);
+  if (state.glow.pulseMin !== D.glow.pulseMin) lines.push(`glow pulse min opacity = ${state.glow.pulseMin.toFixed(2)}`);
+  if (state.glow.pulseMax !== D.glow.pulseMax) lines.push(`glow pulse max opacity = ${state.glow.pulseMax.toFixed(2)}`);
+
+  const gd = D.geometry;
+  if (state.geometry.cs !== gd.cs) lines.push(`cube size (cs) = ${state.geometry.cs}`);
+  if (state.geometry.fw !== gd.fw) lines.push(`frameW = ${state.geometry.fw}`);
+  if (state.geometry.fh !== gd.fh) lines.push(`frameH = ${state.geometry.fh}`);
+  if (state.geometry.bw !== gd.bw) lines.push(`barW = ${state.geometry.bw}`);
+  if (state.geometry.bd !== gd.bd) lines.push(`barD = ${state.geometry.bd}`);
+  if (state.geometry.bevel !== gd.bevel) lines.push(`bevel = ${state.geometry.bevel}`);
+
+  const output = lines.length > 1 ? lines.join('\n') : 'No changes from defaults.';
+  document.getElementById('prompt-output').textContent = output;
 }
 
-function copyPrompt() {
+document.getElementById('copy-btn').addEventListener('click', () => {
   const text = document.getElementById('prompt-output').textContent;
   navigator.clipboard.writeText(text).then(() => {
-    const btn = document.querySelector('.copy-btn');
+    const btn = document.getElementById('copy-btn');
     btn.textContent = 'Copied!';
-    setTimeout(() => btn.textContent = 'Copy', 1500);
+    setTimeout(() => { btn.textContent = 'Copy'; }, 1500);
   });
-}
+});
 
-function replayAnimation() {
-  // Simple: reset camera and animate back
-  const t = window._three;
-  if (!t) return;
-  const startZ = parseFloat(val('cam-z'));
-  const endZ = parseFloat(val('cam-z-end'));
-  t.camera.position.z = startZ;
-  const dur = 1200;
-  const start = performance.now();
-  function step(now) {
-    const p = Math.min((now - start) / dur, 1);
-    const ease = 1 - Math.pow(1 - p, 3);
-    t.camera.position.z = startZ + (endZ - startZ) * ease;
-    if (p < 1) requestAnimationFrame(step);
-  }
-  requestAnimationFrame(step);
-}
-
-function resetToDefaults() {
-  setVal('crimson-color', '#cc3030'); setVal('crimson-metal', 85); setVal('crimson-rough', 18); setVal('crimson-coat', 60); setVal('crimson-norm', 80);
-  setVal('navy-color', '#2a3090'); setVal('navy-metal', 85); setVal('navy-rough', 18); setVal('navy-coat', 50); setVal('navy-norm', 70);
-  setVal('gun-color', '#2a2a38'); setVal('gun-metal', 95); setVal('gun-rough', 8);
-  setVal('led-color', '#22aaff'); setVal('led-opacity', 90); setVal('orange-color', '#ff6600'); setVal('orange-opacity', 70);
-  setVal('light-ambient', 50); setVal('light-key', 35); setVal('light-key-c', '#ffeedd');
-  setVal('light-fill', 18); setVal('light-fill-c', '#3355aa');
-  setVal('light-rim', 12); setVal('light-rim-c', '#ff6633');
-  setVal('light-exposure', 220); setVal('light-orb-speed', 15); setVal('light-orb-radius', 12);
-  setVal('cam-z', 9); setVal('cam-z-end', 11.5); setVal('cam-fov', 45);
-  setVal('bg-color', '#060610');
-  setVal('geo-cube', 80); setVal('geo-barw', 40); setVal('geo-bard', 45); setVal('geo-bevel', 7);
-  setVal('anim-dissolve', 20); setVal('anim-detach', 30); setVal('anim-detach-dur', 40);
-  setVal('anim-stretch', 60); setVal('anim-stretch-dur', 50);
-  setVal('anim-gears', 70); setVal('anim-brackets', 75); setVal('anim-bolts', 80); setVal('anim-glows', 95); setVal('anim-stagger', 5);
-  updateMat('crimson'); updateMat('navy'); updateMat('gun'); updateGlow(); updateLights(); updateCamera(); updateBg(); updatePromptOnly();
-}
-
-function applyPreset(name) {
-  const presets = {
-    industrial: { 'crimson-color': '#8B3A3A', 'crimson-metal': 90, 'crimson-rough': 25, 'crimson-coat': 30, 'navy-color': '#2B3B5E', 'navy-metal': 90, 'navy-rough': 28, 'navy-coat': 25, 'gun-color': '#1a1a22', 'light-exposure': 180, 'light-key': 40, 'light-key-c': '#ddccaa', 'light-fill': 12, 'bg-color': '#080808', 'led-color': '#ff8844', 'orange-color': '#cc4400' },
-    cybertronian: { 'crimson-color': '#cc2244', 'crimson-metal': 82, 'crimson-rough': 15, 'crimson-coat': 75, 'navy-color': '#1a2888', 'navy-metal': 82, 'navy-rough': 12, 'navy-coat': 70, 'gun-color': '#151530', 'light-exposure': 260, 'light-key': 30, 'light-key-c': '#eeeeff', 'light-fill': 25, 'light-fill-c': '#2244cc', 'bg-color': '#040410', 'led-color': '#00ccff', 'orange-color': '#ff4400' },
-    battleworn: { 'crimson-color': '#773322', 'crimson-metal': 75, 'crimson-rough': 40, 'crimson-coat': 15, 'navy-color': '#333355', 'navy-metal': 70, 'navy-rough': 45, 'navy-coat': 10, 'gun-color': '#222222', 'light-exposure': 200, 'light-key': 45, 'light-key-c': '#ffddaa', 'light-fill': 10, 'bg-color': '#0a0808', 'led-color': '#44aa88', 'led-opacity': 60, 'orange-color': '#885500', 'orange-opacity': 40 },
-    chrome: { 'crimson-color': '#ddddee', 'crimson-metal': 100, 'crimson-rough': 2, 'crimson-coat': 100, 'navy-color': '#ccccdd', 'navy-metal': 100, 'navy-rough': 3, 'navy-coat': 100, 'gun-color': '#aaaabb', 'light-exposure': 300, 'light-key': 25, 'light-key-c': '#ffffff', 'light-fill': 20, 'light-fill-c': '#8888ff', 'bg-color': '#101020', 'led-color': '#ffffff', 'orange-color': '#ffffff' },
-    energon: { 'crimson-color': '#aa1155', 'crimson-metal': 80, 'crimson-rough': 20, 'crimson-coat': 50, 'navy-color': '#220066', 'navy-metal': 85, 'navy-rough': 15, 'navy-coat': 60, 'gun-color': '#110022', 'light-exposure': 250, 'light-key': 28, 'light-key-c': '#ff88cc', 'light-fill': 22, 'light-fill-c': '#6600cc', 'light-rim-c': '#ff00ff', 'bg-color': '#060010', 'led-color': '#cc00ff', 'orange-color': '#ff0088' },
-  };
-  const p = presets[name];
-  if (!p) return;
-  Object.entries(p).forEach(([id, v]) => setVal(id, v));
-  updateMat('crimson'); updateMat('navy'); updateMat('gun'); updateGlow(); updateLights(); updateCamera(); updateBg(); updatePromptOnly();
-}
-
-// Initial update
 updatePrompt();
+
+// ============================
+// RENDER LOOP
+// ============================
+let time = 0;
+let frameCount = 0;
+let lastFpsTime = performance.now();
+const fpsEl = document.getElementById('fps');
+
+function animate() {
+  requestAnimationFrame(animate);
+  time += 0.016;
+
+  orbitControls.update();
+
+  // Gears spin
+  gears.forEach(({ mesh, speed }) => { mesh.rotation.z += speed * 0.016; });
+  // Pistons bob
+  pistons.forEach(({ mesh, baseY }, i) => { mesh.position.y = baseY + Math.sin(time * 1.8 + i * Math.PI) * 0.15; });
+
+  // Update helpers each frame
+  for (const h of Object.values(lightHelpers)) {
+    if (h && h.visible && h.update) h.update();
+  }
+
+  renderer.render(scene, camera);
+
+  // FPS counter
+  frameCount++;
+  const now = performance.now();
+  if (now - lastFpsTime >= 500) {
+    const fps = Math.round(frameCount / ((now - lastFpsTime) / 1000));
+    fpsEl.textContent = fps + ' FPS';
+    frameCount = 0;
+    lastFpsTime = now;
+  }
+}
+animate();
+
+// ============================
+// RESIZE
+// ============================
+window.addEventListener('resize', () => {
+  W = viewportEl.clientWidth;
+  H = viewportEl.clientHeight;
+  camera.aspect = W / H;
+  camera.updateProjectionMatrix();
+  renderer.setSize(W, H);
+});
+
+// Keyboard shortcuts
+window.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') transformControls.detach();
+  if (e.key === 'w') transformControls.setMode('translate');
+  if (e.key === 'e') transformControls.setMode('rotate');
+  if (e.key === 'r') transformControls.setMode('scale');
+});
 </script>
 </body>
 </html>

@@ -114,7 +114,7 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
 
     // ── Scene ──
     const scene = new THREE.Scene();
-    scene.background = new THREE.Color(0x060610);
+    scene.background = new THREE.Color(0x09090c);
 
     // ── Camera ──
     const camZ = aspect < 1.2 ? 9 + (1.2 - aspect) * 8 : 9;
@@ -133,24 +133,24 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
     // ── Lighting — directional key/fill/rim + gentle orbiting accents ──
     scene.add(new THREE.AmbientLight(0x555566, 0.01));
 
-    const keyDir = new THREE.DirectionalLight(0xffeedd, 2.6);
-    keyDir.position.set(5, 6, 8);
+    const keyDir = new THREE.DirectionalLight(0xffeedd, 2.5);
+    keyDir.position.set(-1.3, 3.1, -2.7);
     scene.add(keyDir);
 
-    const fillDir = new THREE.DirectionalLight(0x3355aa, 5.9);
-    fillDir.position.set(-6, 3, 5);
+    const fillDir = new THREE.DirectionalLight(0x3355aa, 2.3);
+    fillDir.position.set(0.7, 1.3, -12.6);
     scene.add(fillDir);
 
-    const rimDir = new THREE.DirectionalLight(0xff6633, 1.9);
-    rimDir.position.set(0, -5, 6);
+    const rimDir = new THREE.DirectionalLight(0xff6633, 1.6);
+    rimDir.position.set(-5.4, -5.9, -15.0);
     scene.add(rimDir);
 
-    // Gentle orbiting accent lights — far away, slow
-    const orb1 = new THREE.PointLight(0xff3300, 1.0, 30);
-    orb1.position.set(11, 4, 8);
+    // Orbiting accent lights
+    const orb1 = new THREE.PointLight(0xff3300, 3.2, 30);
+    orb1.position.set(3.6, -2.2, 0.5);
     scene.add(orb1);
-    const orb2 = new THREE.PointLight(0x0044ff, 0.8, 30);
-    orb2.position.set(-11, -4, 8);
+    const orb2 = new THREE.PointLight(0x0044ff, 6.1, 30);
+    orb2.position.set(-3.7, -2.2, 0.0);
     scene.add(orb2);
 
     // ── Texture Loading ──
@@ -166,31 +166,31 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
     }
 
     // Color maps — reduced tiling for less repetition
-    const redTex = loadTex('textures/red-metal.jpg', 0.8, 0.8);
-    const blueTex = loadTex('textures/blue-metal.jpg', 0.7, 1.0);
-    const darkTex = loadTex('textures/dark-metal.jpg', 1.0, 1.0);
+    const redTex = loadTex('textures/red-metal.jpg', 0.2, 0.1);
+    const blueTex = loadTex('textures/blue-metal.jpg', 4.5, 2.3);
+    const darkTex = loadTex('textures/dark-metal.jpg', 3.8, 1.0);
     const circuitTex = loadTex('textures/circuit-glow.jpg', 2, 0.5);
 
     // Normal maps (loaded if available)
     let redNorm, blueNorm, greebleNorm;
     try {
-      redNorm = loadTex('textures/red-normal.jpg', 0.8, 0.8);
-      blueNorm = loadTex('textures/blue-normal.jpg', 0.7, 1.0);
-      greebleNorm = loadTex('textures/greeble-normal.jpg', 1.5, 1.5);
+      redNorm = loadTex('textures/red-normal.jpg', 0.2, 0.1);
+      blueNorm = loadTex('textures/blue-normal.jpg', 4.5, 2.3);
+      greebleNorm = loadTex('textures/greeble-normal.jpg', 3.8, 1.0);
     } catch {}
 
     // ── Materials ──
     const crimson = new THREE.MeshPhysicalMaterial({
-      color: 0xca2f47, map: redTex, normalMap: redNorm || null, normalScale: new THREE.Vector2(0.8, 0.8),
-      metalness: 0.96, roughness: 0.32, clearcoat: 0.67, clearcoatRoughness: 0.06,
+      color: 0xca2f47, map: redTex, normalMap: redNorm || null, normalScale: new THREE.Vector2(1.0, 1.0),
+      metalness: 0.38, roughness: 0.34, clearcoat: 0.16, clearcoatRoughness: 0.06,
     });
     const navy = new THREE.MeshPhysicalMaterial({
-      color: 0x2a3090, map: blueTex, normalMap: blueNorm || null, normalScale: new THREE.Vector2(0.7, 0.7),
-      metalness: 0.62, roughness: 0.31, clearcoat: 0.5, clearcoatRoughness: 0.08,
+      color: 0x2a3090, map: blueTex, normalMap: blueNorm || null, normalScale: new THREE.Vector2(2.0, 2.0),
+      metalness: 0.45, roughness: 0.31, clearcoat: 0.5, clearcoatRoughness: 0.08,
     });
     const gunmetal = new THREE.MeshPhysicalMaterial({
       color: 0x2a2a38, map: darkTex, normalMap: greebleNorm || null, normalScale: new THREE.Vector2(0.5, 0.5),
-      metalness: 0.95, roughness: 0.08, clearcoat: 0.3,
+      metalness: 0.89, roughness: 0.29, clearcoat: 0.3,
     });
     const chrome = new THREE.MeshPhysicalMaterial({
       color: 0xbbbbcc, metalness: 1.0, roughness: 0.03, clearcoat: 1.0, clearcoatRoughness: 0.01,
@@ -480,13 +480,13 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
       tl.to(g.material, { opacity: 1.0, duration: 0.15, ease: 'power2.out' }, 0.95 + i * 0.04);
     });
     orangeStrips.forEach((g, i) => {
-      tl.to(g.material, { opacity: 0.7, duration: 0.15, ease: 'power2.out' }, 1.0 + i * 0.03);
+      tl.to(g.material, { opacity: 0.8, duration: 0.15, ease: 'power2.out' }, 1.0 + i * 0.03);
     });
 
     // 9. Start glow pulse + flip iframe to front
     tl.call(() => {
-      glows.forEach(g => gsap.to(g.material, { opacity: 0.3, duration: 1.8, yoyo: true, repeat: -1, ease: 'sine.inOut' }));
-      orangeStrips.forEach(g => gsap.to(g.material, { opacity: 0.2, duration: 2.2, yoyo: true, repeat: -1, ease: 'sine.inOut' }));
+      glows.forEach(g => gsap.to(g.material, { opacity: 0.45, duration: 2.6, yoyo: true, repeat: -1, ease: 'sine.inOut' }));
+      orangeStrips.forEach(g => gsap.to(g.material, { opacity: 0.35, duration: 2.6, yoyo: true, repeat: -1, ease: 'sine.inOut' }));
       if (canvasRef.current) canvasRef.current.style.zIndex = '1';
     }, [], 1.15);
 
