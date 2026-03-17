@@ -22,8 +22,8 @@
     "title": "Scramble City",
     "year_start": 1986,
     "year_end": 1986,
-    "era": "g1",
-    "poster": "images/series/g1-poster.jpg",
+    "era": "movies",
+    "poster": "images/series/scramble-city-poster.jpg",
     "faction_accent": "red",
     "tags": [
       "OVA",
@@ -40,8 +40,8 @@
     "title": "Transformers: The Movie",
     "year_start": 1986,
     "year_end": 1986,
-    "era": "g1",
-    "poster": "images/series/g1-poster.jpg",
+    "era": "movies",
+    "poster": "images/series/the-movie-1986-poster.jpg",
     "faction_accent": "red",
     "tags": [
       "Movie",

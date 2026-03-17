@@ -3,7 +3,7 @@
   "slug": "scramble-city",
   "year_start": 1986,
   "year_end": 1986,
-  "era": "g1",
+  "era": "movies",
   "synopsis": "A standalone OVA depicting the construction of the Autobot mobile fortress Scramble City and the resulting battle between Autobot and Decepticon combiners. Released only in Japan.",
   "rating": "TV-Y7",
   "tags": [
@@ -11,8 +11,8 @@
     "Japanese",
     "Combiners"
   ],
-  "poster": "images/series/g1-poster.jpg",
-  "hero_image": "images/series/g1-hero.jpg",
+  "poster": "images/series/scramble-city-poster.jpg",
+  "hero_image": "images/series/scramble-city-hero.jpg",
   "faction_accent": "red",
   "seasons": [
     {
