@@ -257,6 +257,12 @@
       "url": "https://t.me/Transformers_Power_Of_Primes",
       "source": "telegram",
       "type": "community"
+    },
+    {
+      "title": "Power of the Primes (4K Upscale)",
+      "url": "https://www.youtube.com/playlist?list=PL0vtOhXDWg0x6lMu8Bfp2xL4HYYrJSK_N",
+      "source": "youtube",
+      "type": "playlist"
     }
   ],
   "trivia": [

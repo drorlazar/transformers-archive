@@ -243,6 +243,12 @@
       "url": "https://t.me/TransformersVideo",
       "source": "telegram",
       "type": "community"
+    },
+    {
+      "title": "Titans Return (4K Upscale)",
+      "url": "https://www.youtube.com/playlist?list=PLlcmNU-jCJ6OUy6Fl-3thJ0JfrD6VUfw6",
+      "source": "youtube",
+      "type": "playlist"
     }
   ],
   "trivia": [
