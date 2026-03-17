@@ -110,7 +110,7 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
     renderer.setSize(W, H);
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
     renderer.toneMapping = THREE.ACESFilmicToneMapping;
-    renderer.toneMappingExposure = 1.84;
+    renderer.toneMappingExposure = 1.95;
 
     // ── Scene ──
     const scene = new THREE.Scene();
@@ -133,24 +133,24 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
     // ── Lighting — directional key/fill/rim + gentle orbiting accents ──
     scene.add(new THREE.AmbientLight(0x555566, 0.01));
 
-    const keyDir = new THREE.DirectionalLight(0xffeedd, 2.5);
+    const keyDir = new THREE.DirectionalLight(0xffeedd, 3.6);
     keyDir.position.set(-1.3, 3.1, -2.7);
     scene.add(keyDir);
 
-    const fillDir = new THREE.DirectionalLight(0x3355aa, 2.3);
+    const fillDir = new THREE.DirectionalLight(0x3355aa, 1.2);
     fillDir.position.set(0.7, 1.3, -12.6);
     scene.add(fillDir);
 
-    const rimDir = new THREE.DirectionalLight(0xff6633, 1.6);
+    const rimDir = new THREE.DirectionalLight(0xff6633, 2.3);
     rimDir.position.set(-5.4, -5.9, -15.0);
     scene.add(rimDir);
 
     // Orbiting accent lights
-    const orb1 = new THREE.PointLight(0xff3300, 3.2, 30);
-    orb1.position.set(3.6, -2.2, 0.5);
+    const orb1 = new THREE.PointLight(0xff3300, 0.7, 30);
+    orb1.position.set(7.8, -4.5, 13.8);
     scene.add(orb1);
-    const orb2 = new THREE.PointLight(0x0044ff, 6.1, 30);
-    orb2.position.set(-3.7, -2.2, 0.0);
+    const orb2 = new THREE.PointLight(0x3700ff, 4.8, 30);
+    orb2.position.set(-3.7, -2.2, -0.2);
     scene.add(orb2);
 
     // ── Texture Loading ──
@@ -166,7 +166,8 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
     }
 
     // Color maps — reduced tiling for less repetition
-    const redTex = loadTex('textures/red-metal.jpg', 0.2, 0.1);
+    const redTex = loadTex('textures/red-metal.jpg', 0.09, 0.25);
+    redTex.offset.set(0, 0.26);
     const blueTex = loadTex('textures/blue-metal.jpg', 4.5, 2.3);
     const darkTex = loadTex('textures/dark-metal.jpg', 3.8, 1.0);
     const circuitTex = loadTex('textures/circuit-glow.jpg', 2, 0.5);
@@ -174,15 +175,16 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
     // Normal maps (loaded if available)
     let redNorm, blueNorm, greebleNorm;
     try {
-      redNorm = loadTex('textures/red-normal.jpg', 0.2, 0.1);
+      redNorm = loadTex('textures/red-normal.jpg', 0.09, 0.25);
+      redNorm.offset.set(0, 0.26);
       blueNorm = loadTex('textures/blue-normal.jpg', 4.5, 2.3);
       greebleNorm = loadTex('textures/greeble-normal.jpg', 3.8, 1.0);
     } catch {}
 
     // ── Materials ──
     const crimson = new THREE.MeshPhysicalMaterial({
-      color: 0xca2f47, map: redTex, normalMap: redNorm || null, normalScale: new THREE.Vector2(1.0, 1.0),
-      metalness: 0.38, roughness: 0.34, clearcoat: 0.16, clearcoatRoughness: 0.06,
+      color: 0xca2f47, map: redTex, normalMap: redNorm || null, normalScale: new THREE.Vector2(0.4, 0.4),
+      metalness: 0.34, roughness: 0.37, clearcoat: 0.19, clearcoatRoughness: 0.06,
     });
     const navy = new THREE.MeshPhysicalMaterial({
       color: 0x2a3090, map: blueTex, normalMap: blueNorm || null, normalScale: new THREE.Vector2(2.0, 2.0),
@@ -295,8 +297,10 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
       const vM = new THREE.Mesh(vGeo, crimson);
       vM.position.x = -brkSize / 2 + 0.09;
       grp.add(vM);
-      grp.position.set(sx, sy, cs * 0.4 + 0.05);
-      grp.rotation.z = sRz;
+      // Start at center of cube, scaled small, heavily rotated
+      grp.position.set(0, 0, cs * 0.4 + 0.05);
+      grp.rotation.z = sRz + Math.PI;
+      grp.scale.set(0.3, 0.3, 0.3);
       scene.add(grp);
       brackets.push({ mesh: grp, ex, ey, sRz });
     });
@@ -318,8 +322,10 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
     ];
     const bolts = boltStarts.map(([sx, sy], i) => {
       const bolt = new THREE.Mesh(boltGeo, chrome);
-      bolt.position.set(sx, sy, cs * 0.4 + 0.12);
+      // Start clustered near center for more dramatic spread
+      bolt.position.set(sx * 0.5, sy * 0.5, cs * 0.4 + 0.12);
       bolt.rotation.x = Math.PI / 2;
+      bolt.scale.set(0.5, 0.5, 0.5);
       scene.add(bolt);
       return { mesh: bolt, ex: boltEnds[i][0], ey: boltEnds[i][1] };
     });
@@ -458,16 +464,18 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
       tl.to(mesh.scale, { x: 1, y: 1, z: 1, duration: 0.3, ease: 'back.out(2.5)' }, 0.7 + i * 0.05);
     });
 
-    // 5. Brackets snap into place (0.75-1.05s)
+    // 5. Brackets fly out from center, rotate, snap into corners (0.55-0.95s)
     brackets.forEach(({ mesh, ex, ey }, i) => {
-      tl.to(mesh.position, { x: ex, y: ey, z: barD / 2, duration: 0.4, ease: 'back.out(1.5)' }, 0.75 + i * 0.04);
-      tl.to(mesh.rotation, { z: 0, duration: 0.4, ease: 'power3.out' }, 0.75 + i * 0.04);
+      tl.to(mesh.position, { x: ex, y: ey, z: barD / 2, duration: 0.5, ease: 'back.out(1.8)' }, 0.55 + i * 0.06);
+      tl.to(mesh.rotation, { z: 0, duration: 0.5, ease: 'power3.out' }, 0.55 + i * 0.06);
+      tl.to(mesh.scale, { x: 1, y: 1, z: 1, duration: 0.5, ease: 'back.out(1.5)' }, 0.55 + i * 0.06);
     });
 
-    // 6. Bolts spin out (0.8-1.0s)
+    // 6. Bolts spin out from center (0.65-0.95s)
     bolts.forEach(({ mesh, ex, ey }, i) => {
-      tl.to(mesh.position, { x: ex, y: ey, z: barD / 2 + 0.12, duration: 0.4, ease: 'back.out(1.3)' }, 0.8 + i * 0.02);
-      tl.to(mesh.rotation, { z: Math.PI * 5, duration: 0.4, ease: 'power2.out' }, 0.8 + i * 0.02);
+      tl.to(mesh.position, { x: ex, y: ey, z: barD / 2 + 0.12, duration: 0.45, ease: 'back.out(1.3)' }, 0.65 + i * 0.025);
+      tl.to(mesh.rotation, { z: Math.PI * 6, duration: 0.45, ease: 'power2.out' }, 0.65 + i * 0.025);
+      tl.to(mesh.scale, { x: 1, y: 1, z: 1, duration: 0.35, ease: 'power2.out' }, 0.65 + i * 0.025);
     });
 
     // 7. Pistons pop in (0.9s)
@@ -477,7 +485,7 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
 
     // 8. Glows power on (0.95-1.15s)
     glows.forEach((g, i) => {
-      tl.to(g.material, { opacity: 1.0, duration: 0.15, ease: 'power2.out' }, 0.95 + i * 0.04);
+      tl.to(g.material, { opacity: 0.78, duration: 0.15, ease: 'power2.out' }, 0.95 + i * 0.04);
     });
     orangeStrips.forEach((g, i) => {
       tl.to(g.material, { opacity: 0.8, duration: 0.15, ease: 'power2.out' }, 1.0 + i * 0.03);
