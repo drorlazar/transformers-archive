@@ -178,7 +178,7 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
       redNorm = loadTex('textures/red-normal.jpg', 0.09, 0.25);
       redNorm.offset.set(0, 0.26);
       blueNorm = loadTex('textures/blue-normal.jpg', 0.56, 0.29);
-      greebleNorm = loadTex('textures/greeble-normal.jpg', 0.45, 0.55);
+      greebleNorm = loadTex('textures/greeble-normal.jpg', 0.1, 0.1 );
     } catch {}
 
     // ── Materials ──
@@ -191,7 +191,7 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
       metalness: 0.45, roughness: 0.31, clearcoat: 0.5, clearcoatRoughness: 0.08,
     });
     const gunmetal = new THREE.MeshPhysicalMaterial({
-      color: 0x2a2a38, map: darkTex, normalMap: greebleNorm || null, normalScale: new THREE.Vector2(0.3, 0.3),
+      color: 0x2a2a38, map: darkTex, normalMap: redNorm || null, normalScale: new THREE.Vector2(-0.1, -0.1),
       metalness: 0.89, roughness: 0.29, clearcoat: 0.3,
     });
     const chrome = new THREE.MeshPhysicalMaterial({
