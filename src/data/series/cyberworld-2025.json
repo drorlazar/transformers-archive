@@ -431,6 +431,12 @@
       "url": "https://t.me/TransformersVideo",
       "source": "telegram",
       "type": "community"
+    },
+    {
+      "title": "Cyberworld Full Playlist",
+      "url": "https://www.youtube.com/playlist?list=PLc0weJ66x4AavHdw02D2C_dXfUna9ZnDX",
+      "source": "youtube",
+      "type": "playlist"
     }
   ],
   "trivia": [
