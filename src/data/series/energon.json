@@ -6,7 +6,11 @@
   "era": "unicron",
   "synopsis": "Ten years after Unicron's defeat, the Autobots and humans mine energon across the galaxy to maintain peace. When the mysterious Alpha Q unleashes Terrorcon drones to harvest energon and resurrect Unicron, Optimus Prime must rally new and old allies — including the energon-sensing human Kicker Jones — against a resurrected Megatron, the scheming Shockblast, and the planet-eating chaos bringer himself. This anime-styled sequel to Armada forms the second chapter of the Unicron Trilogy.",
   "rating": "TV-Y7",
-  "tags": ["Sequel", "Action", "Anime-style"],
+  "tags": [
+    "Sequel",
+    "Action",
+    "Anime-style"
+  ],
   "poster": "images/series/energon-poster.jpg",
   "hero_image": "images/series/energon-hero.jpg",
   "faction_accent": "red",
@@ -688,7 +692,7 @@
       "faction": "Autobot",
       "alt_mode": "Fire Truck",
       "voice_actor": "Garry Chalk",
-      "image": "images/characters/energon-optimus-prime.jpg"
+      "image": null
     },
     {
       "name": "Hot Shot",
@@ -696,7 +700,7 @@
       "faction": "Autobot",
       "alt_mode": "Sports Car",
       "voice_actor": "Brent Miller",
-      "image": "images/characters/energon-hot-shot.jpg"
+      "image": null
     },
     {
       "name": "Ironhide",
@@ -704,7 +708,7 @@
       "faction": "Autobot",
       "alt_mode": "SUV",
       "voice_actor": "Matt Hill",
-      "image": "images/characters/energon-ironhide.jpg"
+      "image": null
     },
     {
       "name": "Jetfire",
@@ -712,7 +716,7 @@
       "faction": "Autobot",
       "alt_mode": "Shuttle",
       "voice_actor": "Scott McNeil",
-      "image": "images/characters/energon-jetfire.jpg"
+      "image": null
     },
     {
       "name": "Inferno",
@@ -720,7 +724,7 @@
       "faction": "Autobot",
       "alt_mode": "Fire Engine",
       "voice_actor": "Michael Daingerfield",
-      "image": "images/characters/energon-inferno.jpg"
+      "image": null
     },
     {
       "name": "Rodimus",
@@ -728,7 +732,7 @@
       "faction": "Autobot",
       "alt_mode": "Truck",
       "voice_actor": "Paul Dobson",
-      "image": "images/characters/energon-rodimus.jpg"
+      "image": null
     },
     {
       "name": "Wing Saber",
@@ -736,7 +740,7 @@
       "faction": "Autobot",
       "alt_mode": "Fighter Jet",
       "voice_actor": "Colin Murdoch",
-      "image": "images/characters/energon-wing-saber.jpg"
+      "image": null
     },
     {
       "name": "Omega Supreme",
@@ -744,7 +748,7 @@
       "faction": "Autobot",
       "alt_mode": "Battleship / Train",
       "voice_actor": "Scott McNeil",
-      "image": "images/characters/energon-omega-supreme.jpg"
+      "image": null
     },
     {
       "name": "Arcee",
@@ -752,7 +756,7 @@
       "faction": "Autobot",
       "alt_mode": "Motorcycle",
       "voice_actor": "Sharon Alexander",
-      "image": "images/characters/energon-arcee.jpg"
+      "image": null
     },
     {
       "name": "Kicker Jones",
@@ -760,7 +764,7 @@
       "faction": "Autobot",
       "alt_mode": null,
       "voice_actor": "Brad Swaile",
-      "image": "images/characters/energon-kicker.jpg"
+      "image": null
     },
     {
       "name": "Megatron / Galvatron",
@@ -768,7 +772,7 @@
       "faction": "Decepticon",
       "alt_mode": "Tank / Jet",
       "voice_actor": "David Kaye",
-      "image": "images/characters/energon-megatron.jpg"
+      "image": null
     },
     {
       "name": "Starscream",
@@ -776,7 +780,7 @@
       "faction": "Decepticon",
       "alt_mode": "Jet",
       "voice_actor": "Michael Dobson",
-      "image": "images/characters/energon-starscream.jpg"
+      "image": null
     },
     {
       "name": "Scorponok",
@@ -784,7 +788,7 @@
       "faction": "Decepticon",
       "alt_mode": "Scorpion",
       "voice_actor": "Colin Murdoch",
-      "image": "images/characters/energon-scorponok.jpg"
+      "image": null
     },
     {
       "name": "Shockblast",
@@ -792,7 +796,7 @@
       "faction": "Decepticon",
       "alt_mode": "Satellite Cannon",
       "voice_actor": "Brian Drummond",
-      "image": "images/characters/energon-shockblast.jpg"
+      "image": null
     },
     {
       "name": "Demolishor",
@@ -800,7 +804,7 @@
       "faction": "Decepticon",
       "alt_mode": "Dump Truck",
       "voice_actor": "Alvin Sanders",
-      "image": "images/characters/energon-demolishor.jpg"
+      "image": null
     },
     {
       "name": "Cyclonus / Snow Cat",
@@ -808,7 +812,7 @@
       "faction": "Decepticon",
       "alt_mode": "Helicopter / Snowmobile",
       "voice_actor": "Don Brown",
-      "image": "images/characters/energon-cyclonus.jpg"
+      "image": null
     },
     {
       "name": "Tidal Wave / Mirage",
@@ -816,7 +820,7 @@
       "faction": "Decepticon",
       "alt_mode": "Warship / Race Car",
       "voice_actor": "Doug Parker",
-      "image": "images/characters/energon-tidal-wave.jpg"
+      "image": null
     },
     {
       "name": "Six Shot",
@@ -824,7 +828,7 @@
       "faction": "Decepticon",
       "alt_mode": "Multi-changer",
       "voice_actor": "Terry Klassen",
-      "image": "images/characters/energon-six-shot.jpg"
+      "image": null
     },
     {
       "name": "Alpha Q",
@@ -832,7 +836,7 @@
       "faction": "Neutral",
       "alt_mode": null,
       "voice_actor": "Mark Acheson",
-      "image": "images/characters/energon-alpha-q.jpg"
+      "image": null
     }
   ],
   "media": [
