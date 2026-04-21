@@ -18,25 +18,30 @@ export default function EpisodePlayer({ episode }) {
   const searchQuery = encodeURIComponent(`${episode.title} Transformers full episode`);
 
   if (youtubeId) {
+    const watchUrl = `https://www.youtube.com/watch?v=${youtubeId}`;
     return (
       <div className="episode-player">
         <div className="episode-player__iframe-wrap">
           <iframe
             className="episode-player__iframe"
-            src={`https://www.youtube-nocookie.com/embed/${youtubeId}?rel=0`}
+            src={`https://www.youtube.com/embed/${youtubeId}?rel=0`}
             title={episode.title}
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           />
         </div>
         <div className="episode-player__search-link">
-          Video not working?{' '}
+          Video blocked or asking to verify?{' '}
+          <a href={watchUrl} target="_blank" rel="noopener noreferrer">
+            Open on YouTube
+          </a>
+          {' · '}
           <a
             href={`https://www.youtube.com/results?search_query=${searchQuery}`}
             target="_blank"
             rel="noopener noreferrer"
           >
-            Search on YouTube
+            Search
           </a>
         </div>
       </div>

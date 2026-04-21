@@ -586,7 +586,7 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
         <div className="tfp-iframe-wrap" ref={iframeRef}>
           {youtubeId ? (
             <iframe className="tfp-iframe"
-              src={`https://www.youtube-nocookie.com/embed/${youtubeId}?rel=0&autoplay=1`}
+              src={`https://www.youtube.com/embed/${youtubeId}?rel=0&autoplay=1`}
               title={episode.title}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen />
@@ -602,7 +602,7 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
         <div className="tfp-info">
           <h2>{episode.title}</h2>
           <p>{seriesTitle && `${seriesTitle} — `}S{seasonNum} E{episode.number}</p>
-          {youtubeId && <p className="tfp-search">Video not working? <a href={`https://www.youtube.com/results?search_query=${searchQuery}`} target="_blank" rel="noopener noreferrer">Search YouTube</a></p>}
+          {youtubeId && <p className="tfp-search">Video blocked or asking to verify? <a href={`https://www.youtube.com/watch?v=${youtubeId}`} target="_blank" rel="noopener noreferrer">Open on YouTube</a> · <a href={`https://www.youtube.com/results?search_query=${searchQuery}`} target="_blank" rel="noopener noreferrer">Search</a></p>}
         </div>
       )}
     </div>

@@ -23,3 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 .superpowers
+
+# Local test artifacts
+.playwright-mcp/
+tfplayer-test.png
