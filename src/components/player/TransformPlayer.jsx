@@ -1,4 +1,5 @@
 import { useEffect, useRef, useCallback, useState } from 'react';
+import { Link } from 'react-router-dom';
 import * as THREE from 'three';
 import gsap from 'gsap';
 import { assetUrl } from '../../utils/assetUrl';
@@ -603,6 +604,7 @@ export default function TransformPlayer({ episode, seasonNum, seriesTitle, onClo
           <h2>{episode.title}</h2>
           <p>{seriesTitle && `${seriesTitle} — `}S{seasonNum} E{episode.number}</p>
           {youtubeId && <p className="tfp-search">Video blocked or asking to verify? <a href={`https://www.youtube.com/watch?v=${youtubeId}`} target="_blank" rel="noopener noreferrer">Open on YouTube</a> · <a href={`https://www.youtube.com/results?search_query=${searchQuery}`} target="_blank" rel="noopener noreferrer">Search</a></p>}
+          {youtubeId && <p className="tfp-search">Ads? Install an ad blocker — <Link to="/about#ad-blockers">recommendations</Link></p>}
         </div>
       )}
     </div>

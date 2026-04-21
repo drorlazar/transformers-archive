@@ -159,3 +159,11 @@
   .stat-grid { grid-template-columns: 1fr 1fr; }
   .stat-number { font-size: 1.8rem; }
 }
+
+#ad-blockers { scroll-margin-top: calc(var(--nav-height) + 16px); }
+
+.about-feature h3 a {
+  color: var(--accent-red);
+  text-decoration: none;
+}
+.about-feature h3 a:hover { text-decoration: underline; }

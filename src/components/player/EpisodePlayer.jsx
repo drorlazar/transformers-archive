@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './EpisodePlayer.css';
 
 function extractYouTubeId(url) {
@@ -43,6 +44,10 @@ export default function EpisodePlayer({ episode }) {
           >
             Search
           </a>
+        </div>
+        <div className="episode-player__search-link">
+          Ads? Install an ad blocker for ad-free playback —{' '}
+          <Link to="/about#ad-blockers">recommendations</Link>
         </div>
       </div>
     );

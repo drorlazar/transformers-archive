@@ -26,4 +26,4 @@ dist-ssr
 
 # Local test artifacts
 .playwright-mcp/
-tfplayer-test.png
+/*.png

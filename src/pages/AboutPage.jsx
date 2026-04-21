@@ -1,8 +1,17 @@
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import { useSeriesIndex } from '../hooks/useSeriesData';
 import './AboutPage.css';
 
 export default function AboutPage() {
   const { index } = useSeriesIndex();
+  const { hash } = useLocation();
+
+  useEffect(() => {
+    if (!hash) return;
+    const el = document.querySelector(hash);
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, [hash]);
 
   const totalEpisodes = index ? index.reduce((sum, s) => sum + (s.episode_count || 0), 0) : 844;
   const totalSeries = index ? index.length : 23;
@@ -98,6 +107,47 @@ export default function AboutPage() {
           <p>
             No movies. No live-action. Pure animated television, the way it was meant to be watched.
           </p>
+        </section>
+
+        <section className="about-section" id="ad-blockers">
+          <h2>Ad-Free Viewing</h2>
+          <p>
+            Every episode here streams through YouTube, which means YouTube's ads.
+            Install a browser-level ad blocker and they disappear — no sign-in wall,
+            no pre-roll, just the show. Two extensions we recommend:
+          </p>
+          <div className="about-features">
+            <div className="about-feature">
+              <h3>
+                <a
+                  href="https://chromewebstore.google.com/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  AdBlock Plus ↗
+                </a>
+              </h3>
+              <p>
+                The most-installed ad blocker on Chrome. One click to install, optional
+                whitelist for creators you want to support, done.
+              </p>
+            </div>
+            <div className="about-feature">
+              <h3>
+                <a
+                  href="https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  uBlock Origin Lite ↗
+                </a>
+              </h3>
+              <p>
+                Lightweight, efficient, Manifest V3-compatible successor to the
+                original uBlock Origin. Set it and forget it.
+              </p>
+            </div>
+          </div>
         </section>
 
         <section className="about-section about-footer">
